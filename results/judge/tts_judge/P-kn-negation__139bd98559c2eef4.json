@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "P-kn-negation",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "139bd98559c2eef4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-kn-negation.wav",
+ "audio_sha256": "789c145fdfc3fa2407b57c852c19d0ec1455ab39872f13a63530b1063e38ac5d",
+ "latency_ms": 7522,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "wrong",
+    "heard": "ಹಂಚಿಕೊಳ್ಳಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt matches the text, but the required negative instruction is entirely absent."
+ },
+ "tokens": {
+  "prompt": 491,
+  "output": 144
+ }
+}

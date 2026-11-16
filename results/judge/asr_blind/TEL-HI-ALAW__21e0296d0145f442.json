@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "TEL-HI-ALAW",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "21e0296d0145f442",
+ "audio": "clips/ext2/TEL-HI-ALAW.wav",
+ "audio_sha256": "37f9ca72dd846a48a0a649c16f16539c5859ceff261319c594750bf036030950",
+ "latency_ms": 4010,
+ "reply": {
+  "transcript": "महाभारत पहले किसने लिखी है",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 30
+ }
+}

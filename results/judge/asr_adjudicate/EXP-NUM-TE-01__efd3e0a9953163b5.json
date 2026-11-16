@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "efd3e0a9953163b5",
+ "audio": "clips/ext2/EXP-NUM-TE-01.wav",
+ "audio_sha256": "623aa07505b675f0d8cfc072d6a0c0b5f9ca322cada6a568a423ac0ebffb146e",
+ "latency_ms": 10339,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2011",
+    "system": "టూ థౌజండ్ లెవెన్",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "వజ్రకూటం",
+    "system": "వజ్రపూటం",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ఇళ్లులు",
+    "system": "ఇల్లులు",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "ఉన్నాయి?",
+    "system": "ఉన్నాయి",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 414,
+  "output": 214
+ }
+}

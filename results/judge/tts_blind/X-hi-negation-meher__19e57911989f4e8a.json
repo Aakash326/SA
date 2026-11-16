@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-negation-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "19e57911989f4e8a",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-negation-meher.wav",
+ "audio_sha256": "8207e8cbb912cc92f74f18cab039a4e03ba30433f0ec101098baa9585357d068",
+ "latency_ms": 6125,
+ "reply": {
+  "heard": "कृपया अपना O T P किसी के साथ साझा ना करें",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 30
+ }
+}

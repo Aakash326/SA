@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-id-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "74fc6eb3a75e0864",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-id-kaitlyn.wav",
+ "audio_sha256": "30cbb83c153cb66b5239bf76f54532a4c776a9e6eb351bf30ffc49a18a7f45f3",
+ "latency_ms": 3869,
+ "reply": {
+  "heard": "Your reference number is zero zero seven zero",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 27
+ }
+}

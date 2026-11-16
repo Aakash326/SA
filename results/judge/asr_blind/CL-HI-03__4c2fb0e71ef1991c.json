@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "CL-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4c2fb0e71ef1991c",
+ "audio": "clips/ext2/CL-HI-03.wav",
+ "audio_sha256": "59f0396dab69ef6dd4c58b29ca0a534a257bcdcfe4ccb4b000ba1d58a32c29e7",
+ "latency_ms": 4973,
+ "reply": {
+  "transcript": "तमिलनाडु राज्य का सबसे बड़ा जिला कौनसा है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 34
+ }
+}

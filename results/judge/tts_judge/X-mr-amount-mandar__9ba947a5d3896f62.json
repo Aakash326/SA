@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-amount-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9ba947a5d3896f62",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-amount-mandar.wav",
+ "audio_sha256": "92917c8cf96b6b47b92f5be93b191bfb669e1558a8cd73328f30ce7983214391",
+ "latency_ms": 8947,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दोन हजार चारशे पन्नास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully rendered with accurate Marathi pronunciation and smooth prosody."
+ },
+ "tokens": {
+  "prompt": 498,
+  "output": 136
+ }
+}

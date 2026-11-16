@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NS-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0913f5e8123e7fe",
+ "audio": "clips/ext2/EXP-NS-02.wav",
+ "audio_sha256": "190415015d40eef0cd797e1b59ffe00846b01873050b12d44b3a216de3faa2a9",
+ "latency_ms": 4765,
+ "reply": {
+  "transcript": "ಖುಷಿಯಾಗಿ ಆರಾಮಾಗಿ ಇರೋಣ ಅಂತ ಬಂದ್ರೆ ಈ ತರ ಮಾಡ್ತೀಯಾ",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 47
+ }
+}

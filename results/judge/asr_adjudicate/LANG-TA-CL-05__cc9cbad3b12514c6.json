@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cc9cbad3b12514c6",
+ "audio": "clips/ext2/LANG-TA-CL-05.wav",
+ "audio_sha256": "e3e80a8a82ce29cb61b946c20ac0b70d7a680bce5ce08553a689948cf1f4baca",
+ "latency_ms": 9596,
+ "reply": {
+  "differences": [
+   {
+    "reference": "எமொஜி",
+    "system": "எம்ஓஜி",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "முதல் எமோஜி உருவாக்கப்பட்ட ஆண்டு எது?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 322,
+  "output": 112
+ }
+}

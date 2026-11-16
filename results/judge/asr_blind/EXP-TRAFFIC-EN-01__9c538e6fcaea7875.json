@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9c538e6fcaea7875",
+ "audio": "clips/ext2/EXP-TRAFFIC-EN-01.wav",
+ "audio_sha256": "ae424e1fcb948df65961f042ec28b0b10d921a8373e43c5ca8cfb9a4c9f25c3c",
+ "latency_ms": 3969,
+ "reply": {
+  "transcript": "What percent of Denmark is Catholic?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 30
+ }
+}

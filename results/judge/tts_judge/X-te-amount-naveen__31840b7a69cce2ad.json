@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-amount-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "31840b7a69cce2ad",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-amount-naveen.wav",
+ "audio_sha256": "113378e9e10d39f93f6847c200148caa86aa02dbeb1a22944808716af4c53632",
+ "latency_ms": 8412,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "రెండు వేల నాలుగు వందల యాభై రూపాయలు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Telugu",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is fully rendered with correct Telugu phrasing for the amount. The cadence is slightly robotic but intelligible."
+ },
+ "tokens": {
+  "prompt": 450,
+  "output": 145
+ }
+}

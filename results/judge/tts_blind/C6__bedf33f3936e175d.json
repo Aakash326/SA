@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C6",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bedf33f3936e175d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C6.wav",
+ "audio_sha256": "d7d06d16a3173b33fe43fcb03eb150a3bd59d92b76aae410352a1179d7915e64",
+ "latency_ms": 3951,
+ "reply": {
+  "heard": "The appointment is at nine fifty A M.",
+  "number_language": "en",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 181,
+  "output": 27
+ }
+}

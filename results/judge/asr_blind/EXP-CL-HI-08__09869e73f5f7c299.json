@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "09869e73f5f7c299",
+ "audio": "clips/ext2/EXP-CL-HI-08.wav",
+ "audio_sha256": "95048a189c53fa8eff08884a34a91475e7704205034535cd74e82f198524b550",
+ "latency_ms": 5137,
+ "reply": {
+  "language": "hi",
+  "no_speech": false,
+  "transcript": "कीव की कुल जनसंख्या कितनी है?",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 240,
+  "output": 37
+ }
+}

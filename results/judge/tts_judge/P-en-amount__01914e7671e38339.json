@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "P-en-amount",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "01914e7671e38339",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-en-amount.wav",
+ "audio_sha256": "6454db83347a498f90f7abc3681cca9fd070dd44dcd4bc40de236d46e810a1d2",
+ "latency_ms": 9247,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "two thousand five hundred and forty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "minor awkward pause"
+  ],
+  "comment": "The spoken number reads 2,540 instead of the target 2,450, with a slight pause between clauses."
+ },
+ "tokens": {
+  "prompt": 490,
+  "output": 156
+ }
+}

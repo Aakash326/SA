@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "29c1f32fb6df5a04",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C4.wav",
+ "audio_sha256": "0251f65bd0548c3542a570d77f90b54901f64af9b05eaeb439930dcb89c0a7b8",
+ "latency_ms": 2978,
+ "reply": {
+  "heard": "Do not sell the shares",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 169,
+  "output": 24
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-datetime-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "068cb1d0f76e31b1",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-datetime-mandar.wav",
+ "audio_sha256": "2844c54c4136327b045c9354e19849f3ecedd52ade558d7761b1f2341b82ea5f",
+ "latency_ms": 8277,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेवीस नोव्हेंबरला"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सकाळी नऊ पाच वाजता"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All targets correctly uttered. Intonation is slightly synthetic but clear and understandable."
+ },
+ "tokens": {
+  "prompt": 533,
+  "output": 168
+ }
+}

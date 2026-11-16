@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "PAUSE-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "742f7bad044bd66d",
+ "audio": "clips/ext2/PAUSE-EN-01.wav",
+ "audio_sha256": "bc1123efb340878868521730e64c2cdb381ac6a8e12084cad4072e218c41ef7a",
+ "latency_ms": 5700,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Pearl Brewing",
+    "system": "peril peaving",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "Who founded the Pearl Brewing Company?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 430,
+  "output": 58
+ }
+}

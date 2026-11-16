@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-natural-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9693a1eadbf4f3f6",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-natural-tamilselvi.wav",
+ "audio_sha256": "ebee288bee5545126fb5e7d5a2ca953b2ce682aa770834fc2e2b6a7a130a99de",
+ "latency_ms": 9018,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "நான் உங்களுக்கு எப்படி உதவ முடியும்?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic timbre"
+  ],
+  "comment": "The text was read accurately with clear pronunciation. The prosody and rhythm sound slightly synthetic but easily intelligible."
+ },
+ "tokens": {
+  "prompt": 578,
+  "output": 148
+ }
+}

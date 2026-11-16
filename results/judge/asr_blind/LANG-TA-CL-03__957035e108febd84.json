@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "957035e108febd84",
+ "audio": "clips/ext2/LANG-TA-CL-03.wav",
+ "audio_sha256": "6f3cf9978cfde375dff5dc8588467d9c328dff0113bb8ef51ab51c872e3c0050",
+ "latency_ms": 4570,
+ "reply": {
+  "transcript": "கலீபா அபுபக்கர் எந்த வம்சத்தின் அரசர்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 38
+ }
+}

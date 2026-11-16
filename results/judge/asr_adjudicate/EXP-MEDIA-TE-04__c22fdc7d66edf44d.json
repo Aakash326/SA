@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-MEDIA-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c22fdc7d66edf44d",
+ "audio": "clips/ext2/EXP-MEDIA-TE-04.wav",
+ "audio_sha256": "e88335b7048d8503d449ea2e3445d981c1c06ecc185d94b32af9eeda9bcf85ed",
+ "latency_ms": 5846,
+ "reply": {
+  "differences": [
+   {
+    "reference": "గుదిమెల్లంక",
+    "system": "భూమి లంక",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "బుదిమిలంక గ్రామ విస్తీర్ణం ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 417,
+  "output": 121
+ }
+}

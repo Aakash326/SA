@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "I4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "62a3627c915439d0",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I4.wav",
+ "audio_sha256": "7ecea81e75e6f83232101b6c88f0b4e539fb87fd96fb6acf17cfe83c49d61b24",
+ "latency_ms": 23813,
+ "reply": {
+  "heard": "Call us at एक आठ शून्य शून्य शून्य दो शून्य शून्य शून्य सात शून्य",
+  "number_language": "Hindi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 278,
+  "output": 33
+ }
+}

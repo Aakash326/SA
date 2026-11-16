@@ -1,0 +1,1063 @@
+{
+ "model": "gemini-3.8-flash",
+ "label": "LLM-assessed (Gemini, blind-first); not human MOS, not ground truth",
+ "planted_detection": {
+  "planted": 6,
+  "caught": 6,
+  "rows": [
+   {
+    "case": "P-en-amount",
+    "text": "Your account has been credited with ₹2,540.",
+    "targets": [
+     {
+      "id": "amount",
+      "result": "wrong",
+      "heard": "two thousand five hundred and forty rupees"
+     }
+    ]
+   },
+   {
+    "case": "P-hi-amount",
+    "text": "आपके खाते में ₹2,540 जमा हो गए हैं।",
+    "targets": [
+     {
+      "id": "amount",
+      "result": "wrong",
+      "heard": "दो हज़ार पाँच सौ चालीस रुपए"
+     }
+    ]
+   },
+   {
+    "case": "P-te-id",
+    "text": "మీ రిఫరెన్స్ నంబర్ 0700.",
+    "targets": [
+     {
+      "id": "id",
+      "result": "wrong",
+      "heard": "సున్నా ఏడు సున్నా సున్నా"
+     }
+    ]
+   },
+   {
+    "case": "P-ta-amount",
+    "text": "உங்கள் கணக்கில் ₹2,540 வரவு வைக்கப்பட்டுள்ளது.",
+    "targets": [
+     {
+      "id": "amount",
+      "result": "wrong",
+      "heard": "இரண்டாயிரத்து ஐநூற்று நாற்பது ரூபாய் (2540 rupees)"
+     }
+    ]
+   },
+   {
+    "case": "P-kn-negation",
+    "text": "ದಯವಿಟ್ಟು ನಿಮ್ಮ OTP ಅನ್ನು ಎಲ್ಲರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.",
+    "targets": [
+     {
+      "id": "negation",
+      "result": "wrong",
+      "heard": "ಹಂಚಿಕೊಳ್ಳಿ"
+     },
+     {
+      "id": "otp",
+      "result": "correct",
+      "heard": "O T P"
+     }
+    ]
+   },
+   {
+    "case": "P-mr-id",
+    "text": "तुमचा संदर्भ क्रमांक 7000 आहे.",
+    "targets": [
+     {
+      "id": "id",
+      "result": "wrong",
+      "heard": "सात शून्य शून्य शून्य"
+     }
+    ]
+   }
+  ]
+ },
+ "human_agreement": {
+  "targets": 58,
+  "judge_correct_where_human_pass": 58,
+  "judge_wrong_where_human_pass": [],
+  "judge_ambiguous": 0
+ },
+ "tts_by_language": {
+  "en": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 12,
+   "wrong": 0,
+   "ambiguous": 0,
+   "content_complete": 10,
+   "naturalness_mean": 4.1,
+   "prosody_mean": 4,
+   "pronunciation_mean": 4.1,
+   "clips_with_artifacts": 0
+  },
+  "hi": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 12,
+   "wrong": 0,
+   "ambiguous": 0,
+   "content_complete": 8,
+   "naturalness_mean": 3.8,
+   "prosody_mean": 3.6,
+   "pronunciation_mean": 4,
+   "clips_with_artifacts": 0
+  },
+  "kn": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 11,
+   "wrong": 1,
+   "ambiguous": 0,
+   "content_complete": 9,
+   "naturalness_mean": 3.7,
+   "prosody_mean": 3.7,
+   "pronunciation_mean": 4.1,
+   "clips_with_artifacts": 2
+  },
+  "mr": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 12,
+   "wrong": 0,
+   "ambiguous": 0,
+   "content_complete": 10,
+   "naturalness_mean": 3.6,
+   "prosody_mean": 3.5,
+   "pronunciation_mean": 4,
+   "clips_with_artifacts": 1
+  },
+  "ta": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 12,
+   "wrong": 0,
+   "ambiguous": 0,
+   "content_complete": 10,
+   "naturalness_mean": 4.1,
+   "prosody_mean": 3.9,
+   "pronunciation_mean": 4.3,
+   "clips_with_artifacts": 2
+  },
+  "te": {
+   "clips": 10,
+   "targets": 12,
+   "correct": 12,
+   "wrong": 0,
+   "ambiguous": 0,
+   "content_complete": 10,
+   "naturalness_mean": 3.6,
+   "prosody_mean": 3.4,
+   "pronunciation_mean": 4,
+   "clips_with_artifacts": 2
+  },
+  "all": {
+   "clips": 60,
+   "targets": 72,
+   "correct": 71,
+   "wrong": 1,
+   "ambiguous": 0,
+   "content_complete": 57,
+   "naturalness_mean": 3.82,
+   "prosody_mean": 3.68,
+   "pronunciation_mean": 4.08,
+   "clips_with_artifacts": 7
+  }
+ },
+ "tts_by_voice": {
+  "aviraj": {
+   "language": "hi",
+   "naturalness": 3.6,
+   "prosody": 3.4
+  },
+  "basava": {
+   "language": "kn",
+   "naturalness": 3.4,
+   "prosody": 3.4
+  },
+  "blake": {
+   "language": "en",
+   "naturalness": 4.2,
+   "prosody": 4
+  },
+  "kaitlyn": {
+   "language": "en",
+   "naturalness": 4,
+   "prosody": 4
+  },
+  "ketaki": {
+   "language": "mr",
+   "naturalness": 3.8,
+   "prosody": 3.6
+  },
+  "mandar": {
+   "language": "mr",
+   "naturalness": 3.4,
+   "prosody": 3.4
+  },
+  "meher": {
+   "language": "hi",
+   "naturalness": 4,
+   "prosody": 3.8
+  },
+  "murugan": {
+   "language": "ta",
+   "naturalness": 4,
+   "prosody": 3.8
+  },
+  "naveen": {
+   "language": "te",
+   "naturalness": 3.6,
+   "prosody": 3.6
+  },
+  "spoorthi": {
+   "language": "kn",
+   "naturalness": 4,
+   "prosody": 4
+  },
+  "sravani": {
+   "language": "te",
+   "naturalness": 3.6,
+   "prosody": 3.2
+  },
+  "tamilselvi": {
+   "language": "ta",
+   "naturalness": 4.2,
+   "prosody": 4
+  }
+ },
+ "tts_wrong": [
+  {
+   "case": "X-kn-datetime-spoorthi",
+   "text": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ 23 ರಂದು ಬೆಳಿಗ್ಗೆ 9:05 ಕ್ಕೆ ಇದೆ.",
+   "heard": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ ಪತ್ತು ಮೂರಂದು ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ ಇದೆ",
+   "targets": [
+    {
+     "id": "date",
+     "result": "wrong",
+     "heard": "ನವೆಂಬರ್ ಪತ್ತು ಮೂರಂದು"
+    }
+   ],
+   "artifacts": [
+    "number mispronunciation"
+   ],
+   "comment": "The date '23' was mispronounced as 'pattu mooru' instead of 'ippattu mooru', while the time and remaining sentence were read intelligibly."
+  }
+ ],
+ "tts_artifacts": [
+  {
+   "case": "X-te-amount-sravani",
+   "artifacts": [
+    "minor pause segmentation"
+   ]
+  },
+  {
+   "case": "X-te-datetime-naveen",
+   "artifacts": [
+    "awkward pauses around numbers",
+    "robotic cadence"
+   ]
+  },
+  {
+   "case": "X-ta-id-murugan",
+   "artifacts": [
+    "slight robotic timbre"
+   ]
+  },
+  {
+   "case": "X-ta-natural-tamilselvi",
+   "artifacts": [
+    "mild robotic timbre"
+   ]
+  },
+  {
+   "case": "X-kn-id-basava",
+   "artifacts": [
+    "robotic tone"
+   ]
+  },
+  {
+   "case": "X-kn-datetime-spoorthi",
+   "artifacts": [
+    "number mispronunciation"
+   ]
+  },
+  {
+   "case": "X-mr-datetime-ketaki",
+   "artifacts": [
+    "mild robotic tone"
+   ]
+  }
+ ],
+ "asr_adjudication": {
+  "clips": 195,
+  "clips_with_differences": 122,
+  "differences": 263,
+  "system_error": 70,
+  "reference_error": 17,
+  "equivalent": 176,
+  "unclear": 0,
+  "reference_mismatch_clips": 29
+ },
+ "asr_wer_original_vs_llm_adjusted": {
+  "en-IN": {
+   "clips": 49,
+   "wer_original": 0.0758,
+   "wer_llm_adjusted": 0.073,
+   "gemini_blind_wer_vs_reference": 0.0421
+  },
+  "hi-IN": {
+   "clips": 56,
+   "wer_original": 0.2131,
+   "wer_llm_adjusted": 0.1893,
+   "gemini_blind_wer_vs_reference": 0.1101
+  },
+  "kn-IN": {
+   "clips": 14,
+   "wer_original": 0.381,
+   "wer_llm_adjusted": 0.3571,
+   "gemini_blind_wer_vs_reference": 0.1786
+  },
+  "mr-IN": {
+   "clips": 14,
+   "wer_original": 0.1667,
+   "wer_llm_adjusted": 0.1667,
+   "gemini_blind_wer_vs_reference": 0.1176
+  },
+  "ta-IN": {
+   "clips": 14,
+   "wer_original": 0.2903,
+   "wer_llm_adjusted": 0.2581,
+   "gemini_blind_wer_vs_reference": 0.1505
+  },
+  "te-IN": {
+   "clips": 45,
+   "wer_original": 0.3498,
+   "wer_llm_adjusted": 0.3383,
+   "gemini_blind_wer_vs_reference": 0.1673
+  }
+ },
+ "asr_llm_adjudicated_diagnostic_error_rate": {
+  "language=en-IN": {
+   "clips": 49,
+   "reference_words": 356,
+   "raw_wer": 0.0758,
+   "system_error_spans": 19,
+   "equivalent_spans": 3,
+   "llm_adjudicated_diagnostic_error_rate": 0.0534
+  },
+  "language=hi-IN": {
+   "clips": 56,
+   "reference_words": 563,
+   "raw_wer": 0.2131,
+   "system_error_spans": 15,
+   "equivalent_spans": 86,
+   "llm_adjudicated_diagnostic_error_rate": 0.0266
+  },
+  "language=kn-IN": {
+   "clips": 14,
+   "reference_words": 84,
+   "raw_wer": 0.381,
+   "system_error_spans": 9,
+   "equivalent_spans": 18,
+   "llm_adjudicated_diagnostic_error_rate": 0.1071
+  },
+  "language=mr-IN": {
+   "clips": 14,
+   "reference_words": 102,
+   "raw_wer": 0.1667,
+   "system_error_spans": 4,
+   "equivalent_spans": 10,
+   "llm_adjudicated_diagnostic_error_rate": 0.0392
+  },
+  "language=ta-IN": {
+   "clips": 14,
+   "reference_words": 93,
+   "raw_wer": 0.2903,
+   "system_error_spans": 4,
+   "equivalent_spans": 14,
+   "llm_adjudicated_diagnostic_error_rate": 0.043
+  },
+  "language=te-IN": {
+   "clips": 45,
+   "reference_words": 263,
+   "raw_wer": 0.3498,
+   "system_error_spans": 19,
+   "equivalent_spans": 45,
+   "llm_adjudicated_diagnostic_error_rate": 0.0722
+  },
+  "condition=clean": {
+   "clips": 63,
+   "reference_words": 426,
+   "raw_wer": 0.1596,
+   "system_error_spans": 21,
+   "equivalent_spans": 44,
+   "llm_adjudicated_diagnostic_error_rate": 0.0493
+  },
+  "condition=long": {
+   "clips": 4,
+   "reference_words": 90,
+   "raw_wer": 0.1111,
+   "system_error_spans": 2,
+   "equivalent_spans": 7,
+   "llm_adjudicated_diagnostic_error_rate": 0.0222
+  },
+  "condition=numbers": {
+   "clips": 21,
+   "reference_words": 174,
+   "raw_wer": 0.5115,
+   "system_error_spans": 7,
+   "equivalent_spans": 42,
+   "llm_adjudicated_diagnostic_error_rate": 0.0402
+  },
+  "condition=pause": {
+   "clips": 7,
+   "reference_words": 54,
+   "raw_wer": 0.2407,
+   "system_error_spans": 3,
+   "equivalent_spans": 9,
+   "llm_adjudicated_diagnostic_error_rate": 0.0556
+  },
+  "condition=real_noise": {
+   "clips": 49,
+   "reference_words": 357,
+   "raw_wer": 0.1569,
+   "system_error_spans": 18,
+   "equivalent_spans": 29,
+   "llm_adjudicated_diagnostic_error_rate": 0.0504
+  },
+  "condition=snr_00db": {
+   "clips": 8,
+   "reference_words": 59,
+   "raw_wer": 0.3898,
+   "system_error_spans": 10,
+   "equivalent_spans": 7,
+   "llm_adjudicated_diagnostic_error_rate": 0.1695
+  },
+  "condition=snr_10db": {
+   "clips": 8,
+   "reference_words": 59,
+   "raw_wer": 0.1695,
+   "system_error_spans": 3,
+   "equivalent_spans": 8,
+   "llm_adjudicated_diagnostic_error_rate": 0.0508
+  },
+  "condition=snr_20db": {
+   "clips": 8,
+   "reference_words": 59,
+   "raw_wer": 0.2203,
+   "system_error_spans": 1,
+   "equivalent_spans": 10,
+   "llm_adjudicated_diagnostic_error_rate": 0.0169
+  },
+  "condition=tel_8k": {
+   "clips": 8,
+   "reference_words": 61,
+   "raw_wer": 0.1475,
+   "system_error_spans": 2,
+   "equivalent_spans": 5,
+   "llm_adjudicated_diagnostic_error_rate": 0.0328
+  },
+  "condition=tel_alaw": {
+   "clips": 8,
+   "reference_words": 61,
+   "raw_wer": 0.1967,
+   "system_error_spans": 1,
+   "equivalent_spans": 8,
+   "llm_adjudicated_diagnostic_error_rate": 0.0164
+  },
+  "condition=tel_ulaw": {
+   "clips": 8,
+   "reference_words": 61,
+   "raw_wer": 0.1967,
+   "system_error_spans": 2,
+   "equivalent_spans": 7,
+   "llm_adjudicated_diagnostic_error_rate": 0.0328
+  }
+ },
+ "asr_system_error_examples": [
+  {
+   "clip": "CL-EN-05",
+   "language": "en-IN",
+   "condition": "clean",
+   "reference": "Where",
+   "system": "What",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "CL-EN-05",
+   "language": "en-IN",
+   "condition": "clean",
+   "reference": "avalanches",
+   "system": "avalanche",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LONG-HI-01",
+   "language": "hi-IN",
+   "condition": "long",
+   "reference": "एरिस्टार्चस",
+   "system": "एरिस्टर चर्च",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LONG-HI-02",
+   "language": "hi-IN",
+   "condition": "long",
+   "reference": "अहमद",
+   "system": "आर्म्ड",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "SNR-EN-10",
+   "language": "en-IN",
+   "condition": "snr_10db",
+   "reference": "Who",
+   "system": "He",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "SNR-EN-00",
+   "language": "en-IN",
+   "condition": "snr_00db",
+   "reference": "Who first identified",
+   "system": "New test identifies",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "SNR-EN-00",
+   "language": "en-IN",
+   "condition": "snr_00db",
+   "reference": "types?",
+   "system": "tests.",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "SNR-HI-00",
+   "language": "hi-IN",
+   "condition": "snr_00db",
+   "reference": "चित्रम",
+   "system": "सिक्रम",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "PAUSE-EN-01",
+   "language": "en-IN",
+   "condition": "pause",
+   "reference": "Pearl Brewing",
+   "system": "peril peaving",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-EN-01",
+   "language": "en-IN",
+   "condition": "clean",
+   "reference": "Dodgers",
+   "system": "Deutsche",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-EN-03",
+   "language": "en-IN",
+   "condition": "clean",
+   "reference": "Last",
+   "system": "Lost",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-EN-05",
+   "language": "en-IN",
+   "condition": "clean",
+   "reference": "Cueto",
+   "system": "Quito",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-EN-02",
+   "language": "en-IN",
+   "condition": "real_noise",
+   "reference": "Gallimimus?",
+   "system": "Galemimus?",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-HI-09",
+   "language": "hi-IN",
+   "condition": "clean",
+   "reference": "पोर्न",
+   "system": "बॉर्न",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-HI-10",
+   "language": "hi-IN",
+   "condition": "clean",
+   "reference": "विज्ञानी",
+   "system": "वैज्ञानिक",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-HI-12",
+   "language": "hi-IN",
+   "condition": "clean",
+   "reference": "रे",
+   "system": "ऋ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-NUM-HI-06",
+   "language": "hi-IN",
+   "condition": "numbers",
+   "reference": "कब",
+   "system": "cup",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-BG-HI-03",
+   "language": "hi-IN",
+   "condition": "real_noise",
+   "reference": "\"कैडेट",
+   "system": "क्रेडिट",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-TE-04",
+   "language": "te-IN",
+   "condition": "clean",
+   "reference": "పృథ్వీరాజ్",
+   "system": "పృథ్విరాజ్",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-TE-10",
+   "language": "te-IN",
+   "condition": "clean",
+   "reference": "చందర్లపాడు",
+   "system": "చందల్లపాడు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-TE-10",
+   "language": "te-IN",
+   "condition": "clean",
+   "reference": "మండలంలో",
+   "system": "మండలం",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-CL-TE-12",
+   "language": "te-IN",
+   "condition": "clean",
+   "reference": "జిల్లెడిపూడి",
+   "system": "జిల్లడి పొడి",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-NUM-TE-01",
+   "language": "te-IN",
+   "condition": "numbers",
+   "reference": "వజ్రకూటం",
+   "system": "వజ్రపూటం",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-NUM-TE-02",
+   "language": "te-IN",
+   "condition": "numbers",
+   "reference": "",
+   "system": "జరిగిందో",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-NUM-TE-03",
+   "language": "te-IN",
+   "condition": "numbers",
+   "reference": "కారని",
+   "system": "కారణ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-NUM-TE-05",
+   "language": "te-IN",
+   "condition": "numbers",
+   "reference": "తిరువూరు",
+   "system": "తిరువరు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-BG-TE-03",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "బిజ్జపల్లి",
+   "system": "బిచ్చపల్లి",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-BG-TE-03",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "ఇళ్లులు",
+   "system": "ఇల్లు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-BG-TE-04",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "పోనీ",
+   "system": "మరి",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-BG-TE-04",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "దండయాత్ర",
+   "system": "తండారు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-MEDIA-TE-04",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "గుదిమెల్లంక",
+   "system": "భూమి లంక",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-TE-01",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "నవీపేట్",
+   "system": "నవీపేట",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-TE-02",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "బ్రిటిషోరు",
+   "system": "బ్రిటీష్ వారు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-TE-02",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "శ్రీకాకుళం పేరును",
+   "system": "చికాకుల అంపైర్ ను",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-TE-02",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "పిలిచేవారు?",
+   "system": "పరిగేవారు",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TRAFFIC-TE-04",
+   "language": "te-IN",
+   "condition": "real_noise",
+   "reference": "రసాయన ఫార్ములా",
+   "system": "ప్రకారం ఫార్మ్",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-01-10",
+   "language": "en-IN",
+   "condition": "snr_10db",
+   "reference": "Dodgers",
+   "system": "Roger",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-01-00",
+   "language": "en-IN",
+   "condition": "snr_00db",
+   "reference": "home",
+   "system": "cold",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-01-00",
+   "language": "en-IN",
+   "condition": "snr_00db",
+   "reference": "Dodgers Stadium",
+   "system": "Georgia's agent",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TEL-01-8K",
+   "language": "en-IN",
+   "condition": "tel_8k",
+   "reference": "Dodgers",
+   "system": "Reuters",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TEL-01-ALAW",
+   "language": "en-IN",
+   "condition": "tel_alaw",
+   "reference": "Dodgers",
+   "system": "Reutscher",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TEL-01-ULAW",
+   "language": "en-IN",
+   "condition": "tel_ulaw",
+   "reference": "Dodgers",
+   "system": "Deutsche",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-PAUSE-01",
+   "language": "en-IN",
+   "condition": "pause",
+   "reference": "Dodgers",
+   "system": "Reuters",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-02-00",
+   "language": "en-IN",
+   "condition": "snr_00db",
+   "reference": "Tokyo",
+   "system": "Scotia",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-PAUSE-02",
+   "language": "en-IN",
+   "condition": "pause",
+   "reference": "population",
+   "system": "pop population",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-03-00",
+   "language": "hi-IN",
+   "condition": "snr_00db",
+   "reference": "के",
+   "system": "का",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-04-20",
+   "language": "hi-IN",
+   "condition": "snr_20db",
+   "reference": "George",
+   "system": "गर्ज",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-04-10",
+   "language": "hi-IN",
+   "condition": "snr_10db",
+   "reference": "George",
+   "system": "गर्ज",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-04-00",
+   "language": "hi-IN",
+   "condition": "snr_00db",
+   "reference": "George",
+   "system": "गर्ज",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-04-00",
+   "language": "hi-IN",
+   "condition": "snr_00db",
+   "reference": "थी?",
+   "system": "है",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TEL-04-8K",
+   "language": "hi-IN",
+   "condition": "tel_8k",
+   "reference": "George",
+   "system": "गर्ज",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-TEL-04-ULAW",
+   "language": "hi-IN",
+   "condition": "tel_ulaw",
+   "reference": "George",
+   "system": "गर्ज",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "EXP-SNR-06-00",
+   "language": "te-IN",
+   "condition": "snr_00db",
+   "reference": "గడ్డం రాజారాం",
+   "system": "పెద్ద రామ్",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-TA-CL-08",
+   "language": "ta-IN",
+   "condition": "clean",
+   "reference": "மஜ்னூனுடைய",
+   "system": "மஜ்நூலுடைய",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-TA-NUM-02",
+   "language": "ta-IN",
+   "condition": "numbers",
+   "reference": "அணி எது?",
+   "system": "அணியது",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-TA-TRAFFIC-01",
+   "language": "ta-IN",
+   "condition": "real_noise",
+   "reference": "வானிலாய",
+   "system": "சரணிலாய",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-TA-TRAFFIC-01",
+   "language": "ta-IN",
+   "condition": "real_noise",
+   "reference": "துவங்கப்பட்டது",
+   "system": "கொண்டுள்ளது",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-01",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ಜಹಾಂಗೀರ್ನಗರ್",
+   "system": "ಜಹಂಗೀರ್ ನಗರ್",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-02",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ಅಭಿನೇತ್ರಿ",
+   "system": "ಅಭಿನಿತ್ರಿ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-02",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ವಿದ್ಯಾ ಬಾಲನ್",
+   "system": "ವಿದ್ಯಾಪಾಲನ್",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-04",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ನೀರಿರುವುದನ್ನು",
+   "system": "ನೀಡಿರುವುದನ್ನು",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-07",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ಭೂತಾನದ",
+   "system": "ಬೂತನದ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-CL-08",
+   "language": "kn-IN",
+   "condition": "clean",
+   "reference": "ಮರಾಠಾ",
+   "system": "ಮಾರಾಟ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-NUM-01",
+   "language": "kn-IN",
+   "condition": "numbers",
+   "reference": "ಜನಗಣತಿಯಂತೆ",
+   "system": "ಜನಗಣತೆಯಂತೆ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-TRAFFIC-01",
+   "language": "kn-IN",
+   "condition": "real_noise",
+   "reference": "ಇಬ್ನ್",
+   "system": "ಹಿಫ್ ನ",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-KN-TRAFFIC-01",
+   "language": "kn-IN",
+   "condition": "real_noise",
+   "reference": "ಅಲ್-ಘಜಾಲಿಯವರು",
+   "system": "ಅಲ್ ಖಜಾಲಿಯವರು",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-MR-CL-02",
+   "language": "mr-IN",
+   "condition": "clean",
+   "reference": "शोधले?",
+   "system": "शोधलय ?",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-MR-CL-05",
+   "language": "mr-IN",
+   "condition": "clean",
+   "reference": "घुरी",
+   "system": "गुरु",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-MR-MEDIA-01",
+   "language": "mr-IN",
+   "condition": "real_noise",
+   "reference": "आहेत?",
+   "system": "नाही",
+   "verdict": "system_error"
+  },
+  {
+   "clip": "LANG-MR-TRAFFIC-01",
+   "language": "mr-IN",
+   "condition": "real_noise",
+   "reference": "स्वातंत्र्य",
+   "system": "स्वतंत्र",
+   "verdict": "system_error"
+  }
+ ],
+ "asr_no_speech_judge": [
+  {
+   "clip": "EXP-NS-01",
+   "gemini_no_speech": false,
+   "pulse": ""
+  },
+  {
+   "clip": "EXP-NS-02",
+   "gemini_no_speech": false,
+   "pulse": ""
+  },
+  {
+   "clip": "EXP-NS-04",
+   "gemini_no_speech": true,
+   "pulse": ""
+  }
+ ]
+}

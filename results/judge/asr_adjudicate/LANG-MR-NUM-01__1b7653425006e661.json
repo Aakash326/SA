@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1b7653425006e661",
+ "audio": "clips/ext2/LANG-MR-NUM-01.wav",
+ "audio_sha256": "c895e9fd89959008482c1c4ad4f1785314102373d5e18a7d0315fbb70f44774b",
+ "latency_ms": 6272,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2018",
+    "system": "दोन हजार अठरा",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2018 च जनगणने अनुसार गोव्याची जनसंख्या किती आहे?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 392,
+  "output": 123
+ }
+}

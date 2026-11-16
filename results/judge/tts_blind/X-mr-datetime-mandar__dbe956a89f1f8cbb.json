@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-datetime-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "dbe956a89f1f8cbb",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-datetime-mandar.wav",
+ "audio_sha256": "2844c54c4136327b045c9354e19849f3ecedd52ade558d7761b1f2341b82ea5f",
+ "latency_ms": 5599,
+ "reply": {
+  "heard": "तुमची मीटिंग तेवीस नोव्हेंबरला सकाळी नऊ पाच वाजता आहे",
+  "number_language": "Marathi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 237,
+  "output": 35
+ }
+}

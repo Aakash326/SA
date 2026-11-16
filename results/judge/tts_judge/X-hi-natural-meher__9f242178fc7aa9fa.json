@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-natural-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f242178fc7aa9fa",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-natural-meher.wav",
+ "audio_sha256": "1e286d691f8f4e31080e5593824044cb0a88e70024b3859fbc33f6613f54b71b",
+ "latency_ms": 6496,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मैं आपकी कैसे मदद कर सकती हूँ?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with natural pacing and proper question intonation."
+ },
+ "tokens": {
+  "prompt": 585,
+  "output": 135
+ }
+}

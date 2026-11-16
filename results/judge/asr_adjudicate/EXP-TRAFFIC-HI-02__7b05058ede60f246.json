@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7b05058ede60f246",
+ "audio": "clips/ext2/EXP-TRAFFIC-HI-02.wav",
+ "audio_sha256": "7a6a7e9de7e13f3c0ab4168a896b60fc742c06040fdb7aedcd77f1cb68b50846",
+ "latency_ms": 4231,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2015",
+    "system": "दो हज़ार पंद्रह",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 386,
+  "output": 90
+ }
+}

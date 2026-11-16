@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2ff190b9faa745c5",
+ "audio": "clips/ext2/LANG-MR-NUM-03.wav",
+ "audio_sha256": "5a1147acaabe7d057f534948452734b31933f82f34c7c96fb8ec3bb534a86c90",
+ "latency_ms": 7246,
+ "reply": {
+  "transcript": "2003 च्या क्रिकेट जगतानंतर पुढील क्रिकेट विश्वचषक कोणत्या वर्षी आयोजित करण्यात आला?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 285,
+  "output": 43
+ }
+}

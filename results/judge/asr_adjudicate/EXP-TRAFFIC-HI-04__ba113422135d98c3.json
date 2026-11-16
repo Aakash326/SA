@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ba113422135d98c3",
+ "audio": "clips/ext2/EXP-TRAFFIC-HI-04.wav",
+ "audio_sha256": "6f41557dc13fc73da7d490750872a6ef626b37316e4172c206163f3dadf96519",
+ "latency_ms": 4866,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2018",
+    "system": "दो हज़ार अठारह",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2018 में भारतीय फुटबॉल टीम का रैंक क्या है?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 360,
+  "output": 120
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-kn-amount-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f857b7b7c4a09c7c",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-amount-spoorthi.wav",
+ "audio_sha256": "625fc2481651507b397b98b60f72c14cfae9261d02117d078f924f03b1f531f9",
+ "latency_ms": 6548,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಖಾತೆಗೆ ಎರಡು ಸಾವಿರದ ನಾನೂರೈವತ್ತು ರೂಪಾಯಿ ಜಮೆಯಾಗಿದೆ.",
+  "number_language": "Kannada",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 218,
+  "output": 40
+ }
+}

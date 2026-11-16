@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bf5dc526eda072db",
+ "audio": "clips/ext2/EXP-NUM-HI-05.wav",
+ "audio_sha256": "8e8ac4c2afccdaba28633f69e3067ad298beb4ae15805cfaf44778f7c880ff1a",
+ "latency_ms": 3428,
+ "reply": {
+  "transcript": "रशिया के पहले 2011 के प्रधानमंत्री कौन थे?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 37
+ }
+}

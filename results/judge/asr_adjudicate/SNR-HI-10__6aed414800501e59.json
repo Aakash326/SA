@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "SNR-HI-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6aed414800501e59",
+ "audio": "clips/ext2/SNR-HI-10.wav",
+ "audio_sha256": "5bf1e006eb8073da3dfbfc03b5bfe8f057cf3feeccd3ddca928cac7c2485438e",
+ "latency_ms": 6455,
+ "reply": {
+  "differences": [
+   {
+    "reference": "रिलीज",
+    "system": "रिलीज़",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": " ?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "चित्रम फिल्म कब रिलीज़ हुई थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 72
+ }
+}

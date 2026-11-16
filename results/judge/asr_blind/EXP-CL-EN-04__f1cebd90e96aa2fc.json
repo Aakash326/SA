@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f1cebd90e96aa2fc",
+ "audio": "clips/ext2/EXP-CL-EN-04.wav",
+ "audio_sha256": "536f7ae4baca740d1b0b35d2f8e59c47dc1ae196ae5e42b336b167cb09eb9d3e",
+ "latency_ms": 2835,
+ "reply": {
+  "transcript": "Who is the head of the Senate in Australia?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 185,
+  "output": 33
+ }
+}

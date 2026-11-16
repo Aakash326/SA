@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-natural-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "05587511f48fa093",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-natural-murugan.wav",
+ "audio_sha256": "e0ee730a5ec318854162293fa07b54a2c7606b2b729c4e68cde707e9748005f9",
+ "latency_ms": 6034,
+ "reply": {
+  "heard": "வணக்கம் நான் உங்களுக்கு எப்படி உதவ முடியும் உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால் தயங்காமல் கேளுங்கள்",
+  "number_language": "Tamil",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 288,
+  "output": 44
+ }
+}

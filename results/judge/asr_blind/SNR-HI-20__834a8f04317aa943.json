@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-HI-20",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "834a8f04317aa943",
+ "audio": "clips/ext2/SNR-HI-20.wav",
+ "audio_sha256": "b782c6b79cc69bff818ef344d9787b23b01af23bf943f2e56e50d5f0c1642a7d",
+ "latency_ms": 3292,
+ "reply": {
+  "transcript": "चित्रम फिल्म कब रिलीज हुई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 31
+ }
+}

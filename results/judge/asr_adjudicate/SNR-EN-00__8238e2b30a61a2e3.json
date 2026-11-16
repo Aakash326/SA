@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "SNR-EN-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8238e2b30a61a2e3",
+ "audio": "clips/ext2/SNR-EN-00.wav",
+ "audio_sha256": "ad29d18acf16966a692cc8866f67fb17efb66c1c783410c9f33c8424e8f803ee",
+ "latency_ms": 4699,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Who first identified",
+    "system": "New test identifies",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "types?",
+    "system": "tests.",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "Who first identified blood types?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 315,
+  "output": 78
+ }
+}

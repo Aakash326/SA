@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c5dd52b7c2939cbe",
+ "audio": "clips/ext2/LANG-KN-CL-05.wav",
+ "audio_sha256": "7e563041bf3bc63d298f5c96ab44088094ebb989ded1cb3af969a65d0615ee33",
+ "latency_ms": 5400,
+ "reply": {
+  "transcript": "ಶ್ರೀ ಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 284,
+  "output": 48
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "RN-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c9a4d75a571dab54",
+ "audio": "clips/ext2/RN-HI-02.wav",
+ "audio_sha256": "4b0e9cffc3d190ee85d36c089ed7fbf77528bf4f99c6f46d272ca8a2363c3618",
+ "latency_ms": 4432,
+ "reply": {
+  "differences": [
+   {
+    "reference": "राज्य भाषा",
+    "system": "राज्यभाषा",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "मैक्सिको की राज्य भाषा क्या है?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 373,
+  "output": 82
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-id-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "256822b7e20bff5f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-id-spoorthi.wav",
+ "audio_sha256": "bbe44fb02005a2c6930416ffe466f8a1a9bf90d59537f5612136565a64a4d3a1",
+ "latency_ms": 7293,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and accurate rendering of the text and digits with natural pacing."
+ },
+ "tokens": {
+  "prompt": 462,
+  "output": 101
+ }
+}

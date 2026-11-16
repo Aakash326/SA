@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-natural-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ad3791eea356146d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-natural-blake.wav",
+ "audio_sha256": "25bb70398d5cbcf74912c7f46420ab637755cc20d5590810b19c86e0e0d98192",
+ "latency_ms": 4422,
+ "reply": {
+  "heard": "Hello, how can I help you today? If you need any information about your account, please feel free to ask.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 296,
+  "output": 41
+ }
+}

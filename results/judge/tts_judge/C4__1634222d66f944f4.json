@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "C4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1634222d66f944f4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C4.wav",
+ "audio_sha256": "0251f65bd0548c3542a570d77f90b54901f64af9b05eaeb439930dcb89c0a7b8",
+ "latency_ms": 7540,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "not"
+   },
+   {
+    "id": "verb",
+    "result": "correct",
+    "heard": "sell"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Speech is clear and accurate with decent cadence, displaying typical synthetic quality."
+ },
+ "tokens": {
+  "prompt": 421,
+  "output": 112
+ }
+}

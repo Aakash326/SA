@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6e96db96ffa21c76",
+ "audio": "clips/ext2/LANG-MR-MEDIA-01.wav",
+ "audio_sha256": "ebc6ce6f7afe429e770de093cd79be324842d17785edd4d5557227e61155c0e9",
+ "latency_ms": 3094,
+ "reply": {
+  "differences": [
+   {
+    "reference": "आहेत?",
+    "system": "नाही",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "हिंदू धर्मात कोणत्या शाखा आहेत?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 307,
+  "output": 84
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "994c1126bb99e5f6",
+ "audio": "clips/ext2/EXP-TRAFFIC-EN-03.wav",
+ "audio_sha256": "0211893e4ee0aba94b2876262dd3710ef2b52cacb06b6264ce2e42b100e813f5",
+ "latency_ms": 3815,
+ "reply": {
+  "transcript": "How much marine salvage is there in the ocean?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 259,
+  "output": 33
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-TE-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ddcb66e37c8fbdf6",
+ "audio": "clips/ext2/EXP-NUM-TE-05.wav",
+ "audio_sha256": "e7faabeaee639a04357e6bb590b192fc8fac6e2c084967b955417db946412c42",
+ "latency_ms": 5594,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2001నాటికి",
+    "system": "రెండు వేల ఒకటి నాటికి",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "తిరువూరు",
+    "system": "తిరువరు",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2001 నాటికి తిరువూరు పట్టణ జనాభా ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 414,
+  "output": 138
+ }
+}

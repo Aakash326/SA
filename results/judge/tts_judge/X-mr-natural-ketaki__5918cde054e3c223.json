@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-natural-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5918cde054e3c223",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-natural-ketaki.wav",
+ "audio_sha256": "f9fdc781fadc081b01e17db6648de2807a097720a7f3836f0bef5a0c94792c71",
+ "latency_ms": 5668,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मी तुम्हाला कशी मदत करू शकते?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural, and well-intoned delivery."
+ },
+ "tokens": {
+  "prompt": 590,
+  "output": 95
+ }
+}

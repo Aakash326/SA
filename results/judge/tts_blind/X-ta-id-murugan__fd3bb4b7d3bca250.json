@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-id-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fd3bb4b7d3bca250",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-id-murugan.wav",
+ "audio_sha256": "e5c5a0cb4789b5de461103a25fd867fc3a5ab8a3c3cb5ca09d69498ad19bab6f",
+ "latency_ms": 3758,
+ "reply": {
+  "heard": "உங்க குறிப்பு எண் பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்",
+  "number_language": "ta",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 42
+ }
+}

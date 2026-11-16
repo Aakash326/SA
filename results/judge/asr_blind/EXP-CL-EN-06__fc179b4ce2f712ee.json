@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fc179b4ce2f712ee",
+ "audio": "clips/ext2/EXP-CL-EN-06.wav",
+ "audio_sha256": "baa43f78ed09a9fddfab7368749eb2d99f39d86d22f34bdd5846c93ec20d5935",
+ "latency_ms": 3734,
+ "reply": {
+  "transcript": "How many Sherlock Holmes stories did Conan Doyle write?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 232,
+  "output": 39
+ }
+}

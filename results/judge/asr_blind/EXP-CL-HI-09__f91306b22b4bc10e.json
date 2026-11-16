@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f91306b22b4bc10e",
+ "audio": "clips/ext2/EXP-CL-HI-09.wav",
+ "audio_sha256": "9b204aa621846d3fced9b26b46487770da30d4b85c4998ddb397ac18cef66891",
+ "latency_ms": 13737,
+ "reply": {
+  "transcript": "पोर्न स्टार सनी लियोन का वास्तविक नाम क्या है",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 35
+ }
+}

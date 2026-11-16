@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "C8",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9f5009faf9218bc6",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C8.wav",
+ "audio_sha256": "0d01d2330438fa2290dc9797a2a3be88115d75b90d5cef53291123e0c3a2e0d5",
+ "latency_ms": 8987,
+ "reply": {
+  "targets": [
+   {
+    "id": "year",
+    "result": "correct",
+    "heard": "fourteen ninety-nine"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly rendered with appropriate question prosody and accurate pronunciation."
+ },
+ "tokens": {
+  "prompt": 444,
+  "output": 130
+ }
+}

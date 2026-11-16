@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "71458b8e1bed32f7",
+ "audio": "clips/ext2/LANG-KN-CL-03.wav",
+ "audio_sha256": "66dee1007cec30e9c995bf2e37196986f544858abfd10b7a23351bb1a105bcd3",
+ "latency_ms": 4023,
+ "reply": {
+  "transcript": "ಮಾಯಾ ಜನರ ಅತ್ಯಂತ ಪ್ರಖ್ಯಾತ ಬರಹಗಾರನ ಹೆಸರೇನು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 269,
+  "output": 41
+ }
+}

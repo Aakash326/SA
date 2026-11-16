@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cedc3443a4a6fa9c",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-01.wav",
+ "audio_sha256": "b0b9109cd4c1d2d0a2cd5f2adb247a7ea92a36fdf5f636f1192b72e49f87e5a6",
+ "latency_ms": 10100,
+ "reply": {
+  "differences": [
+   {
+    "reference": "నవీపేట్",
+    "system": "నవీపేట",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "నవాబ్ పేట్ గ్రామ విస్తీర్ణం ఎంత ?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 364,
+  "output": 91
+ }
+}

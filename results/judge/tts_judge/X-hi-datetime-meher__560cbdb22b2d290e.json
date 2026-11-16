@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-datetime-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "560cbdb22b2d290e",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-datetime-meher.wav",
+ "audio_sha256": "b5ac06c9d2e8fd96b405a3014af878a03c2de3fbc171a63f2dc7683495665494",
+ "latency_ms": 10240,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेईस नवंबर"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सुबह नौ बजकर पाँच मिनट"
+   }
+  ],
+  "content_complete": false,
+  "spoken_language": "hi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The word 'बजे' was omitted/replaced with 'मिनट', but the delivery is otherwise clear and intelligible."
+ },
+ "tokens": {
+  "prompt": 505,
+  "output": 173
+ }
+}

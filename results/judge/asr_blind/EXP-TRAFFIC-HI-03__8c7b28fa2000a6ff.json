@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8c7b28fa2000a6ff",
+ "audio": "clips/ext2/EXP-TRAFFIC-HI-03.wav",
+ "audio_sha256": "b3613433822254ef253d6faf139b5460cc2ce80311fac30b9c236a77a129853e",
+ "latency_ms": 4248,
+ "reply": {
+  "transcript": "नवग्रहों में से कौन सा ग्रह सूर्य के सबसे पास का ग्रह है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 268,
+  "output": 39
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4308fafb30902944",
+ "audio": "clips/ext2/EXP-CL-TE-10.wav",
+ "audio_sha256": "9220e487921ac68c57fa58ac6c72f825a2efdeed7a5c24b627c10b6e36059d3d",
+ "latency_ms": 5330,
+ "reply": {
+  "transcript": "చందర్లపాడు మండలంలో అతి పెద్ద గ్రామం ఏది",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 277,
+  "output": 38
+ }
+}

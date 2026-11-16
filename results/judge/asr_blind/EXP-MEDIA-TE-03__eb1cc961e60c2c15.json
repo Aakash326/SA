@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "eb1cc961e60c2c15",
+ "audio": "clips/ext2/EXP-MEDIA-TE-03.wav",
+ "audio_sha256": "df81a9c080688dcdda85cfa4009e30d765ece3ddee356d4ffe74def6bb2b61f6",
+ "latency_ms": 7600,
+ "reply": {
+  "transcript": "ఆ అయిపోయిందిలే షారుఖ్ ఖాన్ ఎక్కడ జన్మించాడు? అయితే",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 198,
+  "output": 42
+ }
+}

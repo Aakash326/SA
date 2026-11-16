@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5765c1aa3252b671",
+ "audio": "clips/ext2/EXP-CL-TE-07.wav",
+ "audio_sha256": "b459f43fc9cbf7679e35d39aefa5d99b92d383982744eae6ea4bce42eb6be24f",
+ "latency_ms": 5420,
+ "reply": {
+  "transcript": "హైదరాబాద్ మెట్రోని ఏ సంవత్సరంలో ప్రారంభించారు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 37
+ }
+}

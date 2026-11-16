@@ -1,0 +1,3926 @@
+[
+ {
+  "clip_id": "CL-EN-05",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "Where are avalanches most common?",
+  "hypothesis": "What are avalanche most common?",
+  "blind": "Where are avalanches most common",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Where",
+     "system": "What",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "avalanches",
+     "system": "avalanche",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "Where are avalanches most common?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "CL-EN-06",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "When did WWE wrestling start?",
+  "hypothesis": "When did WWE wrestling start?",
+  "blind": "When did WWE wrestling start",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "CL-HI-03",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "तमिलनाडु राज्य का सबसे बड़ा जिला कौन सा है?",
+  "hypothesis": "तमिलनाडु राज्य का सबसे बड़ा जिला कौनसा है ?",
+  "blind": "तमिलनाडु राज्य का सबसे बड़ा जिला कौनसा है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "कौन सा",
+     "system": "कौनसा",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "तमिलनाडु राज्य का सबसे बड़ा जिला कौन सा है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "NUM-HI-02",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "गुंटूर गांव की जनसंख्या 2011 भारत की जानगण्डा के अनुसार कितनी थी?",
+  "hypothesis": "गुंटूर गाँव की जनसंख्या दो हज़ार ग्यारह भारत की जानगंडा के अनुसार कितनी थी",
+  "blind": "गुंटूर गाँव की जनसंख्या 2011 भारत की जनगणना के अनुसार कितनी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "गांव",
+     "system": "गाँव",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "2011",
+     "system": "दो हज़ार ग्यारह",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "जानगण्डा",
+     "system": "जानगंडा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थी?",
+     "system": "थी",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "गुंटूर गाँव की जनसंख्या 2011 भारत की जानगंडा के अनुसार कितनी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "RN-EN-01",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What are the primary symptoms of Alzheimer's disease?",
+  "hypothesis": "What are the primary symptoms of Alzheimer's disease?",
+  "blind": "What are the primary symptoms of Alzheimer's disease?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "RN-EN-02",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What year was the Revolution of Roses?",
+  "hypothesis": "What year was the Revolution of Roses?",
+  "blind": "What year was the Revolution of Roses?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "RN-HI-01",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "पश्चिमी गोदावरी जिले में कुल कितने राजस्व मंडल हैं?",
+  "hypothesis": "पश्चिमी गोदावरी जिले में कुल कितने राजस्व मंडल हैं",
+  "blind": "पश्चिमी गोदावरी जिले में कुल कितने राजस्व मंडल हैं?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "RN-HI-02",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "मेक्सिको की राज्य भाषा क्या है?",
+  "hypothesis": "मेक्सिको की राज्यभाषा क्या है ?",
+  "blind": "मैक्सिको की राज्य भाषा क्या है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "राज्य भाषा",
+     "system": "राज्यभाषा",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "मैक्सिको की राज्य भाषा क्या है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LONG-HI-01",
+  "language": "hi-IN",
+  "condition": "long",
+  "reference": "हज़ारों साल पहले, एरिस्टार्चस नामक एक व्यक्ति ने कहा था कि सौर मंडल सूर्य के चारों ओर घूमता है।",
+  "hypothesis": "हज़ारों साल पहले एरिस्टर चर्च नामक एक व्यक्ति ने कहा था कि सौरमंडल सूर्य के चारों ओर घूमता है",
+  "blind": "हजारों साल पहले एरिस्टार्चस नामक एक व्यक्ति ने कहा था कि सौरमंडल सूर्य के चारों ओर घूमता है",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "हज़ारों साल पहले,",
+     "system": "हज़ारों साल पहले",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "एरिस्टार्चस",
+     "system": "एरिस्टर चर्च",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "सौर मंडल",
+     "system": "सौरमंडल",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "हज़ारों साल पहले एरिस्टार्चस नामक एक व्यक्ति ने कहा था कि सौरमंडल सूर्य के चारों ओर घूमता है।",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LONG-HI-02",
+  "language": "hi-IN",
+  "condition": "long",
+  "reference": "अहमद वर्सस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे।",
+  "hypothesis": "आर्म्ड वर्सेस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे",
+  "blind": "अहमद वर्शस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे।",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "अहमद",
+     "system": "आर्म्ड",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "वर्सस",
+     "system": "वर्सेस",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थे।",
+     "system": "थे",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "अहमद वर्सस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे।",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LONG-TE-01",
+  "language": "te-IN",
+  "condition": "long",
+  "reference": "విద్యార్థులు తరచుగా అత్యంత విమర్శనాత్మక ప్రేక్షకులు కాబట్టి, విమర్శను నివారించడానికి బ్లాగు రచయిత రచనను మెరుగుపరచడానికి కృషి చేయడం మొదలు పెడతాడు.",
+  "hypothesis": "విద్యార్థులు తరచుగా అత్యంత విమర్శనాత్మక ప్రేక్షకులు కాబట్టి విమర్శను నివారించడానికి బ్లాగు రచయిత రచనను మెరుగుపరచడానికి కృషి చేయడం మొదలు పెడతాడు",
+  "blind": "విద్యార్థులు తరచుగా అత్యంత విమర్శనాత్మక ప్రేక్షకులు కాబట్టి విమర్శను నివారించడానికి బ్లాగ్ రచయిత రచనను మెరుగుపరచడానికి కృషి చేయడం మొదలుపెడతాడు.",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LONG-TE-02",
+  "language": "te-IN",
+  "condition": "long",
+  "reference": "విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవటమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.",
+  "hypothesis": "విజ్ఞానశాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవటమే విజ్ఞానశాస్త్ర ప్రధాన లక్ష్యం నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది",
+  "blind": "విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవడమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "విజ్ఞాన శాస్త్ర",
+     "system": "విజ్ఞానశాస్త్ర",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "విజ్ఞాన శాస్త్ర",
+     "system": "విజ్ఞానశాస్త్ర",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "లక్ష్యం.",
+     "system": "లక్ష్యం",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవటమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "SNR-EN-20",
+  "language": "en-IN",
+  "condition": "snr_20db",
+  "reference": "Who first identified blood types?",
+  "hypothesis": "Who first identified blood types?",
+  "blind": "Who first identified blood types?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "SNR-EN-10",
+  "language": "en-IN",
+  "condition": "snr_10db",
+  "reference": "Who first identified blood types?",
+  "hypothesis": "He first identified blood types.",
+  "blind": "Who first identified blood types?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Who",
+     "system": "He",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": ".",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "Who first identified blood types?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "SNR-EN-00",
+  "language": "en-IN",
+  "condition": "snr_00db",
+  "reference": "Who first identified blood types?",
+  "hypothesis": "New test identifies blood tests.",
+  "blind": "we first identify the blood type",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Who first identified",
+     "system": "New test identifies",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "types?",
+     "system": "tests.",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "Who first identified blood types?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "SNR-HI-20",
+  "language": "hi-IN",
+  "condition": "snr_20db",
+  "reference": "चित्रम फिल्म कब रिलीज हुई थी ?",
+  "hypothesis": "चित्रम फिल्म कब रिलीज़ हुई थी",
+  "blind": "चित्रम फिल्म कब रिलीज हुई थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "रिलीज",
+     "system": "रिलीज़",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "चित्रम फिल्म कब रिलीज हुई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "SNR-HI-10",
+  "language": "hi-IN",
+  "condition": "snr_10db",
+  "reference": "चित्रम फिल्म कब रिलीज हुई थी ?",
+  "hypothesis": "चित्रम फिल्म कब रिलीज़ हुई थी",
+  "blind": "विक्रम फिल्म कब रिलीज़ हुई थी",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "रिलीज",
+     "system": "रिलीज़",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": " ?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "चित्रम फिल्म कब रिलीज़ हुई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "SNR-HI-00",
+  "language": "hi-IN",
+  "condition": "snr_00db",
+  "reference": "चित्रम फिल्म कब रिलीज हुई थी ?",
+  "hypothesis": "सिक्रम फिल्म कब रिलीज़ हुई थी",
+  "blind": "विक्रम फिल्म कब रिलीज हुई थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "चित्रम",
+     "system": "सिक्रम",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "रिलीज",
+     "system": "रिलीज़",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "विक्रम फिल्म कब रिलीज हुई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "TEL-EN-8K",
+  "language": "en-IN",
+  "condition": "tel_8k",
+  "reference": "What is the NBC-affiliated station in Tulsa?",
+  "hypothesis": "What is the NBC-affiliated station in Tulsa?",
+  "blind": "What is the NBC affiliated station in Tulsa?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "TEL-EN-ALAW",
+  "language": "en-IN",
+  "condition": "tel_alaw",
+  "reference": "What is the NBC-affiliated station in Tulsa?",
+  "hypothesis": "What is the NBC-affiliated station in Tulsa?",
+  "blind": "What is the NBC affiliated station in Tulsa?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "TEL-EN-ULAW",
+  "language": "en-IN",
+  "condition": "tel_ulaw",
+  "reference": "What is the NBC-affiliated station in Tulsa?",
+  "hypothesis": "What is the NBC-affiliated station in Tulsa?",
+  "blind": "What is the NBC affiliated station in Tulsa?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "TEL-HI-8K",
+  "language": "hi-IN",
+  "condition": "tel_8k",
+  "reference": "महाभारत पहले किसने लिखी है?",
+  "hypothesis": "महाभारत पहले किसने लिखी है?",
+  "blind": "महाभारत पहले किसने लिखी है",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "TEL-HI-ALAW",
+  "language": "hi-IN",
+  "condition": "tel_alaw",
+  "reference": "महाभारत पहले किसने लिखी है?",
+  "hypothesis": "महाभारत पहले किसने लिखी है?",
+  "blind": "महाभारत पहले किसने लिखी है",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "TEL-HI-ULAW",
+  "language": "hi-IN",
+  "condition": "tel_ulaw",
+  "reference": "महाभारत पहले किसने लिखी है?",
+  "hypothesis": "महाभारत पहले किसने लिखी है?",
+  "blind": "महाभारत पहले किसने लिखी है?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "PAUSE-EN-01",
+  "language": "en-IN",
+  "condition": "pause",
+  "reference": "Who founded the Pearl Brewing Company?",
+  "hypothesis": "who founded the peril peaving company",
+  "blind": "Who founded the Pearl Brewing Company?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Pearl Brewing",
+     "system": "peril peaving",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "Who founded the Pearl Brewing Company?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-EN-01",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Deutsche Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Deutsche",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-EN-02",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-03",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "When was Last Exile released?",
+  "hypothesis": "When was Lost Exile released?",
+  "blind": "When was Last Exile released?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Last",
+     "system": "Lost",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "When was Last Exile released?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-EN-04",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "Who is the head of the Senate in Australia?",
+  "hypothesis": "Who is the head of the Senate in Australia?",
+  "blind": "Who is the head of the Senate in Australia?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-05",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "How tall is Johnny Cueto Ortiz?",
+  "hypothesis": "How tall is Johnny Quito Ortiz?",
+  "blind": "How tall is Johnny Cueto Ortiz?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Cueto",
+     "system": "Quito",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "How tall is Johnny Cueto Ortiz?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-EN-06",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "How many Sherlock Holmes stories did Conan Doyle write?",
+  "hypothesis": "How many Sherlock Holmes stories did Conan Doyle write?",
+  "blind": "How many Sherlock Holmes stories did Conan Doyle write?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-07",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "What are the major schools of therapy?",
+  "hypothesis": "What are the major schools of therapy?",
+  "blind": "What are the major schools of therapy",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-08",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "What's the biggest theater in the United States?",
+  "hypothesis": "What's the biggest theater in the United States?",
+  "blind": "What's the biggest theater in the United States?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-09",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "When did Facebook acquire Whatsapp?",
+  "hypothesis": "When did Facebook acquire WhatsApp?",
+  "blind": "When did Facebook acquire WhatsApp?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-10",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "When did the Japanese Empire end?",
+  "hypothesis": "When did the Japanese Empire end?",
+  "blind": "When did the Japanese Empire end?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-EN-11",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "How many channels are part of the prime-time timeslot?",
+  "hypothesis": "How many channels are part of the prime-time time slot?",
+  "blind": "How many channels are part of the prime time time slot?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "timeslot",
+     "system": "time slot",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "How many channels are part of the prime-time time slot?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-EN-12",
+  "language": "en-IN",
+  "condition": "clean",
+  "reference": "What is the ethnicity of Bolivia?",
+  "hypothesis": "What is the ethnicity of Bolivia?",
+  "blind": "What is the ethnicity of Bolivia?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-BG-EN-01",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "How long did the Troubles last?",
+  "hypothesis": "How long did the troubles last?",
+  "blind": "How long did the troubles last?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-BG-EN-02",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "When were solar panels invented?",
+  "hypothesis": "When were solar panels invented?",
+  "blind": "When were solar panels invented?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-BG-EN-03",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "Were the Tudor family descended from the Edwards?",
+  "hypothesis": "Were the Tudor family descended from the Edwards?",
+  "blind": "Were the Tudor family descended from the Edwards",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-BG-EN-04",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "When was The Keys to the Kingdom series first introduced?",
+  "hypothesis": "When was the Keys to the Kingdom series first introduced?",
+  "blind": "When was The Keys to the Kingdom series first introduced?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-EN-01",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "When was the last plane hijacking?",
+  "hypothesis": "When was the last plane hijacking?",
+  "blind": "When was the last plane hijacking",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-EN-02",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What is the population of Honolulu?",
+  "hypothesis": "What is the population of Honolulu",
+  "blind": "What is the population of Honolulu",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-EN-03",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "Is The walking dead cancelled?",
+  "hypothesis": "Is the Walking Dead cancelled?",
+  "blind": "is the walking dead canceled",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-EN-04",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What is the largest rail yard in the New York City Subway system?",
+  "hypothesis": "What is the largest rail yard in the New York City subway system?",
+  "blind": "What is the largest rail yard in the New York City subway system?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-EN-01",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What percent of Denmark is Catholic?",
+  "hypothesis": "What percent of Denmark is Catholic?",
+  "blind": "What percent of Denmark is Catholic?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-EN-02",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "How large was Gallimimus?",
+  "hypothesis": "How large was Galemimus?",
+  "blind": "How large was Gallimimus?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Gallimimus?",
+     "system": "Galemimus?",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "How large was Gallimimus?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-EN-03",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "How much marine salvage is there in the ocean?",
+  "hypothesis": "How much marine salvage is there in the ocean?",
+  "blind": "How much marine salvage is there in the ocean?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-EN-04",
+  "language": "en-IN",
+  "condition": "real_noise",
+  "reference": "What was the first Mickey Mouse film?",
+  "hypothesis": "What was the first Mickey Mouse film?",
+  "blind": "What was the first Mickey Mouse film?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-HI-01",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौनसे वर्ष से प्रयोग में शुरू हुआ ?",
+  "blind": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कौन से",
+     "system": "कौनसे",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-02",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind": "जॉर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "Washington",
+     "system": "वाशिंगटन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-03",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "इंग्लैंड किस महाद्वीप में स्थित है?",
+  "hypothesis": "इंग्लैंड किस महाद्वीप में स्थित है ?",
+  "blind": "इंग्लैंड किस महाद्वीप में स्थित है?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-HI-04",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "नेपच्यून को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है?",
+  "hypothesis": "नेपचुन को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है ?",
+  "blind": "नेप्च्यून को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "नेपच्यून",
+     "system": "नेपचुन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "है?",
+     "system": "है ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "नेपच्यून को सूर्य के चारों ओर चक्कर लगाने में कितना समय लगता है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-05",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "मोहनदास करमचंद गांधी के माता-पिता कौन हैं?",
+  "hypothesis": "मोहनदास करमचंद गांधी के माता पिता कौन हैं ?",
+  "blind": "मोहनदास करमचंद गांधी के माता-पिता कौन हैं",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-HI-06",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "रेद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?",
+  "hypothesis": "रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था",
+  "blind": "रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "रेद्दर",
+     "system": "रिद्दर",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-07",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "अंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए गोल्डन ग्लोब पुरस्कार से सम्मानित किया गया?",
+  "hypothesis": "एंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए golden globe पुरस्कार से सम्मानित किया गया",
+  "blind": "एंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए गोल्डन ग्लोब पुरस्कार से सम्मानित किया गया",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "अंजेलिना",
+     "system": "एंजेलिना",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "गोल्डन ग्लोब",
+     "system": "golden globe",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "अंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए गोल्डन ग्लोब पुरस्कार से सम्मानित किया गया?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-08",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "कीव की कुल जनसंख्या कितनी है?",
+  "hypothesis": "कीव की कुल जनसंख्या कितनी है ?",
+  "blind": "कीव की कुल जनसंख्या कितनी है?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-HI-09",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "पोर्न स्टार \\\\\\सनी लियोनेल\\\\\\ का वास्तविक नाम क्या है?",
+  "hypothesis": "बॉर्न स्टार सनी लियोनेल का वास्तविक नाम क्या है",
+  "blind": "पोर्न स्टार सनी लियोन का वास्तविक नाम क्या है",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "पोर्न",
+     "system": "बॉर्न",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "\\\\सनी लियोनेल\\\\",
+     "system": "सनी लियोनेल",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "है?",
+     "system": "है",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "पोर्न स्टार सनी लियोनेल का वास्तविक नाम क्या है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-10",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "भारतीय भौतिक विज्ञानी देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी?",
+  "hypothesis": "भारतीय भौतिक वैज्ञानिक देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी ?",
+  "blind": "भारतीय भौतिक विज्ञानी देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "विज्ञानी",
+     "system": "वैज्ञानिक",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "थी?",
+     "system": "थी ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "भारतीय भौतिक विज्ञानी देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-HI-11",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "पानी कितने तापमान में भाप में बदल जाता है? ",
+  "hypothesis": "पानी कितने तापमान में भाप में बदल जाता है ?",
+  "blind": "पानी कितने तापमान में भाप में बदल जाता है",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-HI-12",
+  "language": "hi-IN",
+  "condition": "clean",
+  "reference": "सत्यजीत रे द्वारा निर्देशित फिल्म 'नायक' कब मुक्त हुई?",
+  "hypothesis": "सत्यजीत ऋ द्वारा निर्देशित film नायक कब मुक्त हुई",
+  "blind": "सत्यजीत रे द्वारा निर्देशित फिल्म नायक कब मुक्त हुई?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "रे",
+     "system": "ऋ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "फिल्म",
+     "system": "film",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "'नायक'",
+     "system": "नायक",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "सत्यजीत रे द्वारा निर्देशित फिल्म नायक कब मुक्त हुई?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-01",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?",
+  "hypothesis": "दो हज़ार उन्नीस तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था",
+  "blind": "2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2019",
+     "system": "दो हज़ार उन्नीस",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-02",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "1971 में बांग्लादेश के राष्ट्रपति कौन थे?",
+  "hypothesis": "उन्नीस सौ इकहत्तर में बांग्लादेश के राष्ट्रपति कौन थे ?",
+  "blind": "1971 में बांग्लादेश के राष्ट्रपति कौन थे?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "1971",
+     "system": "उन्नीस सौ इकहत्तर",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थे?",
+     "system": "थे ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "1971 में बांग्लादेश के राष्ट्रपति कौन थे?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-03",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "2011 की जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?",
+  "hypothesis": "दो हजार ग्यारह की जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?",
+  "blind": "2011 की जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011",
+     "system": "दो हजार ग्यारह",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2011 की जनगणना के अनुसार उत्तराखंड राज्य की जनसंख्या कितनी है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-04",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "कौन से राज्य में सबसे ज्यादा जनसंख्या थी 1990 तक अफ्रीका",
+  "hypothesis": "कौन से राज्य में सबसे ज्यादा जनसंख्या थी उन्नीस सौ नब्बे तक अफ्रीका",
+  "blind": "कौन से राज्य में सबसे ज्यादा जनसंख्या थी 1990 तक? अफ्रीका",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "1990",
+     "system": "उन्नीस सौ नब्बे",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "कौन से राज्य में सबसे ज्यादा जनसंख्या थी 1990 तक अफ्रीका",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-05",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "रसिया के पहले 2011 के प्रधान मंत्री कोन थे?",
+  "hypothesis": "रशिया के पहले दो हज़ार ग्यारह के प्रधानमंत्री कौन थे ?",
+  "blind": "रशिया के पहले 2011 के प्रधानमंत्री कौन थे?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "रसिया",
+     "system": "रशिया",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "2011",
+     "system": "दो हज़ार ग्यारह",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "प्रधान मंत्री",
+     "system": "प्रधानमंत्री",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कोन",
+     "system": "कौन",
+     "verdict": "reference_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "रशिया के पहले 2011 के प्रधानमंत्री कौन थे?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-HI-06",
+  "language": "hi-IN",
+  "condition": "numbers",
+  "reference": "1977 में कोसने टीम ने सीरीज कब जीता था?",
+  "hypothesis": "उन्नीस सौ सतहत्तर में कोसने team ने series cup जीता था",
+  "blind": "1977 में बोस्टन टीम ने सीरीज़ कब जीता था?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "1977",
+     "system": "उन्नीस सौ सतहत्तर",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "टीम",
+     "system": "team",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "सीरीज",
+     "system": "series",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कब",
+     "system": "cup",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "1977 में कोसने टीम ने सीरीज कब जीता था?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-HI-01",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "राजा जनक की पुत्री कौन है?",
+  "hypothesis": "राजा जनक की पुत्री कौन है",
+  "blind": "राजा जनक की पुत्री कौन है?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-BG-HI-02",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "अ पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी?",
+  "hypothesis": "ऐ पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी",
+  "blind": "ए पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "अ",
+     "system": "ऐ",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "ए पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-HI-03",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "\"सेना द्वारा संचालित \\\"\"कैडेट कॉलेज\\\"\" की स्थापना किस वर्ष की गई थी?\"",
+  "hypothesis": "सेना द्वारा संचालित क्रेडिट कॉलेज की स्थापना किस वर्ष की गई थी",
+  "blind": "सेना द्वारा संचालित कैडेट कॉलेज की स्थापना किस वर्ष की गई थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "\"कैडेट",
+     "system": "क्रेडिट",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "कॉलेज\"",
+     "system": "कॉलेज",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थी?",
+     "system": "थी",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "सेना द्वारा संचालित कैडेट कॉलेज की स्थापना किस वर्ष की गई थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-HI-04",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "लक्ष्मी फिल्म के निर्मित कौन है ?",
+  "hypothesis": "लक्ष्मी फिल्म के निर्मित कौन हैं ?",
+  "blind": "लक्ष्मी फिल्म के निर्मित कौन है",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "है",
+     "system": "हैं",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "लक्ष्मी फिल्म के निर्मित कौन है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-HI-01",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "देविका रानी चौधरी अभिनेत्री पहली फिल्म के निर्माता कौन थे?",
+  "hypothesis": "देविका रानी चौधरी अभिनेत्री पहली फिल्म के निर्माता कौन थे",
+  "blind": "देविका रानी चौधरी अभिनेत्री पहली फिल्म के निर्माता कौन थे",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-HI-02",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "थर्मोस्टेट का अविष्कार किसने किया था?",
+  "hypothesis": "थर्मोस्टेट का आविष्कार किसने किया था ?",
+  "blind": "थर्मोस्टेट का आविष्कार किसने किया था?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "अविष्कार",
+     "system": "आविष्कार",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "?",
+     "system": " ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "थर्मोस्टेट का आविष्कार किसने किया था?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-HI-03",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौन-सी है",
+  "hypothesis": "पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौनसी है ?",
+  "blind": "पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौन सी है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "कौन-सी",
+     "system": "कौनसी",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "पश्चिम बंगाल की वर्तमान सत्तारूढ़ पार्टी कौन सी है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-HI-04",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "हिन्दू धर्म के अनुसार नर्क कितने प्रकार के होते हैं?",
+  "hypothesis": "हिन्दू धर्म के अनुसार नर्क कितने प्रकार के होते हैं?",
+  "blind": "हिन्दू धर्म के अनुसार नर्क कितने प्रकार के होते हैं?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-HI-01",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "भारतीय आयकर अधिनियम कब लागू किया गया था",
+  "hypothesis": "भारतीय आयकर अधिनियम कब लागू किया गया था ?",
+  "blind": "भारतीय आयकर अधिनियम कब लागू किया गया था?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-HI-02",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?",
+  "hypothesis": "दो हज़ार पंद्रह में आंध्र प्रदेश में कितने विश्वविद्यालय हैं ?",
+  "blind": "2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2015",
+     "system": "दो हज़ार पंद्रह",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2015 में आंध्र प्रदेश में कितने विश्वविद्यालय हैं?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-HI-03",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "नवग्रहों में से कौन सा ग्रह सूर्य के सबसे पास का ग्रह है?",
+  "hypothesis": "नवग्रहों में से कौन सा ग्रह सूर्य के सबसे पास का ग्रह है",
+  "blind": "नवग्रहों में से कौन सा ग्रह सूर्य के सबसे पास का ग्रह है?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-HI-04",
+  "language": "hi-IN",
+  "condition": "real_noise",
+  "reference": "2018 में भारतीय फुटबॉल टीम का रैंक क्या है?",
+  "hypothesis": "दो हज़ार अठारह में भारतीय फुटबॉल टीम का रैंक क्या है",
+  "blind": "2018 में भारतीय फुटबॉल टीम का रैंक क्या है?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2018",
+     "system": "दो हज़ार अठारह",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2018 में भारतीय फुटबॉल टीम का रैंक क्या है?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-01",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-TE-02",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-03",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "ఒక సాధారణ సంవత్సరంలో ఎన్ని రోజులు ఉంటాయి?",
+  "hypothesis": "ఒక సాధారణ సంవత్సరంలో ఎన్ని రోజులు ఉంటాయి ?",
+  "blind": "ఒక సాధారణ సంవత్సరంలో ఎన్ని రోజులు ఉంటాయి?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-TE-04",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?",
+  "hypothesis": "పృథ్విరాజ్ చౌహాన్ తండ్రి పేరు ఏమిటి ?",
+  "blind": "పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "పృథ్వీరాజ్",
+     "system": "పృథ్విరాజ్",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "పేరేమిటి?",
+     "system": "పేరు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-05",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "మానవుడు నిమిషానికి ఎన్ని సార్లు శ్వాస తీసుకుంటాడు?",
+  "hypothesis": "మానవుడు నిమిషానికి ఎన్నిసార్లు శ్వాస తీసుకుంటాడు ?",
+  "blind": "మానవుడు నిమిషానికి ఎన్నిసార్లు శ్వాస తీసుకుంటాడు",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ఎన్ని సార్లు",
+     "system": "ఎన్నిసార్లు",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "మానవుడు నిమిషానికి ఎన్నిసార్లు శ్వాస తీసుకుంటాడు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-06",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు?",
+  "hypothesis": "జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు",
+  "blind": "జుడాస్ ఇస్కారియట్ ఎప్పుడు మరణించాడు?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-TE-07",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "హైదరాబాద్ మెట్రో ని ఏ సంవత్సరంలో ప్రారంభించారు?",
+  "hypothesis": "హైదరాబాద్ మెట్రోని ఏ సంవత్సరంలో ప్రారంభించారు ?",
+  "blind": "హైదరాబాద్ మెట్రోని ఏ సంవత్సరంలో ప్రారంభించారు",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "మెట్రో ని",
+     "system": "మెట్రోని",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ప్రారంభించారు?",
+     "system": "ప్రారంభించారు ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "హైదరాబాద్ మెట్రోని ఏ సంవత్సరంలో ప్రారంభించారు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-08",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "శోభారాజు తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-09",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత?",
+  "hypothesis": "వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత ?",
+  "blind": "వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-CL-TE-10",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "చందర్లపాడు మండలంలో అతిపెద్ద గ్రామం ఏది?",
+  "hypothesis": "చందల్లపాడు మండలం అతిపెద్ద గ్రామం ఏది",
+  "blind": "చందర్లపాడు మండలంలో అతి పెద్ద గ్రామం ఏది",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "చందర్లపాడు",
+     "system": "చందల్లపాడు",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "మండలంలో",
+     "system": "మండలం",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ఏది?",
+     "system": "ఏది",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "చందర్లపాడు మండలంలో అతిపెద్ద గ్రామం ఏది?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-11",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "చెన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి?",
+  "hypothesis": "చిన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి ?",
+  "blind": "చిన్న భూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "చెన్నభూపాలపట్నం",
+     "system": "చిన్నభూపాలపట్నం",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "ఏంటి?",
+     "system": "ఏంటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "చిన్నభూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-CL-TE-12",
+  "language": "te-IN",
+  "condition": "clean",
+  "reference": "జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత?",
+  "hypothesis": "జిల్లడి పొడి గ్రామ విస్తీర్ణం ఎంత ?",
+  "blind": "జల్లెడ పూడి గ్రామ విస్తీర్ణం ఎంత",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "జిల్లెడిపూడి",
+     "system": "జిల్లడి పొడి",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-TE-01",
+  "language": "te-IN",
+  "condition": "numbers",
+  "reference": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+  "hypothesis": "టూ థౌజండ్ లెవెన్ నాటికి వజ్రపూటం గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి",
+  "blind": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011",
+     "system": "టూ థౌజండ్ లెవెన్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "వజ్రకూటం",
+     "system": "వజ్రపూటం",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ఇళ్లులు",
+     "system": "ఇల్లులు",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "ఉన్నాయి?",
+     "system": "ఉన్నాయి",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "2011 నాటికి వజ్రకూటం గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-TE-02",
+  "language": "te-IN",
+  "condition": "numbers",
+  "reference": "2011 నాటికి దొండపూడి గ్రామ జనాభా ఎంత?",
+  "hypothesis": "జరిగిందో రెండు వేల పదకొండు నాటికి దొండపూడి గ్రామ జనాభా ఎంత ?",
+  "blind": "2011 నాటికి దొండపాడు గ్రామ జనాభా ఎంత?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "",
+     "system": "జరిగిందో",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "2011",
+     "system": "రెండు వేల పదకొండు",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2011 నాటికి దొండపూడి గ్రామ జనాభా ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-TE-03",
+  "language": "te-IN",
+  "condition": "numbers",
+  "reference": "2011లో కారని గ్రామ జనాభా ఎంత?",
+  "hypothesis": "రెండు వేల పదకొండులో కారణ గ్రామ జనాభా ఎంత ?",
+  "blind": "2011 లో కారని గ్రామ జనాభా ఎంత?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011లో",
+     "system": "రెండు వేల పదకొండులో",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "కారని",
+     "system": "కారణ",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2011లో కారని గ్రామ జనాభా ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-TE-04",
+  "language": "te-IN",
+  "condition": "numbers",
+  "reference": "2016 నాటికి యస్. కోటూరు గ్రామ సర్పంచ్ ఎవరు?",
+  "hypothesis": "రెండు వేల పదహారు నాటికి ఎస్ కోటూరు గ్రామ సర్పంచ్ ఎవరు",
+  "blind": "2016 నాటికి ఎస్ కోటూరు గ్రామ సర్పంచ్ ఎవరు?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2016",
+     "system": "రెండు వేల పదహారు",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "యస్.",
+     "system": "ఎస్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ఎవరు?",
+     "system": "ఎవరు",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2016 నాటికి ఎస్ కోటూరు గ్రామ సర్పంచ్ ఎవరు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NUM-TE-05",
+  "language": "te-IN",
+  "condition": "numbers",
+  "reference": "2001నాటికి తిరువూరు పట్టణ జనాభా ఎంత?",
+  "hypothesis": "రెండు వేల ఒకటి నాటికి తిరువరు పట్టణ జనాభా ఎంత ?",
+  "blind": "2001 నాటికి తిరువూరు పట్టణ జనాభా ఎంత?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2001నాటికి",
+     "system": "రెండు వేల ఒకటి నాటికి",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "తిరువూరు",
+     "system": "తిరువరు",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2001 నాటికి తిరువూరు పట్టణ జనాభా ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-TE-01",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "హ్యారీ పోర్టర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది",
+  "hypothesis": "హ్యారి పాటర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది ?",
+  "blind": "హ్యారీ పోర్టర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "హ్యారీ",
+     "system": "హ్యారి",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పోర్టర్",
+     "system": "పాటర్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "హ్యారీ పోర్టర్ భాగాలలో మొదటి చిత్రం ఎప్పుడు విడుదలైంది?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-TE-02",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "బ్రిటీష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?",
+  "hypothesis": "బ్రిటిష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు",
+  "blind": "బ్రిటిష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "బ్రిటీష్",
+     "system": "బ్రిటిష్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "బ్రిటిష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-TE-03",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇళ్లులు ఉన్నాయి?",
+  "hypothesis": "రెండువేల పదకొండు నాటికి బిచ్చపల్లి గ్రామంలో ఎన్ని ఇల్లు ఉన్నాయి ?",
+  "blind": "2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011",
+     "system": "రెండువేల పదకొండు",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "బిజ్జపల్లి",
+     "system": "బిచ్చపల్లి",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ఇళ్లులు",
+     "system": "ఇల్లు",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-BG-TE-04",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "పోనీ ముస్లిం అంతరిక్షంలోకి వెళ్లిన మొదటి స్త్రీ ఎవరు వాళ్ళు వీటి నుంచి దండయాత్ర",
+  "hypothesis": "మరి ముస్లిం అంతరిక్షంలోకి వెళ్ళిన మొదటి స్త్రీ ఎవరు? వాళ్ళు ఇట్నుంచి తండారు",
+  "blind": "అంతరిక్షంలోకి వెళ్ళిన మొదటి స్త్రీ ఎవరు?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "పోనీ",
+     "system": "మరి",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "వీటి నుంచి",
+     "system": "ఇట్నుంచి",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "దండయాత్ర",
+     "system": "తండారు",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "పోనీ ముస్లిం అంతరిక్షంలోకి వెళ్ళిన మొదటి స్త్రీ ఎవరు? వాళ్ళు ఇట్నుంచి దండయాత్ర",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-TE-01",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉప కులపతి ఎవరు?",
+  "hypothesis": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉపకులపతి ఎవరు",
+  "blind": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉపకులపతి ఎవరు?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ఉప కులపతి",
+     "system": "ఉపకులపతి",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ఎవరు?",
+     "system": "ఎవరు",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉపకులపతి ఎవరు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-TE-02",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "మానవుడి జీవితకాలం ఎంత?",
+  "hypothesis": "మానవుడి జీవితకాలం ఎంత ?",
+  "blind": "మానవుడి జీవితకాలం ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-MEDIA-TE-03",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "షారుక్ ఖాన్ ఎక్కడ జన్మించాడు?",
+  "hypothesis": "షారుఖ్ ఖాన్ ఎక్కడ జన్మించాడు",
+  "blind": "ఆ అయిపోయిందిలే షారుఖ్ ఖాన్ ఎక్కడ జన్మించాడు? అయితే",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "షారుక్",
+     "system": "షారుఖ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "జన్మించాడు?",
+     "system": "జన్మించాడు",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "ఆ అయిపోయిందిలే షారుఖ్ ఖాన్ ఎక్కడ జన్మించాడు? అయితే",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-MEDIA-TE-04",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "గుదిమెల్లంక గ్రామ విస్తీర్ణం ఎంత ?",
+  "hypothesis": "భూమి లంక గ్రామ విస్తీర్ణం ఎంత",
+  "blind": "బుదిమిలంక గ్రామ విస్తీర్ణం ఎంత?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "గుదిమెల్లంక",
+     "system": "భూమి లంక",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "బుదిమిలంక గ్రామ విస్తీర్ణం ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-TE-01",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "నవీపేట్ గ్రామ విస్తీర్ణం ఎంత ?",
+  "hypothesis": "నవీపేట గ్రామ విస్తీర్ణం ఎంత ?",
+  "blind": "నవాబ్ పేట్ గ్రామ విస్తీర్ణం ఎంత",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "నవీపేట్",
+     "system": "నవీపేట",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "నవాబ్ పేట్ గ్రామ విస్తీర్ణం ఎంత ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-TE-02",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "బ్రిటిషోరు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+  "hypothesis": "బ్రిటిష్ వారు చికాకుల అంపైర్ ను ఏమని పరిగేవారు",
+  "blind": "బ్రిటీషర్లు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "బ్రిటిషోరు",
+     "system": "బ్రిటీష్ వారు",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "శ్రీకాకుళం పేరును",
+     "system": "చికాకుల అంపైర్ ను",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "పిలిచేవారు?",
+     "system": "పరిగేవారు",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "బ్రిటీషర్లు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-TE-03",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "భారతదేశంలో ముఖ్యమంత్రి పదవీ కాల పరిమితి ఎంత?",
+  "hypothesis": "భారతదేశంలో ముఖ్యమంత్రి పదవి కాల పరిమితి ఎంత ?",
+  "blind": "భారతదేశంలో ముఖ్యమంత్రి పదవి కాల పరిమితి ఎంత?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "పదవీ",
+     "system": "పదవి",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "భారతదేశంలో ముఖ్యమంత్రి పదవి కాల పరిమితి ఎంత?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TRAFFIC-TE-04",
+  "language": "te-IN",
+  "condition": "real_noise",
+  "reference": "కాల్షియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏంటి",
+  "hypothesis": "కాల్షియం హైడ్రాక్సైడ్ యెక్క ప్రకారం ఫార్మ్ ఏంటి",
+  "blind": "క్యాల్శియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏంటి",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "యొక్క",
+     "system": "యెక్క",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "రసాయన ఫార్ములా",
+     "system": "ప్రకారం ఫార్మ్",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "కాల్షియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏంటి",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-01-20",
+  "language": "en-IN",
+  "condition": "snr_20db",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Dodger Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Dodger",
+     "verdict": "reference_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-01-10",
+  "language": "en-IN",
+  "condition": "snr_10db",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Roger Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Roger",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-01-00",
+  "language": "en-IN",
+  "condition": "snr_00db",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many cold games does Georgia's agent see a season?",
+  "blind": "How many home games does Rogers Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "home",
+     "system": "cold",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "Dodgers Stadium",
+     "system": "Georgia's agent",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "How many home games does Dodgers Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-01-8K",
+  "language": "en-IN",
+  "condition": "tel_8k",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Reuters Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Reuters",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-01-ALAW",
+  "language": "en-IN",
+  "condition": "tel_alaw",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Reutscher Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Reutscher",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-01-ULAW",
+  "language": "en-IN",
+  "condition": "tel_ulaw",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Deutsche Stadium see a season?",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Deutsche",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-PAUSE-01",
+  "language": "en-IN",
+  "condition": "pause",
+  "reference": "How many home games does Dodgers Stadium see a season?",
+  "hypothesis": "How many home games does Reuters Stadium see a season",
+  "blind": "How many home games does Dodger Stadium see a season?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Dodgers",
+     "system": "Reuters",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "How many home games does Dodger Stadium see a season?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-02-20",
+  "language": "en-IN",
+  "condition": "snr_20db",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-SNR-02-10",
+  "language": "en-IN",
+  "condition": "snr_10db",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-SNR-02-00",
+  "language": "en-IN",
+  "condition": "snr_00db",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Scotia?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "Tokyo",
+     "system": "Scotia",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "What is the population of Tokyo?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-02-8K",
+  "language": "en-IN",
+  "condition": "tel_8k",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TEL-02-ALAW",
+  "language": "en-IN",
+  "condition": "tel_alaw",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TEL-02-ULAW",
+  "language": "en-IN",
+  "condition": "tel_ulaw",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the population of Tokyo?",
+  "blind": "What is the population of Tokyo?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-PAUSE-02",
+  "language": "en-IN",
+  "condition": "pause",
+  "reference": "What is the population of Tokyo?",
+  "hypothesis": "What is the pop population of Tokyo",
+  "blind": "What is the population of Tokyo",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "population",
+     "system": "pop population",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "What is the population of Tokyo?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-03-20",
+  "language": "hi-IN",
+  "condition": "snr_20db",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौनसे वर्ष से प्रयोग में शुरू हुआ ?",
+  "blind": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कौन से",
+     "system": "कौनसे",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-03-10",
+  "language": "hi-IN",
+  "condition": "snr_10db",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोनस के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ ?",
+  "blind": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोनस",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-03-00",
+  "language": "hi-IN",
+  "condition": "snr_00db",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स का कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "blind": "Smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुए?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "के",
+     "system": "का",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "हुआ",
+     "system": "हुआ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-03-8K",
+  "language": "hi-IN",
+  "condition": "tel_8k",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौनसे वर्ष से प्रयोग में शुरू हुआ",
+  "blind": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कौन से",
+     "system": "कौनसे",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-03-ALAW",
+  "language": "hi-IN",
+  "condition": "tel_alaw",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौनसे वर्ष से प्रयोग में शुरू हुआ",
+  "blind": "Smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कौन से",
+     "system": "कौनसे",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-03-ULAW",
+  "language": "hi-IN",
+  "condition": "tel_ulaw",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौनसे वर्ष से प्रयोग में शुरू हुआ",
+  "blind": "Smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones के camera",
+     "system": "स्मार्टफोन्स के कैमरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "कौन से",
+     "system": "कौनसे",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-PAUSE-03",
+  "language": "hi-IN",
+  "condition": "pause",
+  "reference": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "hypothesis": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind": "स्मार्टफोंस के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "smartphones",
+     "system": "स्मार्टफोन्स",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "camera",
+     "system": "कैमरा",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-04-20",
+  "language": "hi-IN",
+  "condition": "snr_20db",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "Washington",
+     "system": "वाशिंगटन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-04-10",
+  "language": "hi-IN",
+  "condition": "snr_10db",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय New York किस देश की राजधानी थी?",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "जॉर्ज वाशिंगटन के समय New York किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-04-00",
+  "language": "hi-IN",
+  "condition": "snr_00db",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी है",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क इस देश की राजधानी थी।",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थी?",
+     "system": "है",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-04-8K",
+  "language": "hi-IN",
+  "condition": "tel_8k",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज Washington के समय New York किस देश की राजधानी थी?",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-04-ALAW",
+  "language": "hi-IN",
+  "condition": "tel_alaw",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "Washington",
+     "system": "वाशिंगटन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थी?",
+     "system": "थी",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-04-ULAW",
+  "language": "hi-IN",
+  "condition": "tel_ulaw",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "Washington",
+     "system": "वाशिंगटन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "थी?",
+     "system": "थी",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-PAUSE-04",
+  "language": "hi-IN",
+  "condition": "pause",
+  "reference": "George Washington के समय New York किस देश की राजधानी थी?",
+  "hypothesis": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी",
+  "blind": "जॉर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "George",
+     "system": "गर्ज",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "Washington",
+     "system": "वाशिंगटन",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "New York",
+     "system": "न्यूयॉर्क",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-05-20",
+  "language": "te-IN",
+  "condition": "snr_20db",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-SNR-05-10",
+  "language": "te-IN",
+  "condition": "snr_10db",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-SNR-05-00",
+  "language": "te-IN",
+  "condition": "snr_00db",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TEL-05-8K",
+  "language": "te-IN",
+  "condition": "tel_8k",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TEL-05-ALAW",
+  "language": "te-IN",
+  "condition": "tel_alaw",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-TEL-05-ULAW",
+  "language": "te-IN",
+  "condition": "tel_ulaw",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-PAUSE-05",
+  "language": "te-IN",
+  "condition": "pause",
+  "reference": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "hypothesis": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత ?",
+  "blind": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-SNR-06-20",
+  "language": "te-IN",
+  "condition": "snr_20db",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-06-10",
+  "language": "te-IN",
+  "condition": "snr_10db",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-SNR-06-00",
+  "language": "te-IN",
+  "condition": "snr_00db",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "పెద్ద రామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లు ఏమిటి",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "గడ్డం రాజారాం",
+     "system": "పెద్ద రామ్",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-06-8K",
+  "language": "te-IN",
+  "condition": "tel_8k",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-06-ALAW",
+  "language": "te-IN",
+  "condition": "tel_alaw",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-TEL-06-ULAW",
+  "language": "te-IN",
+  "condition": "tel_ulaw",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-PAUSE-06",
+  "language": "te-IN",
+  "condition": "pause",
+  "reference": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "hypothesis": "గడ్డం రాజారామ్ తల్లిదండ్రుల పేర్లు ఏమిటి ?",
+  "blind": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "రాజారాం",
+     "system": "రాజారామ్",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "పేర్లేమిటి?",
+     "system": "పేర్లు ఏమిటి ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "EXP-NS-01",
+  "language": "none",
+  "condition": "no_speech",
+  "reference": "",
+  "hypothesis": "",
+  "blind": "రాత్రంతా మంచినీళ్లలో",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-NS-02",
+  "language": "none",
+  "condition": "no_speech",
+  "reference": "",
+  "hypothesis": "",
+  "blind": "ಖುಷಿಯಾಗಿ ಆರಾಮಾಗಿ ಇರೋಣ ಅಂತ ಬಂದ್ರೆ ಈ ತರ ಮಾಡ್ತೀಯಾ",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "EXP-NS-04",
+  "language": "none",
+  "condition": "no_speech",
+  "reference": "",
+  "hypothesis": "",
+  "blind": "",
+  "blind_no_speech": true
+ },
+ {
+  "clip_id": "LANG-TA-CL-01",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "ரிட்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்?",
+  "hypothesis": "ரிக்டர் போரில் எத்தனை படை வீரர்கள் பங்கேற்றனர்",
+  "blind": "ரெக்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ரிட்டர்",
+     "system": "ரிக்டர்",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "படைவீரர்கள்",
+     "system": "படை வீரர்கள்",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "ரிக்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-CL-02",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன?",
+  "hypothesis": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன",
+  "blind": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-TA-CL-03",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "கலீபா அபூபக்கர் எந்த வம்சத்தின் அரசர் ",
+  "hypothesis": "கலிபா அபுபக்கர் எந்த வம்சத்தின் அரசர்",
+  "blind": "கலீபா அபுபக்கர் எந்த வம்சத்தின் அரசர்?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "கலீபா",
+     "system": "கலிபா",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "அபூபக்கர்",
+     "system": "அபுபக்கர்",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "கலீபா அபுபக்கர் எந்த வம்சத்தின் அரசர்",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-CL-04",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "ஆங்கிலேயர்கள் ஆட்சியில் சராசரியாக எத்தனை இந்தியர்கள் இறந்தனர்",
+  "hypothesis": "ஆங்கிலேயர்கள் ஆட்சியில் சராசரியாக எத்தனை இந்தியர்கள் இறந்தனர்",
+  "blind": "ஆங்கிலேயர்கள் ஆட்சியில் சராசரியாக எத்தனை இந்தியர்கள் இறந்தனர்?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-TA-CL-05",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "முதல் எமொஜி உருவாக்கப்பட்ட ஆண்டு எது?",
+  "hypothesis": "முதல் எம்ஓஜி உருவாக்கப்பட்ட ஆண்டு எது",
+  "blind": "முதல் emoji உருவாக்கப்பட்ட ஆண்டு எது?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "எமொஜி",
+     "system": "எம்ஓஜி",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "முதல் எமோஜி உருவாக்கப்பட்ட ஆண்டு எது?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-CL-06",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "அஜ்மல் கான் எந்த அரசியல் கட்சியுடன் தொடர்புடையவர்?",
+  "hypothesis": "அஜ்மல் கான் எந்த அரசியல் கட்சியுடன் தொடர்புடையவர்",
+  "blind": "அஜ்மல் கான் எந்த அரசியல் கட்சியுடன் தொடர்புடையவர்?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-TA-CL-07",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "அட்லோஃப் ஹிட்லரின் அசல் சிற்பம் மவுட் டுசாட்ஸ் அருங்காட்சியத்தில் ஒரு மாய மாளிகையில் திறக்கப்பட்ட ஆண்டு #எது ",
+  "hypothesis": "அட்லோஃப் ஹிட்லரின் அசல் சிற்பம் மவுட் டுசாட்ஸ் அருங்காட்சியத்தில் ஒரு மாய மாளிகையில் திறக்கப்பட்ட ஆண்டு எது",
+  "blind": "அட்லோஃப் ஹிட்லரின் அசல் சிற்பம் மவுட் டுசாட்ஸ் அருங்காட்சியத்தில் ஒரு மாய மாளிகையில் திறக்கப்பட்ட ஆண்டு எது?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-TA-CL-08",
+  "language": "ta-IN",
+  "condition": "clean",
+  "reference": "லைலா பின் அல் மஜ்னூனுடைய தந்தையின் பெயர் என்ன?",
+  "hypothesis": "லைலா பிந்த் அல் மஜ்நூலுடைய தந்தையின் பெயர் என்ன",
+  "blind": "லைலா பிந்த் அல் மஜ்னூனுடைய தந்தையின் பெயர் என்ன",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "பின்",
+     "system": "பிந்த்",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "மஜ்னூனுடைய",
+     "system": "மஜ்நூலுடைய",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "என்ன?",
+     "system": "என்ன",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "லைலா பிந்த் அல் மஜ்னூனுடைய தந்தையின் பெயர் என்ன?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-NUM-01",
+  "language": "ta-IN",
+  "condition": "numbers",
+  "reference": "2017 இல், வேங்கடகிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன?",
+  "hypothesis": "இரண்டாயிரத்தி பதினேழில் வேங்கட கிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன",
+  "blind": "2017ல் வேங்கடகிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2017 இல்,",
+     "system": "இரண்டாயிரத்தி பதினேழில்",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "வேங்கடகிரி",
+     "system": "வேங்கட கிரி",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "இருந்தன?",
+     "system": "இருந்தன",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2017இல் வேங்கடகிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-NUM-02",
+  "language": "ta-IN",
+  "condition": "numbers",
+  "reference": "1977-ல் செரீஸ் கோப்பையை வென்ற அணி எது?",
+  "hypothesis": "ஆயிரத்தி தொள்ளாயிரத்தி எழுவத்தி ஏழில் செரிஸ்கோப்பையை வென்ற அணியது",
+  "blind": "1977 இல் செரிஸ் கோப்பையை வென்ற அணி எது?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "1977-ல்",
+     "system": "ஆயிரத்தி தொள்ளாயிரத்தி எழுவத்தி ஏழில்",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "செரீஸ் கோப்பையை",
+     "system": "செரிஸ்கோப்பையை",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "அணி எது?",
+     "system": "அணியது",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "1977-ல் செரிஸ் கோப்பையை வென்ற அணி எது?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-NUM-03",
+  "language": "ta-IN",
+  "condition": "numbers",
+  "reference": "2018 ஆம் ஆண்டு எந்த இந்திய தொழில் நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தை பிடித்துள்ளது ?",
+  "hypothesis": "ரெண்டாயிரத்தி பதினெட்டாம் ஆண்டு எந்த இந்திய தொழில்நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தைப் பிடித்துள்ளது",
+  "blind": "2018 ஆம் ஆண்டு எந்த இந்திய தொழில்நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தைப் பிடித்துள்ளது?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2018 ஆம் ஆண்டு",
+     "system": "ரெண்டாயிரத்தி பதினெட்டாம் ஆண்டு",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "தொழில் நுட்ப",
+     "system": "தொழில்நுட்ப",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "இடத்தை பிடித்துள்ளது ?",
+     "system": "இடத்தைப் பிடித்துள்ளது",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2018 ஆம் ஆண்டு எந்த இந்திய தொழில்நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தைப் பிடித்துள்ளது?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-BG-01",
+  "language": "ta-IN",
+  "condition": "real_noise",
+  "reference": "அசாமில் உள்ள மிகப்பெரிய காடு எது?",
+  "hypothesis": "அசாமில் உள்ள மிகப்பெரிய பாடு எது",
+  "blind": "அஸ்ஸாமில் உள்ள மிகப்பெரிய பாடி எது",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "காடு",
+     "system": "பாடு",
+     "verdict": "reference_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "அசாமில் உள்ள மிகப்பெரிய பாடு எது?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-TA-MEDIA-01",
+  "language": "ta-IN",
+  "condition": "real_noise",
+  "reference": "இஸ்லாத்தின் ஐந்து தூண்களில் ஹஜ் ஒன்றா?",
+  "hypothesis": "இஸ்லாத்தின் ஐந்து தூண்களில் ஹஜ் ஒன்றா",
+  "blind": "இஸ்லாத்தின் ஐந்து தூண்களில் ஹஜ் ஒன்றா?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-TA-TRAFFIC-01",
+  "language": "ta-IN",
+  "condition": "real_noise",
+  "reference": "இந்தியா வானிலாய பணியகம் எப்போது துவங்கப்பட்டது",
+  "hypothesis": "இந்தியா சரணிலாய பணியகம் எப்போது கொண்டுள்ளது",
+  "blind": "இந்தியா தரநிலையான பணியகம் எப்போது துவங்கப்பட்டது",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "வானிலாய",
+     "system": "சரணிலாய",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "துவங்கப்பட்டது",
+     "system": "கொண்டுள்ளது",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "இந்தியா தரநிலையான பணியகம் எப்போது துவங்கப்பட்டது",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-01",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಜಹಾಂಗೀರ್ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು?",
+  "hypothesis": "ಜಹಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು",
+  "blind": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಜಹಾಂಗೀರ್ನಗರ್",
+     "system": "ಜಹಂಗೀರ್ ನಗರ್",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-02",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು?",
+  "hypothesis": "ಅಭಿನಿತ್ರಿ ವಿದ್ಯಾಪಾಲನ್ ಎಂದು ಜನಿಸಿದರು",
+  "blind": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಅಭಿನೇತ್ರಿ",
+     "system": "ಅಭಿನಿತ್ರಿ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ವಿದ್ಯಾ ಬಾಲನ್",
+     "system": "ವಿದ್ಯಾಪಾಲನ್",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-03",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಮಾಯಾ ಜನರ ಅತ್ಯಂತ ಪ್ರಖ್ಯಾತ ಬರಹಗಾರನ ಹೆಸರೇನು?",
+  "hypothesis": "ಮಾಯಾ ಜನರ ಅತ್ಯಂತ ಪ್ರಖ್ಯಾತ ಬರಹಗಾರನ ಹೆಸರೇನು ?",
+  "blind": "ಮಾಯಾ ಜನರ ಅತ್ಯಂತ ಪ್ರಖ್ಯಾತ ಬರಹಗಾರನ ಹೆಸರೇನು?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-KN-CL-04",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಯಾವ ಸಂಸ್ಥೆಯು ಚಂದ್ರನ ಮೇಲೆ ನೀರಿರುವುದನ್ನು ಕಂಡುಹಿಡಿದಿದೆ?",
+  "hypothesis": "ಯಾವ ಸಂಸ್ಥೆಯು ಚಂದ್ರನ ಮೇಲೆ ನೀಡಿರುವುದನ್ನು ಕಂಡು ಹಿಡಿದಿದೆ ?",
+  "blind": "ಯಾವ ಸಂಸ್ಥೆಯು ಚಂದ್ರನ ಮೇಲೆ ನೀರಿರುವುದನ್ನು ಕಂಡುಹಿಡಿದಿದೆ?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ನೀರಿರುವುದನ್ನು",
+     "system": "ನೀಡಿರುವುದನ್ನು",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ಕಂಡುಹಿಡಿದಿದೆ?",
+     "system": "ಕಂಡು ಹಿಡಿದಿದೆ ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ಯಾವ ಸಂಸ್ಥೆಯು ಚಂದ್ರನ ಮೇಲೆ ನೀರಿರುವುದನ್ನು ಕಂಡುಹಿಡಿದಿದೆ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-05",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಶ್ರೀ ಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ?",
+  "hypothesis": "ಶ್ರೀಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ",
+  "blind": "ಶ್ರೀ ಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಶ್ರೀ ಕೃಷ್ಣದೇ",
+     "system": "ಶ್ರೀಕೃಷ್ಣದೇ",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ಬರೆದಿದ್ದಾರೆ?",
+     "system": "ಬರೆದಿದ್ದಾರೆ",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ಶ್ರೀ ಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-06",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೊಟನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು?",
+  "hypothesis": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೋಟನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು",
+  "blind": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೋಟ್ ಅನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ರೋಬೊಟನ್ನು",
+     "system": "ರೋಬೋಟನ್ನು",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ಮಾಡಲಾಯಿತು?",
+     "system": "ಮಾಡಲಾಯಿತು",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೋಟನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-07",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಭೂತಾನದ ದಾದ ಜಿಲ್ಲೆ ಯಾವುದು",
+  "hypothesis": "ಬೂತನದ ದಾದದ್ ಜಿಲ್ಲೆ ಯಾವುದು ?",
+  "blind": "ಭೂತಾನದ ದಾಗಾ ಜಿಲ್ಲೆ ಯಾವುದು",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಭೂತಾನದ",
+     "system": "ಬೂತನದ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ದಾದ",
+     "system": "ದಾದದ್",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "ಯಾವುದು",
+     "system": "ಯಾವುದು ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "ಭೂತಾನದ ದಾದದ್ ಜಿಲ್ಲೆ ಯಾವುದು?",
+   "confidence": "medium"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-CL-08",
+  "language": "kn-IN",
+  "condition": "clean",
+  "reference": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮರಾಠಾ ದಾಳಿಗಳು ನಡೆದಿವೆ? ",
+  "hypothesis": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮಾರಾಟ ದಾಳಿಗಳು ನಡೆದಿವೆ ?",
+  "blind": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮರಾಠ ದಾಳಿಗಳು ನಡೆದಿವೆ?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಮರಾಠಾ",
+     "system": "ಮಾರಾಟ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": " ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮರಾಠಾ ದಾಳಿಗಳು ನಡೆದಿವೆ?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-NUM-01",
+  "language": "kn-IN",
+  "condition": "numbers",
+  "reference": "2011ರ ಭಾರತದ ಜನಗಣತಿಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+  "hypothesis": "ಎರಡು ಸಾವಿರದ ಹನ್ನೊಂದರ ಭಾರತದ ಜನಗಣತೆಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನ ಸಂಖ್ಯೆ ಎಷ್ಟು ?",
+  "blind": "2011 ರ ಭಾರತದ ಜನಗಣತಿಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011ರ",
+     "system": "ಎರಡು ಸಾವಿರದ ಹನ್ನೊಂದರ",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ಜನಗಣತಿಯಂತೆ",
+     "system": "ಜನಗಣತೆಯಂತೆ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+     "system": "ಜನ ಸಂಖ್ಯೆ ಎಷ್ಟು ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2011ರ ಭಾರತದ ಜನಗಣತಿಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-NUM-02",
+  "language": "kn-IN",
+  "condition": "numbers",
+  "reference": "2015 ವಿಶ್ವಕಪ್ ನಡೆದಾಗ ಭಾರತ ತಂಡದ ನಾಯಕರಾಗಿದ್ದವರು ಯಾರು?",
+  "hypothesis": "ಎರಡು ಸಾವಿರದ ಹದಿನೈದು ವಿಶ್ವಕಪ್ ನಡೆದಾಗ ಭಾರತ ತಂಡದ ನಾಯಕರಾಗಿದ್ದವರು ಯಾರು ?",
+  "blind": "2015 ವಿಶ್ವಕಪ್ ನಡೆದಾಗ ಭಾರತ ತಂಡದ ನಾಯಕರಾಗಿದ್ದವರು ಯಾರು?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2015",
+     "system": "ಎರಡು ಸಾವಿರದ ಹದಿನೈದು",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ಯಾರು?",
+     "system": "ಯಾರು ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2015 ವಿಶ್ವಕಪ್ ನಡೆದಾಗ ಭಾರತ ತಂಡದ ನಾಯಕರಾಗಿದ್ದವರು ಯಾರು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-NUM-03",
+  "language": "kn-IN",
+  "condition": "numbers",
+  "reference": "೨೦೧೭ರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು?  ",
+  "hypothesis": "ಎರಡ್ ಸಾವಿರದ ಹದಿನೇಳರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು",
+  "blind": "2017 ರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "೨೦೧೭ರಲ್ಲಿ",
+     "system": "ಎರಡ್ ಸಾವಿರದ ಹದಿನೇಳರಲ್ಲಿ",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "೨೦೧೭ರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-BG-01",
+  "language": "kn-IN",
+  "condition": "real_noise",
+  "reference": "ವಿಶಾಖಪಟ್ಣಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು?",
+  "hypothesis": "ವಿಶಾಖಪಟ್ನಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು ?",
+  "blind": "ವಿಶಾಖಪಟ್ಟಣಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ವಿಶಾಖಪಟ್ಣಂ",
+     "system": "ವಿಶಾಖಪಟ್ನಂ",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "ಏನು?",
+     "system": "ಏನು ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ವಿಶಾಖಪಟ್ಣಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-KN-MEDIA-01",
+  "language": "kn-IN",
+  "condition": "real_noise",
+  "reference": "ಕೃಷಿ ಉತ್ಪಾದನೆಯನ್ನು ಯಾವ ದೇಶವು ವಿಶ್ವದಲ್ಲಿ ಮೂರನೇ ಸ್ಥಾನದಲ್ಲಿದೆ?",
+  "hypothesis": "ಕೃಷಿ ಉತ್ಪಾದನೆಯನ್ನು ಯಾವ ದೇಶವು ವಿಶ್ವದಲ್ಲಿ ಮೂರನೇ ಸ್ಥಾನದಲ್ಲಿದೆ",
+  "blind": "ಕೃಷಿ ಉತ್ಪಾದನೆಯನ್ನು ಯಾವ ದೇಶವು ವಿಶ್ವದಲ್ಲಿ ಮೂರನೇ ಸ್ಥಾನದಲ್ಲಿದೆ",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-KN-TRAFFIC-01",
+  "language": "kn-IN",
+  "condition": "real_noise",
+  "reference": "ಅಬು ಹಮೀದ್ ಮುಹಮ್ಮದ್ ಇಬ್ನ್ ಮುಹಮ್ಮದ್ ಅಲ್-ಘಜಾಲಿಯವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+  "hypothesis": "ಅಬು ಹಮೀದ್ ಮಹಮ್ಮದ್ ಹಿಫ್ ನ ಮಹಮ್ಮದ್ ಅಲ್ ಖಜಾಲಿಯವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು ?",
+  "blind": "ಅಬೂ ಹಮೀದ್ ಮಹಮ್ಮದ್ ಇಬ್ನ್ ಮುಹಮ್ಮದ್ ಅಲ್ ಗಜಾಲಿ ಅವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ಮುಹಮ್ಮದ್",
+     "system": "ಮಹಮ್ಮದ್",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "ಇಬ್ನ್",
+     "system": "ಹಿಫ್ ನ",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ಮುಹಮ್ಮದ್",
+     "system": "ಮಹಮ್ಮದ್",
+     "verdict": "reference_error"
+    },
+    {
+     "reference": "ಅಲ್-ಘಜಾಲಿಯವರು",
+     "system": "ಅಲ್ ಖಜಾಲಿಯವರು",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "ಯಾವುದು?",
+     "system": "ಯಾವುದು ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "ಅಬು ಹಮೀದ್ ಮಹಮ್ಮದ್ ಇಬ್ನ್ ಮಹಮ್ಮದ್ ಅಲ್ ಘಜಾಲಿಯವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-CL-01",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "कृष्णा वामसीची पत्नी कोण",
+  "hypothesis": "कृष्णा वामसीची पत्नी कोण?",
+  "blind": "कृष्णा वामासीची पत्नी कोण",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-CL-02",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "हलणारे दगड कोणी शोधले?",
+  "hypothesis": "हलणारे दगड कोणी शोधलय ?",
+  "blind": "हलणारे दगड कोणी शोधले",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "शोधले?",
+     "system": "शोधलय ?",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "हलणारे दगड कोणी शोधले?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-CL-03",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे?",
+  "hypothesis": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे ?",
+  "blind": "मेजर चंद्रकांत चित्रपटाचा दिग्दर्शक कोण आहे",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-CL-04",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टनने लग्न केले ? ",
+  "hypothesis": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टन ने लग्न केले?",
+  "blind": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टन ने लग्न केले?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "वॉशिंग्टनने",
+     "system": "वॉशिंग्टन ने",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": " ?",
+     "system": "?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टन ने लग्न केले?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-CL-05",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "घुरी साम्राज्याचा संस्थापक कोण आहे?",
+  "hypothesis": "गुरु साम्राज्याचा संस्थापक कोण आहे",
+  "blind": "घोरी साम्राज्याचा संस्थापक कोण आहे?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "घुरी",
+     "system": "गुरु",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": false,
+   "best_transcript": "घोरी साम्राज्याचा संस्थापक कोण आहे?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-CL-06",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "एका व्यक्तीचे हृदय प्रति तास सरासरी किती वेळ धडधडते?",
+  "hypothesis": "एका व्यक्तीचे हृदय प्रति तास सरासरी किती वेळ धडधडते ?",
+  "blind": "एका व्यक्तीचे हृदय प्रति तास सरासरी किती वेळ धडधडते",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-CL-07",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "स्वामी निगमनंदा परमहंस किती वर्ष जगले?",
+  "hypothesis": "स्वामी निगमनंदा परमहंस किती वर्ष जगले ?",
+  "blind": "स्वामी निगमानंद परमहंस किती वर्ष जगले",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-CL-08",
+  "language": "mr-IN",
+  "condition": "clean",
+  "reference": "बाहेमियन धर्माची सुरुवात कोणत्या देशात झाली",
+  "hypothesis": "बाहेमियन धर्माची सुरुवात कोणत्या देशात झाली ?",
+  "blind": "बहाई धर्माची सुरुवात कोणत्या देशात झाली",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-NUM-01",
+  "language": "mr-IN",
+  "condition": "numbers",
+  "reference": "2018  च जनगणने अनुसार गोव्याची जनसंख्या किती आहे ?",
+  "hypothesis": "दोन हजार अठरा च जनगणने अनुसार गोव्याची जनसंख्या किती आहे",
+  "blind": "2018 च्या जनगणनेनुसार गोव्याची जनसंख्या किती आहे?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2018",
+     "system": "दोन हजार अठरा",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": "",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2018 च जनगणने अनुसार गोव्याची जनसंख्या किती आहे?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-NUM-02",
+  "language": "mr-IN",
+  "condition": "numbers",
+  "reference": "2011 च्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे?",
+  "hypothesis": "दोन हजार अकराच्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे ?",
+  "blind": "2011 च्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2011 च्या",
+     "system": "दोन हजार अकराच्या",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "?",
+     "system": " ?",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2011 च्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-NUM-03",
+  "language": "mr-IN",
+  "condition": "numbers",
+  "reference": "2003 च्या क्रिकेट जगतानंतर पुढील क्रिकेट विश्वचषक कोणत्या वर्षी आयोजित करण्यात आला?",
+  "hypothesis": "दोन हजार तीन च्या क्रिकेट जगतानंतर पुढील क्रिकेट विश्वचषक कोणत्या वर्षी आयोजित करण्यात आला ?",
+  "blind": "2003 च्या क्रिकेट जगतानंतर पुढील क्रिकेट विश्वचषक कोणत्या वर्षी आयोजित करण्यात आला?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "2003",
+     "system": "दोन हजार तीन",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "2003 च्या क्रिकेट जगतानंतर पुढील क्रिकेट विश्वचषक कोणत्या वर्षी आयोजित करण्यात आला?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-BG-01",
+  "language": "mr-IN",
+  "condition": "real_noise",
+  "reference": "अमिताभ बच्चन यांनी साकारलेला \\\\\\पिंक\\\\\\ या हिंदी चित्रपटातील पत्राचे नाव काय आहे ?",
+  "hypothesis": "अमिताभ बच्चन यांनी साकारलेला पिंक या हिंदी चित्रपटातील पत्राचे नाव काय आहे?",
+  "blind": "अमिताभ बच्चन यांनी साकारलेला पिंक या हिंदी चित्रपटातील पात्राचे नाव काय आहे?",
+  "blind_no_speech": false
+ },
+ {
+  "clip_id": "LANG-MR-MEDIA-01",
+  "language": "mr-IN",
+  "condition": "real_noise",
+  "reference": "हिंदू धर्मात कोणत्या शाखा आहेत? ",
+  "hypothesis": "हिंदू धर्मात कोणत्या शाखा नाही",
+  "blind": "हिंदू धर्मात कोणत्या शाखा आहेत",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "आहेत?",
+     "system": "नाही",
+     "verdict": "system_error"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "हिंदू धर्मात कोणत्या शाखा आहेत?",
+   "confidence": "high"
+  }
+ },
+ {
+  "clip_id": "LANG-MR-TRAFFIC-01",
+  "language": "mr-IN",
+  "condition": "real_noise",
+  "reference": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रितीलाता वाशेदार यांचा जन्म कधी झाला?",
+  "hypothesis": "ब्रिटिशविरोधी स्वतंत्र चळवळीतील प्रितीलाता वाशेदार यांचा जन्म कधी झाला",
+  "blind": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रीतीलता वाद्देदार यांचा जन्म कधी झाला?",
+  "blind_no_speech": false,
+  "adjudication": {
+   "differences": [
+    {
+     "reference": "ब्रिटिश विरोधी",
+     "system": "ब्रिटिशविरोधी",
+     "verdict": "equivalent"
+    },
+    {
+     "reference": "स्वातंत्र्य",
+     "system": "स्वतंत्र",
+     "verdict": "system_error"
+    },
+    {
+     "reference": "झाला?",
+     "system": "झाला",
+     "verdict": "equivalent"
+    }
+   ],
+   "reference_matches_audio": true,
+   "best_transcript": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रितीलाता वाशेदार यांचा जन्म कधी झाला?",
+   "confidence": "high"
+  }
+ }
+]

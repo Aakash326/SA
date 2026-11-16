@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bec06d656997df29",
+ "audio": "clips/ext2/EXP-NUM-TE-03.wav",
+ "audio_sha256": "4214f687f05ad34de03a238a02e76f974edf0682dc3001f219952fa31ea040b1",
+ "latency_ms": 4350,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2011లో",
+    "system": "రెండు వేల పదకొండులో",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "కారని",
+    "system": "కారణ",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2011లో కారని గ్రామ జనాభా ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 352,
+  "output": 92
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "908923246497afcb",
+ "audio": "clips/ext2/EXP-MEDIA-EN-01.wav",
+ "audio_sha256": "74a104a564fd30284ede10ad8e4eb01cc5d011bdd772cedbe93c7171d003d371",
+ "latency_ms": 2946,
+ "reply": {
+  "transcript": "When was the last plane hijacking",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 36
+ }
+}

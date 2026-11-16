@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c1406cca61361e18",
+ "audio": "clips/ext2/EXP-NUM-TE-02.wav",
+ "audio_sha256": "b605a8cca78690d3c5ed1e36782427ad1b4604e0c0fb579a8fb45452e2baef39",
+ "latency_ms": 8537,
+ "reply": {
+  "differences": [
+   {
+    "reference": "",
+    "system": "జరిగిందో",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "2011",
+    "system": "రెండు వేల పదకొండు",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2011 నాటికి దొండపూడి గ్రామ జనాభా ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 417,
+  "output": 130
+ }
+}

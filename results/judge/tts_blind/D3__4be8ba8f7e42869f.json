@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "D3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4be8ba8f7e42869f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D3.wav",
+ "audio_sha256": "e7ad0fc30e5b3b6fbc5ff6c26468dd06b8d2542b3cb7b1d56610bd16f9bc6fcc",
+ "latency_ms": 6315,
+ "reply": {
+  "heard": "The I P O opens on May sixth twenty twenty six at nine fifty",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 33
+ }
+}

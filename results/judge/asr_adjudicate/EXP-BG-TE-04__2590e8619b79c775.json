@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-BG-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2590e8619b79c775",
+ "audio": "clips/ext2/EXP-BG-TE-04.wav",
+ "audio_sha256": "0e019cbfc22a1693689f1629a74e563a32abe253bd22ec1a9be4978448d77294",
+ "latency_ms": 5946,
+ "reply": {
+  "differences": [
+   {
+    "reference": "పోనీ",
+    "system": "మరి",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "వీటి నుంచి",
+    "system": "ఇట్నుంచి",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "దండయాత్ర",
+    "system": "తండారు",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "పోనీ ముస్లిం అంతరిక్షంలోకి వెళ్ళిన మొదటి స్త్రీ ఎవరు? వాళ్ళు ఇట్నుంచి దండయాత్ర",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 470,
+  "output": 182
+ }
+}

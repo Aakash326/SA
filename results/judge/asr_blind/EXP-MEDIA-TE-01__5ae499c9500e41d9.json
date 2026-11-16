@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5ae499c9500e41d9",
+ "audio": "clips/ext2/EXP-MEDIA-TE-01.wav",
+ "audio_sha256": "de115592b78a759993d423e3158c910b77f185b958f175d03c0a50d98accd59f",
+ "latency_ms": 3823,
+ "reply": {
+  "transcript": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉపకులపతి ఎవరు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 40
+ }
+}

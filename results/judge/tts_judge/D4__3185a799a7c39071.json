@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "D4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3185a799a7c39071",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D4.wav",
+ "audio_sha256": "68ea14bec91ef40c1995b61f77c3e1c6c3a1ad2093fdc1b8b683937d6872c564",
+ "latency_ms": 4980,
+ "reply": {
+  "targets": [
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "U C C"
+   },
+   {
+    "id": "code",
+    "result": "correct",
+    "heard": "A B one two three four"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "twenty-one thirty"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The sentence is read clearly and accurately with natural pacing and intonation."
+ },
+ "tokens": {
+  "prompt": 558,
+  "output": 197
+ }
+}

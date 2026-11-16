@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9e70accb0febf4a1",
+ "audio": "clips/ext2/LANG-MR-CL-04.wav",
+ "audio_sha256": "0001bb6972765beb5dce23a99c036a682bb92064bf58589f687659a18bc569e5",
+ "latency_ms": 2839,
+ "reply": {
+  "differences": [
+   {
+    "reference": "वॉशिंग्टनने",
+    "system": "वॉशिंग्टन ने",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": " ?",
+    "system": "?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "वयाच्या कोणत्या वर्षी जॉर्ज वॉशिंग्टन ने लग्न केले?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 339,
+  "output": 121
+ }
+}

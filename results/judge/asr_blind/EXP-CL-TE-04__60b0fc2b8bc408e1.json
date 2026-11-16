@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "60b0fc2b8bc408e1",
+ "audio": "clips/ext2/EXP-CL-TE-04.wav",
+ "audio_sha256": "9d5047157bd2cd8ad077a104739c4d8e6fbb0e4350104654f1f60166d9917b5a",
+ "latency_ms": 3333,
+ "reply": {
+  "transcript": "పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 42
+ }
+}

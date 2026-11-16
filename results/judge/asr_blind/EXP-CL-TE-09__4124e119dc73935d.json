@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4124e119dc73935d",
+ "audio": "clips/ext2/EXP-CL-TE-09.wav",
+ "audio_sha256": "9a3cbb997dfd18a45c79cd1d8e5226dfbdfd2112216fa3e4f0d2f805af2ad1d5",
+ "latency_ms": 3998,
+ "reply": {
+  "transcript": "వీరభద్రపురం గ్రామ విస్తీర్ణత ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 273,
+  "output": 35
+ }
+}

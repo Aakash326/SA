@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-id-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3157fa348be64a44",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-id-mandar.wav",
+ "audio_sha256": "8cbdf0f9d10e18d7d19c899a95e9866a4a750feae31f384df3b66a9d9b445b8b",
+ "latency_ms": 10010,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The reference number was read digit-by-digit accurately. Intonation is slightly synthetic but clear."
+ },
+ "tokens": {
+  "prompt": 478,
+  "output": 136
+ }
+}

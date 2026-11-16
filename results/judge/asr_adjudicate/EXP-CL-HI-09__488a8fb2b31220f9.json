@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-HI-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "488a8fb2b31220f9",
+ "audio": "clips/ext2/EXP-CL-HI-09.wav",
+ "audio_sha256": "9b204aa621846d3fced9b26b46487770da30d4b85c4998ddb397ac18cef66891",
+ "latency_ms": 6452,
+ "reply": {
+  "differences": [
+   {
+    "reference": "पोर्न",
+    "system": "बॉर्न",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "\\\\सनी लियोनेल\\\\",
+    "system": "सनी लियोनेल",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "है?",
+    "system": "है",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "पोर्न स्टार सनी लियोनेल का वास्तविक नाम क्या है?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 354,
+  "output": 155
+ }
+}

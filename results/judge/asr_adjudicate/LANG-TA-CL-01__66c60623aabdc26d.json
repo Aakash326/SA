@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "66c60623aabdc26d",
+ "audio": "clips/ext2/LANG-TA-CL-01.wav",
+ "audio_sha256": "1dea044bac639d1c0e995a73d5475ec0001e3fbeb26812b859d9e80ad920e945",
+ "latency_ms": 7883,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ரிட்டர்",
+    "system": "ரிக்டர்",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "படைவீரர்கள்",
+    "system": "படை வீரர்கள்",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "ரிக்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 360,
+  "output": 125
+ }
+}

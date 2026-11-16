@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "N3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ac2ea4771e4fbd95",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N3.wav",
+ "audio_sha256": "cc9f5d26013c6b883e306c5207ae186d21d36c1ff298639d69be9c83e860afd0",
+ "latency_ms": 6004,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार चार सौ निन्यानवे रुपये"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "मत"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "payment"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "hi",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is very clear, natural, and accurately reflects the text."
+ },
+ "tokens": {
+  "prompt": 535,
+  "output": 195
+ }
+}

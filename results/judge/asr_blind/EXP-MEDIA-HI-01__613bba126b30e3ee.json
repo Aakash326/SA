@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "613bba126b30e3ee",
+ "audio": "clips/ext2/EXP-MEDIA-HI-01.wav",
+ "audio_sha256": "8a330eafacbd6195c9af73cf7bb1c4bf903092bf5f6b7fdc9c80630cab7b608f",
+ "latency_ms": 4892,
+ "reply": {
+  "transcript": "देविका रानी चौधरी अभिनेत्री पहली फिल्म के निर्माता कौन थे",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 303,
+  "output": 35
+ }
+}

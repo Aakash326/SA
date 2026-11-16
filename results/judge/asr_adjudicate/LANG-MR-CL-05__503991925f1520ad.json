@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "503991925f1520ad",
+ "audio": "clips/ext2/LANG-MR-CL-05.wav",
+ "audio_sha256": "c51514c0898a7201279711d4443588935c72ae0edfb6af8cde88662f31f0e649",
+ "latency_ms": 7041,
+ "reply": {
+  "differences": [
+   {
+    "reference": "घुरी",
+    "system": "गुरु",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "घोरी साम्राज्याचा संस्थापक कोण आहे?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 314,
+  "output": 111
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "I3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "51b96970a65ca54d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I3.wav",
+ "audio_sha256": "fd5ec30b827b12bcebaaba281bf4d7283b1802364ccef221c957d7df0502b9dc",
+ "latency_ms": 5092,
+ "reply": {
+  "heard": "Your account number ends in शून्य नौ शून्य सात",
+  "number_language": "hi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 28
+ }
+}

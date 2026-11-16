@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "33a32f1af56c570e",
+ "audio": "clips/ext2/EXP-NUM-TE-04.wav",
+ "audio_sha256": "3ccafd0bd938757b96c4efa69476a641629dbd9028904a9c2e73c5e9c2fb5118",
+ "latency_ms": 7300,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2016",
+    "system": "రెండు వేల పదహారు",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "యస్.",
+    "system": "ఎస్",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ఎవరు?",
+    "system": "ఎవరు",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2016 నాటికి ఎస్ కోటూరు గ్రామ సర్పంచ్ ఎవరు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 459,
+  "output": 164
+ }
+}

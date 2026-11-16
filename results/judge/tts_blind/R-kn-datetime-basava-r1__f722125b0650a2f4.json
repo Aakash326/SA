@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "R-kn-datetime-basava-r1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f722125b0650a2f4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts_repeat\\kn-datetime-basava-r1.wav",
+ "audio_sha256": "fe5a6c550387df1ee52a27cdd42f462bf2b027392c6f7a2f01f01f0e1355739a",
+ "latency_ms": 5094,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ ಇಪ್ಪತ್ಮೂರು ರಂದು ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ ಇದೆ",
+  "number_language": "kannada",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 46
+ }
+}

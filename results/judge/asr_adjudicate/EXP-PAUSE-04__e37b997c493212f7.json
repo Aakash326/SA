@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-PAUSE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e37b997c493212f7",
+ "audio": "clips/ext2/EXP-PAUSE-04.wav",
+ "audio_sha256": "d6ee23180b737622cf4e91433f9e608a22783d1ac2427e56d2543d37a682e710",
+ "latency_ms": 22094,
+ "reply": {
+  "differences": [
+   {
+    "reference": "George",
+    "system": "गर्ज",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "Washington",
+    "system": "वाशिंगटन",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "New York",
+    "system": "न्यूयॉर्क",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "गर्ज वाशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 447,
+  "output": 177
+ }
+}

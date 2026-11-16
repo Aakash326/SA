@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-EN-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3df90f1e2aa6fef8",
+ "audio": "clips/ext2/EXP-BG-EN-01.wav",
+ "audio_sha256": "7b2a846cf83c9cb0be4915c3387e7b75e6bb151c4e1bb69553bc5b8c968d31bb",
+ "latency_ms": 3257,
+ "reply": {
+  "transcript": "How long did the troubles last?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 30
+ }
+}

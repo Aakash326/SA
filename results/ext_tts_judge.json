@@ -1,0 +1,1728 @@
+[
+ {
+  "case_id": "X-en-amount-kaitlyn",
+  "language": "en",
+  "kind": "amount",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your account has been credited with ₹2,450.",
+  "heard": "Your account has been credited with two thousand four hundred fifty rupees",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "two thousand four hundred fifty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio clearly reads the full sentence and the monetary amount accurately."
+ },
+ {
+  "case_id": "X-en-amount-blake",
+  "language": "en",
+  "kind": "amount",
+  "voice": "blake",
+  "planted": "false",
+  "text": "Your account has been credited with ₹2,450.",
+  "heard": "Your account has been credited with two thousand four hundred fifty rupees.",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "two thousand four hundred and fifty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural Indian English delivery with accurate reading of currency and numbers."
+ },
+ {
+  "case_id": "X-en-id-kaitlyn",
+  "language": "en",
+  "kind": "id",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your reference number is 0070.",
+  "heard": "Your reference number is zero zero seven zero",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly and accurately read with good pacing and intelligible digit pronunciation."
+ },
+ {
+  "case_id": "X-en-id-blake",
+  "language": "en",
+  "kind": "id",
+  "voice": "blake",
+  "planted": "false",
+  "text": "Your reference number is 0070.",
+  "heard": "Your reference number is zero zero seven zero",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and intelligible speech with appropriate digit-by-digit pacing."
+ },
+ {
+  "case_id": "X-en-datetime-kaitlyn",
+  "language": "en",
+  "kind": "datetime",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your meeting is on 23 November at 9:05 AM.",
+  "heard": "Your meeting is on twenty third November at nine o five a m",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "twenty third November"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five a m"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurate with appropriate pacing and pronunciation."
+ },
+ {
+  "case_id": "X-en-datetime-blake",
+  "language": "en",
+  "kind": "datetime",
+  "voice": "blake",
+  "planted": "false",
+  "text": "Your meeting is on 23 November at 9:05 AM.",
+  "heard": "Your meeting is on twenty third November at nine o five A M.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "twenty third November"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five A M"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear delivery with slight synthetic cadence."
+ },
+ {
+  "case_id": "X-en-negation-kaitlyn",
+  "language": "en",
+  "kind": "negation",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Please do not share your OTP with anyone.",
+  "heard": "Please do not share your O T P with anyone",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English (Indian accent)",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt with appropriate Indian English intonation."
+ },
+ {
+  "case_id": "X-en-negation-blake",
+  "language": "en",
+  "kind": "negation",
+  "voice": "blake",
+  "planted": "false",
+  "text": "Please do not share your OTP with anyone.",
+  "heard": "Please do not share your O T P with anyone.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is delivered clearly with accurate pronunciation and appropriate pacing."
+ },
+ {
+  "case_id": "X-en-natural-kaitlyn",
+  "language": "en",
+  "kind": "natural",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Hello! How can I help you today? If you need any information about your account, please feel free to ask.",
+  "heard": "Hello, how can I help you today? If you need any information about your account, please feel free to ask.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "How can I help you today?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately matches the input text with appropriate intonation."
+ },
+ {
+  "case_id": "X-en-natural-blake",
+  "language": "en",
+  "kind": "natural",
+  "voice": "blake",
+  "planted": "false",
+  "text": "Hello! How can I help you today? If you need any information about your account, please feel free to ask.",
+  "heard": "Hello, how can I help you today? If you need any information about your account, please feel free to ask.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "How can I help you today?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en-IN",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and intelligible with proper pacing and natural customer service intonation."
+ },
+ {
+  "case_id": "P-en-amount",
+  "language": "en",
+  "kind": "amount",
+  "voice": "kaitlyn",
+  "planted": "true",
+  "text": "Your account has been credited with ₹2,540.",
+  "heard": "Your account has been credited with two thousand five hundred and forty rupees",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "two thousand five hundred and forty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "minor awkward pause"
+  ],
+  "comment": "The spoken number reads 2,540 instead of the target 2,450, with a slight pause between clauses."
+ },
+ {
+  "case_id": "X-hi-amount-meher",
+  "language": "hi",
+  "kind": "amount",
+  "voice": "meher",
+  "planted": "false",
+  "text": "आपके खाते में ₹2,450 जमा हो गए हैं।",
+  "heard": "आपके खाते में दो हज़ार चार सौ पचास रुपये जमा हो गए हैं",
+  "number_language": "Hindi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दो हज़ार चार सौ पचास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly with natural pacing and proper Hindi pronunciation."
+ },
+ {
+  "case_id": "X-hi-amount-aviraj",
+  "language": "hi",
+  "kind": "amount",
+  "voice": "aviraj",
+  "planted": "false",
+  "text": "आपके खाते में ₹2,450 जमा हो गए हैं।",
+  "heard": "आपके खाते में दो हज़ार चार सौ पचास रुपए जमा हो गए हैं",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दो हज़ार चार सौ पचास रुपए"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the text with natural pacing and proper Hindi pronunciation."
+ },
+ {
+  "case_id": "X-hi-id-meher",
+  "language": "hi",
+  "kind": "id",
+  "voice": "meher",
+  "planted": "false",
+  "text": "आपका रेफरेंस नंबर 0070 है।",
+  "heard": "आपका रेफ्रेंस नंबर शून्य शून्य सात शून्य है",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately including the leading zeros, with clear pronunciation and natural pacing."
+ },
+ {
+  "case_id": "X-hi-id-aviraj",
+  "language": "hi",
+  "kind": "id",
+  "voice": "aviraj",
+  "planted": "false",
+  "text": "आपका रेफरेंस नंबर 0070 है।",
+  "heard": "आपका रेफरेंस नंबर शून्य शून्य सात शून्य है",
+  "number_language": "Hindi",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately digit by digit in Hindi with clear pronunciation and decent cadence."
+ },
+ {
+  "case_id": "X-hi-datetime-meher",
+  "language": "hi",
+  "kind": "datetime",
+  "voice": "meher",
+  "planted": "false",
+  "text": "आपकी मीटिंग 23 नवंबर को सुबह 9:05 बजे है।",
+  "heard": "आपकी मीटिंग तेईस नवंबर को सुबह नौ बजकर पाँच मिनट है",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेईस नवंबर"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सुबह नौ बजकर पाँच मिनट"
+   }
+  ],
+  "content_complete": false,
+  "spoken_language": "hi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The word 'बजे' was omitted/replaced with 'मिनट', but the delivery is otherwise clear and intelligible."
+ },
+ {
+  "case_id": "X-hi-datetime-aviraj",
+  "language": "hi",
+  "kind": "datetime",
+  "voice": "aviraj",
+  "planted": "false",
+  "text": "आपकी मीटिंग 23 नवंबर को सुबह 9:05 बजे है।",
+  "heard": "आपकी मीटिंग तेईस नवंबर को सुबह नौ बजकर पांच मिनट है",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेईस नवंबर"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सुबह नौ बजकर पाँच मिनट"
+   }
+  ],
+  "content_complete": false,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The word 'बजे' was omitted and replaced with 'मिनट', though the time information remains clear."
+ },
+ {
+  "case_id": "X-hi-negation-meher",
+  "language": "hi",
+  "kind": "negation",
+  "voice": "meher",
+  "planted": "false",
+  "text": "कृपया अपना OTP किसी के साथ साझा न करें।",
+  "heard": "कृपया अपना O T P किसी के साथ साझा ना करें",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ना"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation and appropriate pacing with minor synthetic inflection."
+ },
+ {
+  "case_id": "X-hi-negation-aviraj",
+  "language": "hi",
+  "kind": "negation",
+  "voice": "aviraj",
+  "planted": "false",
+  "text": "कृपया अपना OTP किसी के साथ साझा न करें।",
+  "heard": "कृपया अपना O T P किसी के साथ साझा न करें",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "न"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and accurate rendition with appropriate intonation and native pronunciation."
+ },
+ {
+  "case_id": "X-hi-natural-meher",
+  "language": "hi",
+  "kind": "natural",
+  "voice": "meher",
+  "planted": "false",
+  "text": "नमस्ते! मैं आपकी कैसे मदद कर सकती हूँ? अगर आपको अपने खाते के बारे में कोई जानकारी चाहिए, तो बेझिझक पूछिए।",
+  "heard": "नमस्ते, मैं आपकी कैसे मदद कर सकती हूँ? अगर आपको अपने खाते के बारे में कोई जानकारी चाहिए तो बेझिझक पूछिए।",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मैं आपकी कैसे मदद कर सकती हूँ?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with natural pacing and proper question intonation."
+ },
+ {
+  "case_id": "X-hi-natural-aviraj",
+  "language": "hi",
+  "kind": "natural",
+  "voice": "aviraj",
+  "planted": "false",
+  "text": "नमस्ते! मैं आपकी कैसे मदद कर सकती हूँ? अगर आपको अपने खाते के बारे में कोई जानकारी चाहिए, तो बेझिझक पूछिए।",
+  "heard": "नमस्ते, मैं आपकी कैसे मदद कर सकती हूँ? अगर आपको अपने खाते के बारे में कोई जानकारी चाहिए, तो बेझिझक पूछिए.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मैं आपकी कैसे मदद कर सकती हूँ?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is fully spoken with appropriate question intonation, though the voice quality has a slightly synthetic tone."
+ },
+ {
+  "case_id": "P-hi-amount",
+  "language": "hi",
+  "kind": "amount",
+  "voice": "meher",
+  "planted": "true",
+  "text": "आपके खाते में ₹2,540 जमा हो गए हैं।",
+  "heard": "आपके खाते में दो हज़ार पाँच सौ चालीस रुपए जमा हो गए हैं",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "दो हज़ार पाँच सौ चालीस रुपए"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio accurately reads the prompt text (2540) rather than the target value (2450). Speech quality and intonation are generally clear."
+ },
+ {
+  "case_id": "X-te-amount-sravani",
+  "language": "te",
+  "kind": "amount",
+  "voice": "sravani",
+  "planted": "false",
+  "text": "మీ ఖాతాలో ₹2,450 జమ అయ్యాయి.",
+  "heard": "మీ ఖాతాలో రెండు వేల నాలుగు వందల యాభై రూపాయలు జమ అయ్యాయి",
+  "number_language": "Telugu",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "రెండు వేల నాలుగు వందల యాభై రూపాయలు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "minor pause segmentation"
+  ],
+  "comment": "Accurate transcription with understandable pacing, though minor unnatural breaks occur when reading the amount."
+ },
+ {
+  "case_id": "X-te-amount-naveen",
+  "language": "te",
+  "kind": "amount",
+  "voice": "naveen",
+  "planted": "false",
+  "text": "మీ ఖాతాలో ₹2,450 జమ అయ్యాయి.",
+  "heard": "మీ ఖాతాలో రెండు వేల నాలుగు వందల యాభై రూపాయలు జమ అయ్యాయి",
+  "number_language": "te",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "రెండు వేల నాలుగు వందల యాభై రూపాయలు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Telugu",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is fully rendered with correct Telugu phrasing for the amount. The cadence is slightly robotic but intelligible."
+ },
+ {
+  "case_id": "X-te-id-sravani",
+  "language": "te",
+  "kind": "id",
+  "voice": "sravani",
+  "planted": "false",
+  "text": "మీ రిఫరెన్స్ నంబర్ 0070.",
+  "heard": "మీ రిఫరెన్స్ నెంబర్ సున్నా సున్నా ఏడు సున్నా",
+  "number_language": "te",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "సున్నా సున్నా ఏడు సున్నా"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately digit-by-digit with clear Telugu pronunciation and acceptable pacing."
+ },
+ {
+  "case_id": "X-te-id-naveen",
+  "language": "te",
+  "kind": "id",
+  "voice": "naveen",
+  "planted": "false",
+  "text": "మీ రిఫరెన్స్ నంబర్ 0070.",
+  "heard": "మీ రిఫరెన్స్ నంబర్ సున్నా సున్నా ఏడు సున్నా",
+  "number_language": "te",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "సున్నా సున్నా ఏడు సున్నా"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All digits read accurately in Telugu with appropriate pacing and clarity."
+ },
+ {
+  "case_id": "X-te-datetime-sravani",
+  "language": "te",
+  "kind": "datetime",
+  "voice": "sravani",
+  "planted": "false",
+  "text": "మీ మీటింగ్ నవంబర్ 23న ఉదయం 9:05 గంటలకు ఉంది.",
+  "heard": "మీ మీటింగ్ నవంబర్ ఇరవై మూడున ఉదయం తొమ్మిది ఐదు గంటలకు ఉంది",
+  "number_language": "te",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "నవంబర్ ఇరవై మూడున"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ఉదయం తొమ్మిది ఐదు గంటలకు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was spoken fully and accurately with acceptable pacing and standard TTS quality."
+ },
+ {
+  "case_id": "X-te-datetime-naveen",
+  "language": "te",
+  "kind": "datetime",
+  "voice": "naveen",
+  "planted": "false",
+  "text": "మీ మీటింగ్ నవంబర్ 23న ఉదయం 9:05 గంటలకు ఉంది.",
+  "heard": "మీ మీటింగ్ నవంబర్ ఇరవై మూడు ఉదయం తొమ్మిది ఐదు గంటలకు ఉంది",
+  "number_language": "te",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "నవంబర్ ఇరవై మూడు"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ఉదయం తొమ్మిది ఐదు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Telugu",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "awkward pauses around numbers",
+   "robotic cadence"
+  ],
+  "comment": "The target date and time are accurately conveyed, though delivery is choppy with unnatural pauses between the digits."
+ },
+ {
+  "case_id": "X-te-negation-sravani",
+  "language": "te",
+  "kind": "negation",
+  "voice": "sravani",
+  "planted": "false",
+  "text": "దయచేసి మీ OTP ని ఎవరితోనూ పంచుకోవద్దు.",
+  "heard": "దయచేసి మీ O T P ని ఎవరితోనూ పంచుకోవద్దు",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "పంచుకోవద్దు"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ఓటీపీ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully matches the text with appropriate pacing and pronunciation."
+ },
+ {
+  "case_id": "X-te-negation-naveen",
+  "language": "te",
+  "kind": "negation",
+  "voice": "naveen",
+  "planted": "false",
+  "text": "దయచేసి మీ OTP ని ఎవరితోనూ పంచుకోవద్దు.",
+  "heard": "దయచేసి మీ O T P ని ఎవరితోనూ పంచుకోవద్దు",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "పంచుకోవద్దు"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ఓటీపీ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with standard Telugu pronunciation and appropriate pace."
+ },
+ {
+  "case_id": "X-te-natural-sravani",
+  "language": "te",
+  "kind": "natural",
+  "voice": "sravani",
+  "planted": "false",
+  "text": "నమస్కారం! నేను మీకు ఎలా సహాయం చేయగలను? మీ ఖాతా గురించి ఏదైనా సమాచారం కావాలంటే, దయచేసి అడగండి.",
+  "heard": "నమస్కారం నేను మీకు ఎలా సహాయం చేయగలను మీ ఖాతా గురించి ఏదైనా సమాచారం కావాలంటే దయచేసి అడగండి",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "నేను మీకు ఎలా సహాయం చేయగలను"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is fully rendered with clear pronunciation, though pacing and intonation sound mildly robotic."
+ },
+ {
+  "case_id": "X-te-natural-naveen",
+  "language": "te",
+  "kind": "natural",
+  "voice": "naveen",
+  "planted": "false",
+  "text": "నమస్కారం! నేను మీకు ఎలా సహాయం చేయగలను? మీ ఖాతా గురించి ఏదైనా సమాచారం కావాలంటే, దయచేసి అడగండి.",
+  "heard": "నమస్కారం నేను మీకు ఎలా సహాయం చేయగలను మీ ఖాతా గురించి ఏదైనా సమాచారం కావాలంటే దయచేసి అడగండి",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "నేను మీకు ఎలా సహాయం చేయగలను"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The Telugu speech is clear, accurate, and matches the script with appropriate question intonation."
+ },
+ {
+  "case_id": "P-te-id",
+  "language": "te",
+  "kind": "id",
+  "voice": "sravani",
+  "planted": "true",
+  "text": "మీ రిఫరెన్స్ నంబర్ 0700.",
+  "heard": "మీ reference number సున్నా ఏడు సున్నా సున్నా",
+  "number_language": "Telugu",
+  "targets": [
+   {
+    "id": "id",
+    "result": "wrong",
+    "heard": "సున్నా ఏడు సున్నా సున్నా"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio accurately matches the prompt text 0700, but fails the target requirement of 0070."
+ },
+ {
+  "case_id": "X-ta-amount-tamilselvi",
+  "language": "ta",
+  "kind": "amount",
+  "voice": "tamilselvi",
+  "planted": "false",
+  "text": "உங்கள் கணக்கில் ₹2,450 வரவு வைக்கப்பட்டுள்ளது.",
+  "heard": "உங்கள் கணக்கில் இரண்டாயிரத்து நானூற்று ஐம்பது ரூபாய் வரவு வைக்கப்பட்டுள்ளது",
+  "number_language": "Tamil",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "இரண்டாயிரத்து நானூற்று ஐம்பது ரூபாய்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with clear pronunciation and natural prosody."
+ },
+ {
+  "case_id": "X-ta-amount-murugan",
+  "language": "ta",
+  "kind": "amount",
+  "voice": "murugan",
+  "planted": "false",
+  "text": "உங்கள் கணக்கில் ₹2,450 வரவு வைக்கப்பட்டுள்ளது.",
+  "heard": "உங்கள் கணக்கில் இரண்டாயிரத்து நானூற்றைம்பது ரூபாய் வரவு வைக்கப்பட்டுள்ளது",
+  "number_language": "Tamil",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "இரண்டாயிரத்து நானூற்றைம்பது ரூபாய்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully conveys the text with correct Tamil pronunciation and natural rhythm."
+ },
+ {
+  "case_id": "X-ta-id-tamilselvi",
+  "language": "ta",
+  "kind": "id",
+  "voice": "tamilselvi",
+  "planted": "false",
+  "text": "உங்கள் குறிப்பு எண் 0070.",
+  "heard": "உங்கள் குறிப்பு எண் பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்",
+  "number_language": "Tamil",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately digit-by-digit with clear Tamil pronunciation and appropriate pacing."
+ },
+ {
+  "case_id": "X-ta-id-murugan",
+  "language": "ta",
+  "kind": "id",
+  "voice": "murugan",
+  "planted": "false",
+  "text": "உங்கள் குறிப்பு எண் 0070.",
+  "heard": "உங்க குறிப்பு எண் பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்",
+  "number_language": "ta",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "பூஜ்யம் பூஜ்யம் ஏழு பூஜ்யம்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Tamil",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "slight robotic timbre"
+  ],
+  "comment": "The prompt was read correctly digit-by-digit with intelligible pronunciation and slight synthetic roughness."
+ },
+ {
+  "case_id": "X-ta-datetime-tamilselvi",
+  "language": "ta",
+  "kind": "datetime",
+  "voice": "tamilselvi",
+  "planted": "false",
+  "text": "உங்கள் சந்திப்பு நவம்பர் 23 அன்று காலை 9:05 மணிக்கு உள்ளது.",
+  "heard": "உங்கள் சந்திப்பு நவம்பர் இருபத்து மூன்று அன்று காலை ஒன்பது ஐந்து மணிக்கு உள்ளது",
+  "number_language": "ta",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "நவம்பர் இருபத்து மூன்று அன்று"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "காலை ஒன்பது ஐந்து மணிக்கு"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately and naturally with clear Tamil pronunciation and appropriate intonation."
+ },
+ {
+  "case_id": "X-ta-datetime-murugan",
+  "language": "ta",
+  "kind": "datetime",
+  "voice": "murugan",
+  "planted": "false",
+  "text": "உங்கள் சந்திப்பு நவம்பர் 23 அன்று காலை 9:05 மணிக்கு உள்ளது.",
+  "heard": "உங்கள் சந்திப்பு நவம்பர் இருபத்து மூன்று அன்று காலை ஒன்பது ஐந்து மணிக்கு உள்ளது",
+  "number_language": "ta",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "நவம்பர் இருபத்து மூன்று"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "காலை ஒன்பது ஐந்து மணிக்கு"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation and natural delivery, with only a very slight pause between 'ஒன்பது' and 'ஐந்து'."
+ },
+ {
+  "case_id": "X-ta-negation-tamilselvi",
+  "language": "ta",
+  "kind": "negation",
+  "voice": "tamilselvi",
+  "planted": "false",
+  "text": "தயவுசெய்து உங்கள் OTP-ஐ யாருடனும் பகிர வேண்டாம்.",
+  "heard": "தயவுசெய்து உங்கள் O T P யை யாருடனும் பகிர வேண்டாம்",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "வேண்டாம்"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP யை"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Tamil",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was spoken accurately and intelligibly with minor synthetic cadence."
+ },
+ {
+  "case_id": "X-ta-negation-murugan",
+  "language": "ta",
+  "kind": "negation",
+  "voice": "murugan",
+  "planted": "false",
+  "text": "தயவுசெய்து உங்கள் OTP-ஐ யாருடனும் பகிர வேண்டாம்.",
+  "heard": "தயவுசெய்து உங்கள் O T P யை யாருடனும் பகிர வேண்டாம்",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "வேண்டாம்"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP-ஐ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio correctly renders all words, including the English acronym and final negation, with clear articulation."
+ },
+ {
+  "case_id": "X-ta-natural-tamilselvi",
+  "language": "ta",
+  "kind": "natural",
+  "voice": "tamilselvi",
+  "planted": "false",
+  "text": "வணக்கம்! நான் உங்களுக்கு எப்படி உதவ முடியும்? உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால், தயங்காமல் கேளுங்கள்.",
+  "heard": "வணக்கம். நான் உங்களுக்கு எப்படி உதவ முடியும்? உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால் தயங்காமல் கேளுங்கள்.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "நான் உங்களுக்கு எப்படி உதவ முடியும்?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic timbre"
+  ],
+  "comment": "The text was read accurately with clear pronunciation. The prosody and rhythm sound slightly synthetic but easily intelligible."
+ },
+ {
+  "case_id": "X-ta-natural-murugan",
+  "language": "ta",
+  "kind": "natural",
+  "voice": "murugan",
+  "planted": "false",
+  "text": "வணக்கம்! நான் உங்களுக்கு எப்படி உதவ முடியும்? உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால், தயங்காமல் கேளுங்கள்.",
+  "heard": "வணக்கம் நான் உங்களுக்கு எப்படி உதவ முடியும் உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால் தயங்காமல் கேளுங்கள்",
+  "number_language": "Tamil",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "நான் உங்களுக்கு எப்படி உதவ முடியும்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is rendered completely and accurately with appropriate interrogative intonation and minor synthetic quality."
+ },
+ {
+  "case_id": "P-ta-amount",
+  "language": "ta",
+  "kind": "amount",
+  "voice": "tamilselvi",
+  "planted": "true",
+  "text": "உங்கள் கணக்கில் ₹2,540 வரவு வைக்கப்பட்டுள்ளது.",
+  "heard": "உங்கள் கணக்கில் இரண்டாயிரத்து ஐநூற்று நாற்பது ரூபாய் வரவு வைக்கப்பட்டுள்ளது",
+  "number_language": "Tamil",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "இரண்டாயிரத்து ஐநூற்று நாற்பது ரூபாய் (2540 rupees)"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt text, but speaks 2540 instead of the target 2450."
+ },
+ {
+  "case_id": "X-kn-amount-spoorthi",
+  "language": "kn",
+  "kind": "amount",
+  "voice": "spoorthi",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ಖಾತೆಗೆ ₹2,450 ಜಮೆಯಾಗಿದೆ.",
+  "heard": "ನಿಮ್ಮ ಖಾತೆಗೆ ಎರಡು ಸಾವಿರದ ನಾನೂರೈವತ್ತು ರೂಪಾಯಿ ಜಮೆಯಾಗಿದೆ.",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಎರಡು ಸಾವಿರದ ನಾನೂರೈವತ್ತು ರೂಪಾಯಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly in Kannada with appropriate intonation."
+ },
+ {
+  "case_id": "X-kn-amount-basava",
+  "language": "kn",
+  "kind": "amount",
+  "voice": "basava",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ಖಾತೆಗೆ ₹2,450 ಜಮೆಯಾಗಿದೆ.",
+  "heard": "ನಿಮ್ಮ ಖಾತೆಗೆ ಎರಡು ಸಾವಿರದ ನಾಲ್ಕು ನೂರ ಐವತ್ತು ರೂಪಾಯಿ ಜಮೆಯಾಗಿದೆ",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಎರಡು ಸಾವಿರದ ನಾಲ್ಕು ನೂರ ಐವತ್ತು ರೂಪಾಯಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear pronunciation, though slightly synthetic in tone."
+ },
+ {
+  "case_id": "X-kn-id-spoorthi",
+  "language": "kn",
+  "kind": "id",
+  "voice": "spoorthi",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ 0070.",
+  "heard": "ನಿಮ್ಮ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and accurate rendering of the text and digits with natural pacing."
+ },
+ {
+  "case_id": "X-kn-id-basava",
+  "language": "kn",
+  "kind": "id",
+  "voice": "basava",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ 0070.",
+  "heard": "ನಿಮ್ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "robotic tone"
+  ],
+  "comment": "The text was read accurately including leading zeros, though the voice has a mild robotic quality and measured cadence."
+ },
+ {
+  "case_id": "X-kn-datetime-spoorthi",
+  "language": "kn",
+  "kind": "datetime",
+  "voice": "spoorthi",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ 23 ರಂದು ಬೆಳಿಗ್ಗೆ 9:05 ಕ್ಕೆ ಇದೆ.",
+  "heard": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ ಪತ್ತು ಮೂರಂದು ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ ಇದೆ",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "date",
+    "result": "wrong",
+    "heard": "ನವೆಂಬರ್ ಪತ್ತು ಮೂರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ"
+   }
+  ],
+  "content_complete": false,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 3,
+  "artifacts": [
+   "number mispronunciation"
+  ],
+  "comment": "The date '23' was mispronounced as 'pattu mooru' instead of 'ippattu mooru', while the time and remaining sentence were read intelligibly."
+ },
+ {
+  "case_id": "X-kn-datetime-basava",
+  "language": "kn",
+  "kind": "datetime",
+  "voice": "basava",
+  "planted": "false",
+  "text": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ 23 ರಂದು ಬೆಳಿಗ್ಗೆ 9:05 ಕ್ಕೆ ಇದೆ.",
+  "heard": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರರಂದು ಬೆಳಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕಿದೆ",
+  "number_language": "Kannada",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕಿದೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read completely with accurate pronunciation, though the pause in the time expression sounds slightly robotic."
+ },
+ {
+  "case_id": "X-kn-negation-spoorthi",
+  "language": "kn",
+  "kind": "negation",
+  "voice": "spoorthi",
+  "planted": "false",
+  "text": "ದಯವಿಟ್ಟು ನಿಮ್ಮ OTP ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.",
+  "heard": "ದಯವಿಟ್ಟು ನಿಮ್ಮ O T P ಯನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ಹಂಚಿಕೊಳ್ಳಬೇಡಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ಓಟಿಪಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is delivered clearly with correct pronunciation and appropriate cadence."
+ },
+ {
+  "case_id": "X-kn-negation-basava",
+  "language": "kn",
+  "kind": "negation",
+  "voice": "basava",
+  "planted": "false",
+  "text": "ದಯವಿಟ್ಟು ನಿಮ್ಮ OTP ಅನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ.",
+  "heard": "ದಯವಿಟ್ಟು ನಿಮ್ಮ O T P ಯನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ಬೇಡಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear, fully matches the prompt, and sounds natural with accurate pronunciation."
+ },
+ {
+  "case_id": "X-kn-natural-spoorthi",
+  "language": "kn",
+  "kind": "natural",
+  "voice": "spoorthi",
+  "planted": "false",
+  "text": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು? ನಿಮ್ಮ ಖಾತೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಬೇಕಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ.",
+  "heard": "ನಮಸ್ಕಾರ ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು ನಿಮ್ಮ ಖಾತೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಬೇಕಿದ್ದರೆ ದಯವಿಟ್ಟು ಕೇಳಿ",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural, and accurate Kannada TTS."
+ },
+ {
+  "case_id": "X-kn-natural-basava",
+  "language": "kn",
+  "kind": "natural",
+  "voice": "basava",
+  "planted": "false",
+  "text": "ನಮಸ್ಕಾರ! ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು? ನಿಮ್ಮ ಖಾತೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಬೇಕಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ.",
+  "heard": "ನಮಸ್ಕಾರ ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು ನಿಮ್ಮ ಖಾತೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಬೇಕಿದ್ದರೆ ದಯವಿಟ್ಟು ಕೇಳಿ",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear and polite delivery suitable for a customer service assistant."
+ },
+ {
+  "case_id": "P-kn-negation",
+  "language": "kn",
+  "kind": "negation",
+  "voice": "spoorthi",
+  "planted": "true",
+  "text": "ದಯವಿಟ್ಟು ನಿಮ್ಮ OTP ಅನ್ನು ಎಲ್ಲರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ.",
+  "heard": "ದಯವಿಟ್ಟು ನಿಮ್ಮ O T P ಯನ್ನು ಎಲ್ಲರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "wrong",
+    "heard": "ಹಂಚಿಕೊಳ್ಳಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt matches the text, but the required negative instruction is entirely absent."
+ },
+ {
+  "case_id": "X-mr-amount-ketaki",
+  "language": "mr",
+  "kind": "amount",
+  "voice": "ketaki",
+  "planted": "false",
+  "text": "तुमच्या खात्यात ₹2,450 जमा झाले आहेत.",
+  "heard": "तुमच्या खात्यात दोन हजार चारशे पन्नास रुपये जमा झाले आहेत",
+  "number_language": "Marathi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दोन हजार चारशे पन्नास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reads the entire text and numerical amount, with standard synthetic intonation."
+ },
+ {
+  "case_id": "X-mr-amount-mandar",
+  "language": "mr",
+  "kind": "amount",
+  "voice": "mandar",
+  "planted": "false",
+  "text": "तुमच्या खात्यात ₹2,450 जमा झाले आहेत.",
+  "heard": "तुमच्या खात्यात दोन हजार चारशे पन्नास रुपये जमा झाले आहेत",
+  "number_language": "marathi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दोन हजार चारशे पन्नास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully rendered with accurate Marathi pronunciation and smooth prosody."
+ },
+ {
+  "case_id": "X-mr-id-ketaki",
+  "language": "mr",
+  "kind": "id",
+  "voice": "ketaki",
+  "planted": "false",
+  "text": "तुमचा संदर्भ क्रमांक 0070 आहे.",
+  "heard": "तुमचा संदर्भ क्रमांक शून्य शून्य सात शून्य आहे",
+  "number_language": "mr",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 3,
+  "artifacts": [],
+  "comment": "The text and numbers were spoken accurately with intelligible Marathi pronunciation, though slightly mechanical in rhythm."
+ },
+ {
+  "case_id": "X-mr-id-mandar",
+  "language": "mr",
+  "kind": "id",
+  "voice": "mandar",
+  "planted": "false",
+  "text": "तुमचा संदर्भ क्रमांक 0070 आहे.",
+  "heard": "तुमचा संदर्भ क्रमांक शून्य शून्य सात शून्य आहे",
+  "number_language": "mr",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The reference number was read digit-by-digit accurately. Intonation is slightly synthetic but clear."
+ },
+ {
+  "case_id": "X-mr-datetime-ketaki",
+  "language": "mr",
+  "kind": "datetime",
+  "voice": "ketaki",
+  "planted": "false",
+  "text": "तुमची मीटिंग 23 नोव्हेंबरला सकाळी 9:05 वाजता आहे.",
+  "heard": "तुमची मिटिंग 23 नोव्हेंबर ला सकाळी नऊ पाच वाजता आहे",
+  "number_language": "Marathi",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेवीस नोव्हेंबरला"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सकाळी नऊ पाच वाजता"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic tone"
+  ],
+  "comment": "Speech is intelligible with accurate target delivery and clear pronunciation, though slightly artificial in cadence."
+ },
+ {
+  "case_id": "X-mr-datetime-mandar",
+  "language": "mr",
+  "kind": "datetime",
+  "voice": "mandar",
+  "planted": "false",
+  "text": "तुमची मीटिंग 23 नोव्हेंबरला सकाळी 9:05 वाजता आहे.",
+  "heard": "तुमची मीटिंग तेवीस नोव्हेंबरला सकाळी नऊ पाच वाजता आहे",
+  "number_language": "Marathi",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेवीस नोव्हेंबरला"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सकाळी नऊ पाच वाजता"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All targets correctly uttered. Intonation is slightly synthetic but clear and understandable."
+ },
+ {
+  "case_id": "X-mr-negation-ketaki",
+  "language": "mr",
+  "kind": "negation",
+  "voice": "ketaki",
+  "planted": "false",
+  "text": "कृपया तुमचा OTP कोणालाही सांगू नका.",
+  "heard": "कृपया तुमचा O T P कोणालाही सांगू नका",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly rendered with appropriate pronunciation and fluent intonation."
+ },
+ {
+  "case_id": "X-mr-negation-mandar",
+  "language": "mr",
+  "kind": "negation",
+  "voice": "mandar",
+  "planted": "false",
+  "text": "कृपया तुमचा OTP कोणालाही सांगू नका.",
+  "heard": "कृपया तुमचा O T P कोणालाही सांगू नका",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear speech with fully accurate content and intelligible pronunciation, though tone is slightly synthetic."
+ },
+ {
+  "case_id": "X-mr-natural-ketaki",
+  "language": "mr",
+  "kind": "natural",
+  "voice": "ketaki",
+  "planted": "false",
+  "text": "नमस्कार! मी तुम्हाला कशी मदत करू शकते? तुमच्या खात्याबद्दल काही माहिती हवी असल्यास, नक्की विचारा.",
+  "heard": "नमस्कार मी तुम्हाला कशी मदत करू शकते तुमच्या खात्याबद्दल काही माहिती हवी असल्यास नक्की विचारा",
+  "number_language": "",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मी तुम्हाला कशी मदत करू शकते?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural, and well-intoned delivery."
+ },
+ {
+  "case_id": "X-mr-natural-mandar",
+  "language": "mr",
+  "kind": "natural",
+  "voice": "mandar",
+  "planted": "false",
+  "text": "नमस्कार! मी तुम्हाला कशी मदत करू शकते? तुमच्या खात्याबद्दल काही माहिती हवी असल्यास, नक्की विचारा.",
+  "heard": "नमस्कार. मी तुम्हाला कशी मदत करू शकते? तुमच्या खात्याबद्दल काही माहिती हवी असल्यास नक्की विचारा.",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मी तुम्हाला कशी मदत करू शकते?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully captures the text with appropriate question intonation and natural pacing."
+ },
+ {
+  "case_id": "P-mr-id",
+  "language": "mr",
+  "kind": "id",
+  "voice": "ketaki",
+  "planted": "true",
+  "text": "तुमचा संदर्भ क्रमांक 7000 आहे.",
+  "heard": "तुमचा संदर्भ क्रमांक सात शून्य शून्य शून्य आहे",
+  "number_language": "mr",
+  "targets": [
+   {
+    "id": "id",
+    "result": "wrong",
+    "heard": "सात शून्य शून्य शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The speaker read 7000 digit-by-digit as 'सात शून्य शून्य शून्य' instead of '0070'."
+ }
+]

@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "P-te-id",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fc42edc32965e6e6",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-te-id.wav",
+ "audio_sha256": "fc0d7c8e1700f0b2cca3574a470d3a77dafe333f772118222eee76dadddfeb90",
+ "latency_ms": 9346,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "wrong",
+    "heard": "సున్నా ఏడు సున్నా సున్నా"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio accurately matches the prompt text 0700, but fails the target requirement of 0070."
+ },
+ "tokens": {
+  "prompt": 453,
+  "output": 134
+ }
+}

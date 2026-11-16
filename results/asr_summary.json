@@ -1,0 +1,314 @@
+{
+ "rest:pulse": {
+  "code_switch_hi_en": {
+   "clips": 6,
+   "reference_words": 75,
+   "word_edits": 31,
+   "wer": 0.4133,
+   "cer": 0.4246,
+   "cer_no_spaces": 0.4498,
+   "raw_wer": 0.48,
+   "exact_clips": 1,
+   "slots_correct": 10,
+   "slots_total": 13
+  },
+  "english": {
+   "clips": 6,
+   "reference_words": 39,
+   "word_edits": 4,
+   "wer": 0.1026,
+   "cer": 0.067,
+   "cer_no_spaces": 0.0795,
+   "raw_wer": 0.1282,
+   "exact_clips": 3,
+   "slots_correct": 5,
+   "slots_total": 8
+  },
+  "hindi": {
+   "clips": 6,
+   "reference_words": 45,
+   "word_edits": 7,
+   "wer": 0.1556,
+   "cer": 0.1391,
+   "cer_no_spaces": 0.1571,
+   "raw_wer": 0.3111,
+   "exact_clips": 3,
+   "slots_correct": 7,
+   "slots_total": 8
+  },
+  "telugu": {
+   "clips": 6,
+   "reference_words": 35,
+   "word_edits": 14,
+   "wer": 0.4,
+   "cer": 0.1709,
+   "cer_no_spaces": 0.161,
+   "raw_wer": 0.6286,
+   "exact_clips": 1,
+   "slots_correct": 2,
+   "slots_total": 7
+  },
+  "all_speech": {
+   "clips": 24,
+   "reference_words": 194,
+   "word_edits": 56,
+   "wer": 0.2887,
+   "cer": 0.2308,
+   "cer_no_spaces": 0.2404,
+   "raw_wer": 0.3969,
+   "exact_clips": 8,
+   "slots_correct": 24,
+   "slots_total": 36
+  },
+  "no_speech": {
+   "clips": 3,
+   "false_transcriptions": 0,
+   "inserted_words": 0
+  }
+ },
+ "rest:pulse-pro": {
+  "english": {
+   "clips": 6,
+   "reference_words": 39,
+   "word_edits": 3,
+   "wer": 0.0769,
+   "cer": 0.0431,
+   "cer_no_spaces": 0.0511,
+   "raw_wer": 0.1282,
+   "exact_clips": 4,
+   "slots_correct": 6,
+   "slots_total": 8
+  },
+  "all_speech": {
+   "clips": 6,
+   "reference_words": 39,
+   "word_edits": 3,
+   "wer": 0.0769,
+   "cer": 0.0431,
+   "cer_no_spaces": 0.0511,
+   "raw_wer": 0.1282,
+   "exact_clips": 4,
+   "slots_correct": 6,
+   "slots_total": 8
+  },
+  "no_speech": {
+   "clips": 3,
+   "false_transcriptions": 3,
+   "inserted_words": 5
+  }
+ },
+ "rest:pulse:language=te": {
+  "telugu": {
+   "clips": 6,
+   "reference_words": 35,
+   "word_edits": 14,
+   "wer": 0.4,
+   "cer": 0.1709,
+   "cer_no_spaces": 0.161,
+   "raw_wer": 0.6286,
+   "exact_clips": 1,
+   "slots_correct": 2,
+   "slots_total": 7
+  },
+  "all_speech": {
+   "clips": 6,
+   "reference_words": 35,
+   "word_edits": 14,
+   "wer": 0.4,
+   "cer": 0.1709,
+   "cer_no_spaces": 0.161,
+   "raw_wer": 0.6286,
+   "exact_clips": 1,
+   "slots_correct": 2,
+   "slots_total": 7
+  }
+ },
+ "rest:pulse:language=multi-indic": {
+  "code_switch_hi_en": {
+   "clips": 6,
+   "reference_words": 75,
+   "word_edits": 29,
+   "wer": 0.3867,
+   "cer": 0.4022,
+   "cer_no_spaces": 0.4083,
+   "raw_wer": 0.4533,
+   "exact_clips": 1,
+   "slots_correct": 11,
+   "slots_total": 13
+  },
+  "english": {
+   "clips": 6,
+   "reference_words": 39,
+   "word_edits": 16,
+   "wer": 0.4103,
+   "cer": 0.3493,
+   "cer_no_spaces": 0.3807,
+   "raw_wer": 0.4615,
+   "exact_clips": 2,
+   "slots_correct": 3,
+   "slots_total": 8
+  },
+  "hindi": {
+   "clips": 6,
+   "reference_words": 45,
+   "word_edits": 10,
+   "wer": 0.2222,
+   "cer": 0.113,
+   "cer_no_spaces": 0.1099,
+   "raw_wer": 0.3111,
+   "exact_clips": 3,
+   "slots_correct": 7,
+   "slots_total": 8
+  },
+  "telugu": {
+   "clips": 6,
+   "reference_words": 35,
+   "word_edits": 40,
+   "wer": 1.1429,
+   "cer": 1.0427,
+   "cer_no_spaces": 1.1268,
+   "raw_wer": 1.1429,
+   "exact_clips": 0,
+   "slots_correct": 0,
+   "slots_total": 7
+  },
+  "all_speech": {
+   "clips": 24,
+   "reference_words": 194,
+   "word_edits": 95,
+   "wer": 0.4897,
+   "cer": 0.4724,
+   "cer_no_spaces": 0.5075,
+   "raw_wer": 0.5464,
+   "exact_clips": 6,
+   "slots_correct": 21,
+   "slots_total": 36
+  }
+ },
+ "ws:pulse": {
+  "code_switch_hi_en": {
+   "clips": 1,
+   "reference_words": 13,
+   "word_edits": 0,
+   "wer": 0.0,
+   "cer": 0.0,
+   "cer_no_spaces": 0.0,
+   "raw_wer": 0.1538,
+   "exact_clips": 1,
+   "slots_correct": 3,
+   "slots_total": 3
+  },
+  "english": {
+   "clips": 3,
+   "reference_words": 23,
+   "word_edits": 1,
+   "wer": 0.0435,
+   "cer": 0.0085,
+   "cer_no_spaces": 0.0103,
+   "raw_wer": 0.1304,
+   "exact_clips": 2,
+   "slots_correct": 4,
+   "slots_total": 5
+  },
+  "hindi": {
+   "clips": 2,
+   "reference_words": 20,
+   "word_edits": 4,
+   "wer": 0.2,
+   "cer": 0.181,
+   "cer_no_spaces": 0.1954,
+   "raw_wer": 0.3,
+   "exact_clips": 1,
+   "slots_correct": 2,
+   "slots_total": 3
+  },
+  "telugu": {
+   "clips": 2,
+   "reference_words": 14,
+   "word_edits": 4,
+   "wer": 0.2857,
+   "cer": 0.1789,
+   "cer_no_spaces": 0.1807,
+   "raw_wer": 0.2857,
+   "exact_clips": 0,
+   "slots_correct": 1,
+   "slots_total": 3
+  },
+  "all_speech": {
+   "clips": 8,
+   "reference_words": 70,
+   "word_edits": 9,
+   "wer": 0.1286,
+   "cer": 0.0979,
+   "cer_no_spaces": 0.1044,
+   "raw_wer": 0.2143,
+   "exact_clips": 4,
+   "slots_correct": 10,
+   "slots_total": 14
+  },
+  "no_speech": {
+   "clips": 1,
+   "false_transcriptions": 0,
+   "inserted_words": 0
+  }
+ },
+ "paired_rest_vs_ws": {
+  "clips": [
+   "CS06",
+   "EN02",
+   "EN05",
+   "EN06",
+   "HI03",
+   "HI05",
+   "NS02",
+   "TE02",
+   "TE05"
+  ],
+  "rest": {
+   "clips": 8,
+   "reference_words": 70,
+   "word_edits": 12,
+   "wer": 0.1714,
+   "cer": 0.127,
+   "cer_no_spaces": 0.1361,
+   "raw_wer": 0.2857,
+   "exact_clips": 4,
+   "slots_correct": 10,
+   "slots_total": 14
+  },
+  "ws": {
+   "clips": 8,
+   "reference_words": 70,
+   "word_edits": 9,
+   "wer": 0.1286,
+   "cer": 0.0979,
+   "cer_no_spaces": 0.1044,
+   "raw_wer": 0.2143,
+   "exact_clips": 4,
+   "slots_correct": 10,
+   "slots_total": 14
+  },
+  "differing": [
+   {
+    "clip": "EN05",
+    "rest": "Who was the leader of Switzerland in 1499?",
+    "ws": "Who was the leader of Switzerland in 1999"
+   },
+   {
+    "clip": "EN06",
+    "rest": "What battle took place at Hill Sixty",
+    "ws": "What battle took place at Hill 60?"
+   },
+   {
+    "clip": "HI05",
+    "rest": "दो हज़ार पंद्रह cricket विश्व कप के दौरान भारतीय team के सह कप्तान कौन थे",
+    "ws": "दो हज़ार पंद्रह क्रिकेट विश्व कप के दौरान भारतीय team के सह कप्तान कौन थे?"
+   },
+   {
+    "clip": "TE05",
+    "rest": "రెండు వేల పదకొండు జనగన ప్రకారం వలివేరు గ్రామంలో మహిళల సంఖ్య ఎంత ?",
+    "ws": "రెండువేల పదకొండు జనగణన ప్రకారం వలివేరు గ్రామంలో మహిళల సంఖ్య ఎంత?"
+   }
+  ]
+ }
+}

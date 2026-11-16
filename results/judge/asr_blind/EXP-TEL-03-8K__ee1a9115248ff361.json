@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TEL-03-8K",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ee1a9115248ff361",
+ "audio": "clips/ext2/EXP-TEL-03-8K.wav",
+ "audio_sha256": "241b0eef83ed8441e3af9f91d91b73c52ad2b70edb52e3edc710397b3c146526",
+ "latency_ms": 8840,
+ "reply": {
+  "transcript": "smartphones के camera कौन से वर्ष से प्रयोग में शुरू हुआ",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 36
+ }
+}

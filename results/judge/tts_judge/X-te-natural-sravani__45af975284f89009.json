@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-natural-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "45af975284f89009",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-natural-sravani.wav",
+ "audio_sha256": "25c0d16d41cfd3cabf55409b9b0b48198eb45c0dbc64e2a1f582c4b1614a16c0",
+ "latency_ms": 8046,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "నేను మీకు ఎలా సహాయం చేయగలను"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is fully rendered with clear pronunciation, though pacing and intonation sound mildly robotic."
+ },
+ "tokens": {
+  "prompt": 601,
+  "output": 138
+ }
+}

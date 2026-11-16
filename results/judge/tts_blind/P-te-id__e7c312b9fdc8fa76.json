@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "P-te-id",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e7c312b9fdc8fa76",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-te-id.wav",
+ "audio_sha256": "fc0d7c8e1700f0b2cca3574a470d3a77dafe333f772118222eee76dadddfeb90",
+ "latency_ms": 10512,
+ "reply": {
+  "heard": "మీ reference number సున్నా ఏడు సున్నా సున్నా",
+  "number_language": "Telugu",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 196,
+  "output": 38
+ }
+}

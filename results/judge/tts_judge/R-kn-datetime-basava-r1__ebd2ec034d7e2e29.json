@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "R-kn-datetime-basava-r1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ebd2ec034d7e2e29",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts_repeat\\kn-datetime-basava-r1.wav",
+ "audio_sha256": "fe5a6c550387df1ee52a27cdd42f462bf2b027392c6f7a2f01f01f0e1355739a",
+ "latency_ms": 8129,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ಮೂರು ರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "awkward pause around time segment"
+  ],
+  "comment": "All content rendered accurately. Prosody has a noticeable pause before the minutes segment."
+ },
+ "tokens": {
+  "prompt": 525,
+  "output": 164
+ }
+}

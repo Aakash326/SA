@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-negation-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "abc1abd883163659",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-negation-mandar.wav",
+ "audio_sha256": "372c0204ca33dfd3b383e5e7538a474cf550c404f646cb2c381afec744f1705c",
+ "latency_ms": 5704,
+ "reply": {
+  "heard": "कृपया तुमचा O T P कोणालाही सांगू नका",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 206,
+  "output": 30
+ }
+}

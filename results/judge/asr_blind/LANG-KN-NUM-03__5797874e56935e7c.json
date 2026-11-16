@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5797874e56935e7c",
+ "audio": "clips/ext2/LANG-KN-NUM-03.wav",
+ "audio_sha256": "08a7344b257158fa1f5c5cdc2ffba1622368c2283ec4de33a5aafc0edcf450f0",
+ "latency_ms": 4803,
+ "reply": {
+  "transcript": "2017 ರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 251,
+  "output": 42
+ }
+}

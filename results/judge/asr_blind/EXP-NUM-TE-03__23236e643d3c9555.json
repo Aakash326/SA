@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "23236e643d3c9555",
+ "audio": "clips/ext2/EXP-NUM-TE-03.wav",
+ "audio_sha256": "4214f687f05ad34de03a238a02e76f974edf0682dc3001f219952fa31ea040b1",
+ "latency_ms": 4707,
+ "reply": {
+  "transcript": "2011 లో కారని గ్రామ జనాభా ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 213,
+  "output": 36
+ }
+}

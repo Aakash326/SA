@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "84f596d39c5bd3ca",
+ "audio": "clips/ext2/LANG-KN-CL-07.wav",
+ "audio_sha256": "7b582d70b949c400d2c40fc3acceb07f813ea252414d05d3cb3aa3d391400fdc",
+ "latency_ms": 13684,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಭೂತಾನದ",
+    "system": "ಬೂತನದ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ದಾದ",
+    "system": "ದಾದದ್",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "ಯಾವುದು",
+    "system": "ಯಾವುದು ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "ಭೂತಾನದ ದಾದದ್ ಜಿಲ್ಲೆ ಯಾವುದು?",
+  "confidence": "medium"
+ },
+ "tokens": {
+  "prompt": 380,
+  "output": 134
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "N2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7227739b82588a63",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N2.wav",
+ "audio_sha256": "dbd29f1e7396c1a8cf3418dd0aee0cc093ad245c36c239bca1e3bbd32997b5de",
+ "latency_ms": 16636,
+ "reply": {
+  "heard": "आपका K Y C pending है",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 174,
+  "output": 33
+ }
+}

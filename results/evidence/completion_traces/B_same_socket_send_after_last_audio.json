@@ -1,0 +1,877 @@
+{
+ "mode": "B_same_socket_send_after_last_audio",
+ "frames": [
+  [
+   {
+    "t_ms": 158.4,
+    "wall_ist": "21:45:45.607",
+    "client_event": "send",
+    "text": "Your reference ID is 0070."
+   },
+   {
+    "t_ms": 284.3,
+    "wall_ist": "21:45:45.733",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 3200,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 347.0,
+    "wall_ist": "21:45:45.796",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 7512,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 371.0,
+    "wall_ist": "21:45:45.820",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 392.1,
+    "wall_ist": "21:45:45.841",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 413.5,
+    "wall_ist": "21:45:45.862",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 437.7,
+    "wall_ist": "21:45:45.887",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 458.2,
+    "wall_ist": "21:45:45.907",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 479.2,
+    "wall_ist": "21:45:45.928",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 501.7,
+    "wall_ist": "21:45:45.951",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 524.0,
+    "wall_ist": "21:45:45.973",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 547.9,
+    "wall_ist": "21:45:45.997",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 569.8,
+    "wall_ist": "21:45:46.019",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 593.1,
+    "wall_ist": "21:45:46.042",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 612.6,
+    "wall_ist": "21:45:46.062",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 635.5,
+    "wall_ist": "21:45:46.085",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 655.7,
+    "wall_ist": "21:45:46.105",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 678.6,
+    "wall_ist": "21:45:46.128",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 699.9,
+    "wall_ist": "21:45:46.149",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 720.3,
+    "wall_ist": "21:45:46.169",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 743.7,
+    "wall_ist": "21:45:46.193",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 762.3,
+    "wall_ist": "21:45:46.211",
+    "status": "chunk",
+    "type": null,
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "audio_b64_len": 172,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1167.7,
+    "wall_ist": "21:45:46.617",
+    "client_event": "send",
+    "text": "Your appointment is confirmed for Monday."
+   },
+   {
+    "t_ms": 1297.1,
+    "wall_ist": "21:45:46.746",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 3200,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1351.0,
+    "wall_ist": "21:45:46.800",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 472,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1375.1,
+    "wall_ist": "21:45:46.824",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1398.6,
+    "wall_ist": "21:45:46.848",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1421.8,
+    "wall_ist": "21:45:46.871",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1444.2,
+    "wall_ist": "21:45:46.893",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1468.1,
+    "wall_ist": "21:45:46.917",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1493.0,
+    "wall_ist": "21:45:46.942",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1513.9,
+    "wall_ist": "21:45:46.963",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1535.8,
+    "wall_ist": "21:45:46.985",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1559.3,
+    "wall_ist": "21:45:47.008",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1585.2,
+    "wall_ist": "21:45:47.034",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1605.3,
+    "wall_ist": "21:45:47.054",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 1629.4,
+    "wall_ist": "21:45:47.078",
+    "status": "chunk",
+    "type": null,
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "audio_b64_len": 172,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2032.0,
+    "wall_ist": "21:45:47.481",
+    "client_event": "send",
+    "text": "Please do not share your OTP."
+   },
+   {
+    "t_ms": 2152.0,
+    "wall_ist": "21:45:47.601",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 3200,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2248.7,
+    "wall_ist": "21:45:47.698",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 9432,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2271.8,
+    "wall_ist": "21:45:47.721",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2297.3,
+    "wall_ist": "21:45:47.746",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2319.9,
+    "wall_ist": "21:45:47.769",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2341.1,
+    "wall_ist": "21:45:47.790",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2362.6,
+    "wall_ist": "21:45:47.812",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2384.6,
+    "wall_ist": "21:45:47.834",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2405.5,
+    "wall_ist": "21:45:47.854",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2428.0,
+    "wall_ist": "21:45:47.877",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2455.0,
+    "wall_ist": "21:45:47.904",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2475.0,
+    "wall_ist": "21:45:47.924",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2498.4,
+    "wall_ist": "21:45:47.947",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2522.9,
+    "wall_ist": "21:45:47.972",
+    "status": "chunk",
+    "type": null,
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "audio_b64_len": 172,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 2929.0,
+    "wall_ist": "21:45:48.378",
+    "client_event": "send",
+    "text": "Your balance is 2,450 rupees."
+   },
+   {
+    "t_ms": 3062.1,
+    "wall_ist": "21:45:48.511",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 3200,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3113.1,
+    "wall_ist": "21:45:48.562",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 7192,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3136.2,
+    "wall_ist": "21:45:48.585",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3157.3,
+    "wall_ist": "21:45:48.606",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3178.8,
+    "wall_ist": "21:45:48.628",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3200.9,
+    "wall_ist": "21:45:48.650",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3222.2,
+    "wall_ist": "21:45:48.671",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3245.9,
+    "wall_ist": "21:45:48.695",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3266.3,
+    "wall_ist": "21:45:48.715",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3287.8,
+    "wall_ist": "21:45:48.737",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3310.7,
+    "wall_ist": "21:45:48.760",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3332.4,
+    "wall_ist": "21:45:48.781",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3353.8,
+    "wall_ist": "21:45:48.803",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3375.1,
+    "wall_ist": "21:45:48.824",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3397.2,
+    "wall_ist": "21:45:48.846",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3422.1,
+    "wall_ist": "21:45:48.871",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3446.5,
+    "wall_ist": "21:45:48.896",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3472.1,
+    "wall_ist": "21:45:48.921",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3497.8,
+    "wall_ist": "21:45:48.947",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3522.3,
+    "wall_ist": "21:45:48.971",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3547.4,
+    "wall_ist": "21:45:48.996",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3571.7,
+    "wall_ist": "21:45:49.021",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3596.4,
+    "wall_ist": "21:45:49.045",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 3620.0,
+    "wall_ist": "21:45:49.069",
+    "status": "chunk",
+    "type": null,
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "audio_b64_len": 172,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4031.1,
+    "wall_ist": "21:45:49.480",
+    "client_event": "send",
+    "text": "Thank you for calling."
+   },
+   {
+    "t_ms": 4161.1,
+    "wall_ist": "21:45:49.610",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 3200,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4211.8,
+    "wall_ist": "21:45:49.661",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 472,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4237.4,
+    "wall_ist": "21:45:49.686",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4262.9,
+    "wall_ist": "21:45:49.712",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4288.6,
+    "wall_ist": "21:45:49.738",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4313.0,
+    "wall_ist": "21:45:49.762",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4338.2,
+    "wall_ist": "21:45:49.787",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4363.8,
+    "wall_ist": "21:45:49.813",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4388.1,
+    "wall_ist": "21:45:49.837",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 10240,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 4410.4,
+    "wall_ist": "21:45:49.859",
+    "status": "chunk",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 172,
+    "message": null,
+    "errors": null
+   },
+   {
+    "t_ms": 8437.4,
+    "wall_ist": "21:45:53.886",
+    "status": "complete",
+    "type": null,
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "audio_b64_len": 0,
+    "message": null,
+    "errors": null
+   }
+  ]
+ ]
+}

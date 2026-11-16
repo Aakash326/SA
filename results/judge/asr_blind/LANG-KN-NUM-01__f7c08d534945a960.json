@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f7c08d534945a960",
+ "audio": "clips/ext2/LANG-KN-NUM-01.wav",
+ "audio_sha256": "5b39a42e27be01734c58d216e8947c38b539fa49cc4ba9c41e10931d744b8b65",
+ "latency_ms": 4795,
+ "reply": {
+  "transcript": "2011 ರ ಭಾರತದ ಜನಗಣತಿಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 296,
+  "output": 47
+ }
+}

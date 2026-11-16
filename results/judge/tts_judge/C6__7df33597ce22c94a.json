@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "C6",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7df33597ce22c94a",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C6.wav",
+ "audio_sha256": "d7d06d16a3173b33fe43fcb03eb150a3bd59d92b76aae410352a1179d7915e64",
+ "latency_ms": 8484,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty a m"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear articulation and natural phrasing."
+ },
+ "tokens": {
+  "prompt": 420,
+  "output": 127
+ }
+}

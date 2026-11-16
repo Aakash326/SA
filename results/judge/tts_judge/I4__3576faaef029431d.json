@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "I4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3576faaef029431d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I4.wav",
+ "audio_sha256": "7ecea81e75e6f83232101b6c88f0b4e539fb87fd96fb6acf17cfe83c49d61b24",
+ "latency_ms": 13806,
+ "reply": {
+  "targets": [
+   {
+    "id": "phone",
+    "result": "correct",
+    "heard": "एक आठ शून्य शून्य शून्य दो शून्य शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi (may include English words)",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "robotic digit pacing"
+  ],
+  "comment": "English intro followed by clearly enunciated Hindi numerals, though the pacing of the phone digits is somewhat robotic."
+ },
+ "tokens": {
+  "prompt": 549,
+  "output": 160
+ }
+}

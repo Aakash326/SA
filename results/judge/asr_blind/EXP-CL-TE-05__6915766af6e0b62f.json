@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6915766af6e0b62f",
+ "audio": "clips/ext2/EXP-CL-TE-05.wav",
+ "audio_sha256": "622592eec08efc3880a73eeb3ac6db5bbd7335e99881835ef0f564c71707cb6a",
+ "latency_ms": 6365,
+ "reply": {
+  "transcript": "మానవుడు నిమిషానికి ఎన్నిసార్లు శ్వాస తీసుకుంటాడు",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 246,
+  "output": 42
+ }
+}

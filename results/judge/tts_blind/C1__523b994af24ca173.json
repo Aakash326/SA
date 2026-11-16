@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "523b994af24ca173",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C1.wav",
+ "audio_sha256": "c159d05c3321032b3c80d49fc713694250ec79d5e2b15b936fadc5120ce3b550",
+ "latency_ms": 3301,
+ "reply": {
+  "heard": "The amount is one thousand four hundred ninety nine rupees",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 206,
+  "output": 28
+ }
+}

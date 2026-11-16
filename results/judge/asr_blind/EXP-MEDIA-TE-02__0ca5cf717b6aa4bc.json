@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0ca5cf717b6aa4bc",
+ "audio": "clips/ext2/EXP-MEDIA-TE-02.wav",
+ "audio_sha256": "ca5d7205ae19bbe607b07c2933f68f44c0a583357cf0d9ba83e0e1b5100ccac4",
+ "latency_ms": 3025,
+ "reply": {
+  "transcript": "మానవుడి జీవితకాలం ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 32
+ }
+}

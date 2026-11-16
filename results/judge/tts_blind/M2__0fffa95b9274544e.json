@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "M2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0fffa95b9274544e",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M2.wav",
+ "audio_sha256": "c698a9ffd6ff5c5f22d92820b95cf209feddf5fe01397adb334ff48d716abfed",
+ "latency_ms": 5361,
+ "reply": {
+  "heard": "Your refund of एक हज़ार नौ सौ निन्यानवे दशमलव पाँच शून्य रुपये has been processed.",
+  "number_language": "hi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 268,
+  "output": 37
+ }
+}

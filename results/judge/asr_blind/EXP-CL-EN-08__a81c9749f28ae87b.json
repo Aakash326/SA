@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a81c9749f28ae87b",
+ "audio": "clips/ext2/EXP-CL-EN-08.wav",
+ "audio_sha256": "d12678bdd28f46e053375e83db452900dd1fcda5633c3b3ac90b7b6b6ca834b7",
+ "latency_ms": 4113,
+ "reply": {
+  "transcript": "What's the biggest theater in the United States?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 34
+ }
+}

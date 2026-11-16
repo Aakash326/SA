@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6d6440b310a99e60",
+ "audio": "clips/ext2/LANG-TA-CL-05.wav",
+ "audio_sha256": "e3e80a8a82ce29cb61b946c20ac0b70d7a680bce5ce08553a689948cf1f4baca",
+ "latency_ms": 4056,
+ "reply": {
+  "transcript": "முதல் emoji உருவாக்கப்பட்ட ஆண்டு எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 30
+ }
+}

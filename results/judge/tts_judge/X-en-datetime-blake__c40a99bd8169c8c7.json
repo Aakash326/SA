@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-datetime-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c40a99bd8169c8c7",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-datetime-blake.wav",
+ "audio_sha256": "9652a9713975ad153fa4ce4d09d30a83acc12c8f73b731c182e3e05061dcd2ac",
+ "latency_ms": 7265,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "twenty third November"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five A M"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear delivery with slight synthetic cadence."
+ },
+ "tokens": {
+  "prompt": 495,
+  "output": 110
+ }
+}

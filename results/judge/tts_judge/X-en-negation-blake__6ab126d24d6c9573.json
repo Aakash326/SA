@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-negation-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6ab126d24d6c9573",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-negation-blake.wav",
+ "audio_sha256": "2371340b40feb9e09a392c763cbb93909d0a836dd3c7ca4f5eba2f25766ed26b",
+ "latency_ms": 8486,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is delivered clearly with accurate pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 473,
+  "output": 138
+ }
+}

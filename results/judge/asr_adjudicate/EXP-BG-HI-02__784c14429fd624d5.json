@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-BG-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "784c14429fd624d5",
+ "audio": "clips/ext2/EXP-BG-HI-02.wav",
+ "audio_sha256": "9fc98ebb0131d122bc5d5423ca0e8c97bea510506138ccf76a5da638cef14241",
+ "latency_ms": 9398,
+ "reply": {
+  "differences": [
+   {
+    "reference": "अ",
+    "system": "ऐ",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "ए पैसेज भारत पुस्तक पहली बार कब प्रकाशित हुई थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 408,
+  "output": 113
+ }
+}

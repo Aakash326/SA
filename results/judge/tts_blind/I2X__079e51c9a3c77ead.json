@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "I2X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "079e51c9a3c77ead",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I2X.wav",
+ "audio_sha256": "7b28a20fc8feaade9c809882c8f473312fbd411a1b57d92e423136cb12088255",
+ "latency_ms": 4723,
+ "reply": {
+  "heard": "The O T P is zero zero four five one two. Do not share it.",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 246,
+  "output": 35
+ }
+}

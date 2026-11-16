@@ -1,0 +1,1996 @@
+{
+ "environment": {
+  "ts_utc": "2026-11-16T14:58:55.789+00:00",
+  "ts_ist": "2026-11-16 20:28:55.789 IST",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.14.4",
+  "requests": "2.34.2",
+  "websockets": "17.4",
+  "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "host": "api.smallest.ai",
+  "resolved": [
+   "3.33.245.118",
+   "75.2.112.2"
+  ],
+  "key_present": true,
+  "network_note": "Fill in city / ISP manually; not collected automatically."
+ },
+ "volume": {
+  "asr_lang_probe": 30,
+  "asr_rest": 27,
+  "asr_rest_pulse_pro": 9,
+  "asr_stream": 84,
+  "concurrency": 6,
+  "docs_checks": 6,
+  "ext_asr_rest": 195,
+  "ext_latency": 84,
+  "ext_tts_rest": 66,
+  "lifecycle": 10,
+  "negative": 54,
+  "numeric_extension": 7,
+  "probe_completion": 5,
+  "probe_en05": 3,
+  "probe_kn_date": 5,
+  "probe_misc": 11,
+  "probe_nospeech": 24,
+  "probe_numlang": 8,
+  "probe_tail": 14,
+  "screen_challenge": 16,
+  "screen_tts": 33,
+  "smoke": 3,
+  "tts_challenge": 8,
+  "tts_rest": 20,
+  "tts_ws": 80,
+  "total_logged_calls": 808
+ },
+ "test_window_ist": [
+  "2026-11-16 20:14:52 IST",
+  "2026-11-16 21:47:08 IST"
+ ],
+ "asr": {
+  "rest:pulse": {
+   "code_switch_hi_en": {
+    "clips": 6,
+    "reference_words": 75,
+    "word_edits": 31,
+    "wer": 0.4133,
+    "cer": 0.4246,
+    "cer_no_spaces": 0.4498,
+    "raw_wer": 0.48,
+    "exact_clips": 1,
+    "slots_correct": 10,
+    "slots_total": 13
+   },
+   "english": {
+    "clips": 6,
+    "reference_words": 39,
+    "word_edits": 4,
+    "wer": 0.1026,
+    "cer": 0.067,
+    "cer_no_spaces": 0.0795,
+    "raw_wer": 0.1282,
+    "exact_clips": 3,
+    "slots_correct": 5,
+    "slots_total": 8
+   },
+   "hindi": {
+    "clips": 6,
+    "reference_words": 45,
+    "word_edits": 7,
+    "wer": 0.1556,
+    "cer": 0.1391,
+    "cer_no_spaces": 0.1571,
+    "raw_wer": 0.3111,
+    "exact_clips": 3,
+    "slots_correct": 7,
+    "slots_total": 8
+   },
+   "telugu": {
+    "clips": 6,
+    "reference_words": 35,
+    "word_edits": 14,
+    "wer": 0.4,
+    "cer": 0.1709,
+    "cer_no_spaces": 0.161,
+    "raw_wer": 0.6286,
+    "exact_clips": 1,
+    "slots_correct": 2,
+    "slots_total": 7
+   },
+   "all_speech": {
+    "clips": 24,
+    "reference_words": 194,
+    "word_edits": 56,
+    "wer": 0.2887,
+    "cer": 0.2308,
+    "cer_no_spaces": 0.2404,
+    "raw_wer": 0.3969,
+    "exact_clips": 8,
+    "slots_correct": 24,
+    "slots_total": 36
+   },
+   "no_speech": {
+    "clips": 3,
+    "false_transcriptions": 0,
+    "inserted_words": 0
+   }
+  },
+  "rest:pulse-pro": {
+   "english": {
+    "clips": 6,
+    "reference_words": 39,
+    "word_edits": 3,
+    "wer": 0.0769,
+    "cer": 0.0431,
+    "cer_no_spaces": 0.0511,
+    "raw_wer": 0.1282,
+    "exact_clips": 4,
+    "slots_correct": 6,
+    "slots_total": 8
+   },
+   "all_speech": {
+    "clips": 6,
+    "reference_words": 39,
+    "word_edits": 3,
+    "wer": 0.0769,
+    "cer": 0.0431,
+    "cer_no_spaces": 0.0511,
+    "raw_wer": 0.1282,
+    "exact_clips": 4,
+    "slots_correct": 6,
+    "slots_total": 8
+   },
+   "no_speech": {
+    "clips": 3,
+    "false_transcriptions": 3,
+    "inserted_words": 5
+   }
+  },
+  "rest:pulse:language=te": {
+   "telugu": {
+    "clips": 6,
+    "reference_words": 35,
+    "word_edits": 14,
+    "wer": 0.4,
+    "cer": 0.1709,
+    "cer_no_spaces": 0.161,
+    "raw_wer": 0.6286,
+    "exact_clips": 1,
+    "slots_correct": 2,
+    "slots_total": 7
+   },
+   "all_speech": {
+    "clips": 6,
+    "reference_words": 35,
+    "word_edits": 14,
+    "wer": 0.4,
+    "cer": 0.1709,
+    "cer_no_spaces": 0.161,
+    "raw_wer": 0.6286,
+    "exact_clips": 1,
+    "slots_correct": 2,
+    "slots_total": 7
+   }
+  },
+  "rest:pulse:language=multi-indic": {
+   "code_switch_hi_en": {
+    "clips": 6,
+    "reference_words": 75,
+    "word_edits": 29,
+    "wer": 0.3867,
+    "cer": 0.4022,
+    "cer_no_spaces": 0.4083,
+    "raw_wer": 0.4533,
+    "exact_clips": 1,
+    "slots_correct": 11,
+    "slots_total": 13
+   },
+   "english": {
+    "clips": 6,
+    "reference_words": 39,
+    "word_edits": 16,
+    "wer": 0.4103,
+    "cer": 0.3493,
+    "cer_no_spaces": 0.3807,
+    "raw_wer": 0.4615,
+    "exact_clips": 2,
+    "slots_correct": 3,
+    "slots_total": 8
+   },
+   "hindi": {
+    "clips": 6,
+    "reference_words": 45,
+    "word_edits": 10,
+    "wer": 0.2222,
+    "cer": 0.113,
+    "cer_no_spaces": 0.1099,
+    "raw_wer": 0.3111,
+    "exact_clips": 3,
+    "slots_correct": 7,
+    "slots_total": 8
+   },
+   "telugu": {
+    "clips": 6,
+    "reference_words": 35,
+    "word_edits": 40,
+    "wer": 1.1429,
+    "cer": 1.0427,
+    "cer_no_spaces": 1.1268,
+    "raw_wer": 1.1429,
+    "exact_clips": 0,
+    "slots_correct": 0,
+    "slots_total": 7
+   },
+   "all_speech": {
+    "clips": 24,
+    "reference_words": 194,
+    "word_edits": 95,
+    "wer": 0.4897,
+    "cer": 0.4724,
+    "cer_no_spaces": 0.5075,
+    "raw_wer": 0.5464,
+    "exact_clips": 6,
+    "slots_correct": 21,
+    "slots_total": 36
+   }
+  },
+  "ws:pulse": {
+   "code_switch_hi_en": {
+    "clips": 1,
+    "reference_words": 13,
+    "word_edits": 0,
+    "wer": 0.0,
+    "cer": 0.0,
+    "cer_no_spaces": 0.0,
+    "raw_wer": 0.1538,
+    "exact_clips": 1,
+    "slots_correct": 3,
+    "slots_total": 3
+   },
+   "english": {
+    "clips": 3,
+    "reference_words": 23,
+    "word_edits": 1,
+    "wer": 0.0435,
+    "cer": 0.0085,
+    "cer_no_spaces": 0.0103,
+    "raw_wer": 0.1304,
+    "exact_clips": 2,
+    "slots_correct": 4,
+    "slots_total": 5
+   },
+   "hindi": {
+    "clips": 2,
+    "reference_words": 20,
+    "word_edits": 4,
+    "wer": 0.2,
+    "cer": 0.181,
+    "cer_no_spaces": 0.1954,
+    "raw_wer": 0.3,
+    "exact_clips": 1,
+    "slots_correct": 2,
+    "slots_total": 3
+   },
+   "telugu": {
+    "clips": 2,
+    "reference_words": 14,
+    "word_edits": 4,
+    "wer": 0.2857,
+    "cer": 0.1789,
+    "cer_no_spaces": 0.1807,
+    "raw_wer": 0.2857,
+    "exact_clips": 0,
+    "slots_correct": 1,
+    "slots_total": 3
+   },
+   "all_speech": {
+    "clips": 8,
+    "reference_words": 70,
+    "word_edits": 9,
+    "wer": 0.1286,
+    "cer": 0.0979,
+    "cer_no_spaces": 0.1044,
+    "raw_wer": 0.2143,
+    "exact_clips": 4,
+    "slots_correct": 10,
+    "slots_total": 14
+   },
+   "no_speech": {
+    "clips": 1,
+    "false_transcriptions": 0,
+    "inserted_words": 0
+   }
+  },
+  "paired_rest_vs_ws": {
+   "clips": [
+    "CS06",
+    "EN02",
+    "EN05",
+    "EN06",
+    "HI03",
+    "HI05",
+    "NS02",
+    "TE02",
+    "TE05"
+   ],
+   "rest": {
+    "clips": 8,
+    "reference_words": 70,
+    "word_edits": 12,
+    "wer": 0.1714,
+    "cer": 0.127,
+    "cer_no_spaces": 0.1361,
+    "raw_wer": 0.2857,
+    "exact_clips": 4,
+    "slots_correct": 10,
+    "slots_total": 14
+   },
+   "ws": {
+    "clips": 8,
+    "reference_words": 70,
+    "word_edits": 9,
+    "wer": 0.1286,
+    "cer": 0.0979,
+    "cer_no_spaces": 0.1044,
+    "raw_wer": 0.2143,
+    "exact_clips": 4,
+    "slots_correct": 10,
+    "slots_total": 14
+   },
+   "differing": [
+    {
+     "clip": "EN05",
+     "rest": "Who was the leader of Switzerland in 1499?",
+     "ws": "Who was the leader of Switzerland in 1999"
+    },
+    {
+     "clip": "EN06",
+     "rest": "What battle took place at Hill Sixty",
+     "ws": "What battle took place at Hill 60?"
+    },
+    {
+     "clip": "HI05",
+     "rest": "दो हज़ार पंद्रह cricket विश्व कप के दौरान भारतीय team के सह कप्तान कौन थे",
+     "ws": "दो हज़ार पंद्रह क्रिकेट विश्व कप के दौरान भारतीय team के सह कप्तान कौन थे?"
+    },
+    {
+     "clip": "TE05",
+     "rest": "రెండు వేల పదకొండు జనగన ప్రకారం వలివేరు గ్రామంలో మహిళల సంఖ్య ఎంత ?",
+     "ws": "రెండువేల పదకొండు జనగణన ప్రకారం వలివేరు గ్రామంలో మహిళల సంఖ్య ఎంత?"
+    }
+   ]
+  }
+ },
+ "asr_rest_latency": {
+  "n": 27,
+  "median_ms": 687.5,
+  "p95_ms": 855.8,
+  "statuses": [
+   200
+  ]
+ },
+ "asr_stream": {
+  "sessions": 9,
+  "is_last_received": 9,
+  "timeouts": 0,
+  "close_codes": [
+   "1005"
+  ],
+  "handshake_median_ms": 205.2,
+  "first_text_median_ms": 2187.6,
+  "final_after_last_audio_median_ms": 51.0,
+  "final_after_last_audio_max_ms": 69.6
+ },
+ "finding_en05": {
+  "reference": "Who was the leader of Switzerland in 1499?",
+  "ws_runs": [
+   {
+    "tag": "A04",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "604ed2db-b4b1-46be-a054-d021165d71cc"
+    ],
+    "ts": "2026-11-16 20:18:36.367 IST"
+   },
+   {
+    "tag": "A04-REPEAT",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "b7d79747-0ce0-4d1d-9fdd-503ced191f1a"
+    ],
+    "ts": "2026-11-16 20:19:13.232 IST"
+   },
+   {
+    "tag": "A04-REPEAT",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "a0366d9d-4207-42fe-a662-97c5a8815e9b"
+    ],
+    "ts": "2026-11-16 20:19:18.515 IST"
+   },
+   {
+    "tag": "A04-REPEAT",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "f0bbfd5b-d21d-463e-a15e-2eac7c66e648"
+    ],
+    "ts": "2026-11-16 20:19:23.763 IST"
+   },
+   {
+    "tag": "P-EN05-WS 128ms-4096B paced (documented chunk)",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 128,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "29c28491-242f-4a11-9bdf-5384a0a618cc"
+    ],
+    "ts": "2026-11-16 20:29:52.741 IST"
+   },
+   {
+    "tag": "P-EN05-WS 20ms paced",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 20,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "adc4defc-8994-4f2d-b7bf-809281ad15bd"
+    ],
+    "ts": "2026-11-16 20:29:57.210 IST"
+   },
+   {
+    "tag": "P-EN05-WS 100ms unpaced (burst)",
+    "params": {
+     "language": "en"
+    },
+    "frame_ms": 100,
+    "paced": false,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "4da111be-914d-4ef7-99be-141ecdbb88fc"
+    ],
+    "ts": "2026-11-16 20:29:57.651 IST"
+   },
+   {
+    "tag": "P-EN05-WS 100ms paced itn_normalize=true",
+    "params": {
+     "language": "en",
+     "itn_normalize": "true"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in 1999",
+    "session": [
+     "b4d6ee9d-b06f-458b-9185-119088d0b311"
+    ],
+    "ts": "2026-11-16 20:30:02.172 IST"
+   },
+   {
+    "tag": "P-EN05-WS 100ms paced language=multi-eu",
+    "params": {
+     "language": "multi-eu"
+    },
+    "frame_ms": 100,
+    "paced": true,
+    "transcript": "Who was the leader of Switzerland in fourteen ninety nine?",
+    "session": [
+     "23cf2666-bc1c-4e64-a7c2-fd92b50c589e"
+    ],
+    "ts": "2026-11-16 20:30:06.669 IST"
+   }
+  ],
+  "ws_1999": 8,
+  "ws_1499": 1,
+  "rest_runs": [
+   {
+    "transcript": "Who was the leader of Switzerland in 1499?",
+    "ts": "2026-11-16 20:17:04.335 IST",
+    "request_id": "8c5bdba4-3ef9-441a-a561-308dd6f4b0d2"
+   },
+   {
+    "transcript": "Who was the leader of Switzerland in 1499?",
+    "ts": "2026-11-16 20:29:38.935 IST",
+    "request_id": null
+   },
+   {
+    "transcript": "Who was the leader of Switzerland in 1499?",
+    "ts": "2026-11-16 20:29:42.230 IST",
+    "request_id": null
+   },
+   {
+    "transcript": "Who was the leader of Switzerland in 1499?",
+    "ts": "2026-11-16 20:29:45.521 IST",
+    "request_id": null
+   }
+  ],
+  "window": [
+   "2026-11-16 20:17:04 IST",
+   "2026-11-16 20:30:06 IST"
+  ]
+ },
+ "numeric_extension": {
+  "clips": 7,
+  "rest_digits_exact": 4,
+  "ws_digits_exact": 6,
+  "rows": [
+   {
+    "clip": "NUM-EN-02",
+    "ref": "Who won the most medals in the 2008 games?",
+    "rest": "who won the most medals in the 2008 games",
+    "ws": "who won the most medals in the 2008 games"
+   },
+   {
+    "clip": "EXP-NUM-EN-01",
+    "ref": "Who won the 85th 24 Hours of Le Mans?",
+    "rest": "Who won the eighty-fifth twenty-four hours of Lehmann's?",
+    "ws": "Who won the 85th 24 hours of Lehmann's"
+   },
+   {
+    "clip": "EXP-NUM-EN-02",
+    "ref": "What was the deadliest war in the 20th century?",
+    "rest": "What was the deadliest war in the 20th century?",
+    "ws": "What was the deadliest war in the 20th century"
+   },
+   {
+    "clip": "EXP-NUM-EN-03",
+    "ref": "Who won the Survivor Series in 1993?",
+    "rest": "Home won the Survivor series in 1993.",
+    "ws": "Pop on the Survivor series in 1993."
+   },
+   {
+    "clip": "EXP-NUM-EN-04",
+    "ref": "How many Americans declared bankruptcy in 2017?",
+    "rest": "How many Americans declared bankruptcy in 2017?",
+    "ws": "How many Americans declared bankruptcy in 2017?"
+   },
+   {
+    "clip": "EXP-NUM-EN-05",
+    "ref": "How much did House of a 1000 Corpses gross?",
+    "rest": "How much did house of a thousand corpses gross?",
+    "ws": "How much did House of a Thousand Corpses grow?"
+   },
+   {
+    "clip": "EXP-NUM-EN-06",
+    "ref": "How many playable roles are there in Persona 4?",
+    "rest": "How many playable roles are there in a persona four?",
+    "ws": "How many playable roles are there in Parliament? a Persona 4?"
+   }
+  ]
+ },
+ "no_speech": {
+  "pulse": {
+   "requests": 9,
+   "non_empty": 0,
+   "outputs": [
+    ""
+   ],
+   "examples": [],
+   "window": [
+    "2026-11-16 20:18:10 IST",
+    "2026-11-16 20:46:51 IST"
+   ]
+  },
+  "pulse-pro": {
+   "requests": 21,
+   "non_empty": 21,
+   "outputs": [
+    "Applause",
+    "Four",
+    "Go ahead.",
+    "I'm sorry."
+   ],
+   "examples": [
+    {
+     "clip": "NS01",
+     "transcript": "Four",
+     "request_id": "ac81c039-71cf-4cb8-95e8-3db30d0b476c",
+     "ts": "2026-11-16 20:45:32.669 IST"
+    },
+    {
+     "clip": "NS01",
+     "transcript": "Four",
+     "request_id": "e2020ff5-5ca6-4259-a0f2-4a9a4d98119a",
+     "ts": "2026-11-16 20:45:36.048 IST"
+    },
+    {
+     "clip": "NS01",
+     "transcript": "Four",
+     "request_id": "6c4eccaf-79d3-41a2-87e5-e8e1d883e143",
+     "ts": "2026-11-16 20:45:39.402 IST"
+    },
+    {
+     "clip": "NS02",
+     "transcript": "I'm sorry.",
+     "request_id": "af58b428-befc-480b-9d35-31bd01f91a9c",
+     "ts": "2026-11-16 20:45:46.082 IST"
+    },
+    {
+     "clip": "NS02",
+     "transcript": "I'm sorry.",
+     "request_id": "5a79bbd9-4cd7-466e-9c4f-187187ef678b",
+     "ts": "2026-11-16 20:45:49.420 IST"
+    },
+    {
+     "clip": "NS02",
+     "transcript": "I'm sorry.",
+     "request_id": "f800f9b4-1a08-4c95-9ace-96f44070b04b",
+     "ts": "2026-11-16 20:45:52.779 IST"
+    }
+   ],
+   "window": [
+    "2026-11-16 20:18:41 IST",
+    "2026-11-16 20:46:48 IST"
+   ]
+  }
+ },
+ "multi_indic_telugu": {
+  "clips": 6,
+  "telugu_script": 0,
+  "scripts": [
+   {
+    "clip": "TE01",
+    "scripts": [
+     "devanagari"
+    ],
+    "text": "कृष्णा जिला योक्का विस्तीर्णम एनता"
+   },
+   {
+    "clip": "TE02",
+    "scripts": [
+     "gujarati"
+    ],
+    "text": "હૈદરાબાદમાં મેટ્રોની એ પણ પ્રારંભ વિચારો"
+   },
+   {
+    "clip": "TE03",
+    "scripts": [
+     "devanagari"
+    ],
+    "text": "नीरु यक्का रसायन निर्माणम एनटी"
+   },
+   {
+    "clip": "TE04",
+    "scripts": [
+     "bengali"
+    ],
+    "text": "নিউমোনিয়া নু মদটা এদেরকেনু করনারও"
+   },
+   {
+    "clip": "TE05",
+    "scripts": [
+     "gujarati"
+    ],
+    "text": "રંડવેલા પાદકંડુ જેના ગણાના પ્રકાર વાલીવેરો ગ્રામ અમલો મહિલા એન્તા"
+   },
+   {
+    "clip": "TE06",
+    "scripts": [
+     "devanagari"
+    ],
+    "text": "रंडवे ला पादेखेलो भारत देशा आर्थिक सहायका मंत्री एवरुप"
+   }
+  ],
+  "with_te": {
+   "clips": 6,
+   "reference_words": 35,
+   "word_edits": 14,
+   "wer": 0.4,
+   "cer": 0.1709,
+   "cer_no_spaces": 0.161,
+   "raw_wer": 0.6286,
+   "exact_clips": 1,
+   "slots_correct": 2,
+   "slots_total": 7
+  }
+ },
+ "multi_indic_english_non_latin": [
+  {
+   "clip": "EN03",
+   "text": "হু ফাউন্ডেড দ পেরাল বিডিং কোম্পানি"
+  },
+  {
+   "clip": "EN05",
+   "text": "খুব ଲିটার offer fourteen ninety nine"
+  }
+ ],
+ "tts_screen": {
+  "prompts": 16,
+  "targets": 39,
+  "auto_pass": 39,
+  "expanded_pairs": 4,
+  "label": "automated provisional: Pulse transcription of Lightning audio, not a listening result"
+ },
+ "tts_human": {
+  "listeners": [
+   "R1"
+  ],
+  "judged": 58,
+  "passed": 58,
+  "failed": [],
+  "unclear": 0
+ },
+ "tts_rest_latency": {
+  "n": 20,
+  "median_ms": 1203.1,
+  "max_ms": 7915.8,
+  "all_wav": true
+ },
+ "tts_ws": {
+  "S01-short": {
+   "n": 5,
+   "audio_s_median": 2.7,
+   "handshake_median_ms": 125.6,
+   "first_audio_median_ms": 144.3,
+   "first_audio_max_ms": 151.0,
+   "last_audio_median_ms": 1212.2,
+   "complete_median_ms": 5511.9,
+   "gap_max_ms": 332.2,
+   "underruns_200ms": 0,
+   "server_closed_after_complete": 0
+  },
+  "S01-long": {
+   "n": 5,
+   "audio_s_median": 21.3,
+   "handshake_median_ms": 127.5,
+   "first_audio_median_ms": 142.0,
+   "first_audio_max_ms": 163.6,
+   "last_audio_median_ms": 6076.8,
+   "complete_median_ms": 10097.0,
+   "gap_max_ms": 293.7,
+   "underruns_200ms": 0,
+   "server_closed_after_complete": 0
+  }
+ },
+ "finding_tail": {
+  "ws_runs": 77,
+  "tail_median_ms": 4025.5,
+  "tail_min_ms": 3995.0,
+  "tail_max_ms": 5126.7,
+  "variants": {
+   "continue=false": [
+    4025.7,
+    4038.9
+   ],
+   "default": [
+    4022.2,
+    4024.2
+   ],
+   "flush=true": [
+    4025.5,
+    3995.0
+   ],
+   "max_buffer_delay_ms=0": [
+    4021.7,
+    4024.5
+   ],
+   "max_buffer_delay_ms=500": [
+    4025.5,
+    4018.8
+   ]
+  },
+  "slot_free_during_tail": [
+   {
+    "probe": "rest",
+    "second": 200
+   },
+   {
+    "probe": "ws",
+    "second": true
+   },
+   {
+    "probe": "rest",
+    "second": 200
+   },
+   {
+    "probe": "ws",
+    "second": true
+   }
+  ],
+  "example_request_ids": [
+   "ccb4720a-03ce-4f2f-8e48-fe83994f3c47",
+   "e3e15a5d-ce39-410c-ab5b-45918ea77ddf",
+   "b2461910-8576-408a-b132-1e777fe692aa"
+  ],
+  "window": [
+   "2026-11-16 20:31:40 IST",
+   "2026-11-16 21:33:41 IST"
+  ]
+ },
+ "tts_sse": {
+  "n": 3,
+  "first_audio_median_ms": 558.6,
+  "done_median_ms": 1112.6,
+  "done_seen": 3
+ },
+ "lifecycle": [
+  {
+   "ts_ist": "2026-11-16 20:36:28.892 IST",
+   "test": "S02",
+   "clip": "CS03",
+   "finalize_sent_ms": 4498.2,
+   "finalize_response_ms": 4555.9,
+   "n_from_finalize": 1,
+   "n_is_last": 1,
+   "finals_after_finalize": 2,
+   "transcript": "इस tutorial में हम एक उदाहरण से arguments के साथ के साथ main function के बारे में सीखेंगे।",
+   "is_last_on_finalize": false,
+   "close_code": 1005,
+   "session_ids": [
+    "12efcb8f-1f1b-44dc-896d-97a8c0a525ce"
+   ]
+  },
+  {
+   "ts_ist": "2026-11-16 20:36:36.178 IST",
+   "test": "S02",
+   "clip": "TE03",
+   "finalize_sent_ms": 3709.8,
+   "finalize_response_ms": 3766.0,
+   "n_from_finalize": 1,
+   "n_is_last": 1,
+   "finals_after_finalize": 2,
+   "transcript": "నీరు యొక్క రసాయనాల నిర్మాణం ఏంటి?",
+   "is_last_on_finalize": false,
+   "close_code": 1005,
+   "session_ids": [
+    "3624b8c3-d535-448e-9fe2-2e92adc6422e"
+   ]
+  },
+  {
+   "ts_ist": "2026-11-16 20:36:46.829 IST",
+   "test": "S03-STT-ping",
+   "pings": 3,
+   "pongs": 3,
+   "transcript_after_pings": "What is the NBC affiliated station in Tulsa?",
+   "is_last": true,
+   "close": null
+  },
+  {
+   "ts_ist": "2026-11-16 20:36:52.034 IST",
+   "test": "S03-STT-timeout",
+   "timeout_param_s": 5,
+   "close": {
+    "code": 1006,
+    "reason": ""
+   },
+   "closed_at_ms": 5190.8
+  },
+  {
+   "ts_ist": "2026-11-16 20:37:31.169 IST",
+   "test": "S03-TTS-reuse",
+   "first_statuses": [
+    "chunk",
+    "chunk",
+    "complete"
+   ],
+   "second": [
+    {
+     "t_ms": 9351.4,
+     "session_id": "1b6357a8-64cc-4931-a144-1dbc7948e2e7",
+     "request_id": "98dad1ec-2b88-4dc2-92f5-cd5f38c5be31",
+     "status": "complete"
+    }
+   ],
+   "second_chunks": 14,
+   "close": null
+  },
+  {
+   "ts_ist": "2026-11-16 20:37:36.310 IST",
+   "test": "S03-TTS-ping-probe",
+   "close": null
+  },
+  {
+   "ts_ist": "2026-11-16 20:37:41.455 IST",
+   "test": "S03-TTS-idle",
+   "query": "timeout=5",
+   "close": {
+    "code": 1006,
+    "reason": ""
+   },
+   "open_after_75s": false
+  },
+  {
+   "ts_ist": "2026-11-16 20:38:41.594 IST",
+   "test": "S03-TTS-idle",
+   "query": null,
+   "close": {
+    "code": 1006,
+    "reason": ""
+   },
+   "open_after_75s": false
+  },
+  {
+   "ts_ist": "2026-11-16 20:38:49.751 IST",
+   "test": "R02",
+   "run": 1,
+   "cancelled_after_first_chunk_ms": 321.4,
+   "client_close_ms": 335.1,
+   "follow_up": [
+    {
+     "attempt": 1,
+     "at_ms": 8153.1,
+     "ok": true,
+     "errors": [],
+     "first_audio_ms": 118.2,
+     "close": {
+      "code": 1000,
+      "reason": ""
+     }
+    }
+   ]
+  },
+  {
+   "ts_ist": "2026-11-16 20:39:00.791 IST",
+   "test": "R02",
+   "run": 2,
+   "cancelled_after_first_chunk_ms": 282.6,
+   "client_close_ms": 293.8,
+   "follow_up": [
+    {
+     "attempt": 1,
+     "at_ms": 8036.0,
+     "ok": true,
+     "errors": [],
+     "first_audio_ms": 146.4,
+     "close": {
+      "code": 1000,
+      "reason": ""
+     }
+    }
+   ]
+  }
+ ],
+ "concurrency": [
+  {
+   "run": 1,
+   "variant": "tts+tts",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": null,
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:05 GMT",
+    "content-type": "audio/wav",
+    "content-length": "133724",
+    "x-request-id": "5472f720-e2c2-4293-aef8-d10d1a4c2e39",
+    "x-session-id": "5472f720-e2c2-4293-aef8-d10d1a4c2e39",
+    "x-external-session-id": "",
+    "x-external-request-id": ""
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:07.800 IST"
+  },
+  {
+   "run": 1,
+   "variant": "tts+stt",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": "{\"status\":\"success\",\"transcription\":\"who first identified blood types\",\"words\":[],\"utterances\":[],\"metadata\":{\"duration\":3.6,\"fileSize\":115244}}",
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:12 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "144",
+    "x-request-id": "ebca8ea9-906f-4502-8c0a-12d1bd4abd66"
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:15.285 IST"
+  },
+  {
+   "run": 2,
+   "variant": "tts+tts",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": null,
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:19 GMT",
+    "content-type": "audio/wav",
+    "content-length": "148124",
+    "x-request-id": "3dabf358-a5f3-4047-986e-49e1c287046f",
+    "x-session-id": "3dabf358-a5f3-4047-986e-49e1c287046f",
+    "x-external-session-id": "",
+    "x-external-request-id": ""
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:22.337 IST"
+  },
+  {
+   "run": 2,
+   "variant": "tts+stt",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": "{\"status\":\"success\",\"transcription\":\"who first identified blood types\",\"words\":[],\"utterances\":[],\"metadata\":{\"duration\":3.6,\"fileSize\":115244}}",
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:26 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "144",
+    "x-request-id": "aca9cfcb-bc1f-435e-94e5-0dd4031f84a0"
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:29.819 IST"
+  },
+  {
+   "run": 3,
+   "variant": "tts+tts",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": null,
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:34 GMT",
+    "content-type": "audio/wav",
+    "content-length": "139484",
+    "x-request-id": "dab59884-68a2-4de5-983f-f361816df7cb",
+    "x-session-id": "dab59884-68a2-4de5-983f-f361816df7cb",
+    "x-external-session-id": "",
+    "x-external-request-id": ""
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:37.399 IST"
+  },
+  {
+   "run": 3,
+   "variant": "tts+stt",
+   "active": 200,
+   "overlap": 200,
+   "overlap_body": "{\"status\":\"success\",\"transcription\":\"who first identified blood types\",\"words\":[],\"utterances\":[],\"metadata\":{\"duration\":3.6,\"fileSize\":115244}}",
+   "overlap_headers": {
+    "date": "Mon, 16 Nov 2026 15:09:41 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "144",
+    "x-request-id": "8fbc8a9f-5920-4338-a74c-e70cc0cf913a"
+   },
+   "retry": null,
+   "retry_inclusive_ms": null,
+   "ts": "2026-11-16 20:39:44.689 IST"
+  }
+ ],
+ "negative": [
+  {
+   "test": "E01",
+   "note": "TTS REST no Authorization",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"message\":\"Unauthorized: No tokens provided\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "b7b4ea22-5ba9-4862-b6fd-00255afc70bf",
+   "ts": "2026-11-16 20:41:00.212 IST"
+  },
+  {
+   "test": "E01",
+   "note": "TTS REST invalid key",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"error\":\"unauthorized\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "1ce475c6-4f52-47e0-87f8-6ee2ed3a3b99",
+   "ts": "2026-11-16 20:41:01.839 IST"
+  },
+  {
+   "test": "E01",
+   "note": "TTS REST malformed Authorization (no Bearer)",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"error\":\"No token provided\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "aeddef6b-aa1d-45bb-b65e-e62977dd3620",
+   "ts": "2026-11-16 20:41:03.279 IST"
+  },
+  {
+   "test": "E01",
+   "note": "STT REST no Authorization",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"message\":\"Unauthorized: No tokens provided\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "18c3d8b9-2e2a-4fe1-b125-6b88e20d4bc7",
+   "ts": "2026-11-16 20:41:04.725 IST"
+  },
+  {
+   "test": "E01",
+   "note": "STT REST invalid key",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"error\":\"unauthorized\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "416a2e2e-b087-409f-9d98-686cf480812a",
+   "ts": "2026-11-16 20:41:06.312 IST"
+  },
+  {
+   "test": "E01",
+   "note": "voices list invalid key",
+   "expected": "401",
+   "observed": 200,
+   "body": "{\"voices\":[{\"voiceId\":\"ben\",\"displayName\":\"Ben\",\"tags\":{\"accent\":\"german\",\"language\":[\"english\",\"spanish\",\"french\",\"german\",\"italian\",\"dutch\",\"swedish\",\"portuguese\",\"polish\",\"russian\",\"greek\",\"finnish\",\"norwegian\"],\"gend",
+   "close": null,
+   "key_leak": false,
+   "request_id": "e97d851b-3e6d-41f3-b628-e3636858de98",
+   "ts": "2026-11-16 20:41:07.860 IST"
+  },
+  {
+   "test": "E01",
+   "note": "voices list no Authorization",
+   "expected": "401",
+   "observed": 200,
+   "body": "{\"voices\":[{\"voiceId\":\"ben\",\"displayName\":\"Ben\",\"tags\":{\"accent\":\"german\",\"language\":[\"english\",\"spanish\",\"french\",\"german\",\"italian\",\"dutch\",\"swedish\",\"portuguese\",\"polish\",\"russian\",\"greek\",\"finnish\",\"norwegian\"],\"gend",
+   "close": null,
+   "key_leak": false,
+   "request_id": "42b7c8b9-f3be-49e2-88ec-36b6bbd5a3af",
+   "ts": "2026-11-16 20:41:09.404 IST"
+  },
+  {
+   "test": "E01",
+   "note": "STT REST invalid key, small body",
+   "expected": "401",
+   "observed": 401,
+   "body": "{\"error\":\"unauthorized\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "7aefa54f-c5b4-4f2c-9cc1-4baf09e32c7f",
+   "ts": "2026-11-16 20:41:10.941 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT model=not_a_model, small body",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid model query parameter.\",\"errors\":[{\"received\":\"not_a_model\",\"code\":\"invalid_enum_value\",\"options\":[\"pulse\",\"pulse-pro\"],\"path\":[\"model\"],\"message\":\"Invalid enum value. Expected 'pulse",
+   "close": null,
+   "key_leak": false,
+   "request_id": "9abfb694-acef-4ecb-87de-e6eacf3b404d",
+   "ts": "2026-11-16 20:41:12.489 IST"
+  },
+  {
+   "test": "E02",
+   "note": "TTS unknown voice_id",
+   "expected": "400 descriptive",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"custom\",\"path\":[\"voice_id\"],\"message\":\"Voice 'no_such_voice_qa' is not available on the lightning_v3.1_pro model\"}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "d1457318-dab9-455b-b876-a3ffd8f390cc",
+   "ts": "2026-11-16 20:41:13.973 IST"
+  },
+  {
+   "test": "E02",
+   "note": "TTS standard-only voice on Pro model (lakshya)",
+   "expected": "400 'Voice ... is not available on the lightning_v3.1_pro model'",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"custom\",\"path\":[\"voice_id\"],\"message\":\"Voice 'lakshya' is not available on the lightning_v3.1_pro model\"}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "7899f9dc-35cd-4f2a-b870-f1a573415dbe",
+   "ts": "2026-11-16 20:41:15.439 IST"
+  },
+  {
+   "test": "E03",
+   "note": "TTS text missing",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"invalid_type\",\"expected\":\"string\",\"received\":\"undefined\",\"path\":[\"text\"],\"message\":\"Text required\"}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "8b8fd859-4502-43d6-b618-1db72c98b49b",
+   "ts": "2026-11-16 20:41:16.942 IST"
+  },
+  {
+   "test": "E03",
+   "note": "TTS text empty string",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"too_small\",\"minimum\":1,\"type\":\"string\",\"inclusive\":true,\"exact\":false,\"message\":\"Text cannot be empty\",\"path\":[\"text\"]}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "1ed82a4f-1f29-4a2e-8864-c654206b69a4",
+   "ts": "2026-11-16 20:41:18.432 IST"
+  },
+  {
+   "test": "E03",
+   "note": "TTS text whitespace only",
+   "expected": "400 (documented: whitespace-only rejected)",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"too_small\",\"minimum\":1,\"type\":\"string\",\"inclusive\":true,\"exact\":false,\"message\":\"Text cannot be empty\",\"path\":[\"text\"]}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "0c1d441f-903b-412b-bfa5-a66489f1c4d6",
+   "ts": "2026-11-16 20:41:19.965 IST"
+  },
+  {
+   "test": "E03",
+   "note": "TTS invalid model",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"received\":\"lightning_v9\",\"code\":\"invalid_enum_value\",\"options\":[\"lightning_v3.1\",\"lightning_v3.1_pro\",\"lightning_v3.1_pro_07_26\",\"lightning_v3.1_pro_10_26\"],\"path\":[\"model\"],\"message\":\"Invalid enum value. Exp",
+   "close": null,
+   "key_leak": false,
+   "request_id": "cf959848-57b3-4338-b1d1-80e4306ccf0a",
+   "ts": "2026-11-16 20:41:21.460 IST"
+  },
+  {
+   "test": "E03",
+   "note": "TTS body not JSON",
+   "expected": "400",
+   "observed": 400,
+   "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Bad Request</pre>\n</body>\n</html>\n",
+   "close": null,
+   "key_leak": false,
+   "request_id": "db457939-d09b-40b4-adc7-b968d488ba60",
+   "ts": "2026-11-16 20:41:22.904 IST"
+  },
+  {
+   "test": "E04",
+   "note": "TTS American voice kaitlyn with language=hi",
+   "expected": "docs disagree: 400 vs accepted",
+   "observed": 200,
+   "body": "<binary 83804 bytes, head=524946465447010057415645666d7420>",
+   "close": null,
+   "key_leak": false,
+   "request_id": "beb05014-8279-47fa-9678-37c76bbdfde8",
+   "ts": "2026-11-16 20:41:25.013 IST"
+  },
+  {
+   "test": "E04",
+   "note": "TTS Indian voice meher with language=en",
+   "expected": "docs disagree: 400 vs accepted",
+   "observed": 200,
+   "body": "<binary 63164 bytes, head=52494646b4f6000057415645666d7420>",
+   "close": null,
+   "key_leak": false,
+   "request_id": "d658b75d-3653-4a08-9aed-ed465e0e505a",
+   "ts": "2026-11-16 20:41:26.846 IST"
+  },
+  {
+   "test": "E04",
+   "note": "TTS language=xx (not in enum)",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"custom\",\"path\":[\"language\"],\"message\":\"Language 'xx' is not supported on the lightning_v3.1_pro model. Supported languages: de, es, fr, it, pt, ru, el, fi, no, pl, mr, ta, ml, te, kn, pa, bn, or, gu, a",
+   "close": null,
+   "key_leak": false,
+   "request_id": "9c3b5519-6ee1-44a9-8df2-56d493fb60d3",
+   "ts": "2026-11-16 20:41:28.317 IST"
+  },
+  {
+   "test": "E06",
+   "note": "TTS sample_rate=12345",
+   "expected": "400 (enum 8000/16000/24000/44100)",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"custom\",\"message\":\"Invalid sample rate\",\"path\":[\"sample_rate\"]}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "2ebd9195-ddef-4073-aea9-b075e200696f",
+   "ts": "2026-11-16 20:41:29.818 IST"
+  },
+  {
+   "test": "E06",
+   "note": "TTS sample_rate=48000",
+   "expected": "400 (enum 8000/16000/24000/44100)",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"custom\",\"message\":\"Invalid sample rate\",\"path\":[\"sample_rate\"]}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "d6130b5d-0fde-4b72-8d04-050ef76858e9",
+   "ts": "2026-11-16 20:41:31.277 IST"
+  },
+  {
+   "test": "E06",
+   "note": "TTS speed=5 (documented range 0.5-2.0)",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"code\":\"too_big\",\"maximum\":2,\"type\":\"number\",\"inclusive\":true,\"exact\":false,\"message\":\"Number must be less than or equal to 2\",\"path\":[\"speed\"]}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "30a76cee-1cc2-416e-8a32-ddcf4603fed8",
+   "ts": "2026-11-16 20:41:32.764 IST"
+  },
+  {
+   "test": "E06",
+   "note": "TTS output_format=flac",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"error\":[{\"received\":\"flac\",\"code\":\"invalid_enum_value\",\"options\":[\"wav\",\"ulaw\",\"alaw\",\"pcm\",\"mp3\"],\"path\":[\"output_format\"],\"message\":\"Invalid enum value. Expected 'wav' | 'ulaw' | 'alaw' | 'pcm' | 'mp3', received 'fla",
+   "close": null,
+   "key_leak": false,
+   "request_id": "5ab6d196-8a84-4940-878f-7fc8b387f3e9",
+   "ts": "2026-11-16 20:41:34.233 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT model missing",
+   "expected": "400 (model required)",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid model query parameter.\",\"errors\":[{\"expected\":\"'pulse' | 'pulse-pro'\",\"received\":\"undefined\",\"code\":\"invalid_type\",\"path\":[\"model\"],\"message\":\"Missing required query param: model. Sup",
+   "close": null,
+   "key_leak": false,
+   "request_id": "2aa5afd9-c6b0-4cb0-b8a1-4f58d4d1585f",
+   "ts": "2026-11-16 20:41:35.872 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT model=not_a_model",
+   "expected": "400",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid model query parameter.\",\"errors\":[{\"received\":\"not_a_model\",\"code\":\"invalid_enum_value\",\"options\":[\"pulse\",\"pulse-pro\"],\"path\":[\"model\"],\"message\":\"Invalid enum value. Expected 'pulse",
+   "close": null,
+   "key_leak": false,
+   "request_id": "9fa941a0-5555-40be-bd9d-77889437ca38",
+   "ts": "2026-11-16 20:41:37.359 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT pulse-pro language=hi",
+   "expected": "400 (Pulse Pro accepts only en)",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid query parameters\",\"errors\":[{\"received\":\"hi\",\"code\":\"invalid_enum_value\",\"options\":[\"en\"],\"path\":[\"language\"],\"message\":\"Invalid enum value. Expected 'en', received 'hi'\"}]}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "0c011b30-9250-4886-9414-440f89160ee6",
+   "ts": "2026-11-16 20:41:38.844 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT language=xx",
+   "expected": "400 unsupported language",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid query parameters\",\"errors\":[{\"received\":\"xx\",\"code\":\"invalid_enum_value\",\"options\":[\"en\",\"hi\",\"hi-dev\",\"zh\",\"ko\",\"ja\",\"yue\",\"ms\",\"id\",\"tl\",\"it\",\"es\",\"pt\",\"de\",\"fr\",\"uk\",\"ru\",\"pl\",\"cs\"",
+   "close": null,
+   "key_leak": false,
+   "request_id": "3d475791-8adb-481d-a86e-44d21fdaf6b8",
+   "ts": "2026-11-16 20:41:40.334 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT language=te (not in pre-recorded enum)",
+   "expected": "400 per reference enum",
+   "observed": 200,
+   "body": "{\"status\":\"success\",\"transcription\":\"Who first identified blood types?\",\"words\":[],\"utterances\":[],\"metadata\":{\"duration\":3.6,\"fileSize\":115244}}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "cdd5c045-6998-440c-8857-951f1c3292aa",
+   "ts": "2026-11-16 20:41:42.252 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT language omitted",
+   "expected": "undocumented default",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"error_code\":\"LANGUAGE_NOT_ENABLED_IN_REGION\",\"message\":\"Language 'multi' has not been enabled in this region. Please contact support to request access.\",\"language\":\"multi\",\"region\":\"ap-south-1\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "38642c4c-7803-4486-9f84-f96ac5f47d88",
+   "ts": "2026-11-16 20:41:43.746 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT empty body",
+   "expected": "400 NoAudio",
+   "observed": 400,
+   "body": "{\"errors\":\"Empty request body\",\"status\":\"error\",\"message\":\"Error handling audio data\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "253391c6-4ccd-4148-9fe1-36f1b54fea43",
+   "ts": "2026-11-16 20:41:45.219 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT non-audio bytes",
+   "expected": "400 AudioDecodeError",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"code\":\"AudioDecodeError\",\"message\":\"Failed to decode audio.\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "6b18bcd6-a87d-4e4e-9d4d-e00ab9901874",
+   "ts": "2026-11-16 20:41:46.864 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT word_timestamps=True (capitalised)",
+   "expected": "400 (lowercase only)",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"message\":\"Invalid query parameters\",\"errors\":[{\"received\":\"True\",\"code\":\"invalid_enum_value\",\"options\":[\"true\",\"false\"],\"path\":[\"word_timestamps\"],\"message\":\"Invalid enum value. Expected 'true' | 'fals",
+   "close": null,
+   "key_leak": false,
+   "request_id": "2bf55889-9e66-4706-88a9-fd20ce78a1b8",
+   "ts": "2026-11-16 20:41:48.370 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT JSON body with unreachable url",
+   "expected": "400 with a clear message",
+   "observed": 400,
+   "body": "{\"errors\":\"getaddrinfo ENOTFOUND example.invalid\",\"status\":\"error\",\"message\":\"Error handling audio data\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": "6ab66093-5c7d-463c-9d6f-56ac39a90e34",
+   "ts": "2026-11-16 20:41:49.849 IST"
+  },
+  {
+   "test": "E01",
+   "note": "STT WS no Authorization",
+   "expected": "401 at handshake",
+   "observed": 401,
+   "body": "[]",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:41:51.041 IST"
+  },
+  {
+   "test": "E01",
+   "note": "STT WS invalid key",
+   "expected": "401 at handshake",
+   "observed": 401,
+   "body": "[]",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:41:52.236 IST"
+  },
+  {
+   "test": "E01",
+   "note": "TTS WS no Authorization",
+   "expected": "401 at handshake",
+   "observed": 401,
+   "body": "[]",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:41:53.366 IST"
+  },
+  {
+   "test": "E01",
+   "note": "TTS WS invalid key",
+   "expected": "401 at handshake",
+   "observed": 401,
+   "body": "[]",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:41:54.543 IST"
+  },
+  {
+   "test": "E05",
+   "note": "TTS WS malformed JSON",
+   "expected": "interpretable error frame or close",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 153.4, \"msg\": \"{\\\"request_id\\\":\\\"aa3a9b9d-3a54-4ca7-a7f0-d685ee15ecf4\\\",\\\"status\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\"}\"}]",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:03.729 IST"
+  },
+  {
+   "test": "E05",
+   "note": "TTS WS plain text frame",
+   "expected": "interpretable error frame or close",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 185.6, \"msg\": \"{\\\"request_id\\\":\\\"fa89584f-a1dc-4a3e-a265-0aac9291e73f\\\",\\\"status\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\"}\"}]",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:12.949 IST"
+  },
+  {
+   "test": "E05",
+   "note": "TTS WS JSON missing voice_id",
+   "expected": "error frame (400-equivalent)",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 154.0, \"msg\": \"{\\\"request_id\\\":\\\"8a6b7167-98e1-40b7-b7a2-b2456a27dcb9\\\",\\\"status\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\",\\\"errors\\\":[{\\\"code\\\":\\\"custom\\\",\\\"message\\\":\\\"text and voice_id are required unle",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:22.145 IST"
+  },
+  {
+   "test": "E05",
+   "note": "TTS WS unknown voice_id",
+   "expected": "error frame",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 151.0, \"msg\": \"{\\\"request_id\\\":\\\"dffe283e-0053-46d6-ba02-3d595f466521\\\",\\\"status\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\",\\\"errors\\\":[{\\\"code\\\":\\\"custom\\\",\\\"path\\\":[\\\"voice_id\\\"],\\\"message\\\":\\\"Voice 'no_s",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:31.334 IST"
+  },
+  {
+   "test": "E05",
+   "note": "TTS WS binary frame",
+   "expected": "interpretable error frame or close",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 210.5, \"msg\": \"{\\\"request_id\\\":\\\"a898d8a2-002f-42a4-8d22-37639c3a59e6\\\",\\\"status\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\"}\"}]",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:40.582 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS malformed JSON control message",
+   "expected": "error frame or ignore",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 270.2, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Who\\\",\\\"session_id\\\":\\\"ff898775-29c5-4071-b852-bd209c40590c\\\",\\\"start\\\":0,\\\"duration\\\":1.001,\\\"transcript\\\":\\\" Who\\\",\\\"is_f",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:41.880 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS unknown control type",
+   "expected": "error frame or ignore",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 282.2, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Who\\\",\\\"session_id\\\":\\\"0deaa802-f9dc-4e3f-92d3-041de55f2121\\\",\\\"start\\\":0,\\\"duration\\\":1.001,\\\"transcript\\\":\\\" Who\\\",\\\"is_f",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:43.187 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT WS model=pulse-pro",
+   "expected": "documented: 400 at handshake",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"error_code\":\"INVALID_MODEL\",\"message\":\"Pulse Pro has no streaming transport. Use POST /api/v1/stt/?model=pulse-pro instead.\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:44.314 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT WS model=not_a_model",
+   "expected": "documented: 400 at handshake",
+   "observed": 400,
+   "body": "{\"status\":\"error\",\"error_code\":\"INVALID_MODEL\",\"message\":\"Invalid model query parameter: not_a_model. Supported: pulse, pulse-2.\"}",
+   "close": null,
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:45.444 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT WS encoding=not_an_encoding",
+   "expected": "400 at handshake",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 122.4, \"msg\": \"{\\\"type\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\",\\\"error\\\":\\\"Invalid enum value. Expected 'linear16' | 'linear32' | 'alaw' | 'mulaw' | 'opus' | 'ogg_opus', received 'not_an_encoding'\\\"}\"}]",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:46.634 IST"
+  },
+  {
+   "test": "E06",
+   "note": "STT WS sample_rate=12345 (not in enum)",
+   "expected": "400 at handshake",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 121.4, \"msg\": \"{\\\"type\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\",\\\"error\\\":\\\"Invalid enum value. Expected '8000' | '16000' | '22050' | '24000' | '44100' | '48000', received '12345'\\\"}\"}]",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:42:47.832 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS control: 1 s audio then valid close_stream",
+   "expected": "is_final + is_last",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 347.0, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Ho.\\\",\\\"session_id\\\":\\\"f9c359cb-3a3d-409c-a989-ff51d08e8fae\\\",\\\"start\\\":0,\\\"duration\\\":1,\\\"transcript\\\":\\\" Ho.\\\",\\\"is_final",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:10.137 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS malformed JSON only, then wait (no close_stream)",
+   "expected": "error frame or ignore",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 1333.1, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Who?\\\",\\\"session_id\\\":\\\"935c2077-aea1-4cb9-876e-e8ef55079f17\\\",\\\"start\\\":0,\\\"duration\\\":1.001,\\\"transcript\\\":\\\" Who?\\\",\\\"i",
+   "close": {
+    "code": 1000,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:22.773 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT WS language=xx",
+   "expected": "error",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 221.5, \"msg\": \"{\\\"type\\\":\\\"error\\\",\\\"message\\\":\\\"Invalid input data\\\",\\\"error\\\":\\\"Invalid enum value. Expected 'en' | 'hi' | 'hi-dev' | 'zh' | 'ko' | 'ja' | 'yue' | 'ms' | 'id' | 'tl' | 'it' | 'es' | 'pt' | 'de",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:26.361 IST"
+  },
+  {
+   "test": "E07",
+   "note": "STT WS close_stream with zero audio",
+   "expected": "is_last=true, empty transcript",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 322.0, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" M m hmm.\\\",\\\"session_id\\\":\\\"0e12ec61-0ec5-47bf-a4b8-9a6ee31cd71f\\\",\\\"start\\\":0,\\\"duration\\\":0,\\\"transcript\\\":\\\" M m hmm.\\\",",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:30.290 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS malformed JSON control message",
+   "expected": "error frame or ignore",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 312.2, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Who\\\",\\\"session_id\\\":\\\"05d0b21a-5b0a-40ab-ab4d-1352c000a4da\\\",\\\"start\\\":0,\\\"duration\\\":1.001,\\\"transcript\\\":\\\" Who\\\",\\\"is_f",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:33.999 IST"
+  },
+  {
+   "test": "E05",
+   "note": "STT WS unknown control type",
+   "expected": "error frame or ignore",
+   "observed": "accepted",
+   "body": "[{\"t_ms\": 355.3, \"msg\": \"{\\\"type\\\":\\\"transcription\\\",\\\"status\\\":\\\"success\\\",\\\"transcription\\\":\\\" Who\\\",\\\"session_id\\\":\\\"ab17b7dd-f43d-4688-a988-ceeb14d30ed9\\\",\\\"start\\\":0,\\\"duration\\\":1.001,\\\"transcript\\\":\\\" Who\\\",\\\"is_f",
+   "close": {
+    "code": 1005,
+    "reason": ""
+   },
+   "key_leak": false,
+   "request_id": null,
+   "ts": "2026-11-16 20:43:37.861 IST"
+  }
+ ],
+ "docs_checks": [
+  {
+   "test": "D04",
+   "note": "voices endpoint path",
+   "status": 200,
+   "content_type": "application/json; charset=utf-8",
+   "wav": null,
+   "voice_count": 274
+  },
+  {
+   "test": "D04",
+   "note": "voices endpoint path",
+   "status": 200,
+   "content_type": "application/json; charset=utf-8",
+   "wav": null,
+   "voice_count": 239
+  },
+  {
+   "test": "D03",
+   "note": "output_format omitted, Accept audio/wav",
+   "status": 200,
+   "content_type": "application/octet-stream",
+   "wav": null,
+   "voice_count": null
+  },
+  {
+   "test": "D03",
+   "note": "output_format omitted, no Accept",
+   "status": 200,
+   "content_type": "application/octet-stream",
+   "wav": null,
+   "voice_count": null
+  },
+  {
+   "test": "D02",
+   "note": "model omitted, Pro-only voice meher, wav",
+   "status": 200,
+   "content_type": "audio/wav",
+   "wav": {
+    "format_code": 1,
+    "channels": 1,
+    "sample_rate": 24000,
+    "bits": 16,
+    "data_bytes": 78480,
+    "duration_s": 1.635
+   },
+   "voice_count": null
+  },
+  {
+   "test": "D05",
+   "note": "sample_rate omitted (documented default 44100), wav",
+   "status": 200,
+   "content_type": "audio/wav",
+   "wav": {
+    "format_code": 1,
+    "channels": 1,
+    "sample_rate": 44100,
+    "bits": 16,
+    "data_bytes": 131860,
+    "duration_s": 1.495
+   },
+   "voice_count": null
+  }
+ ],
+ "finding_finalize_dup": [
+  {
+   "clip": "CS03",
+   "control": "इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे।",
+   "finalize": "इस tutorial में हम एक उदाहरण से arguments के साथ के साथ main function के बारे में सीखेंगे।",
+   "segments": [
+    " इस tutorial में हम एक उदाहरण से arguments के साथ",
+    " के साथ main function के बारे में सीखेंगे।",
+    ""
+   ],
+   "session": [
+    "97236515-0f7b-40e9-a165-9955ca4ec7fc"
+   ],
+   "ts": "2026-11-16 20:44:26.935 IST",
+   "duplicated": true
+  },
+  {
+   "clip": "CS03",
+   "control": "इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे।",
+   "finalize": "इस tutorial में हम एक उदाहरण से arguments के साथ के साथ main function के बारे में सीखेंगे।",
+   "segments": [
+    " इस tutorial में हम एक उदाहरण से arguments के साथ",
+    " के साथ main function के बारे में सीखेंगे।",
+    ""
+   ],
+   "session": [
+    "c4eb714f-30af-40c7-8773-05ce66769937"
+   ],
+   "ts": "2026-11-16 20:44:44.548 IST",
+   "duplicated": true
+  },
+  {
+   "clip": "CS03",
+   "control": "इस tutorial में हम एक उदाहरण से arguments के साथ main function के बारे में सीखेंगे।",
+   "finalize": "इस tutorial में हम एक उदाहरण से arguments के साथ के साथ main function के बारे में सीखेंगे।",
+   "segments": [
+    " इस tutorial में हम एक उदाहरण से arguments के साथ",
+    " के साथ main function के बारे में सीखेंगे।",
+    ""
+   ],
+   "session": [
+    "c8336d1a-a04e-49cd-93cb-e21d87ad6777"
+   ],
+   "ts": "2026-11-16 20:45:02.191 IST",
+   "duplicated": true
+  },
+  {
+   "clip": "EN03",
+   "control": "who founded the peril paving company",
+   "finalize": "who founded the peril paving company",
+   "segments": [
+    " who founded the",
+    " peril paving company"
+   ],
+   "session": [
+    "0c65a10d-b447-4530-ab3c-f0b5a8dee5c9"
+   ],
+   "ts": "2026-11-16 20:45:11.783 IST",
+   "duplicated": false
+  },
+  {
+   "clip": "HI06",
+   "control": "भारतीय स्टेट बैंक का मुख्यालय कहां स्थित है?",
+   "finalize": "भारतीय स्टेट बैंक का मुख्यालय कहां स्थित है?",
+   "segments": [
+    " भारतीय स्टेट",
+    " बैंक का मुख्यालय कहां स्थित है?"
+   ],
+   "session": [
+    "67fb2769-a77e-404d-bb41-e8903e2dd6c4"
+   ],
+   "ts": "2026-11-16 20:45:21.206 IST",
+   "duplicated": false
+  },
+  {
+   "clip": "CS05",
+   "control": "Click करने की आवश्यकता है और फिर manual break option पर click करें। dialogue",
+   "finalize": "Click करने की आवश्यकता है और फिर manual break option पर click करें। dialogue",
+   "segments": [
+    " Click करने की आवश्यकता है और फिर manual",
+    " break option पर click करें।",
+    " dialogue"
+   ],
+   "session": [
+    "f99878dc-38dc-434c-a0a2-adaaaf4637eb"
+   ],
+   "ts": "2026-11-16 20:45:30.843 IST",
+   "duplicated": false
+  }
+ ],
+ "zero_audio_close_stream": [
+  {
+   "language": "en",
+   "transcript": "M m hmm.",
+   "session": "1e7ce5cb-0898-46ae-a247-5c0f181017d4",
+   "ts": "2026-11-16 20:44:03.215 IST"
+  },
+  {
+   "language": "en",
+   "transcript": "M m hmm.",
+   "session": "8ec715b2-7317-4c71-bf61-583ce128ed75",
+   "ts": "2026-11-16 20:44:04.509 IST"
+  },
+  {
+   "language": "en",
+   "transcript": "M m hmm.",
+   "session": "51db1cd3-1248-46c7-8009-837a78405dc6",
+   "ts": "2026-11-16 20:44:05.792 IST"
+  },
+  {
+   "language": "hi",
+   "transcript": "",
+   "session": "08d2ceec-ddcf-4255-9cc2-43cc509a81b6",
+   "ts": "2026-11-16 20:44:07.063 IST"
+  },
+  {
+   "language": "hi",
+   "transcript": "",
+   "session": "70dff565-c2d3-4dac-88b1-78bb0e3a6681",
+   "ts": "2026-11-16 20:44:08.322 IST"
+  }
+ ],
+ "close_codes": {
+  "stt_after_is_last": {
+   "1005": 84
+  },
+  "stt_idle_timeout": [
+   {
+    "code": 1006,
+    "reason": ""
+   }
+  ],
+  "tts_idle": [
+   {
+    "query": "timeout=5",
+    "close": {
+     "code": 1006,
+     "reason": ""
+    },
+    "message": [
+     "Connection timed out after 5 seconds of inactivity"
+    ]
+   },
+   {
+    "query": null,
+    "close": {
+     "code": 1006,
+     "reason": ""
+    },
+    "message": [
+     "Connection timed out after 60 seconds of inactivity"
+    ]
+   }
+  ],
+  "tts_server_closed_after_complete": 0,
+  "tts_runs_checked": 77
+ },
+ "auth": {
+  "rejections": [
+   [
+    "TTS REST no Authorization",
+    401
+   ],
+   [
+    "TTS REST invalid key",
+    401
+   ],
+   [
+    "TTS REST malformed Authorization (no Bearer)",
+    401
+   ],
+   [
+    "STT REST no Authorization",
+    401
+   ],
+   [
+    "STT REST invalid key",
+    401
+   ],
+   [
+    "voices list invalid key",
+    200
+   ],
+   [
+    "voices list no Authorization",
+    200
+   ],
+   [
+    "STT REST invalid key, small body",
+    401
+   ],
+   [
+    "STT WS no Authorization",
+    401
+   ],
+   [
+    "STT WS invalid key",
+    401
+   ],
+   [
+    "TTS WS no Authorization",
+    401
+   ],
+   [
+    "TTS WS invalid key",
+    401
+   ]
+  ],
+  "key_leaks": 0
+ },
+ "error_shapes": [
+  "[\"code\", \"message\", \"status\"]",
+  "[\"error\"]",
+  "[\"error_code\", \"language\", \"message\", \"region\", \"status\"]",
+  "[\"errors\", \"message\", \"status\"]",
+  "[\"message\"]",
+  "null"
+ ]
+}

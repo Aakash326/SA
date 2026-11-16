@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "00396f753b0b750d",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-03.wav",
+ "audio_sha256": "cc2427b360475eb69ee9d0b419a6e8e6750aecda439c9e4b937c5bfb001fc818",
+ "latency_ms": 5476,
+ "reply": {
+  "differences": [
+   {
+    "reference": "పదవీ",
+    "system": "పదవి",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "భారతదేశంలో ముఖ్యమంత్రి పదవి కాల పరిమితి ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 394,
+  "output": 91
+ }
+}

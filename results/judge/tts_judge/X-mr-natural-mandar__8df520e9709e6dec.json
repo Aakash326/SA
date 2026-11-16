@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-natural-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8df520e9709e6dec",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-natural-mandar.wav",
+ "audio_sha256": "2a906c69f62f59f0d17fda168de4f7d04ae381063df46b2c2bed52fbad3806fc",
+ "latency_ms": 9417,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मी तुम्हाला कशी मदत करू शकते?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully captures the text with appropriate question intonation and natural pacing."
+ },
+ "tokens": {
+  "prompt": 598,
+  "output": 135
+ }
+}

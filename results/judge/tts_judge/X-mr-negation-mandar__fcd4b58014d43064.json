@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-negation-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fcd4b58014d43064",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-negation-mandar.wav",
+ "audio_sha256": "372c0204ca33dfd3b383e5e7538a474cf550c404f646cb2c381afec744f1705c",
+ "latency_ms": 8605,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear speech with fully accurate content and intelligible pronunciation, though tone is slightly synthetic."
+ },
+ "tokens": {
+  "prompt": 489,
+  "output": 160
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-BG-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "04cc4d8798d80a60",
+ "audio": "clips/ext2/EXP-BG-TE-02.wav",
+ "audio_sha256": "5c9950cf6b3bbb8a7aab48991de9dfe66ac8afebb171b3dd792f0a50421887a7",
+ "latency_ms": 5557,
+ "reply": {
+  "differences": [
+   {
+    "reference": "బ్రిటీష్",
+    "system": "బ్రిటిష్",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "బ్రిటిష్ వారు మొదటగా భారతదేశంలో ఏ ప్రాంతాన్ని ఆక్రమించారు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 416,
+  "output": 123
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-natural-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "be8184df758a5d0b",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-natural-spoorthi.wav",
+ "audio_sha256": "28f4228bba6a38675abaf37351ce37ee69b893260d2287ce3c77e4c3f68fc29e",
+ "latency_ms": 4506,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural, and accurate Kannada TTS."
+ },
+ "tokens": {
+  "prompt": 569,
+  "output": 94
+ }
+}

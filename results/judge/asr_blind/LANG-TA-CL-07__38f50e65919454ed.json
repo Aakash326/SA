@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "38f50e65919454ed",
+ "audio": "clips/ext2/LANG-TA-CL-07.wav",
+ "audio_sha256": "2ecd3d82e118a5f43638a164a4dd1c97383cff31fdedcb77e3d9fbc814c6560b",
+ "latency_ms": 12245,
+ "reply": {
+  "transcript": "அட்லோஃப் ஹிட்லரின் அசல் சிற்பம் மவுட் டுசாட்ஸ் அருங்காட்சியத்தில் ஒரு மாய மாளிகையில் திறக்கப்பட்ட ஆண்டு எது?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 355,
+  "output": 491
+ }
+}

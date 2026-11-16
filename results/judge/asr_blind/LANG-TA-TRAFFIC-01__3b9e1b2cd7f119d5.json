@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3b9e1b2cd7f119d5",
+ "audio": "clips/ext2/LANG-TA-TRAFFIC-01.wav",
+ "audio_sha256": "8cc68eeed4eaaf2ffe76445c0ca1037fd3be06c224f6730884125f49445589d0",
+ "latency_ms": 3986,
+ "reply": {
+  "transcript": "இந்தியா தரநிலையான பணியகம் எப்போது துவங்கப்பட்டது",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 36
+ }
+}

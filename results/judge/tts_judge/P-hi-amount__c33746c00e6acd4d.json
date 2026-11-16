@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "P-hi-amount",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c33746c00e6acd4d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-hi-amount.wav",
+ "audio_sha256": "398a5ca6a0d00d1210bfcdac5b51f2a3384ba5b555d0fcf909f19853292022dd",
+ "latency_ms": 10581,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "दो हज़ार पाँच सौ चालीस रुपए"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio accurately reads the prompt text (2540) rather than the target value (2450). Speech quality and intonation are generally clear."
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 150
+ }
+}

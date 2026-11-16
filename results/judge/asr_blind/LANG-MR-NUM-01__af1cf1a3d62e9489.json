@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "af1cf1a3d62e9489",
+ "audio": "clips/ext2/LANG-MR-NUM-01.wav",
+ "audio_sha256": "c895e9fd89959008482c1c4ad4f1785314102373d5e18a7d0315fbb70f44774b",
+ "latency_ms": 9274,
+ "reply": {
+  "transcript": "2018 च्या जनगणनेनुसार गोव्याची जनसंख्या किती आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 39
+ }
+}

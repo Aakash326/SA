@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-11",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a1f67870517ddefa",
+ "audio": "clips/ext2/EXP-CL-TE-11.wav",
+ "audio_sha256": "8f7ffad05d3b41ea887e81db91ec5b9134b38ba64231cca5903d1573e5a7a11c",
+ "latency_ms": 3857,
+ "reply": {
+  "transcript": "చిన్న భూపాలపట్నం గ్రామ పిన్ కోడ్ ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 232,
+  "output": 38
+ }
+}

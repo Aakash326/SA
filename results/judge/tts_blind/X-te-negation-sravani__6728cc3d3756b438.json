@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-te-negation-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6728cc3d3756b438",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-negation-sravani.wav",
+ "audio_sha256": "d2d5e1413bbb1b39a2a276816eb534b52232950ec92ff403c0f920ed79d8e60a",
+ "latency_ms": 5971,
+ "reply": {
+  "heard": "దయచేసి మీ O T P ని ఎవరితోనూ పంచుకోవద్దు",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 212,
+  "output": 43
+ }
+}

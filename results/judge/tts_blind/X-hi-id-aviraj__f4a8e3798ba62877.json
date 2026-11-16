@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-id-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f4a8e3798ba62877",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-id-aviraj.wav",
+ "audio_sha256": "7a78a101c9d99f4d53e177980fae8ebfeeb626aee703edb41e1814b5f3f86b23",
+ "latency_ms": 3398,
+ "reply": {
+  "heard": "आपका रेफरेंस नंबर शून्य शून्य सात शून्य है",
+  "number_language": "Hindi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 28
+ }
+}

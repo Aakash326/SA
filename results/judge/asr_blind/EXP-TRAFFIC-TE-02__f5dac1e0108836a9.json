@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f5dac1e0108836a9",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-02.wav",
+ "audio_sha256": "10f728287e02d8eb4d302e6292748c954683e9e6b09ef95d56b3b767feac0672",
+ "latency_ms": 5917,
+ "reply": {
+  "transcript": "బ్రిటీషర్లు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 280,
+  "output": 42
+ }
+}

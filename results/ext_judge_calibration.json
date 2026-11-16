@@ -1,0 +1,890 @@
+[
+ {
+  "case_id": "M1",
+  "language": "en",
+  "kind": "money_signs",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The balance is minus 1,499 rupees.",
+  "heard": "The balance is minus one thousand four hundred ninety-nine rupees.",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus",
+    "human": "pass"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety-nine",
+    "human": "pass"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "rupees",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read accurately with clear pronunciation and appropriate prosody."
+ },
+ {
+  "case_id": "M2",
+  "language": "hi",
+  "kind": "money_signs",
+  "voice": "meher",
+  "planted": "false",
+  "text": "Your refund of ₹1,999.50 has been processed.",
+  "heard": "Your refund of एक हज़ार नौ सौ निन्यानवे दशमलव पाँच शून्य रुपये has been processed.",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार नौ सौ निन्यानवे दशमलव पाँच शून्य रुपये",
+    "human": "pass"
+   },
+   {
+    "id": "fraction",
+    "result": "correct",
+    "heard": "दशमलव पाँच शून्य",
+    "human": "pass"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "रुपये",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi / English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic switching cadence"
+  ],
+  "comment": "The numbers and currency were read accurately in Hindi amidst English phrases, with minor unnatural pauses around language transitions."
+ },
+ {
+  "case_id": "M3",
+  "language": "hi",
+  "kind": "money_signs",
+  "voice": "meher",
+  "planted": "false",
+  "text": "Your available balance is ₹1,25,450.",
+  "heard": "Your available balance is एक लाख पच्चीस हज़ार चार सौ पचास रुपये",
+  "number_language": "Hindi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक लाख पच्चीस हज़ार चार सौ पचास रुपये",
+    "human": "pass"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "रुपये",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is rendered cleanly with code-switching between English and Hindi, maintaining accurate pronunciation and appropriate pacing."
+ },
+ {
+  "case_id": "M4",
+  "language": "en",
+  "kind": "money_signs",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The share price fell by -2.5% to 1,499.05.",
+  "heard": "The share price fell by minus two point five percent to one thousand four hundred ninety nine point zero five",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus two point five percent",
+    "human": "pass"
+   },
+   {
+    "id": "percent",
+    "result": "correct",
+    "heard": "percent",
+    "human": "pass"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety-nine point zero five",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate transcription of all numeric and signed values with standard synthetic pacing."
+ },
+ {
+  "case_id": "I1",
+  "language": "en",
+  "kind": "ids_leading_zero",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your reference ID is 0070.",
+  "heard": "Your reference I D is zero zero seven zero",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly with slightly mechanical pacing."
+ },
+ {
+  "case_id": "I2",
+  "language": "en",
+  "kind": "ids_leading_zero",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The OTP is 004512. Do not share it.",
+  "heard": "The O T P is zero zero four five one two. Do not share it.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "zero zero four five one two",
+    "human": "pass"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and intelligible speech with slight synthetic cadence."
+ },
+ {
+  "case_id": "I3",
+  "language": "hi",
+  "kind": "ids_leading_zero",
+  "voice": "meher",
+  "planted": "false",
+  "text": "Your account number ends in 0907.",
+  "heard": "Your account number ends in शून्य नौ शून्य सात",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य नौ शून्य सात",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English / Hindi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The digits are rendered clearly in Hindi while the introductory phrase is in English."
+ },
+ {
+  "case_id": "I4",
+  "language": "hi",
+  "kind": "ids_leading_zero",
+  "voice": "meher",
+  "planted": "false",
+  "text": "Call us at 1800 020 0070.",
+  "heard": "Call us at एक आठ शून्य शून्य शून्य दो शून्य शून्य शून्य सात शून्य",
+  "number_language": "Hindi",
+  "targets": [
+   {
+    "id": "phone",
+    "result": "correct",
+    "heard": "एक आठ शून्य शून्य शून्य दो शून्य शून्य शून्य सात शून्य",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi (may include English words)",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "robotic digit pacing"
+  ],
+  "comment": "English intro followed by clearly enunciated Hindi numerals, though the pacing of the phone digits is somewhat robotic."
+ },
+ {
+  "case_id": "D1",
+  "language": "en",
+  "kind": "dates_times_acronyms",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The appointment is at 9:05 AM. Complete KYC.",
+  "heard": "The appointment is at nine o five A M. Complete K Y C.",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five A M",
+    "human": "pass"
+   },
+   {
+    "id": "meridiem",
+    "result": "correct",
+    "heard": "A M",
+    "human": "pass"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "K Y C",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately, clearly, and naturally."
+ },
+ {
+  "case_id": "D2",
+  "language": "hi",
+  "kind": "dates_times_acronyms",
+  "voice": "meher",
+  "planted": "false",
+  "text": "Your SIP is scheduled for 23 November 2026.",
+  "heard": "Your S I P is scheduled for तेईस नवंबर दो हज़ार छब्बीस",
+  "number_language": "hi",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेईस नवंबर",
+    "human": "pass"
+   },
+   {
+    "id": "year",
+    "result": "correct",
+    "heard": "दो हज़ार छब्बीस",
+    "human": "pass"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "S I P",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is read clearly with Hindi pronunciation for dates and numbers. Prosody is fluent and natural."
+ },
+ {
+  "case_id": "D3",
+  "language": "en",
+  "kind": "dates_times_acronyms",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The IPO opens on 05/06/2026 at 09:50.",
+  "heard": "The I P O opens on May sixth twenty twenty six at nine fifty",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "May sixth twenty twenty six",
+    "human": "pass"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty",
+    "human": "pass"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "I P O",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read accurately with clear pronunciation and appropriate date expansion."
+ },
+ {
+  "case_id": "D4",
+  "language": "en",
+  "kind": "dates_times_acronyms",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your UCC is AB1234 and the meeting is at 21:30.",
+  "heard": "Your U C C is A B one two three four and the meeting is at twenty-one thirty.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "U C C",
+    "human": "pass"
+   },
+   {
+    "id": "code",
+    "result": "correct",
+    "heard": "A B one two three four",
+    "human": "pass"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "twenty-one thirty",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The sentence is read clearly and accurately with natural pacing and intonation."
+ },
+ {
+  "case_id": "N1",
+  "language": "en",
+  "kind": "negation_mixed",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Do not sell the shares.",
+  "heard": "Do not sell the shares",
+  "number_language": "",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not",
+    "human": "pass"
+   },
+   {
+    "id": "verb",
+    "result": "correct",
+    "heard": "sell",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear delivery with accurate pronunciation and suitable prosody."
+ },
+ {
+  "case_id": "N2",
+  "language": "hi",
+  "kind": "negation_mixed",
+  "voice": "meher",
+  "planted": "false",
+  "text": "आपका KYC pending है.",
+  "heard": "आपका K Y C pending है",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "K Y C",
+    "human": "pass"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "pending",
+    "human": "pass"
+   },
+   {
+    "id": "hindi",
+    "result": "correct",
+    "heard": "आपका है",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is very clear, accurate, and naturally spoken."
+ },
+ {
+  "case_id": "N3",
+  "language": "hi",
+  "kind": "negation_mixed",
+  "voice": "meher",
+  "planted": "false",
+  "text": "कृपया ₹1,499 का payment आज मत कीजिए।",
+  "heard": "कृपया एक हज़ार चार सौ निन्यानवे रुपये का पेमेंट आज मत कीजिए",
+  "number_language": "Hindi",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार चार सौ निन्यानवे रुपये",
+    "human": "pass"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "मत",
+    "human": "pass"
+   },
+   {
+    "id": "english",
+    "result": "correct",
+    "heard": "payment",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "hi",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is very clear, natural, and accurately reflects the text."
+ },
+ {
+  "case_id": "N4",
+  "language": "en",
+  "kind": "negation_mixed",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your order was not cancelled; it will not be delivered before 9:50 PM.",
+  "heard": "Your order was not cancelled. It will not be delivered before nine fifty P M.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "negation1",
+    "result": "correct",
+    "heard": "was not cancelled",
+    "human": "pass"
+   },
+   {
+    "id": "negation2",
+    "result": "correct",
+    "heard": "will not",
+    "human": "pass"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty P M",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate transcription and clear pronunciation, though slightly mechanical in rhythm and prosody."
+ },
+ {
+  "case_id": "I1X",
+  "language": "en",
+  "kind": "expanded_pair",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your reference ID is zero zero seven zero.",
+  "heard": "Your reference ID is zero zero seven zero",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "slight robotic quality"
+  ],
+  "comment": "The prompt was read completely and accurately. The prosody on the digit sequence is slightly mechanical but overall clear."
+ },
+ {
+  "case_id": "I2X",
+  "language": "en",
+  "kind": "expanded_pair",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The OTP is zero zero four five one two. Do not share it.",
+  "heard": "The O T P is zero zero four five one two. Do not share it.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "zero zero four five one two",
+    "human": "pass"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear and natural delivery with appropriate pauses."
+ },
+ {
+  "case_id": "M1X",
+  "language": "en",
+  "kind": "expanded_pair",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The balance is minus one thousand four hundred ninety-nine rupees.",
+  "heard": "The balance is -1499 rupees",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus",
+    "human": "pass"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety-nine",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear pronunciation and steady pacing."
+ },
+ {
+  "case_id": "D1X",
+  "language": "en",
+  "kind": "expanded_pair",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The appointment is at nine oh five A M. Complete K Y C.",
+  "heard": "The appointment is at nine o five A M complete K Y C",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five",
+    "human": "pass"
+   },
+   {
+    "id": "meridiem",
+    "result": "correct",
+    "heard": "A M",
+    "human": "pass"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "K Y C",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is clear and naturally delivered with correct pronunciation of all targets."
+ },
+ {
+  "case_id": "C1",
+  "language": "en",
+  "kind": "amount_contrast",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The amount is one thousand four hundred ninety nine rupees.",
+  "heard": "The amount is one thousand four hundred ninety nine rupees",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety nine",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "unnatural rising intonation"
+  ],
+  "comment": "Speech is clear and accurate, though it ends with an unnatural question-like intonation and slight robotic quality."
+ },
+ {
+  "case_id": "C2",
+  "language": "en",
+  "kind": "amount_contrast",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The amount is one thousand nine hundred ninety nine rupees.",
+  "heard": "The amount is one thousand nine hundred ninety nine rupees.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand nine hundred ninety nine",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with natural Indian English prosody and accurate number reading."
+ },
+ {
+  "case_id": "C3",
+  "language": "en",
+  "kind": "leading_zero",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Your reference ID is zero zero seven zero.",
+  "heard": "Your reference I D is zero zero seven zero",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, though somewhat synthetic in tone with slightly mechanical pacing on the digits."
+ },
+ {
+  "case_id": "C4",
+  "language": "en",
+  "kind": "negation",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Do not sell the shares.",
+  "heard": "Do not sell the shares",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "not",
+    "human": "pass"
+   },
+   {
+    "id": "verb",
+    "result": "correct",
+    "heard": "sell",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Speech is clear and accurate with decent cadence, displaying typical synthetic quality."
+ },
+ {
+  "case_id": "C5",
+  "language": "en",
+  "kind": "time",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The appointment is at nine oh five A M.",
+  "heard": "The appointment is at nine oh five A M.",
+  "number_language": "English",
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio matches the prompt clearly with fluent delivery and accurate timing."
+ },
+ {
+  "case_id": "C6",
+  "language": "en",
+  "kind": "time",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "The appointment is at nine fifty A M.",
+  "heard": "The appointment is at nine fifty A M.",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty a m",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear articulation and natural phrasing."
+ },
+ {
+  "case_id": "C7",
+  "language": "en",
+  "kind": "acronyms",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Please complete your K Y C before the I P O. Your U C C is active.",
+  "heard": "please complete your K Y C before the I P O your U C C is active",
+  "number_language": "none",
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC",
+    "human": "pass"
+   },
+   {
+    "id": "ipo",
+    "result": "correct",
+    "heard": "IPO",
+    "human": "pass"
+   },
+   {
+    "id": "ucc",
+    "result": "correct",
+    "heard": "UCC",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All acronyms and words were articulated clearly with appropriate pacing."
+ },
+ {
+  "case_id": "C8",
+  "language": "en",
+  "kind": "year_contrast",
+  "voice": "kaitlyn",
+  "planted": "false",
+  "text": "Who was the leader of Switzerland in fourteen ninety nine?",
+  "heard": "Who is the leader of Switzerland in fourteen ninety-nine",
+  "number_language": "en",
+  "targets": [
+   {
+    "id": "year",
+    "result": "correct",
+    "heard": "fourteen ninety-nine",
+    "human": "pass"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly rendered with appropriate question prosody and accurate pronunciation."
+ }
+]

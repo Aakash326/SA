@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-HI-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a0c98edd26ad6196",
+ "audio": "clips/ext2/EXP-CL-HI-12.wav",
+ "audio_sha256": "ea4700d24d5248db91d7df947091149fee15dca658c95ef6265e14c60f76eeb7",
+ "latency_ms": 3707,
+ "reply": {
+  "differences": [
+   {
+    "reference": "रे",
+    "system": "ऋ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "फिल्म",
+    "system": "film",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "'नायक'",
+    "system": "नायक",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "सत्यजीत रे द्वारा निर्देशित फिल्म नायक कब मुक्त हुई?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 97
+ }
+}

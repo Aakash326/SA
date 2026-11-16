@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "17147ad80ec47dfc",
+ "audio": "clips/ext2/LANG-KN-CL-08.wav",
+ "audio_sha256": "9d73ee312172cf4046eb7366e0cc8a1c1a281c9b9d4aac0985480dd7b746573b",
+ "latency_ms": 6163,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಮರಾಠಾ",
+    "system": "ಮಾರಾಟ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "?",
+    "system": " ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ಬಂಗಾಳದಲ್ಲಿ ಎಷ್ಟು ಮರಾಠಾ ದಾಳಿಗಳು ನಡೆದಿವೆ?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 123
+ }
+}

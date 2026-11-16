@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e4a9999a0f5a83c3",
+ "audio": "clips/ext2/LANG-KN-CL-02.wav",
+ "audio_sha256": "f36a2df5b6b38c8c9b9db9a0f19d4001542f456619be8f4a1438a00bcadef5d7",
+ "latency_ms": 5016,
+ "reply": {
+  "transcript": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 37
+ }
+}

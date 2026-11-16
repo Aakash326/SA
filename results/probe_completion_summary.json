@@ -1,0 +1,189 @@
+{
+ "A_same_socket_wait_complete": {
+  "requests": [
+   {
+    "request_id": "7d9f8234-a22f-4603-9b26-5dfed78bb41d",
+    "chunks": 19,
+    "first_ms": 384.8,
+    "last_ms": 814.7,
+    "complete_ms": 4840.2,
+    "sent_ms": 252.7,
+    "ttfa_ms": 132.1,
+    "gap_ms": 4025.5
+   },
+   {
+    "request_id": "17c12e35-4d9f-4494-b038-5c4ea6f17cc8",
+    "chunks": 16,
+    "first_ms": 4979.9,
+    "last_ms": 5354.0,
+    "complete_ms": 9388.3,
+    "sent_ms": 4845.6,
+    "ttfa_ms": 134.3,
+    "gap_ms": 4034.3
+   },
+   {
+    "request_id": "f0845984-ec38-45f4-957b-50ac65f85ce8",
+    "chunks": 18,
+    "first_ms": 9519.8,
+    "last_ms": 9971.0,
+    "complete_ms": 13996.7,
+    "sent_ms": 9388.5,
+    "ttfa_ms": 131.3,
+    "gap_ms": 4025.7
+   },
+   {
+    "request_id": "47f83176-8d69-4144-ad52-d898c343cbd1",
+    "chunks": 23,
+    "first_ms": 14152.0,
+    "last_ms": 14680.0,
+    "complete_ms": 18808.4,
+    "sent_ms": 14008.4,
+    "ttfa_ms": 143.6,
+    "gap_ms": 4128.4
+   },
+   {
+    "request_id": "ed076814-38db-4f99-ace7-1bddf6f0e217",
+    "chunks": 10,
+    "first_ms": 18942.3,
+    "last_ms": 19205.6,
+    "complete_ms": 23335.9,
+    "sent_ms": 18808.6,
+    "ttfa_ms": 133.7,
+    "gap_ms": 4130.3
+   }
+  ],
+  "close_codes": [],
+  "error_frames": [],
+  "pings": [
+   {
+    "ping_after_last_audio_ms": 511.4,
+    "pong_rtt_ms": 16.6,
+    "complete_after_pong_ms": 3497.5
+   },
+   {
+    "ping_after_last_audio_ms": 505.2,
+    "pong_rtt_ms": 16.5,
+    "complete_after_pong_ms": 3512.6
+   },
+   {
+    "ping_after_last_audio_ms": 508.0,
+    "pong_rtt_ms": 19.1,
+    "complete_after_pong_ms": 3498.6
+   },
+   {
+    "ping_after_last_audio_ms": 512.4,
+    "pong_rtt_ms": 11.7,
+    "complete_after_pong_ms": 3604.3
+   },
+   {
+    "ping_after_last_audio_ms": 507.1,
+    "pong_rtt_ms": 19.5,
+    "complete_after_pong_ms": 3603.7
+   }
+  ]
+ },
+ "B_same_socket_send_after_last_audio": {
+  "requests": [
+   {
+    "request_id": "8a8827a2-c503-4508-bec4-ffaacffdd96d",
+    "chunks": 21,
+    "first_ms": 284.3,
+    "last_ms": 762.3,
+    "sent_ms": 158.4,
+    "ttfa_ms": 125.9
+   },
+   {
+    "request_id": "4a28a44d-41d7-4046-9302-38b392e67f97",
+    "chunks": 14,
+    "first_ms": 1297.1,
+    "last_ms": 1629.4,
+    "sent_ms": 1167.7,
+    "ttfa_ms": 129.4
+   },
+   {
+    "request_id": "d553610a-fb02-4a91-a745-f55dcb1c43a9",
+    "chunks": 14,
+    "first_ms": 2152.0,
+    "last_ms": 2522.9,
+    "sent_ms": 2032.0,
+    "ttfa_ms": 120.0
+   },
+   {
+    "request_id": "02a9716d-849f-4e25-b112-b3dec84dcb59",
+    "chunks": 24,
+    "first_ms": 3062.1,
+    "last_ms": 3620.0,
+    "sent_ms": 2929.0,
+    "ttfa_ms": 133.1
+   },
+   {
+    "request_id": "6b27273f-d3a6-48a4-8b10-c7f9a49716c0",
+    "chunks": 10,
+    "first_ms": 4161.1,
+    "last_ms": 4410.4,
+    "complete_ms": 8437.4,
+    "sent_ms": 4031.1,
+    "ttfa_ms": 130.0,
+    "gap_ms": 4027.0
+   }
+  ],
+  "close_codes": [],
+  "error_frames": []
+ },
+ "C_fresh_connection": {
+  "requests": [
+   {
+    "request_id": "90c0466b-ce04-4333-a31d-b32ad645eaf9",
+    "chunks": 22,
+    "first_ms": 262.9,
+    "last_ms": 771.3,
+    "complete_ms": 4862.7,
+    "sent_ms": 144.5,
+    "ttfa_ms": 118.4,
+    "gap_ms": 4091.4
+   },
+   {
+    "request_id": "80464fa3-519e-402f-92e5-d5274ee4fca0",
+    "chunks": 15,
+    "first_ms": 297.7,
+    "last_ms": 664.4,
+    "complete_ms": 4711.9,
+    "sent_ms": 156.6,
+    "ttfa_ms": 141.1,
+    "gap_ms": 4047.5
+   },
+   {
+    "request_id": "c9191474-9f88-4f09-98f0-aefd4f047c20",
+    "chunks": 17,
+    "first_ms": 281.1,
+    "last_ms": 690.6,
+    "complete_ms": 4716.6,
+    "sent_ms": 151.6,
+    "ttfa_ms": 129.5,
+    "gap_ms": 4026.0
+   },
+   {
+    "request_id": "f750a047-dcbe-400d-b7d4-961808510a88",
+    "chunks": 20,
+    "first_ms": 259.6,
+    "last_ms": 745.9,
+    "complete_ms": 4789.8,
+    "sent_ms": 129.1,
+    "ttfa_ms": 130.5,
+    "gap_ms": 4043.9
+   },
+   {
+    "request_id": "1bae3379-71d8-48f4-b624-1099c9b3bb31",
+    "chunks": 10,
+    "first_ms": 271.0,
+    "last_ms": 533.1,
+    "complete_ms": 4557.8,
+    "sent_ms": 143.5,
+    "ttfa_ms": 127.5,
+    "gap_ms": 4024.7
+   }
+  ],
+  "close_codes": [],
+  "error_frames": []
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6648dc0e1e130b5e",
+ "audio": "clips/ext2/EXP-CL-HI-06.wav",
+ "audio_sha256": "482e19bc106a22e5189fcde59ab89e86ad71d4d1912b5d7996ed3c6f179204c2",
+ "latency_ms": 10711,
+ "reply": {
+  "transcript": "रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 214,
+  "output": 35
+ }
+}

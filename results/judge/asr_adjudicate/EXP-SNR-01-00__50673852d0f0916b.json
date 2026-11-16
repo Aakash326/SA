@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-SNR-01-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "50673852d0f0916b",
+ "audio": "clips/ext2/EXP-SNR-01-00.wav",
+ "audio_sha256": "d545ac2163cb26fff123c6a9cd3ea805d690144e7e6943d61986f8bebb090071",
+ "latency_ms": 8444,
+ "reply": {
+  "differences": [
+   {
+    "reference": "home",
+    "system": "cold",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "Dodgers Stadium",
+    "system": "Georgia's agent",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "How many home games does Dodgers Stadium see a season?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 368,
+  "output": 84
+ }
+}

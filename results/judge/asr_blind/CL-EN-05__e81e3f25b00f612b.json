@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "CL-EN-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e81e3f25b00f612b",
+ "audio": "clips/ext2/CL-EN-05.wav",
+ "audio_sha256": "ee8cdeeabc164c1108c4094fcceaa13befd0f454acbb2cccb829c3c486348561",
+ "latency_ms": 6161,
+ "reply": {
+  "transcript": "Where are avalanches most common",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 191,
+  "output": 30
+ }
+}

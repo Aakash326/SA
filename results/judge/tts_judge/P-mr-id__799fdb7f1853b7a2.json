@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "P-mr-id",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "799fdb7f1853b7a2",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-mr-id.wav",
+ "audio_sha256": "e3588f8adf3ca16ac6be0d73a8c30bd12858ffe8409bbe9dbf39c2502aff6ec9",
+ "latency_ms": 10073,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "wrong",
+    "heard": "सात शून्य शून्य शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The speaker read 7000 digit-by-digit as 'सात शून्य शून्य शून्य' instead of '0070'."
+ },
+ "tokens": {
+  "prompt": 478,
+  "output": 143
+ }
+}

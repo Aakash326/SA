@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-amount-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c65455a5860b09e4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-amount-basava.wav",
+ "audio_sha256": "4195e97c4e482e85d4c314bd0cef0a96811413c9c92f1a33c62501d5633540f3",
+ "latency_ms": 8648,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಎರಡು ಸಾವಿರದ ನಾಲ್ಕು ನೂರ ಐವತ್ತು ರೂಪಾಯಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately with clear pronunciation, though slightly synthetic in tone."
+ },
+ "tokens": {
+  "prompt": 479,
+  "output": 140
+ }
+}

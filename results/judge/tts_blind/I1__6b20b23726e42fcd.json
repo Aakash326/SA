@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "I1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6b20b23726e42fcd",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I1.wav",
+ "audio_sha256": "ca2cd55f3da2804a3de8f9fac3598123ab7a7b7f2d1d0fd189dc590b6214215b",
+ "latency_ms": 4899,
+ "reply": {
+  "heard": "Your reference I D is zero zero seven zero",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 27
+ }
+}

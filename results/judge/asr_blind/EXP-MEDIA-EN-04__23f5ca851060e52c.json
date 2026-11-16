@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-EN-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "23f5ca851060e52c",
+ "audio": "clips/ext2/EXP-MEDIA-EN-04.wav",
+ "audio_sha256": "4be869966086ee60ea2775f4c809689334b68e2a0e31f8ab2c68a1c3a5808345",
+ "latency_ms": 8493,
+ "reply": {
+  "transcript": "What is the largest rail yard in the New York City subway system?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 281,
+  "output": 37
+ }
+}

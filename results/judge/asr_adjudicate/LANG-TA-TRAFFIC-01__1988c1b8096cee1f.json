@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1988c1b8096cee1f",
+ "audio": "clips/ext2/LANG-TA-TRAFFIC-01.wav",
+ "audio_sha256": "8cc68eeed4eaaf2ffe76445c0ca1037fd3be06c224f6730884125f49445589d0",
+ "latency_ms": 9543,
+ "reply": {
+  "differences": [
+   {
+    "reference": "வானிலாய",
+    "system": "சரணிலாய",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "துவங்கப்பட்டது",
+    "system": "கொண்டுள்ளது",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "இந்தியா தரநிலையான பணியகம் எப்போது துவங்கப்பட்டது",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 426,
+  "output": 128
+ }
+}

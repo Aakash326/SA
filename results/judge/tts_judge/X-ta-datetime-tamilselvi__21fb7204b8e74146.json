@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-datetime-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "21fb7204b8e74146",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-datetime-tamilselvi.wav",
+ "audio_sha256": "f38f77e6fbab60c86147fbb5e003ffec61294ce103be9d997992cfc9ecef698f",
+ "latency_ms": 5551,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "நவம்பர் இருபத்து மூன்று அன்று"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "காலை ஒன்பது ஐந்து மணிக்கு"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately and naturally with clear Tamil pronunciation and appropriate intonation."
+ },
+ "tokens": {
+  "prompt": 547,
+  "output": 170
+ }
+}

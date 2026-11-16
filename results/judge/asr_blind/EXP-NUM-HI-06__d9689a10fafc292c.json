@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d9689a10fafc292c",
+ "audio": "clips/ext2/EXP-NUM-HI-06.wav",
+ "audio_sha256": "cacd7bc9021cfcfe23307e6022f0e8d63d3eb72fefb5e7ad7d3157699ae38839",
+ "latency_ms": 23294,
+ "reply": {
+  "transcript": "1977 में बोस्टन टीम ने सीरीज़ कब जीता था?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 304,
+  "output": 39
+ }
+}

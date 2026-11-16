@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-id-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2364bb10e039f86a",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-id-tamilselvi.wav",
+ "audio_sha256": "371aad38c84e4e52fea7ac2e3803d3ae99535ca9784347524fc65d6ccd9af718",
+ "latency_ms": 5320,
+ "reply": {
+  "heard": "உங்கள் குறிப்பு எண் பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்",
+  "number_language": "Tamil",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 205,
+  "output": 36
+ }
+}

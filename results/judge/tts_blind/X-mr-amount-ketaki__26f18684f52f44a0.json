@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-amount-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "26f18684f52f44a0",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-amount-ketaki.wav",
+ "audio_sha256": "de142ee0d9b786b6e89f782b6f7c251714867411f713c0cbc112e9611bf5ae64",
+ "latency_ms": 5030,
+ "reply": {
+  "heard": "तुमच्या खात्यात दोन हजार चारशे पन्नास रुपये जमा झाले आहेत",
+  "number_language": "Marathi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 43
+ }
+}

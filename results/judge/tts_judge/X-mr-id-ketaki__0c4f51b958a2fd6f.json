@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-id-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0c4f51b958a2fd6f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-id-ketaki.wav",
+ "audio_sha256": "8d64556b8d3826cc0db689cf3ba597e5c2da7dc5dc774a45d19c3ba8cb032ec1",
+ "latency_ms": 9467,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 3,
+  "artifacts": [],
+  "comment": "The text and numbers were spoken accurately with intelligible Marathi pronunciation, though slightly mechanical in rhythm."
+ },
+ "tokens": {
+  "prompt": 483,
+  "output": 134
+ }
+}

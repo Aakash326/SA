@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f44e36e80100eeb7",
+ "audio": "clips/ext2/EXP-NUM-HI-06.wav",
+ "audio_sha256": "cacd7bc9021cfcfe23307e6022f0e8d63d3eb72fefb5e7ad7d3157699ae38839",
+ "latency_ms": 13581,
+ "reply": {
+  "differences": [
+   {
+    "reference": "1977",
+    "system": "उन्नीस सौ सतहत्तर",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "टीम",
+    "system": "team",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "सीरीज",
+    "system": "series",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "कब",
+    "system": "cup",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "1977 में कोसने टीम ने सीरीज कब जीता था?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 448,
+  "output": 189
+ }
+}

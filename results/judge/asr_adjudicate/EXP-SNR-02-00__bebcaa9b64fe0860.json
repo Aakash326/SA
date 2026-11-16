@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-SNR-02-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bebcaa9b64fe0860",
+ "audio": "clips/ext2/EXP-SNR-02-00.wav",
+ "audio_sha256": "92b164247eb5512bc08fb04b405a9edf0eab99a9a66eb80df648763b5360b0c5",
+ "latency_ms": 3216,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Tokyo",
+    "system": "Scotia",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "What is the population of Tokyo?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 81
+ }
+}

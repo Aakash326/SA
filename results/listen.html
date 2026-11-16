@@ -1,0 +1,472 @@
+<!doctype html><html><head><meta charset="utf-8"><title>TTS Target Listening</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--bg:#fbfbfa;--fg:#1d1d1b;--muted:#6b6b66;--line:#ddd;--card:#fff;--accent:#2457c5}
+@media (prefers-color-scheme:dark){:root{--bg:#151514;--fg:#ecece8;--muted:#a3a39c;--line:#333;--card:#1f1f1d;--accent:#7aa2ff}}
+body{background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,sans-serif;margin:0 auto;max-width:1100px;padding:16px}
+section{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 16px;margin:14px 0}
+h2{margin:0 0 6px;font-size:17px} small{color:var(--muted);font-weight:400} .text{font-size:18px;margin:6px 0}
+table{border-collapse:collapse;width:100%;margin-top:8px;font-size:14px} td,th{border-top:1px solid var(--line);padding:6px;text-align:left;vertical-align:top}
+.crit{color:#c0392b;font-size:12px} .choices label{margin-right:8px;white-space:nowrap} input.heard,textarea{width:100%;box-sizing:border-box;background:transparent;color:var(--fg);border:1px solid var(--line);border-radius:4px;padding:4px}
+textarea{margin-top:8px;min-height:36px} .auto{color:var(--muted)} button{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:10px 16px;font-size:15px;cursor:pointer}
+#bar{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+@media (max-width:700px){table,tr,td,th{display:block} th{display:none}}
+</style></head><body>
+<h1>TTS target listening sheet</h1>
+<p>Listen to each clip once without looking at the automated column. Judge only the listed targets. Mark <b>unclear</b> rather than guessing.
+Lightning v3.1 Pro, 24 kHz WAV (round-trip cohort C1–C8: 16 kHz). Generated 28 clips, 58 targets.</p>
+<div id="bar"><label>Listener ID <input id="listener" value="R1" size="4"></label><button id="dl">Download CSV</button><span id="count"></span></div>
+<section><h2>M1 <small>money_signs · kaitlyn · language=en
+      · paired with M1X</small></h2>
+      <p class="text">The balance is minus 1,499 rupees.</p>
+      <audio controls preload="none" src="tts/M1.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="M1" data-target="sign">
+          <td><b>sign</b> <span class="crit">critical</span></td>
+          <td>minus</td><td>minus / negative</td>
+          <td class="choices"><label><input type="radio" name="M1-sign" value="pass">pass</label><label><input type="radio" name="M1-sign" value="fail">fail</label><label><input type="radio" name="M1-sign" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M1" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>1,499</td><td>one thousand four hundred ninety-nine</td>
+          <td class="choices"><label><input type="radio" name="M1-amount" value="pass">pass</label><label><input type="radio" name="M1-amount" value="fail">fail</label><label><input type="radio" name="M1-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M1" data-target="currency">
+          <td><b>currency</b> <span class="crit">critical</span></td>
+          <td>rupees</td><td>rupees</td>
+          <td class="choices"><label><input type="radio" name="M1-currency" value="pass">pass</label><label><input type="radio" name="M1-currency" value="fail">fail</label><label><input type="radio" name="M1-currency" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="M1" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>M2 <small>money_signs · meher · language=hi
+      </small></h2>
+      <p class="text">Your refund of ₹1,999.50 has been processed.</p>
+      <audio controls preload="none" src="tts/M2.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="M2" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>₹1,999.50</td><td>one thousand nine hundred ninety-nine rupees and fifty paise</td>
+          <td class="choices"><label><input type="radio" name="M2-amount" value="pass">pass</label><label><input type="radio" name="M2-amount" value="fail">fail</label><label><input type="radio" name="M2-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M2" data-target="fraction">
+          <td><b>fraction</b> <span class="crit">critical</span></td>
+          <td>.50</td><td>fifty paise / point five zero</td>
+          <td class="choices"><label><input type="radio" name="M2-fraction" value="pass">pass</label><label><input type="radio" name="M2-fraction" value="fail">fail</label><label><input type="radio" name="M2-fraction" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M2" data-target="currency">
+          <td><b>currency</b> <span class="crit">critical</span></td>
+          <td>₹</td><td>rupees</td>
+          <td class="choices"><label><input type="radio" name="M2-currency" value="pass">pass</label><label><input type="radio" name="M2-currency" value="fail">fail</label><label><input type="radio" name="M2-currency" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="M2" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>M3 <small>money_signs · meher · language=hi
+      </small></h2>
+      <p class="text">Your available balance is ₹1,25,450.</p>
+      <audio controls preload="none" src="tts/M3.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="M3" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>₹1,25,450</td><td>one lakh twenty-five thousand four hundred fifty rupees</td>
+          <td class="choices"><label><input type="radio" name="M3-amount" value="pass">pass</label><label><input type="radio" name="M3-amount" value="fail">fail</label><label><input type="radio" name="M3-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M3" data-target="currency">
+          <td><b>currency</b> <span class="crit">critical</span></td>
+          <td>₹</td><td>rupees</td>
+          <td class="choices"><label><input type="radio" name="M3-currency" value="pass">pass</label><label><input type="radio" name="M3-currency" value="fail">fail</label><label><input type="radio" name="M3-currency" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="M3" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>M4 <small>money_signs · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The share price fell by -2.5% to 1,499.05.</p>
+      <audio controls preload="none" src="tts/M4.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="M4" data-target="sign">
+          <td><b>sign</b> <span class="crit">critical</span></td>
+          <td>-2.5%</td><td>minus two point five percent</td>
+          <td class="choices"><label><input type="radio" name="M4-sign" value="pass">pass</label><label><input type="radio" name="M4-sign" value="fail">fail</label><label><input type="radio" name="M4-sign" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M4" data-target="percent">
+          <td><b>percent</b> <span class="crit">critical</span></td>
+          <td>%</td><td>percent</td>
+          <td class="choices"><label><input type="radio" name="M4-percent" value="pass">pass</label><label><input type="radio" name="M4-percent" value="fail">fail</label><label><input type="radio" name="M4-percent" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M4" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>1,499.05</td><td>one thousand four hundred ninety-nine point zero five</td>
+          <td class="choices"><label><input type="radio" name="M4-amount" value="pass">pass</label><label><input type="radio" name="M4-amount" value="fail">fail</label><label><input type="radio" name="M4-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="M4" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I1 <small>ids_leading_zero · kaitlyn · language=en
+      · paired with I1X</small></h2>
+      <p class="text">Your reference ID is 0070.</p>
+      <audio controls preload="none" src="tts/I1.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I1" data-target="id">
+          <td><b>id</b> <span class="crit">critical</span></td>
+          <td>0070</td><td>zero zero seven zero</td>
+          <td class="choices"><label><input type="radio" name="I1-id" value="pass">pass</label><label><input type="radio" name="I1-id" value="fail">fail</label><label><input type="radio" name="I1-id" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I1" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I2 <small>ids_leading_zero · kaitlyn · language=en
+      · paired with I2X</small></h2>
+      <p class="text">The OTP is 004512. Do not share it.</p>
+      <audio controls preload="none" src="tts/I2.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I2" data-target="otp">
+          <td><b>otp</b> <span class="crit">critical</span></td>
+          <td>004512</td><td>zero zero four five one two</td>
+          <td class="choices"><label><input type="radio" name="I2-otp" value="pass">pass</label><label><input type="radio" name="I2-otp" value="fail">fail</label><label><input type="radio" name="I2-otp" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="I2" data-target="negation">
+          <td><b>negation</b> <span class="crit">critical</span></td>
+          <td>Do not</td><td>do not</td>
+          <td class="choices"><label><input type="radio" name="I2-negation" value="pass">pass</label><label><input type="radio" name="I2-negation" value="fail">fail</label><label><input type="radio" name="I2-negation" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I2" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I3 <small>ids_leading_zero · meher · language=hi
+      </small></h2>
+      <p class="text">Your account number ends in 0907.</p>
+      <audio controls preload="none" src="tts/I3.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I3" data-target="id">
+          <td><b>id</b> <span class="crit">critical</span></td>
+          <td>0907</td><td>zero nine zero seven</td>
+          <td class="choices"><label><input type="radio" name="I3-id" value="pass">pass</label><label><input type="radio" name="I3-id" value="fail">fail</label><label><input type="radio" name="I3-id" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I3" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I4 <small>ids_leading_zero · meher · language=hi
+      </small></h2>
+      <p class="text">Call us at 1800 020 0070.</p>
+      <audio controls preload="none" src="tts/I4.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I4" data-target="phone">
+          <td><b>phone</b> <span class="crit">critical</span></td>
+          <td>1800 020 0070</td><td>one eight zero zero, zero two zero, zero zero seven zero</td>
+          <td class="choices"><label><input type="radio" name="I4-phone" value="pass">pass</label><label><input type="radio" name="I4-phone" value="fail">fail</label><label><input type="radio" name="I4-phone" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I4" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>D1 <small>dates_times_acronyms · kaitlyn · language=en
+      · paired with D1X</small></h2>
+      <p class="text">The appointment is at 9:05 AM. Complete KYC.</p>
+      <audio controls preload="none" src="tts/D1.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="D1" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>9:05 AM</td><td>nine oh five A M</td>
+          <td class="choices"><label><input type="radio" name="D1-time" value="pass">pass</label><label><input type="radio" name="D1-time" value="fail">fail</label><label><input type="radio" name="D1-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D1" data-target="meridiem">
+          <td><b>meridiem</b> <span class="crit">critical</span></td>
+          <td>AM</td><td>A M</td>
+          <td class="choices"><label><input type="radio" name="D1-meridiem" value="pass">pass</label><label><input type="radio" name="D1-meridiem" value="fail">fail</label><label><input type="radio" name="D1-meridiem" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D1" data-target="acronym">
+          <td><b>acronym</b> <span class="crit">critical</span></td>
+          <td>KYC</td><td>K Y C</td>
+          <td class="choices"><label><input type="radio" name="D1-acronym" value="pass">pass</label><label><input type="radio" name="D1-acronym" value="fail">fail</label><label><input type="radio" name="D1-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="D1" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>D2 <small>dates_times_acronyms · meher · language=hi
+      </small></h2>
+      <p class="text">Your SIP is scheduled for 23 November 2026.</p>
+      <audio controls preload="none" src="tts/D2.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="D2" data-target="date">
+          <td><b>date</b> <span class="crit">critical</span></td>
+          <td>23 November</td><td>twenty-third November</td>
+          <td class="choices"><label><input type="radio" name="D2-date" value="pass">pass</label><label><input type="radio" name="D2-date" value="fail">fail</label><label><input type="radio" name="D2-date" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D2" data-target="year">
+          <td><b>year</b> <span class="crit">critical</span></td>
+          <td>2026</td><td>twenty twenty-six</td>
+          <td class="choices"><label><input type="radio" name="D2-year" value="pass">pass</label><label><input type="radio" name="D2-year" value="fail">fail</label><label><input type="radio" name="D2-year" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D2" data-target="acronym">
+          <td><b>acronym</b></td>
+          <td>SIP</td><td>S I P or sip</td>
+          <td class="choices"><label><input type="radio" name="D2-acronym" value="pass">pass</label><label><input type="radio" name="D2-acronym" value="fail">fail</label><label><input type="radio" name="D2-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="D2" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>D3 <small>dates_times_acronyms · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The IPO opens on 05/06/2026 at 09:50.</p>
+      <audio controls preload="none" src="tts/D3.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="D3" data-target="date">
+          <td><b>date</b> <span class="crit">critical</span></td>
+          <td>05/06/2026</td><td>one unambiguous reading; record whether 5 June or May 6</td>
+          <td class="choices"><label><input type="radio" name="D3-date" value="pass">pass</label><label><input type="radio" name="D3-date" value="fail">fail</label><label><input type="radio" name="D3-date" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D3" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>09:50</td><td>nine fifty</td>
+          <td class="choices"><label><input type="radio" name="D3-time" value="pass">pass</label><label><input type="radio" name="D3-time" value="fail">fail</label><label><input type="radio" name="D3-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D3" data-target="acronym">
+          <td><b>acronym</b> <span class="crit">critical</span></td>
+          <td>IPO</td><td>I P O</td>
+          <td class="choices"><label><input type="radio" name="D3-acronym" value="pass">pass</label><label><input type="radio" name="D3-acronym" value="fail">fail</label><label><input type="radio" name="D3-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="D3" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>D4 <small>dates_times_acronyms · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Your UCC is AB1234 and the meeting is at 21:30.</p>
+      <audio controls preload="none" src="tts/D4.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="D4" data-target="acronym">
+          <td><b>acronym</b> <span class="crit">critical</span></td>
+          <td>UCC</td><td>U C C</td>
+          <td class="choices"><label><input type="radio" name="D4-acronym" value="pass">pass</label><label><input type="radio" name="D4-acronym" value="fail">fail</label><label><input type="radio" name="D4-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D4" data-target="code">
+          <td><b>code</b> <span class="crit">critical</span></td>
+          <td>AB1234</td><td>A B one two three four</td>
+          <td class="choices"><label><input type="radio" name="D4-code" value="pass">pass</label><label><input type="radio" name="D4-code" value="fail">fail</label><label><input type="radio" name="D4-code" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D4" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>21:30</td><td>twenty-one thirty / nine thirty PM</td>
+          <td class="choices"><label><input type="radio" name="D4-time" value="pass">pass</label><label><input type="radio" name="D4-time" value="fail">fail</label><label><input type="radio" name="D4-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="D4" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>N1 <small>negation_mixed · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Do not sell the shares.</p>
+      <audio controls preload="none" src="tts/N1.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="N1" data-target="negation">
+          <td><b>negation</b> <span class="crit">critical</span></td>
+          <td>Do not</td><td>do not</td>
+          <td class="choices"><label><input type="radio" name="N1-negation" value="pass">pass</label><label><input type="radio" name="N1-negation" value="fail">fail</label><label><input type="radio" name="N1-negation" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N1" data-target="verb">
+          <td><b>verb</b> <span class="crit">critical</span></td>
+          <td>sell</td><td>sell</td>
+          <td class="choices"><label><input type="radio" name="N1-verb" value="pass">pass</label><label><input type="radio" name="N1-verb" value="fail">fail</label><label><input type="radio" name="N1-verb" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="N1" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>N2 <small>negation_mixed · meher · language=hi
+      </small></h2>
+      <p class="text">आपका KYC pending है.</p>
+      <audio controls preload="none" src="tts/N2.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="N2" data-target="acronym">
+          <td><b>acronym</b> <span class="crit">critical</span></td>
+          <td>KYC</td><td>K Y C</td>
+          <td class="choices"><label><input type="radio" name="N2-acronym" value="pass">pass</label><label><input type="radio" name="N2-acronym" value="fail">fail</label><label><input type="radio" name="N2-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N2" data-target="english">
+          <td><b>english</b> <span class="crit">critical</span></td>
+          <td>pending</td><td>pending</td>
+          <td class="choices"><label><input type="radio" name="N2-english" value="pass">pass</label><label><input type="radio" name="N2-english" value="fail">fail</label><label><input type="radio" name="N2-english" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N2" data-target="hindi">
+          <td><b>hindi</b> <span class="crit">critical</span></td>
+          <td>आपका … है</td><td>आपका … है</td>
+          <td class="choices"><label><input type="radio" name="N2-hindi" value="pass">pass</label><label><input type="radio" name="N2-hindi" value="fail">fail</label><label><input type="radio" name="N2-hindi" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="N2" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>N3 <small>negation_mixed · meher · language=hi
+      </small></h2>
+      <p class="text">कृपया ₹1,499 का payment आज मत कीजिए।</p>
+      <audio controls preload="none" src="tts/N3.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="N3" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>₹1,499</td><td>एक हज़ार चार सौ निन्यानवे रुपये</td>
+          <td class="choices"><label><input type="radio" name="N3-amount" value="pass">pass</label><label><input type="radio" name="N3-amount" value="fail">fail</label><label><input type="radio" name="N3-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N3" data-target="negation">
+          <td><b>negation</b> <span class="crit">critical</span></td>
+          <td>मत</td><td>मत</td>
+          <td class="choices"><label><input type="radio" name="N3-negation" value="pass">pass</label><label><input type="radio" name="N3-negation" value="fail">fail</label><label><input type="radio" name="N3-negation" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N3" data-target="english">
+          <td><b>english</b> <span class="crit">critical</span></td>
+          <td>payment</td><td>payment</td>
+          <td class="choices"><label><input type="radio" name="N3-english" value="pass">pass</label><label><input type="radio" name="N3-english" value="fail">fail</label><label><input type="radio" name="N3-english" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="N3" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>N4 <small>negation_mixed · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Your order was not cancelled; it will not be delivered before 9:50 PM.</p>
+      <audio controls preload="none" src="tts/N4.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="N4" data-target="negation1">
+          <td><b>negation1</b> <span class="crit">critical</span></td>
+          <td>was not cancelled</td><td>was not cancelled</td>
+          <td class="choices"><label><input type="radio" name="N4-negation1" value="pass">pass</label><label><input type="radio" name="N4-negation1" value="fail">fail</label><label><input type="radio" name="N4-negation1" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N4" data-target="negation2">
+          <td><b>negation2</b> <span class="crit">critical</span></td>
+          <td>will not</td><td>will not</td>
+          <td class="choices"><label><input type="radio" name="N4-negation2" value="pass">pass</label><label><input type="radio" name="N4-negation2" value="fail">fail</label><label><input type="radio" name="N4-negation2" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="N4" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>9:50 PM</td><td>nine fifty P M</td>
+          <td class="choices"><label><input type="radio" name="N4-time" value="pass">pass</label><label><input type="radio" name="N4-time" value="fail">fail</label><label><input type="radio" name="N4-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="N4" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I1X <small>expanded_pair · kaitlyn · language=en
+      · paired with I1</small></h2>
+      <p class="text">Your reference ID is zero zero seven zero.</p>
+      <audio controls preload="none" src="tts/I1X.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I1X" data-target="id">
+          <td><b>id</b> <span class="crit">critical</span></td>
+          <td>zero zero seven zero</td><td>same</td>
+          <td class="choices"><label><input type="radio" name="I1X-id" value="pass">pass</label><label><input type="radio" name="I1X-id" value="fail">fail</label><label><input type="radio" name="I1X-id" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I1X" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>I2X <small>expanded_pair · kaitlyn · language=en
+      · paired with I2</small></h2>
+      <p class="text">The OTP is zero zero four five one two. Do not share it.</p>
+      <audio controls preload="none" src="tts/I2X.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="I2X" data-target="otp">
+          <td><b>otp</b> <span class="crit">critical</span></td>
+          <td>zero zero four five one two</td><td>same</td>
+          <td class="choices"><label><input type="radio" name="I2X-otp" value="pass">pass</label><label><input type="radio" name="I2X-otp" value="fail">fail</label><label><input type="radio" name="I2X-otp" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="I2X" data-target="negation">
+          <td><b>negation</b> <span class="crit">critical</span></td>
+          <td>Do not</td><td>do not</td>
+          <td class="choices"><label><input type="radio" name="I2X-negation" value="pass">pass</label><label><input type="radio" name="I2X-negation" value="fail">fail</label><label><input type="radio" name="I2X-negation" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="I2X" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>M1X <small>expanded_pair · kaitlyn · language=en
+      · paired with M1</small></h2>
+      <p class="text">The balance is minus one thousand four hundred ninety-nine rupees.</p>
+      <audio controls preload="none" src="tts/M1X.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="M1X" data-target="sign">
+          <td><b>sign</b> <span class="crit">critical</span></td>
+          <td>minus</td><td>minus</td>
+          <td class="choices"><label><input type="radio" name="M1X-sign" value="pass">pass</label><label><input type="radio" name="M1X-sign" value="fail">fail</label><label><input type="radio" name="M1X-sign" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="M1X" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>one thousand four hundred ninety-nine</td><td>same</td>
+          <td class="choices"><label><input type="radio" name="M1X-amount" value="pass">pass</label><label><input type="radio" name="M1X-amount" value="fail">fail</label><label><input type="radio" name="M1X-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="M1X" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>D1X <small>expanded_pair · kaitlyn · language=en
+      · paired with D1</small></h2>
+      <p class="text">The appointment is at nine oh five A M. Complete K Y C.</p>
+      <audio controls preload="none" src="tts/D1X.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="D1X" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>nine oh five</td><td>same</td>
+          <td class="choices"><label><input type="radio" name="D1X-time" value="pass">pass</label><label><input type="radio" name="D1X-time" value="fail">fail</label><label><input type="radio" name="D1X-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D1X" data-target="meridiem">
+          <td><b>meridiem</b> <span class="crit">critical</span></td>
+          <td>A M</td><td>A M</td>
+          <td class="choices"><label><input type="radio" name="D1X-meridiem" value="pass">pass</label><label><input type="radio" name="D1X-meridiem" value="fail">fail</label><label><input type="radio" name="D1X-meridiem" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="D1X" data-target="acronym">
+          <td><b>acronym</b> <span class="crit">critical</span></td>
+          <td>K Y C</td><td>K Y C</td>
+          <td class="choices"><label><input type="radio" name="D1X-acronym" value="pass">pass</label><label><input type="radio" name="D1X-acronym" value="fail">fail</label><label><input type="radio" name="D1X-acronym" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="D1X" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C1 <small>amount_contrast · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The amount is one thousand four hundred ninety nine rupees.</p>
+      <audio controls preload="none" src="challenge/C1.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C1" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>1499</td><td></td>
+          <td class="choices"><label><input type="radio" name="C1-amount" value="pass">pass</label><label><input type="radio" name="C1-amount" value="fail">fail</label><label><input type="radio" name="C1-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C1" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C2 <small>amount_contrast · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The amount is one thousand nine hundred ninety nine rupees.</p>
+      <audio controls preload="none" src="challenge/C2.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C2" data-target="amount">
+          <td><b>amount</b> <span class="crit">critical</span></td>
+          <td>1999</td><td></td>
+          <td class="choices"><label><input type="radio" name="C2-amount" value="pass">pass</label><label><input type="radio" name="C2-amount" value="fail">fail</label><label><input type="radio" name="C2-amount" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C2" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C3 <small>leading_zero · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Your reference ID is zero zero seven zero.</p>
+      <audio controls preload="none" src="challenge/C3.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C3" data-target="id">
+          <td><b>id</b> <span class="crit">critical</span></td>
+          <td>0070</td><td></td>
+          <td class="choices"><label><input type="radio" name="C3-id" value="pass">pass</label><label><input type="radio" name="C3-id" value="fail">fail</label><label><input type="radio" name="C3-id" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C3" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C4 <small>negation · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Do not sell the shares.</p>
+      <audio controls preload="none" src="challenge/C4.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C4" data-target="negation">
+          <td><b>negation</b> <span class="crit">critical</span></td>
+          <td>not</td><td></td>
+          <td class="choices"><label><input type="radio" name="C4-negation" value="pass">pass</label><label><input type="radio" name="C4-negation" value="fail">fail</label><label><input type="radio" name="C4-negation" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="C4" data-target="verb">
+          <td><b>verb</b> <span class="crit">critical</span></td>
+          <td>sell</td><td></td>
+          <td class="choices"><label><input type="radio" name="C4-verb" value="pass">pass</label><label><input type="radio" name="C4-verb" value="fail">fail</label><label><input type="radio" name="C4-verb" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C4" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C5 <small>time · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The appointment is at nine oh five A M.</p>
+      <audio controls preload="none" src="challenge/C5.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C5" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>9:05</td><td></td>
+          <td class="choices"><label><input type="radio" name="C5-time" value="pass">pass</label><label><input type="radio" name="C5-time" value="fail">fail</label><label><input type="radio" name="C5-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C5" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C6 <small>time · kaitlyn · language=en
+      </small></h2>
+      <p class="text">The appointment is at nine fifty A M.</p>
+      <audio controls preload="none" src="challenge/C6.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C6" data-target="time">
+          <td><b>time</b> <span class="crit">critical</span></td>
+          <td>9:50</td><td></td>
+          <td class="choices"><label><input type="radio" name="C6-time" value="pass">pass</label><label><input type="radio" name="C6-time" value="fail">fail</label><label><input type="radio" name="C6-time" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C6" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C7 <small>acronyms · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Please complete your K Y C before the I P O. Your U C C is active.</p>
+      <audio controls preload="none" src="challenge/C7.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C7" data-target="kyc">
+          <td><b>kyc</b> <span class="crit">critical</span></td>
+          <td>KYC</td><td></td>
+          <td class="choices"><label><input type="radio" name="C7-kyc" value="pass">pass</label><label><input type="radio" name="C7-kyc" value="fail">fail</label><label><input type="radio" name="C7-kyc" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="C7" data-target="ipo">
+          <td><b>ipo</b> <span class="crit">critical</span></td>
+          <td>IPO</td><td></td>
+          <td class="choices"><label><input type="radio" name="C7-ipo" value="pass">pass</label><label><input type="radio" name="C7-ipo" value="fail">fail</label><label><input type="radio" name="C7-ipo" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr><tr data-case="C7" data-target="ucc">
+          <td><b>ucc</b> <span class="crit">critical</span></td>
+          <td>UCC</td><td></td>
+          <td class="choices"><label><input type="radio" name="C7-ucc" value="pass">pass</label><label><input type="radio" name="C7-ucc" value="fail">fail</label><label><input type="radio" name="C7-ucc" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C7" placeholder="notes: prosody, wrong language, clipping…"></textarea></section><section><h2>C8 <small>year_contrast · kaitlyn · language=en
+      </small></h2>
+      <p class="text">Who was the leader of Switzerland in fourteen ninety nine?</p>
+      <audio controls preload="none" src="challenge/C8.wav"></audio>
+      <table><tr><th>Target</th><th>Written</th><th>Acceptable reading</th><th>Verdict</th><th>Heard</th><th>Automated (provisional)</th></tr><tr data-case="C8" data-target="year">
+          <td><b>year</b> <span class="crit">critical</span></td>
+          <td>1499</td><td></td>
+          <td class="choices"><label><input type="radio" name="C8-year" value="pass">pass</label><label><input type="radio" name="C8-year" value="fail">fail</label><label><input type="radio" name="C8-year" value="unclear">unclear</label></td>
+          <td><input class="heard" placeholder="what you heard (if different)"></td>
+          <td class="auto" data-auto="auto_pass">hidden until answered</td></tr></table>
+      <textarea class="notes" data-case="C8" placeholder="notes: prosody, wrong language, clipping…"></textarea></section>
+<script>
+const KEY='smallest-tts-listen-v1';
+function save(){const s={};document.querySelectorAll('input[type=radio]:checked').forEach(r=>s[r.name]=r.value);
+ document.querySelectorAll('tr[data-case]').forEach(tr=>s['h:'+tr.dataset.case+'-'+tr.dataset.target]=tr.querySelector('.heard').value);
+ document.querySelectorAll('textarea.notes').forEach(t=>s['n:'+t.dataset.case]=t.value);
+ try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){} count()}
+function count(){const total=document.querySelectorAll('tr[data-case]').length,done=document.querySelectorAll('input[type=radio]:checked').length;
+ document.getElementById('count').textContent=done+' / '+total+' targets judged'}
+function reveal(tr){const a=tr.querySelector('.auto');a.textContent=a.dataset.auto}
+try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');for(const k in s){if(k.startsWith('h:')){const[c,...t]=k.slice(2).split('-');
+ const tr=document.querySelector(`tr[data-case="${c}"][data-target="${t.join('-')}"]`);if(tr)tr.querySelector('.heard').value=s[k]}
+ else if(k.startsWith('n:')){const t=document.querySelector(`textarea[data-case="${k.slice(2)}"]`);if(t)t.value=s[k]}
+ else{const r=document.querySelector(`input[name="${k}"][value="${s[k]}"]`);if(r){r.checked=true;reveal(r.closest('tr'))}}}}catch(e){}
+document.addEventListener('change',e=>{if(e.target.type==='radio')reveal(e.target.closest('tr'));save()});
+document.addEventListener('input',save);count();
+document.getElementById('dl').onclick=()=>{const q=v=>'"'+String(v).replace(/"/g,'""')+'"';
+ const lines=[['listener','case_id','target_id','human_verdict','human_heard','human_notes'].join(',')];
+ document.querySelectorAll('tr[data-case]').forEach(tr=>{const c=tr.dataset.case,t=tr.dataset.target,
+  r=tr.querySelector('input[type=radio]:checked');lines.push([document.getElementById('listener').value,c,t,r?r.value:'',
+  tr.querySelector('.heard').value,document.querySelector(`textarea[data-case="${c}"]`).value].map(q).join(','))});
+ const b=new Blob(['\ufeff'+lines.join('\n')],{type:'text/csv'});const a=document.createElement('a');
+ a.href=URL.createObjectURL(b);a.download='listening_filled.csv';a.click()};
+</script></body></html>

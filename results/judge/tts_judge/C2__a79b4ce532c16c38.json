@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "C2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a79b4ce532c16c38",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C2.wav",
+ "audio_sha256": "ab21eee83846c680ebb0774faf26cffed4cae5a4a63f014f6f1419da11c32f19",
+ "latency_ms": 8682,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand nine hundred ninety nine"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with natural Indian English prosody and accurate number reading."
+ },
+ "tokens": {
+  "prompt": 452,
+  "output": 136
+ }
+}

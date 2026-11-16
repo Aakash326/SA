@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8c1c35ed91a10131",
+ "audio": "clips/ext2/LANG-MR-CL-01.wav",
+ "audio_sha256": "3467589a6679d0231be2cc4c1e803b4bb17c8811de791f98426c14c7c1a1835e",
+ "latency_ms": 8650,
+ "reply": {
+  "transcript": "कृष्णा वामासीची पत्नी कोण",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 178,
+  "output": 32
+ }
+}

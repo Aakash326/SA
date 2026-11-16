@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LONG-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b018f25dfb2e6698",
+ "audio": "clips/ext2/LONG-HI-02.wav",
+ "audio_sha256": "c1de1759c93b4a3de43e71e86961dc718f03e9bdd44aa6bd95a54f092c4ac3f5",
+ "latency_ms": 8912,
+ "reply": {
+  "differences": [
+   {
+    "reference": "अहमद",
+    "system": "आर्म्ड",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "वर्सस",
+    "system": "वर्सेस",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "थे।",
+    "system": "थे",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "अहमद वर्सस ने कहा मैंने अपनी बहन और उनकी दोस्त को खो दिया और रास्ते में व्हीलचेयर में दो दिव्यांग लोग थे और लोग उन पर उछल रहे थे और उन्हें धक्का दे रहे थे।",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 866,
+  "output": 188
+ }
+}

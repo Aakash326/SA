@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-amount-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "82e3152173952eff",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-amount-ketaki.wav",
+ "audio_sha256": "de142ee0d9b786b6e89f782b6f7c251714867411f713c0cbc112e9611bf5ae64",
+ "latency_ms": 7825,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दोन हजार चारशे पन्नास रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reads the entire text and numerical amount, with standard synthetic intonation."
+ },
+ "tokens": {
+  "prompt": 490,
+  "output": 140
+ }
+}

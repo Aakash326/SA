@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-id-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ff9334c774770d9c",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-id-ketaki.wav",
+ "audio_sha256": "8d64556b8d3826cc0db689cf3ba597e5c2da7dc5dc774a45d19c3ba8cb032ec1",
+ "latency_ms": 3665,
+ "reply": {
+  "heard": "तुमचा संदर्भ क्रमांक शून्य शून्य सात शून्य आहे",
+  "number_language": "mr",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 233,
+  "output": 28
+ }
+}

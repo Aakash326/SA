@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "NUM-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0105072e549f5806",
+ "audio": "clips/ext2/NUM-HI-02.wav",
+ "audio_sha256": "f264585488015df7b2063e37072e4f2669a7183cb4336a44c98d92f816a50b9c",
+ "latency_ms": 5755,
+ "reply": {
+  "transcript": "गुंटूर गाँव की जनसंख्या 2011 भारत की जनगणना के अनुसार कितनी थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 280,
+  "output": 42
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "M1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bd171aaa734045f0",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M1.wav",
+ "audio_sha256": "1f2731544d0f7eeb2df2424fcdd0d1e8e17ece4c1369933edf906aad1c925dd7",
+ "latency_ms": 6399,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety-nine"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read accurately with clear pronunciation and appropriate prosody."
+ },
+ "tokens": {
+  "prompt": 524,
+  "output": 192
+ }
+}

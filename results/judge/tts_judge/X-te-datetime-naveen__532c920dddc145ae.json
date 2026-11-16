@@ -1,0 +1,37 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-datetime-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "532c920dddc145ae",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-datetime-naveen.wav",
+ "audio_sha256": "44c79fc3141d15eba43f58472cb207c5d80cb1a75da2420089add2e7f4c7ed60",
+ "latency_ms": 9573,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "నవంబర్ ఇరవై మూడు"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ఉదయం తొమ్మిది ఐదు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Telugu",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "awkward pauses around numbers",
+   "robotic cadence"
+  ],
+  "comment": "The target date and time are accurately conveyed, though delivery is choppy with unnatural pauses between the digits."
+ },
+ "tokens": {
+  "prompt": 503,
+  "output": 196
+ }
+}

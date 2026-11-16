@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-amount-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "19bf0a3eb8117093",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-amount-aviraj.wav",
+ "audio_sha256": "a4f9598a56f17f01f9f8e0c09e38579991e8f2d65eaebbf3c4aeabb747f3f033",
+ "latency_ms": 8819,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "दो हज़ार चार सौ पचास रुपए"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the text with natural pacing and proper Hindi pronunciation."
+ },
+ "tokens": {
+  "prompt": 473,
+  "output": 134
+ }
+}

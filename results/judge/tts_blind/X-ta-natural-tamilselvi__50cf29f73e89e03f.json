@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-natural-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "50cf29f73e89e03f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-natural-tamilselvi.wav",
+ "audio_sha256": "ebee288bee5545126fb5e7d5a2ca953b2ce682aa770834fc2e2b6a7a130a99de",
+ "latency_ms": 4680,
+ "reply": {
+  "heard": "வணக்கம். நான் உங்களுக்கு எப்படி உதவ முடியும்? உங்கள் கணக்கு பற்றி ஏதேனும் தகவல் தேவைப்பட்டால் தயங்காமல் கேளுங்கள்.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 297,
+  "output": 46
+ }
+}

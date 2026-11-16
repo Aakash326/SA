@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c5a188b02c843df8",
+ "audio": "clips/ext2/LANG-MR-BG-01.wav",
+ "audio_sha256": "49388284c05422d787d5051444bb0b4b56e395da1a90acfbcd8e630d20c91613",
+ "latency_ms": 4537,
+ "reply": {
+  "transcript": "अमिताभ बच्चन यांनी साकारलेला पिंक या हिंदी चित्रपटातील पात्राचे नाव काय आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 367,
+  "output": 41
+ }
+}

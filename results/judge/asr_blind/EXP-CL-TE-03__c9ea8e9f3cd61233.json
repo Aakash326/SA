@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c9ea8e9f3cd61233",
+ "audio": "clips/ext2/EXP-CL-TE-03.wav",
+ "audio_sha256": "907fab3854806e42d227fb33153a7b48e32bc2d8ded79eb2e16efaa83b1ee051",
+ "latency_ms": 3723,
+ "reply": {
+  "transcript": "ఒక సాధారణ సంవత్సరంలో ఎన్ని రోజులు ఉంటాయి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 33
+ }
+}

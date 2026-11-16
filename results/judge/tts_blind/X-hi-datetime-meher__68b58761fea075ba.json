@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-datetime-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "68b58761fea075ba",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-datetime-meher.wav",
+ "audio_sha256": "b5ac06c9d2e8fd96b405a3014af878a03c2de3fbc171a63f2dc7683495665494",
+ "latency_ms": 5473,
+ "reply": {
+  "heard": "आपकी मीटिंग तेईस नवंबर को सुबह नौ बजकर पाँच मिनट है",
+  "number_language": "hi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 216,
+  "output": 33
+ }
+}

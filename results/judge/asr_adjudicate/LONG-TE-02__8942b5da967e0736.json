@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LONG-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8942b5da967e0736",
+ "audio": "clips/ext2/LONG-TE-02.wav",
+ "audio_sha256": "926034e2a577c8de1bb597139d2edf4c6382e53b6eae7cd24c7f5f0740a0ddcc",
+ "latency_ms": 6745,
+ "reply": {
+  "differences": [
+   {
+    "reference": "విజ్ఞాన శాస్త్ర",
+    "system": "విజ్ఞానశాస్త్ర",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "విజ్ఞాన శాస్త్ర",
+    "system": "విజ్ఞానశాస్త్ర",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "లక్ష్యం.",
+    "system": "లక్ష్యం",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "విజ్ఞాన శాస్త్ర విధానం ద్వారా ప్రపంచం ఎలా పనిచేస్తుందో కనుక్కోవటమే విజ్ఞాన శాస్త్ర ప్రధాన లక్ష్యం. నిజానికి ఈ పద్ధతి చాలా శాస్త్రీయ పరిశోధనలకు మార్గదర్శకంగా ఉంటుంది.",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 699,
+  "output": 205
+ }
+}

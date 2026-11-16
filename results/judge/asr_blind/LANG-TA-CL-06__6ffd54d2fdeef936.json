@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6ffd54d2fdeef936",
+ "audio": "clips/ext2/LANG-TA-CL-06.wav",
+ "audio_sha256": "be106905d3decd597a263221a881d087e2d51750c1971cd9a9e29952b43928e9",
+ "latency_ms": 3861,
+ "reply": {
+  "language": "ta",
+  "no_speech": false,
+  "transcript": "அஜ்மல் கான் எந்த அரசியல் கட்சியுடன் தொடர்புடையவர்?",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 217,
+  "output": 34
+ }
+}

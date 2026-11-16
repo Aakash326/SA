@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a0871aed3511c095",
+ "audio": "clips/ext2/EXP-CL-TE-07.wav",
+ "audio_sha256": "b459f43fc9cbf7679e35d39aefa5d99b92d383982744eae6ea4bce42eb6be24f",
+ "latency_ms": 4800,
+ "reply": {
+  "differences": [
+   {
+    "reference": "మెట్రో ని",
+    "system": "మెట్రోని",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ప్రారంభించారు?",
+    "system": "ప్రారంభించారు ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "హైదరాబాద్ మెట్రోని ఏ సంవత్సరంలో ప్రారంభించారు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 352,
+  "output": 128
+ }
+}

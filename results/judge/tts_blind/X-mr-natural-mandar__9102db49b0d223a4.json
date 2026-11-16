@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-natural-mandar",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9102db49b0d223a4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-natural-mandar.wav",
+ "audio_sha256": "2a906c69f62f59f0d17fda168de4f7d04ae381063df46b2c2bed52fbad3806fc",
+ "latency_ms": 3811,
+ "reply": {
+  "heard": "नमस्कार. मी तुम्हाला कशी मदत करू शकते? तुमच्या खात्याबद्दल काही माहिती हवी असल्यास नक्की विचारा.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 327,
+  "output": 40
+ }
+}

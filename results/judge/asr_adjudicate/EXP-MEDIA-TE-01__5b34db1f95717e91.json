@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-MEDIA-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5b34db1f95717e91",
+ "audio": "clips/ext2/EXP-MEDIA-TE-01.wav",
+ "audio_sha256": "de115592b78a759993d423e3158c910b77f185b958f175d03c0a50d98accd59f",
+ "latency_ms": 4841,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ఉప కులపతి",
+    "system": "ఉపకులపతి",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ఎవరు?",
+    "system": "ఎవరు",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ఆంధ్ర విశ్వవిద్యాలయం మొట్టమొదటి ఉపకులపతి ఎవరు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 335,
+  "output": 92
+ }
+}

@@ -1,0 +1,164 @@
+{
+ "total_clips": 195,
+ "speech_clips_in_wer": 192,
+ "no_speech_controls": 3,
+ "derived_clips": 55,
+ "distinct_parent_utterances": 145,
+ "distinct_speakers": 69,
+ "by_language": {
+  "en-IN": {
+   "clips": 49,
+   "reference_words": 356,
+   "derived": 21,
+   "parent_utterances": 31,
+   "speakers": 20,
+   "parents_shared_with_core_set": 7
+  },
+  "hi-IN": {
+   "clips": 56,
+   "reference_words": 563,
+   "derived": 20,
+   "parent_utterances": 38,
+   "speakers": 17,
+   "parents_shared_with_core_set": 6
+  },
+  "kn-IN": {
+   "clips": 14,
+   "reference_words": 84,
+   "derived": 0,
+   "parent_utterances": 14,
+   "speakers": 7,
+   "parents_shared_with_core_set": 0
+  },
+  "mr-IN": {
+   "clips": 14,
+   "reference_words": 102,
+   "derived": 0,
+   "parent_utterances": 14,
+   "speakers": 7,
+   "parents_shared_with_core_set": 0
+  },
+  "none": {
+   "clips": 3,
+   "reference_words": 0,
+   "derived": 0,
+   "parent_utterances": 3,
+   "speakers": 0,
+   "parents_shared_with_core_set": 0
+  },
+  "ta-IN": {
+   "clips": 14,
+   "reference_words": 93,
+   "derived": 0,
+   "parent_utterances": 14,
+   "speakers": 7,
+   "parents_shared_with_core_set": 0
+  },
+  "te-IN": {
+   "clips": 45,
+   "reference_words": 263,
+   "derived": 14,
+   "parent_utterances": 31,
+   "speakers": 22,
+   "parents_shared_with_core_set": 0
+  }
+ },
+ "by_condition": {
+  "clean": {
+   "clips": 63,
+   "reference_words": 426,
+   "derived": 0,
+   "parent_utterances": 63,
+   "speakers": 29,
+   "parents_shared_with_core_set": 0
+  },
+  "long": {
+   "clips": 4,
+   "reference_words": 90,
+   "derived": 0,
+   "parent_utterances": 4,
+   "speakers": 0,
+   "parents_shared_with_core_set": 0
+  },
+  "no_speech": {
+   "clips": 3,
+   "reference_words": 0,
+   "derived": 0,
+   "parent_utterances": 3,
+   "speakers": 0,
+   "parents_shared_with_core_set": 0
+  },
+  "numbers": {
+   "clips": 21,
+   "reference_words": 174,
+   "derived": 0,
+   "parent_utterances": 21,
+   "speakers": 18,
+   "parents_shared_with_core_set": 0
+  },
+  "pause": {
+   "clips": 7,
+   "reference_words": 54,
+   "derived": 7,
+   "parent_utterances": 7,
+   "speakers": 6,
+   "parents_shared_with_core_set": 1
+  },
+  "real_noise": {
+   "clips": 49,
+   "reference_words": 357,
+   "derived": 0,
+   "parent_utterances": 49,
+   "speakers": 40,
+   "parents_shared_with_core_set": 0
+  },
+  "snr_00db": {
+   "clips": 8,
+   "reference_words": 59,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  },
+  "snr_10db": {
+   "clips": 8,
+   "reference_words": 59,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  },
+  "snr_20db": {
+   "clips": 8,
+   "reference_words": 59,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  },
+  "tel_8k": {
+   "clips": 8,
+   "reference_words": 61,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  },
+  "tel_alaw": {
+   "clips": 8,
+   "reference_words": 61,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  },
+  "tel_ulaw": {
+   "clips": 8,
+   "reference_words": 61,
+   "derived": 8,
+   "parent_utterances": 8,
+   "speakers": 6,
+   "parents_shared_with_core_set": 2
+  }
+ }
+}

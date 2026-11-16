@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-te-amount-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f5a9af7b9381ba57",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-amount-sravani.wav",
+ "audio_sha256": "16c9f95a040a62ed259fb21e3b99a395209f7ca64373a2236703426fe9ff3025",
+ "latency_ms": 15572,
+ "reply": {
+  "heard": "మీ ఖాతాలో రెండు వేల నాలుగు వందల యాభై రూపాయలు జమ అయ్యాయి",
+  "number_language": "Telugu",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 244,
+  "output": 46
+ }
+}

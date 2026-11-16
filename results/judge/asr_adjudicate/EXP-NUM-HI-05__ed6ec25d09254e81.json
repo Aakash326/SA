@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-HI-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ed6ec25d09254e81",
+ "audio": "clips/ext2/EXP-NUM-HI-05.wav",
+ "audio_sha256": "8e8ac4c2afccdaba28633f69e3067ad298beb4ae15805cfaf44778f7c880ff1a",
+ "latency_ms": 5039,
+ "reply": {
+  "differences": [
+   {
+    "reference": "रसिया",
+    "system": "रशिया",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "2011",
+    "system": "दो हज़ार ग्यारह",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "प्रधान मंत्री",
+    "system": "प्रधानमंत्री",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "कोन",
+    "system": "कौन",
+    "verdict": "reference_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "रशिया के पहले 2011 के प्रधानमंत्री कौन थे?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 382,
+  "output": 152
+ }
+}

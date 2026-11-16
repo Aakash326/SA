@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "N1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "707c9cb9cfb46c10",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N1.wav",
+ "audio_sha256": "ae9a94034054d1013404d3ae040e3dec12d6b4c2fa91b2959e784c8988ad20d1",
+ "latency_ms": 8826,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not"
+   },
+   {
+    "id": "verb",
+    "result": "correct",
+    "heard": "sell"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear delivery with accurate pronunciation and suitable prosody."
+ },
+ "tokens": {
+  "prompt": 421,
+  "output": 134
+ }
+}

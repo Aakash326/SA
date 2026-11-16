@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1f3b3f30f2775c11",
+ "audio": "clips/ext2/LANG-TA-CL-08.wav",
+ "audio_sha256": "ea6ee862fe9556fa3090fde900a9b55999e8bcc973046ffa9dfb9921cee7a18c",
+ "latency_ms": 22399,
+ "reply": {
+  "differences": [
+   {
+    "reference": "பின்",
+    "system": "பிந்த்",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "மஜ்னூனுடைய",
+    "system": "மஜ்நூலுடைய",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "என்ன?",
+    "system": "என்ன",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "லைலா பிந்த் அல் மஜ்னூனுடைய தந்தையின் பெயர் என்ன?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 371,
+  "output": 162
+ }
+}

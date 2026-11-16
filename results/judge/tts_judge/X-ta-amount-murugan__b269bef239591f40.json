@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-amount-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b269bef239591f40",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-amount-murugan.wav",
+ "audio_sha256": "74f4e6d9b83afde5be38147ecae1bf78f513b5bb0933aab84d49f148cc03fce7",
+ "latency_ms": 7955,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "இரண்டாயிரத்து நானூற்றைம்பது ரூபாய்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully conveys the text with correct Tamil pronunciation and natural rhythm."
+ },
+ "tokens": {
+  "prompt": 496,
+  "output": 140
+ }
+}

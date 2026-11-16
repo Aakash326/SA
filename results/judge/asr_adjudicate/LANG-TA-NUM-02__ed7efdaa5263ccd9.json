@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ed7efdaa5263ccd9",
+ "audio": "clips/ext2/LANG-TA-NUM-02.wav",
+ "audio_sha256": "c53e4971d0610851908f81b036800b8ff50049d27a9a436dafc9f99540c94741",
+ "latency_ms": 10681,
+ "reply": {
+  "differences": [
+   {
+    "reference": "1977-ல்",
+    "system": "ஆயிரத்தி தொள்ளாயிரத்தி எழுவத்தி ஏழில்",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "செரீஸ் கோப்பையை",
+    "system": "செரிஸ்கோப்பையை",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "அணி எது?",
+    "system": "அணியது",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "1977-ல் செரிஸ் கோப்பையை வென்ற அணி எது?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 395,
+  "output": 185
+ }
+}

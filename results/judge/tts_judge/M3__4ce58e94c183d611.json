@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "M3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4ce58e94c183d611",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M3.wav",
+ "audio_sha256": "1c38270125e262b60333a181943f9c301adfda73183651f21ddf1a9257398d9e",
+ "latency_ms": 9955,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक लाख पच्चीस हज़ार चार सौ पचास रुपये"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is rendered cleanly with code-switching between English and Hindi, maintaining accurate pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 522,
+  "output": 130
+ }
+}

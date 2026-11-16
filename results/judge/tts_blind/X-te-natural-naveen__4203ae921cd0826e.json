@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-te-natural-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4203ae921cd0826e",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-natural-naveen.wav",
+ "audio_sha256": "6b3cb62db5add14d2846cee7f3bc1e8de76de5d7e9480b3ac72d7882def66251",
+ "latency_ms": 4876,
+ "reply": {
+  "heard": "నమస్కారం నేను మీకు ఎలా సహాయం చేయగలను మీ ఖాతా గురించి ఏదైనా సమాచారం కావాలంటే దయచేసి అడగండి",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 49
+ }
+}

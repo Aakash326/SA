@@ -1,0 +1,45 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d61ff539d5bc98ea",
+ "audio": "clips/ext2/LANG-KN-TRAFFIC-01.wav",
+ "audio_sha256": "027971a17150ea3ceb698e3cd67253b3527f60c7c299b47060d6e2f430a3ab73",
+ "latency_ms": 12320,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಮುಹಮ್ಮದ್",
+    "system": "ಮಹಮ್ಮದ್",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "ಇಬ್ನ್",
+    "system": "ಹಿಫ್ ನ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ಮುಹಮ್ಮದ್",
+    "system": "ಮಹಮ್ಮದ್",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "ಅಲ್-ಘಜಾಲಿಯವರು",
+    "system": "ಅಲ್ ಖಜಾಲಿಯವರು",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ಯಾವುದು?",
+    "system": "ಯಾವುದು ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "ಅಬು ಹಮೀದ್ ಮಹಮ್ಮದ್ ಇಬ್ನ್ ಮಹಮ್ಮದ್ ಅಲ್ ಘಜಾಲಿಯವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 472,
+  "output": 263
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "M3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a07d0ebcbea39e6f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M3.wav",
+ "audio_sha256": "1c38270125e262b60333a181943f9c301adfda73183651f21ddf1a9257398d9e",
+ "latency_ms": 8059,
+ "reply": {
+  "heard": "Your available balance is एक लाख पच्चीस हज़ार चार सौ पचास रुपये",
+  "number_language": "Hindi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 235,
+  "output": 34
+ }
+}

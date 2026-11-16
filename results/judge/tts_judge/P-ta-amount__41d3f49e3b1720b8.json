@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "P-ta-amount",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "41d3f49e3b1720b8",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-ta-amount.wav",
+ "audio_sha256": "4a005e41ed484c6acf93c55fe121652d9a2f54ba3fdc704fcbd3ac85da832791",
+ "latency_ms": 9099,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "wrong",
+    "heard": "இரண்டாயிரத்து ஐநூற்று நாற்பது ரூபாய் (2540 rupees)"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt text, but speaks 2540 instead of the target 2450."
+ },
+ "tokens": {
+  "prompt": 502,
+  "output": 158
+ }
+}

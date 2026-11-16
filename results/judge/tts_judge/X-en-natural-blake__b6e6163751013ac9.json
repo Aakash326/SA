@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-natural-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b6e6163751013ac9",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-natural-blake.wav",
+ "audio_sha256": "25bb70398d5cbcf74912c7f46420ab637755cc20d5590810b19c86e0e0d98192",
+ "latency_ms": 9248,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "How can I help you today?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en-IN",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and intelligible with proper pacing and natural customer service intonation."
+ },
+ "tokens": {
+  "prompt": 570,
+  "output": 135
+ }
+}

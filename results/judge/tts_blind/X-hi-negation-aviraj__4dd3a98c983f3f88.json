@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-negation-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4dd3a98c983f3f88",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-negation-aviraj.wav",
+ "audio_sha256": "aaaa07f42bc96c7b663fb00789b5d6bcfbf8b9af852f26083255a0e9e8d3d4a7",
+ "latency_ms": 6715,
+ "reply": {
+  "heard": "कृपया अपना O T P किसी के साथ साझा न करें",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 212,
+  "output": 30
+ }
+}

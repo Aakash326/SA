@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "00f1553a4c181cac",
+ "audio": "clips/ext2/LANG-TA-CL-01.wav",
+ "audio_sha256": "1dea044bac639d1c0e995a73d5475ec0001e3fbeb26812b859d9e80ad920e945",
+ "latency_ms": 4875,
+ "reply": {
+  "transcript": "ரெக்டர் போரில் எத்தனை படைவீரர்கள் பங்கேற்றனர்",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 38
+ }
+}

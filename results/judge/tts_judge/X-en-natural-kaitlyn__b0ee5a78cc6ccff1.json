@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-natural-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b0ee5a78cc6ccff1",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-natural-kaitlyn.wav",
+ "audio_sha256": "b2f38a2dba6394b3f1c1c60b9be626f8e9d557f9ac5ff1cef396796f1761c8c3",
+ "latency_ms": 8964,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "How can I help you today?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately matches the input text with appropriate intonation."
+ },
+ "tokens": {
+  "prompt": 579,
+  "output": 132
+ }
+}

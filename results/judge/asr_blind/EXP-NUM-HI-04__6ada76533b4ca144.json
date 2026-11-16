@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NUM-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6ada76533b4ca144",
+ "audio": "clips/ext2/EXP-NUM-HI-04.wav",
+ "audio_sha256": "bd3c3368c212eef316b86cca33af84a6e34595b5f566978055e08e9279bd9b7c",
+ "latency_ms": 4256,
+ "reply": {
+  "transcript": "कौन से राज्य में सबसे ज्यादा जनसंख्या थी 1990 तक? अफ्रीका",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 40
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "N3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d619696f30468cd7",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N3.wav",
+ "audio_sha256": "cc9f5d26013c6b883e306c5207ae186d21d36c1ff298639d69be9c83e860afd0",
+ "latency_ms": 6683,
+ "reply": {
+  "heard": "कृपया एक हज़ार चार सौ निन्यानवे रुपये का पेमेंट आज मत कीजिए",
+  "number_language": "Hindi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 34
+ }
+}

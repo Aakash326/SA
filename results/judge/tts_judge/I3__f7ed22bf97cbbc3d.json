@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "I3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f7ed22bf97cbbc3d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I3.wav",
+ "audio_sha256": "fd5ec30b827b12bcebaaba281bf4d7283b1802364ccef221c957d7df0502b9dc",
+ "latency_ms": 8430,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य नौ शून्य सात"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English / Hindi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The digits are rendered clearly in Hindi while the introductory phrase is in English."
+ },
+ "tokens": {
+  "prompt": 451,
+  "output": 133
+ }
+}

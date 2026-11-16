@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-SNR-03-20",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "abc821a3cc8b8f3d",
+ "audio": "clips/ext2/EXP-SNR-03-20.wav",
+ "audio_sha256": "0ba9d47475855a728570f48de24649c64c9915008edfbf715ea0edc3451c90bd",
+ "latency_ms": 4549,
+ "reply": {
+  "differences": [
+   {
+    "reference": "smartphones",
+    "system": "स्मार्टफोन्स",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "camera",
+    "system": "कैमरा",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "कौन से",
+    "system": "कौनसे",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "",
+    "system": "?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 365,
+  "output": 184
+ }
+}

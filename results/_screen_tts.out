@@ -1,0 +1,74 @@
+M1 | The balance is minus 1,499 rupees.
+    pulse      The balance is minus one thousand four hundred ninety-nine rupees.
+    pulse-pro  The balance is minus 1,499 rupees.
+     [('sign', 'auto_pass'), ('amount', 'auto_pass'), ('currency', 'auto_pass')]
+M2 | Your refund of ₹1,999.50 has been processed.
+    pulse      Your refund of ₹1999.50 has been processed.
+     [('amount', 'auto_pass'), ('fraction', 'auto_pass'), ('currency', 'auto_pass')]
+M3 | Your available balance is ₹1,25,450.
+    pulse      Your available balance is ₹1,25,450
+     [('amount', 'auto_pass'), ('currency', 'auto_pass')]
+M4 | The share price fell by -2.5% to 1,499.05.
+    pulse      The share price fell by minus two point five percent to one thousand four hundred ninety-nine point zero five.
+    pulse-pro  The share price fell by minus 2.5% to 1,499.05.
+     [('sign', 'auto_pass'), ('percent', 'auto_pass'), ('amount', 'auto_pass')]
+I1 | Your reference ID is 0070.
+    pulse      Your reference ID is zero zero seven zero.
+    pulse-pro  Your reference ID is 0070.
+     [('id', 'auto_pass')]
+I2 | The OTP is 004512. Do not share it.
+    pulse      The OTP is zero zero four five one two. Do not share it.
+    pulse-pro  The OTP is 004512. Do not share it.
+     [('otp', 'auto_pass'), ('negation', 'auto_pass')]
+I3 | Your account number ends in 0907.
+    pulse      Your account number ends in शून्य नौ शून्य सात
+     [('id', 'auto_fail')]
+I4 | Call us at 1800 020 0070.
+    pulse      Call us at एक eight शून्य शून्य शून्य दो शून्य शून्य शून्य सात शून्य
+     [('phone', 'auto_fail')]
+D1 | The appointment is at 9:05 AM. Complete KYC.
+    pulse      The appointment is at nine oh five a.m. Complete KYC.
+    pulse-pro  The appointment is at 9:05 a.m. Complete KYC.
+     [('time', 'auto_pass'), ('meridiem', 'auto_pass'), ('acronym', 'auto_pass')]
+D2 | Your SIP is scheduled for 23 November 2026.
+    pulse      Your SIP is scheduled for 23 November 2026.
+     [('date', 'auto_pass'), ('year', 'auto_pass'), ('acronym', 'auto_pass')]
+D3 | The IPO opens on 05/06/2026 at 09:50.
+    pulse      The IPO opens on May 6, 2026, at 9:50.
+    pulse-pro  The IPO opens on May 6, 2026 at 9.50.
+     [('date', 'auto_pass'), ('time', 'auto_pass'), ('acronym', 'auto_pass')]
+D4 | Your UCC is AB1234 and the meeting is at 21:30.
+    pulse      Your UCC is a B one two three four, and the meeting is at twenty-one thirty.
+    pulse-pro  Your UCC is a B1234, and the meeting is at 2130.
+     [('acronym', 'auto_pass'), ('code', 'auto_pass'), ('time', 'auto_review')]
+N1 | Do not sell the shares.
+    pulse      Do not sell the shares.
+    pulse-pro  Do not sell the shares.
+     [('negation', 'auto_pass'), ('verb', 'auto_pass')]
+N2 | आपका KYC pending है.
+    pulse      आपका KYC pending है।
+     [('acronym', 'auto_pass'), ('english', 'auto_pass'), ('hindi', 'auto_pass')]
+N3 | कृपया ₹1,499 का payment आज मत कीजिए।
+    pulse      कृपया ₹1499 का payment आज मत कीजिए।
+     [('amount', 'auto_pass'), ('negation', 'auto_pass'), ('english', 'auto_pass')]
+N4 | Your order was not cancelled; it will not be delivered before 9:50 PM.
+    pulse      Your order was not canceled. It will not be delivered before nine fifty PM.
+    pulse-pro  Your order was not canceled. It will not be delivered before 9:50 PM.
+     [('negation1', 'auto_pass'), ('negation2', 'auto_pass'), ('time', 'auto_pass')]
+I1X | Your reference ID is zero zero seven zero.
+    pulse      Your reference ID is zero zero seven zero.
+    pulse-pro  Your reference ID is 0070.
+     [('id', 'auto_pass')]
+I2X | The OTP is zero zero four five one two. Do not share it.
+    pulse      The OTP is zero zero four five one two. Do not share it.
+    pulse-pro  The OTP is 004512. Do not share it.
+     [('otp', 'auto_pass'), ('negation', 'auto_pass')]
+M1X | The balance is minus one thousand four hundred ninety-nine rupees.
+    pulse      The balance is minus one thousand four hundred ninety-nine rupees.
+    pulse-pro  The balance is minus 1,499 rupees.
+     [('sign', 'auto_pass'), ('amount', 'auto_pass')]
+D1X | The appointment is at nine oh five A M. Complete K Y C.
+    pulse      The appointment is at nine oh five AM. Complete KYC.
+    pulse-pro  The appointment is at 9:05 a.m. Complete KYC.
+     [('time', 'auto_pass'), ('meridiem', 'auto_pass'), ('acronym', 'auto_pass')]
+targets 47 {'auto_pass': 44, 'auto_fail': 2, 'auto_review': 1}

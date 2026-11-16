@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-datetime-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0ac93a0c9a8ce169",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-datetime-murugan.wav",
+ "audio_sha256": "912f8bd7ce3e474b4922e16e9ccb23cf73f50c34d6116df8c9944f93e6ff82ab",
+ "latency_ms": 5725,
+ "reply": {
+  "heard": "உங்கள் சந்திப்பு நவம்பர் இருபத்து மூன்று அன்று காலை ஒன்பது ஐந்து மணிக்கு உள்ளது",
+  "number_language": "ta",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 254,
+  "output": 35
+ }
+}

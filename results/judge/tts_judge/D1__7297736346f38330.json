@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "D1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7297736346f38330",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D1.wav",
+ "audio_sha256": "4fd3500bb2d7e8ee5fe8ac373bd471d0dde033785ba46439ee1c1456880c5315",
+ "latency_ms": 4261,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five A M"
+   },
+   {
+    "id": "meridiem",
+    "result": "correct",
+    "heard": "A M"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "K Y C"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately, clearly, and naturally."
+ },
+ "tokens": {
+  "prompt": 530,
+  "output": 193
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f661969e6c56010a",
+ "audio": "clips/ext2/LANG-MR-CL-05.wav",
+ "audio_sha256": "c51514c0898a7201279711d4443588935c72ae0edfb6af8cde88662f31f0e649",
+ "latency_ms": 5024,
+ "reply": {
+  "transcript": "घोरी साम्राज्याचा संस्थापक कोण आहे?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 192,
+  "output": 32
+ }
+}

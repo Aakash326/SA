@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "SNR-HI-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1d84c8a5471cc5de",
+ "audio": "clips/ext2/SNR-HI-00.wav",
+ "audio_sha256": "afa22fa58be1a93784a9612465a26287338b9b5ac0f9f8aa652eed100d3f9da2",
+ "latency_ms": 10788,
+ "reply": {
+  "differences": [
+   {
+    "reference": "चित्रम",
+    "system": "सिक्रम",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "रिलीज",
+    "system": "रिलीज़",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "विक्रम फिल्म कब रिलीज हुई थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 369,
+  "output": 145
+ }
+}

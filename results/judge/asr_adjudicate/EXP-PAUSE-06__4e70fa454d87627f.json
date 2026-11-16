@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-PAUSE-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4e70fa454d87627f",
+ "audio": "clips/ext2/EXP-PAUSE-06.wav",
+ "audio_sha256": "b507a069c897d034fee614e4bf2c7a95fe50beb8aff3f5139f1465213b686ead",
+ "latency_ms": 4177,
+ "reply": {
+  "differences": [
+   {
+    "reference": "రాజారాం",
+    "system": "రాజారామ్",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "పేర్లేమిటి?",
+    "system": "పేర్లు ఏమిటి ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లేమిటి?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 462,
+  "output": 132
+ }
+}

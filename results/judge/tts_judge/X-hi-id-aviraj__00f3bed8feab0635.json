@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-id-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "00f3bed8feab0635",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-id-aviraj.wav",
+ "audio_sha256": "7a78a101c9d99f4d53e177980fae8ebfeeb626aee703edb41e1814b5f3f86b23",
+ "latency_ms": 9753,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately digit by digit in Hindi with clear pronunciation and decent cadence."
+ },
+ "tokens": {
+  "prompt": 475,
+  "output": 133
+ }
+}

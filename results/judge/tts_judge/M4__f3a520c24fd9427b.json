@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "M4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f3a520c24fd9427b",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M4.wav",
+ "audio_sha256": "9d23334a3fede0117cf6d426830b37fd1e330970bff7ab231f64cae85f656651",
+ "latency_ms": 9911,
+ "reply": {
+  "targets": [
+   {
+    "id": "sign",
+    "result": "correct",
+    "heard": "minus two point five percent"
+   },
+   {
+    "id": "percent",
+    "result": "correct",
+    "heard": "percent"
+   },
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety-nine point zero five"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate transcription of all numeric and signed values with standard synthetic pacing."
+ },
+ "tokens": {
+  "prompt": 592,
+  "output": 199
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "CL-EN-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "59c167545c6b879b",
+ "audio": "clips/ext2/CL-EN-05.wav",
+ "audio_sha256": "ee8cdeeabc164c1108c4094fcceaa13befd0f454acbb2cccb829c3c486348561",
+ "latency_ms": 5123,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Where",
+    "system": "What",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "avalanches",
+    "system": "avalanche",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "Where are avalanches most common?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 307,
+  "output": 116
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "P-kn-negation",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8de401b77b89209d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-kn-negation.wav",
+ "audio_sha256": "789c145fdfc3fa2407b57c852c19d0ec1455ab39872f13a63530b1063e38ac5d",
+ "latency_ms": 6305,
+ "reply": {
+  "heard": "ದಯವಿಟ್ಟು ನಿಮ್ಮ O T P ಯನ್ನು ಎಲ್ಲರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 197,
+  "output": 35
+ }
+}

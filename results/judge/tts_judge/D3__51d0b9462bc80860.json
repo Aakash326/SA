@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "D3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "51d0b9462bc80860",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D3.wav",
+ "audio_sha256": "e7ad0fc30e5b3b6fbc5ff6c26468dd06b8d2542b3cb7b1d56610bd16f9bc6fcc",
+ "latency_ms": 8901,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "May sixth twenty twenty six"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "I P O"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read accurately with clear pronunciation and appropriate date expansion."
+ },
+ "tokens": {
+  "prompt": 560,
+  "output": 193
+ }
+}

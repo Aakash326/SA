@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-11",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0432ad25bd48a0f5",
+ "audio": "clips/ext2/EXP-CL-HI-11.wav",
+ "audio_sha256": "bdf0a9d0f2898821bb00cffae7b606ea1dd14f232a9ef75c5300b2513650beda",
+ "latency_ms": 3989,
+ "reply": {
+  "transcript": "पानी कितने तापमान में भाप में बदल जाता है",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 211,
+  "output": 34
+ }
+}

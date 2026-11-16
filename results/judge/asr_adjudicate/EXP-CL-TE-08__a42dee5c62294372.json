@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a42dee5c62294372",
+ "audio": "clips/ext2/EXP-CL-TE-08.wav",
+ "audio_sha256": "f5d7db89d73992b0b977314cc4be62cdab33f0d2c982881cacac823b842e927e",
+ "latency_ms": 4768,
+ "reply": {
+  "differences": [
+   {
+    "reference": "పేర్లేమిటి?",
+    "system": "పేర్లు ఏమిటి ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 370,
+  "output": 94
+ }
+}

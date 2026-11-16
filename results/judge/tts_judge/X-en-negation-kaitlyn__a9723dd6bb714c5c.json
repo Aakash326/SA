@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-negation-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a9723dd6bb714c5c",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-negation-kaitlyn.wav",
+ "audio_sha256": "b3e5c850fddea8211cae89a3f4c28b46ce90c6740a1bc0141365789eeaa54669",
+ "latency_ms": 7753,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English (Indian accent)",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurately reflects the prompt with appropriate Indian English intonation."
+ },
+ "tokens": {
+  "prompt": 478,
+  "output": 165
+ }
+}

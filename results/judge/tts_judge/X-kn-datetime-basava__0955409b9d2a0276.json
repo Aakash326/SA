@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-datetime-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0955409b9d2a0276",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-datetime-basava.wav",
+ "audio_sha256": "bb22ef28a580d368765b57262a5a0705f9d086d5807bcb2d1e8b6883806fcc2b",
+ "latency_ms": 8950,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕಿದೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt was read completely with accurate pronunciation, though the pause in the time expression sounds slightly robotic."
+ },
+ "tokens": {
+  "prompt": 539,
+  "output": 183
+ }
+}

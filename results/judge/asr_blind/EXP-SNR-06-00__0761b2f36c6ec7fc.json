@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-SNR-06-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0761b2f36c6ec7fc",
+ "audio": "clips/ext2/EXP-SNR-06-00.wav",
+ "audio_sha256": "0198568d6d1d97a8f10a888413447e65e104594bcd9e4ca425fa87851b1539cf",
+ "latency_ms": 7668,
+ "reply": {
+  "transcript": "గడ్డం రాజారాం తల్లిదండ్రుల పేర్లు ఏమిటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 39
+ }
+}

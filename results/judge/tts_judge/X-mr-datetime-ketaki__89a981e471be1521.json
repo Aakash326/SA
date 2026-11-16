@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-datetime-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "89a981e471be1521",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-datetime-ketaki.wav",
+ "audio_sha256": "b20bd5bd94afb6a5d40e4d3d3d5059157f1c52d9f024316e253cbfb207f7ee80",
+ "latency_ms": 11338,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेवीस नोव्हेंबरला"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "सकाळी नऊ पाच वाजता"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Marathi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic tone"
+  ],
+  "comment": "Speech is intelligible with accurate target delivery and clear pronunciation, though slightly artificial in cadence."
+ },
+ "tokens": {
+  "prompt": 532,
+  "output": 129
+ }
+}

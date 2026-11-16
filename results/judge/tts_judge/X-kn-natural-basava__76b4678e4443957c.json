@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-natural-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "76b4678e4443957c",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-natural-basava.wav",
+ "audio_sha256": "2b214d14c65ff3499731443da18e5f6fd15d9e4af00cc9b4c9a6fa2b8a8e0b0a",
+ "latency_ms": 5475,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear and polite delivery suitable for a customer service assistant."
+ },
+ "tokens": {
+  "prompt": 556,
+  "output": 129
+ }
+}

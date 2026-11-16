@@ -1,0 +1,41 @@
+{
+ "task": "tts_judge",
+ "id": "M2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "55c08d41289728b3",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M2.wav",
+ "audio_sha256": "c698a9ffd6ff5c5f22d92820b95cf209feddf5fe01397adb334ff48d716abfed",
+ "latency_ms": 9219,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "एक हज़ार नौ सौ निन्यानवे दशमलव पाँच शून्य रुपये"
+   },
+   {
+    "id": "fraction",
+    "result": "correct",
+    "heard": "दशमलव पाँच शून्य"
+   },
+   {
+    "id": "currency",
+    "result": "correct",
+    "heard": "रुपये"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi / English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "mild robotic switching cadence"
+  ],
+  "comment": "The numbers and currency were read accurately in Hindi amidst English phrases, with minor unnatural pauses around language transitions."
+ },
+ "tokens": {
+  "prompt": 593,
+  "output": 187
+ }
+}

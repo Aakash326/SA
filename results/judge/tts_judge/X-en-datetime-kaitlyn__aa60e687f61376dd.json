@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-datetime-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "aa60e687f61376dd",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-datetime-kaitlyn.wav",
+ "audio_sha256": "0b81b1bb034d3e2365a973d2f4012cd969172d71d334accdd3775a7ca2220b1d",
+ "latency_ms": 8339,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "twenty third November"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine o five a m"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and accurate with appropriate pacing and pronunciation."
+ },
+ "tokens": {
+  "prompt": 501,
+  "output": 160
+ }
+}

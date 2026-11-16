@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-datetime-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e674e57378e134eb",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-datetime-blake.wav",
+ "audio_sha256": "9652a9713975ad153fa4ce4d09d30a83acc12c8f73b731c182e3e05061dcd2ac",
+ "latency_ms": 7707,
+ "reply": {
+  "heard": "Your meeting is on twenty third November at nine o five A M.",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 205,
+  "output": 32
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7d7d29cec148f869",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-04.wav",
+ "audio_sha256": "021450cf647c57566dd80150539c318da6f0dc3dda6e64691cdc29cc39f7c2d4",
+ "latency_ms": 5384,
+ "reply": {
+  "transcript": "క్యాల్శియం హైడ్రాక్సైడ్ యొక్క రసాయన ఫార్ములా ఏంటి",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 238,
+  "output": 287
+ }
+}

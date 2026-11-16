@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "84768cde50a6417d",
+ "audio": "clips/ext2/EXP-TRAFFIC-EN-02.wav",
+ "audio_sha256": "36f38c267b398d3cd6b54170cc69f59a903010662160b76669a5f59926b0a970",
+ "latency_ms": 4495,
+ "reply": {
+  "transcript": "How large was Gallimimus?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 211,
+  "output": 29
+ }
+}

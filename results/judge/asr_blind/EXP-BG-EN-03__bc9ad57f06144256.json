@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bc9ad57f06144256",
+ "audio": "clips/ext2/EXP-BG-EN-03.wav",
+ "audio_sha256": "a376bc4349a03eec99a3f7c55773e9edc86c01a5080677c7a3df1afc7007352a",
+ "latency_ms": 15422,
+ "reply": {
+  "transcript": "Were the Tudor family descended from the Edwards",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 239,
+  "output": 32
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C8",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8c23f33070691258",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C8.wav",
+ "audio_sha256": "0d01d2330438fa2290dc9797a2a3be88115d75b90d5cef53291123e0c3a2e0d5",
+ "latency_ms": 5222,
+ "reply": {
+  "heard": "Who is the leader of Switzerland in fourteen ninety-nine",
+  "number_language": "en",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 30
+ }
+}

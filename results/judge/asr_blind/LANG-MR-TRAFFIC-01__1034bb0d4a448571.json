@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1034bb0d4a448571",
+ "audio": "clips/ext2/LANG-MR-TRAFFIC-01.wav",
+ "audio_sha256": "c37c2a0ce1823d85b7a1309409632179f2fd745a053a0132c58bfa820628c1db",
+ "latency_ms": 4885,
+ "reply": {
+  "transcript": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रीतीलता वाद्देदार यांचा जन्म कधी झाला?",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 306,
+  "output": 43
+ }
+}

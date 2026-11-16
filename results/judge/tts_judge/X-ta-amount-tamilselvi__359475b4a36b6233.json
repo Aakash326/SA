@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-amount-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "359475b4a36b6233",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-amount-tamilselvi.wav",
+ "audio_sha256": "f55cad60d93afe094fe67622db289d5e0c4755d9de84cca7a234009a019e3149",
+ "latency_ms": 5993,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "இரண்டாயிரத்து நானூற்று ஐம்பது ரூபாய்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read completely and accurately with clear pronunciation and natural prosody."
+ },
+ "tokens": {
+  "prompt": 499,
+  "output": 138
+ }
+}

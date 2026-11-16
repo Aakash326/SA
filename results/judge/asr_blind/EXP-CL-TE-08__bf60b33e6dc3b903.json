@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bf60b33e6dc3b903",
+ "audio": "clips/ext2/EXP-CL-TE-08.wav",
+ "audio_sha256": "f5d7db89d73992b0b977314cc4be62cdab33f0d2c982881cacac823b842e927e",
+ "latency_ms": 2702,
+ "reply": {
+  "transcript": "శోభారాజు తల్లిదండ్రుల పేర్లేమిటి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 39
+ }
+}

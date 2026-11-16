@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f603ee3d9de71920",
+ "audio": "clips/ext2/LANG-KN-NUM-01.wav",
+ "audio_sha256": "5b39a42e27be01734c58d216e8947c38b539fa49cc4ba9c41e10931d744b8b65",
+ "latency_ms": 7426,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2011ರ",
+    "system": "ಎರಡು ಸಾವಿರದ ಹನ್ನೊಂದರ",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ಜನಗಣತಿಯಂತೆ",
+    "system": "ಜನಗಣತೆಯಂತೆ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+    "system": "ಜನ ಸಂಖ್ಯೆ ಎಷ್ಟು ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2011ರ ಭಾರತದ ಜನಗಣತಿಯಂತೆ ಗುಂಟೂರು ನಗರದ ಜನಸಂಖ್ಯೆ ಎಷ್ಟು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 467,
+  "output": 187
+ }
+}

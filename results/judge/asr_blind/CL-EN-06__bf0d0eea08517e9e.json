@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "CL-EN-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "bf0d0eea08517e9e",
+ "audio": "clips/ext2/CL-EN-06.wav",
+ "audio_sha256": "1e96551f536a13340a1c3ffe54af41a8d024c077d86f81845b1b31b5c03a729a",
+ "latency_ms": 6027,
+ "reply": {
+  "transcript": "When did WWE wrestling start",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 29
+ }
+}

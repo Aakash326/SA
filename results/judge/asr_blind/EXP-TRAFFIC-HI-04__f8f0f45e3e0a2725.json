@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f8f0f45e3e0a2725",
+ "audio": "clips/ext2/EXP-TRAFFIC-HI-04.wav",
+ "audio_sha256": "6f41557dc13fc73da7d490750872a6ef626b37316e4172c206163f3dadf96519",
+ "latency_ms": 3254,
+ "reply": {
+  "transcript": "2018 में भारतीय फुटबॉल टीम का रैंक क्या है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 36
+ }
+}

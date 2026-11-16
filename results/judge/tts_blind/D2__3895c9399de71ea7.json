@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "D2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3895c9399de71ea7",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D2.wav",
+ "audio_sha256": "19028ac8a1bb8f592afd5f79c133230c9724d79fc7d1c7adb0cb0a8f1491eaf3",
+ "latency_ms": 8187,
+ "reply": {
+  "heard": "Your S I P is scheduled for तेईस नवंबर दो हज़ार छब्बीस",
+  "number_language": "hi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 36
+ }
+}

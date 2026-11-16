@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2638b3071d0d849e",
+ "audio": "clips/ext2/LANG-KN-NUM-03.wav",
+ "audio_sha256": "08a7344b257158fa1f5c5cdc2ffba1622368c2283ec4de33a5aafc0edcf450f0",
+ "latency_ms": 6577,
+ "reply": {
+  "differences": [
+   {
+    "reference": "೨೦೧೭ರಲ್ಲಿ",
+    "system": "ಎರಡ್ ಸಾವಿರದ ಹದಿನೇಳರಲ್ಲಿ",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "೨೦೧೭ರಲ್ಲಿ ಸಂಗಾರೆಡ್ಡಿ ಜಿಲ್ಲೆಯ ಕಲೆಕ್ಟರ್ ಯಾರಾಗಿದ್ದರು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 410,
+  "output": 131
+ }
+}

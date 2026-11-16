@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0413d945d606fd13",
+ "audio": "clips/ext2/LANG-KN-MEDIA-01.wav",
+ "audio_sha256": "cdfa96760e4f9d3aab28a481e9e01c860edcc034108e4650502710f28b565918",
+ "latency_ms": 6188,
+ "reply": {
+  "transcript": "ಕೃಷಿ ಉತ್ಪಾದನೆಯನ್ನು ಯಾವ ದೇಶವು ವಿಶ್ವದಲ್ಲಿ ಮೂರನೇ ಸ್ಥಾನದಲ್ಲಿದೆ",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 43
+ }
+}

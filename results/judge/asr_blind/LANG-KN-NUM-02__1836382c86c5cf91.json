@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1836382c86c5cf91",
+ "audio": "clips/ext2/LANG-KN-NUM-02.wav",
+ "audio_sha256": "ad706fcba720df5d69162b62ef4a84510feb8ccf5b44cf066dd9b9c82408f97f",
+ "latency_ms": 6029,
+ "reply": {
+  "transcript": "2015 ವಿಶ್ವಕಪ್ ನಡೆದಾಗ ಭಾರತ ತಂಡದ ನಾಯಕರಾಗಿದ್ದವರು ಯಾರು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 242,
+  "output": 44
+ }
+}

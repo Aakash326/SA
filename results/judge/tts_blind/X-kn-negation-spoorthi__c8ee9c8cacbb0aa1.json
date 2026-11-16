@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-kn-negation-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c8ee9c8cacbb0aa1",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-negation-spoorthi.wav",
+ "audio_sha256": "060cd360fb1733e61dd29fa9b678f4b8b56f5dfcf76a0a555658f36d838d1bf4",
+ "latency_ms": 6437,
+ "reply": {
+  "heard": "ದಯವಿಟ್ಟು ನಿಮ್ಮ O T P ಯನ್ನು ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 37
+ }
+}

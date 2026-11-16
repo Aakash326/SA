@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-CL-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1acf7f17f5a75e50",
+ "audio": "clips/ext2/LANG-TA-CL-03.wav",
+ "audio_sha256": "6f3cf9978cfde375dff5dc8588467d9c328dff0113bb8ef51ab51c872e3c0050",
+ "latency_ms": 8759,
+ "reply": {
+  "differences": [
+   {
+    "reference": "கலீபா",
+    "system": "கலிபா",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "அபூபக்கர்",
+    "system": "அபுபக்கர்",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "கலீபா அபுபக்கர் எந்த வம்சத்தின் அரசர்",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 369,
+  "output": 129
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-amount-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "44a5902fc1160dcb",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-amount-meher.wav",
+ "audio_sha256": "e9a56598985f5cbe9c6fa79cd8eb33e13bfd1470915be596cb0d3c4d55456928",
+ "latency_ms": 4991,
+ "reply": {
+  "heard": "आपके खाते में दो हज़ार चार सौ पचास रुपये जमा हो गए हैं",
+  "number_language": "Hindi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 221,
+  "output": 32
+ }
+}

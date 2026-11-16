@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "R-kn-datetime-spoorthi-r1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d2bb1c3bc0aecb46",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts_repeat\\kn-datetime-spoorthi-r1.wav",
+ "audio_sha256": "29bb0f9c99cf8711c585c49cfa9567ab0c9e97554b70f70d1980f217512920c0",
+ "latency_ms": 6411,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ಸಭೆ ನವೆಂಬರ್ ಇಪ್ಪತ್ಮೂರರಂದು ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕಿದೆ",
+  "number_language": "kn",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 44
+ }
+}

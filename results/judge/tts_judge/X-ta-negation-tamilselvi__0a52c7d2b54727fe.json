@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-negation-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0a52c7d2b54727fe",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-negation-tamilselvi.wav",
+ "audio_sha256": "ec8d3d5107ba8a4adb232d6f5ce207de115459f57ef4f44099001e95a324d303",
+ "latency_ms": 9537,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "வேண்டாம்"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP யை"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Tamil",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was spoken accurately and intelligibly with minor synthetic cadence."
+ },
+ "tokens": {
+  "prompt": 497,
+  "output": 160
+ }
+}

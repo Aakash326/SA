@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a83d352c896d4ebb",
+ "audio": "clips/ext2/EXP-CL-HI-02.wav",
+ "audio_sha256": "0a1c57ca9f241df20e0c49c20663f6d02744abf42ba72740970127ebecbfaf9f",
+ "latency_ms": 4610,
+ "reply": {
+  "transcript": "जॉर्ज वॉशिंगटन के समय न्यूयॉर्क किस देश की राजधानी थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 37
+ }
+}

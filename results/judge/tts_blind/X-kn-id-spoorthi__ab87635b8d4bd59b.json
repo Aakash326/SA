@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-kn-id-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ab87635b8d4bd59b",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-id-spoorthi.wav",
+ "audio_sha256": "bbe44fb02005a2c6930416ffe466f8a1a9bf90d59537f5612136565a64a4d3a1",
+ "latency_ms": 5141,
+ "reply": {
+  "heard": "ನಿಮ್ಮ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "number_language": "Kannada",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 36
+ }
+}

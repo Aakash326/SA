@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "M4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d0246a92505142e8",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M4.wav",
+ "audio_sha256": "9d23334a3fede0117cf6d426830b37fd1e330970bff7ab231f64cae85f656651",
+ "latency_ms": 4292,
+ "reply": {
+  "heard": "The share price fell by minus two point five percent to one thousand four hundred ninety nine point zero five",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 39
+ }
+}

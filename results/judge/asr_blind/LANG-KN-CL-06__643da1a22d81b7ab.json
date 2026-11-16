@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "643da1a22d81b7ab",
+ "audio": "clips/ext2/LANG-KN-CL-06.wav",
+ "audio_sha256": "598fc8ac2665ce0cf6ad706a3f468b283a4f82c94e82bf2cf7f707f4a7125ba6",
+ "latency_ms": 3612,
+ "reply": {
+  "transcript": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೋಟ್ ಅನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 223,
+  "output": 36
+ }
+}

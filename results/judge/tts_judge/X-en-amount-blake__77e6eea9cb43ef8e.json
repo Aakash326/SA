@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-amount-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "77e6eea9cb43ef8e",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-amount-blake.wav",
+ "audio_sha256": "ef02abcf349f21890a61ef4153e06378dfe6188217160cb947bb5bc73e1bbb34",
+ "latency_ms": 5669,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "two thousand four hundred and fifty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear, natural Indian English delivery with accurate reading of currency and numbers."
+ },
+ "tokens": {
+  "prompt": 480,
+  "output": 132
+ }
+}

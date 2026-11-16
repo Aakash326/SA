@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "C7",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1363b91b26fb82a5",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C7.wav",
+ "audio_sha256": "f01e7f09a41488e91726fade606ebc3d9f87c57dc227408033604154bbf316be",
+ "latency_ms": 9902,
+ "reply": {
+  "targets": [
+   {
+    "id": "kyc",
+    "result": "correct",
+    "heard": "KYC"
+   },
+   {
+    "id": "ipo",
+    "result": "correct",
+    "heard": "IPO"
+   },
+   {
+    "id": "ucc",
+    "result": "correct",
+    "heard": "UCC"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All acronyms and words were articulated clearly with appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 561,
+  "output": 187
+ }
+}

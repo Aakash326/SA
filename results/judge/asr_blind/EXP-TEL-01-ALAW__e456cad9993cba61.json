@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TEL-01-ALAW",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e456cad9993cba61",
+ "audio": "clips/ext2/EXP-TEL-01-ALAW.wav",
+ "audio_sha256": "4c9f4912d197b4f4079039fe18091fbda1649a7fef140818ad8a1469ed25edc2",
+ "latency_ms": 3361,
+ "reply": {
+  "transcript": "How many home games does Dodger Stadium see a season?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 236,
+  "output": 34
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-natural-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "b8198b742924baad",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-natural-murugan.wav",
+ "audio_sha256": "e0ee730a5ec318854162293fa07b54a2c7606b2b729c4e68cde707e9748005f9",
+ "latency_ms": 8760,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "நான் உங்களுக்கு எப்படி உதவ முடியும்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is rendered completely and accurately with appropriate interrogative intonation and minor synthetic quality."
+ },
+ "tokens": {
+  "prompt": 566,
+  "output": 125
+ }
+}

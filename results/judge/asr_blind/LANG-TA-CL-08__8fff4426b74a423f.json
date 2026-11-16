@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8fff4426b74a423f",
+ "audio": "clips/ext2/LANG-TA-CL-08.wav",
+ "audio_sha256": "ea6ee862fe9556fa3090fde900a9b55999e8bcc973046ffa9dfb9921cee7a18c",
+ "latency_ms": 8683,
+ "reply": {
+  "transcript": "லைலா பிந்த் அல் மஜ்னூனுடைய தந்தையின் பெயர் என்ன",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 231,
+  "output": 48
+ }
+}

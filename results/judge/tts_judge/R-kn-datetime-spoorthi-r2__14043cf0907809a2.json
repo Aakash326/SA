@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "R-kn-datetime-spoorthi-r2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "14043cf0907809a2",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts_repeat\\kn-datetime-spoorthi-r2.wav",
+ "audio_sha256": "7c9d4a182b6bffbc987ef0d0df61b98075f9c69a1217c577450631a8dbc59a21",
+ "latency_ms": 5264,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತಮೂರರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly."
+ },
+ "tokens": {
+  "prompt": 551,
+  "output": 149
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f9fe0a37fe65baee",
+ "audio": "clips/ext2/EXP-BG-EN-02.wav",
+ "audio_sha256": "3eb75656a44ff89d86dd4da45ad0804a6de4ce11771c6d66e63534d0600d2cf3",
+ "latency_ms": 4028,
+ "reply": {
+  "transcript": "When were solar panels invented?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 187,
+  "output": 29
+ }
+}

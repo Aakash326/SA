@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "847ac701a0e6778a",
+ "audio": "clips/ext2/LANG-KN-CL-01.wav",
+ "audio_sha256": "5fb9576a8a99d864744423c8777422a493195dcaac2a0bf031f2266c92b636d7",
+ "latency_ms": 7608,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಜಹಾಂಗೀರ್ನಗರ್",
+    "system": "ಜಹಂಗೀರ್ ನಗರ್",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 381,
+  "output": 133
+ }
+}

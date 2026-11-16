@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-amount-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ad673df8ea160060",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-amount-kaitlyn.wav",
+ "audio_sha256": "ff4f29ac06414b9491c7b304eea5f800290021b0c7462023a4fabc3cea1e1c87",
+ "latency_ms": 4617,
+ "reply": {
+  "heard": "Your account has been credited with two thousand four hundred fifty rupees",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 225,
+  "output": 30
+ }
+}

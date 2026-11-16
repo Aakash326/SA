@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f9ccae93bc99c9f7",
+ "audio": "clips/ext2/LANG-KN-CL-06.wav",
+ "audio_sha256": "598fc8ac2665ce0cf6ad706a3f468b283a4f82c94e82bf2cf7f707f4a7125ba6",
+ "latency_ms": 7077,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ರೋಬೊಟನ್ನು",
+    "system": "ರೋಬೋಟನ್ನು",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ಮಾಡಲಾಯಿತು?",
+    "system": "ಮಾಡಲಾಯಿತು",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ವಿಶ್ವದ ಮೊದಲ ರೋಬೋಟನ್ನು ಯಾವಾಗ ಮಾಡಲಾಯಿತು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 353,
+  "output": 123
+ }
+}

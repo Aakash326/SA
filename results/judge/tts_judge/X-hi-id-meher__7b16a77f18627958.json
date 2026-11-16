@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-id-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7b16a77f18627958",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-id-meher.wav",
+ "audio_sha256": "72edbd4e8290bfa1c1bf64f8a545bc1f3e58687ed93705a376316eaa4445052b",
+ "latency_ms": 9416,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "शून्य शून्य सात शून्य"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately including the leading zeros, with clear pronunciation and natural pacing."
+ },
+ "tokens": {
+  "prompt": 481,
+  "output": 133
+ }
+}

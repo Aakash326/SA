@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-negation-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e77d8df7de482a9a",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-negation-spoorthi.wav",
+ "audio_sha256": "060cd360fb1733e61dd29fa9b678f4b8b56f5dfcf76a0a555658f36d838d1bf4",
+ "latency_ms": 8882,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ಹಂಚಿಕೊಳ್ಳಬೇಡಿ"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ಓಟಿಪಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The sentence is delivered clearly with correct pronunciation and appropriate cadence."
+ },
+ "tokens": {
+  "prompt": 508,
+  "output": 161
+ }
+}

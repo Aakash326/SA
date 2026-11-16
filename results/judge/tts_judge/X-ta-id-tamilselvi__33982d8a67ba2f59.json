@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-id-tamilselvi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "33982d8a67ba2f59",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-id-tamilselvi.wav",
+ "audio_sha256": "371aad38c84e4e52fea7ac2e3803d3ae99535ca9784347524fc65d6ccd9af718",
+ "latency_ms": 10045,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "பூஜ்ஜியம் பூஜ்ஜியம் ஏழு பூஜ்ஜியம்"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately digit-by-digit with clear Tamil pronunciation and appropriate pacing."
+ },
+ "tokens": {
+  "prompt": 464,
+  "output": 142
+ }
+}

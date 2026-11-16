@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-SNR-03-20",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c9ff168f377fa160",
+ "audio": "clips/ext2/EXP-SNR-03-20.wav",
+ "audio_sha256": "0ba9d47475855a728570f48de24649c64c9915008edfbf715ea0edc3451c90bd",
+ "latency_ms": 3641,
+ "reply": {
+  "transcript": "स्मार्टफोन्स के कैमरा कौन से वर्ष से प्रयोग में शुरू हुआ?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 38
+ }
+}

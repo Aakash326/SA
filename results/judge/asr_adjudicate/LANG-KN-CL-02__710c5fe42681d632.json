@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "710c5fe42681d632",
+ "audio": "clips/ext2/LANG-KN-CL-02.wav",
+ "audio_sha256": "f36a2df5b6b38c8c9b9db9a0f19d4001542f456619be8f4a1438a00bcadef5d7",
+ "latency_ms": 6459,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಅಭಿನೇತ್ರಿ",
+    "system": "ಅಭಿನಿತ್ರಿ",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ವಿದ್ಯಾ ಬಾಲನ್",
+    "system": "ವಿದ್ಯಾಪಾಲನ್",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ಅಭಿನೇತ್ರಿ ವಿದ್ಯಾ ಬಾಲನ್ ಎಂದು ಜನಿಸಿದರು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 334,
+  "output": 115
+ }
+}

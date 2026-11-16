@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-kn-natural-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3b4fbcedc576fb68",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-natural-basava.wav",
+ "audio_sha256": "2b214d14c65ff3499731443da18e5f6fd15d9e4af00cc9b4c9a6fa2b8a8e0b0a",
+ "latency_ms": 3242,
+ "reply": {
+  "heard": "ನಮಸ್ಕಾರ ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು ನಿಮ್ಮ ಖಾತೆಯ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಬೇಕಿದ್ದರೆ ದಯವಿಟ್ಟು ಕೇಳಿ",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 276,
+  "output": 44
+ }
+}

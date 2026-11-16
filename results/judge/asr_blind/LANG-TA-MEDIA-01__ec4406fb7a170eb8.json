@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-MEDIA-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ec4406fb7a170eb8",
+ "audio": "clips/ext2/LANG-TA-MEDIA-01.wav",
+ "audio_sha256": "9d8ee9cb782ee6608ca62800b7ef4b9c5f03e876780b7c9c5b9ce4572471fb4b",
+ "latency_ms": 4432,
+ "reply": {
+  "transcript": "இஸ்லாத்தின் ஐந்து தூண்களில் ஹஜ் ஒன்றா?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 201,
+  "output": 36
+ }
+}

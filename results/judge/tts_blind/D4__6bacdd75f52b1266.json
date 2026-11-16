@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "D4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6bacdd75f52b1266",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D4.wav",
+ "audio_sha256": "68ea14bec91ef40c1995b61f77c3e1c6c3a1ad2093fdc1b8b683937d6872c564",
+ "latency_ms": 5621,
+ "reply": {
+  "heard": "Your U C C is A B one two three four and the meeting is at twenty-one thirty.",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 48
+ }
+}

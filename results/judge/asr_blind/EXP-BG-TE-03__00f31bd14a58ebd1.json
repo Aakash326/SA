@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "00f31bd14a58ebd1",
+ "audio": "clips/ext2/EXP-BG-TE-03.wav",
+ "audio_sha256": "33e6dcf98c6d050d193ee7eb54ff56c8ef067721c64e0d1302f5109b4105bbc3",
+ "latency_ms": 6363,
+ "reply": {
+  "transcript": "2011 నాటికి బిజ్జపల్లి గ్రామంలో ఎన్ని ఇల్లులు ఉన్నాయి?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 42
+ }
+}

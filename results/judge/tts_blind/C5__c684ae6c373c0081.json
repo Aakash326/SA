@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C5",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c684ae6c373c0081",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C5.wav",
+ "audio_sha256": "9577e6ed0ef4cd402c754e13e7dfbd13beffe11a3b1215dcc7839d0307d6fc1e",
+ "latency_ms": 4164,
+ "reply": {
+  "heard": "The appointment is at nine oh five A M.",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 183,
+  "output": 28
+ }
+}

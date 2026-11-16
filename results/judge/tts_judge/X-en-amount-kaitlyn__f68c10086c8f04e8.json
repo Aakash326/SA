@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-en-amount-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f68c10086c8f04e8",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-amount-kaitlyn.wav",
+ "audio_sha256": "ff4f29ac06414b9491c7b304eea5f800290021b0c7462023a4fabc3cea1e1c87",
+ "latency_ms": 8132,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "two thousand four hundred fifty rupees"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio clearly reads the full sentence and the monetary amount accurately."
+ },
+ "tokens": {
+  "prompt": 478,
+  "output": 130
+ }
+}

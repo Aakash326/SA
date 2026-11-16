@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "76eeccfaa15d66fc",
+ "audio": "clips/ext2/EXP-NUM-HI-01.wav",
+ "audio_sha256": "dacc5fe737124c03e1f3af28f4d05da9333bb3423619c2d8b082914dae93c62e",
+ "latency_ms": 3342,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2019",
+    "system": "दो हज़ार उन्नीस",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2019 तक बाइबल का कितनी भाषाओं में अनुवाद किया गया था?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 391,
+  "output": 84
+ }
+}

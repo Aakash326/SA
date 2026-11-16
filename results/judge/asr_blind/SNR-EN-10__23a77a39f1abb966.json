@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-EN-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "23a77a39f1abb966",
+ "audio": "clips/ext2/SNR-EN-10.wav",
+ "audio_sha256": "d9e192eb8d6a2204f74cd11887d83c2a0fc504963eccacc7494d9115ef571136",
+ "latency_ms": 5326,
+ "reply": {
+  "transcript": "Who first identified blood types?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 29
+ }
+}

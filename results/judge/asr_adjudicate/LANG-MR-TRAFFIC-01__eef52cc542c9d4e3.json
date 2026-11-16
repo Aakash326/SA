@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "eef52cc542c9d4e3",
+ "audio": "clips/ext2/LANG-MR-TRAFFIC-01.wav",
+ "audio_sha256": "c37c2a0ce1823d85b7a1309409632179f2fd745a053a0132c58bfa820628c1db",
+ "latency_ms": 10144,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ब्रिटिश विरोधी",
+    "system": "ब्रिटिशविरोधी",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "स्वातंत्र्य",
+    "system": "स्वतंत्र",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "झाला?",
+    "system": "झाला",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ब्रिटिश विरोधी स्वातंत्र्य चळवळीतील प्रितीलाता वाशेदार यांचा जन्म कधी झाला?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 460,
+  "output": 165
+ }
+}

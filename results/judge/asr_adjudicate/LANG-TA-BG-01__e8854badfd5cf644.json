@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e8854badfd5cf644",
+ "audio": "clips/ext2/LANG-TA-BG-01.wav",
+ "audio_sha256": "ab80b96f91bc0b65b6ca67c1c47fc93e2fa7dc7814cf7a36b6293e1769f3dc2b",
+ "latency_ms": 12576,
+ "reply": {
+  "differences": [
+   {
+    "reference": "காடு",
+    "system": "பாடு",
+    "verdict": "reference_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "அசாமில் உள்ள மிகப்பெரிய பாடு எது?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 319,
+  "output": 84
+ }
+}

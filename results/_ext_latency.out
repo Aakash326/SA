@@ -1,0 +1,24 @@
+short rest TTFA [None, None, None, None, None] total [1306.8, 1192.2, 1271.0, 1296.1, 1346.4]
+short sse TTFA [517.4, 517.5, 505.7, 518.7, 492.2] total [1279.6, 1247.4, 1232.9, 1264.5, 1187.2]
+short ws_warm TTFA [140.0, 125.6, 116.3, 126.0, 124.2] total [4867.4, 4886.7, 4864.1, 4900.2, 4963.6]
+short ws_cold TTFA [126.4, 144.3, 133.6, 142.7, 129.7] total [4936.0, 4774.9, 4799.8, 4903.1, 4777.2]
+medium sse TTFA [512.3, 530.2, 557.5, 685.4, 481.4] total [4291.7, 4039.2, 4174.4, 4355.4, 4220.9]
+medium ws_cold TTFA [131.7, 182.3, 137.1, 139.6, 161.0] total [7605.6, 7863.6, 7872.9, 7759.0, 7772.8]
+medium rest TTFA [None, None, None, None, None] total [4207.6, 4394.7, 4342.9, 4556.4, 4539.9]
+medium ws_warm TTFA [162.2, 129.7, 132.7, 136.2, 133.9] total [7800.7, 7691.8, 7620.7, 7692.7, 7783.8]
+long ws_cold TTFA [154.1, 199.8, 155.1, 166.7, 193.9] total [14117.9, 13949.4, 14386.3, 13944.9, 14196.7]
+long ws_warm TTFA [140.1, 160.1, 149.5, 171.9, 147.1] total [13494.7, 13517.2, 13853.6, 13487.8, 13781.3]
+long rest TTFA [None, None, None, None, None] total [10662.2, 10280.5, 10597.0, 10262.3, 10453.2]
+long sse TTFA [679.9, 619.6, 2179.1, 624.7, 584.8] total [10546.7, 10591.3, 12991.8, 10164.9, 10249.1]
+short/rest       {"n": 5, "chars": 63, "audio_s_median": 4.62, "ttfa_median_ms": null, "ttfa_max_ms": null, "total_median_ms": 1296.1, "rtf_median": 0.28, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+short/sse        {"n": 5, "chars": 63, "audio_s_median": 4.2, "ttfa_median_ms": 517.4, "ttfa_max_ms": 518.7, "total_median_ms": 1247.4, "rtf_median": 0.294, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+short/ws_cold    {"n": 5, "chars": 63, "audio_s_median": 3.805, "ttfa_median_ms": 133.6, "ttfa_max_ms": 144.3, "total_median_ms": 4799.8, "rtf_median": 1.255, "rtf_to_last_audio_median": 0.197, "handshake_median_ms": 129.4}
+short/ws_warm    {"n": 5, "chars": 63, "audio_s_median": 4.23, "ttfa_median_ms": 125.6, "ttfa_max_ms": 140.0, "total_median_ms": 4886.7, "rtf_median": 1.155, "rtf_to_last_audio_median": 0.198, "handshake_median_ms": null}
+medium/rest      {"n": 5, "chars": 426, "audio_s_median": 23.212, "ttfa_median_ms": null, "ttfa_max_ms": null, "total_median_ms": 4394.7, "rtf_median": 0.191, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+medium/sse       {"n": 5, "chars": 426, "audio_s_median": 23.074, "ttfa_median_ms": 530.2, "ttfa_max_ms": 685.4, "total_median_ms": 4220.9, "rtf_median": 0.186, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+medium/ws_cold   {"n": 5, "chars": 426, "audio_s_median": 23.087, "ttfa_median_ms": 139.6, "ttfa_max_ms": 182.3, "total_median_ms": 7772.8, "rtf_median": 0.341, "rtf_to_last_audio_median": 0.162, "handshake_median_ms": 145.1}
+medium/ws_warm   {"n": 5, "chars": 426, "audio_s_median": 22.816, "ttfa_median_ms": 133.9, "ttfa_max_ms": 162.2, "total_median_ms": 7692.7, "rtf_median": 0.339, "rtf_to_last_audio_median": 0.164, "handshake_median_ms": null}
+long/rest        {"n": 5, "chars": 1042, "audio_s_median": 60.221, "ttfa_median_ms": null, "ttfa_max_ms": null, "total_median_ms": 10453.2, "rtf_median": 0.174, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+long/sse         {"n": 5, "chars": 1042, "audio_s_median": 60.383, "ttfa_median_ms": 624.7, "ttfa_max_ms": 2179.1, "total_median_ms": 10546.7, "rtf_median": 0.173, "rtf_to_last_audio_median": null, "handshake_median_ms": null}
+long/ws_cold     {"n": 5, "chars": 1042, "audio_s_median": 61.041, "ttfa_median_ms": 166.7, "ttfa_max_ms": 199.8, "total_median_ms": 14117.9, "rtf_median": 0.231, "rtf_to_last_audio_median": 0.166, "handshake_median_ms": 163.2}
+long/ws_warm     {"n": 5, "chars": 1042, "audio_s_median": 59.066, "ttfa_median_ms": 149.5, "ttfa_max_ms": 171.9, "total_median_ms": 13517.2, "rtf_median": 0.231, "rtf_to_last_audio_median": 0.163, "handshake_median_ms": null}

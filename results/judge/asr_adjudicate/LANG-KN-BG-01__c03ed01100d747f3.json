@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c03ed01100d747f3",
+ "audio": "clips/ext2/LANG-KN-BG-01.wav",
+ "audio_sha256": "318ed098e2fe1283a1514fa2557818ade078467d48e1a13d8967bdf3e4d6ff14",
+ "latency_ms": 6475,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ವಿಶಾಖಪಟ್ಣಂ",
+    "system": "ವಿಶಾಖಪಟ್ನಂ",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ಏನು?",
+    "system": "ಏನು ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ವಿಶಾಖಪಟ್ಣಂ ಅವರ ಇನ್ನೊಂದು ಹೆಸರು ಏನು?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 471,
+  "output": 91
+ }
+}

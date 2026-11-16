@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-ta-negation-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "cb0d394f93cd8b03",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-negation-murugan.wav",
+ "audio_sha256": "c41f793a1e8129ad87a0e738ce619d4ae62c9f2fbc865503875f66270538713f",
+ "latency_ms": 7652,
+ "reply": {
+  "heard": "தயவுசெய்து உங்கள் O T P யை யாருடனும் பகிர வேண்டாம்",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 207,
+  "output": 35
+ }
+}

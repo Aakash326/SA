@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-id-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d5a73ba7d76f8afc",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-id-basava.wav",
+ "audio_sha256": "37483fad8081c224fa825e0783a89bc9a42535f0a4333fe87b6a75826546ef40",
+ "latency_ms": 12792,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "robotic tone"
+  ],
+  "comment": "The text was read accurately including leading zeros, though the voice has a mild robotic quality and measured cadence."
+ },
+ "tokens": {
+  "prompt": 463,
+  "output": 151
+ }
+}

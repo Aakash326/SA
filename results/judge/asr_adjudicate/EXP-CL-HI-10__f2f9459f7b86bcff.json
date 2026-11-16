@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-HI-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f2f9459f7b86bcff",
+ "audio": "clips/ext2/EXP-CL-HI-10.wav",
+ "audio_sha256": "a903337cf271d81cba5185db95babb6424ecc245d02c1c064d601ebc45251151",
+ "latency_ms": 4740,
+ "reply": {
+  "differences": [
+   {
+    "reference": "विज्ञानी",
+    "system": "वैज्ञानिक",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "थी?",
+    "system": "थी ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "भारतीय भौतिक विज्ञानी देवेंद्र मोहन बोस की मृत्यु किस वर्ष हुई थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 436,
+  "output": 82
+ }
+}

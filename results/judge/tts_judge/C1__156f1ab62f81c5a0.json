@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "C1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "156f1ab62f81c5a0",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C1.wav",
+ "audio_sha256": "c159d05c3321032b3c80d49fc713694250ec79d5e2b15b936fadc5120ce3b550",
+ "latency_ms": 9179,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "one thousand four hundred ninety nine"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "unnatural rising intonation"
+  ],
+  "comment": "Speech is clear and accurate, though it ends with an unnatural question-like intonation and slight robotic quality."
+ },
+ "tokens": {
+  "prompt": 448,
+  "output": 151
+ }
+}

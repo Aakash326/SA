@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "P-ta-amount",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1861622a70e33103",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\P-ta-amount.wav",
+ "audio_sha256": "4a005e41ed484c6acf93c55fe121652d9a2f54ba3fdc704fcbd3ac85da832791",
+ "latency_ms": 5673,
+ "reply": {
+  "heard": "உங்கள் கணக்கில் இரண்டாயிரத்து ஐநூற்று நாற்பது ரூபாய் வரவு வைக்கப்பட்டுள்ளது",
+  "number_language": "Tamil",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 241,
+  "output": 46
+ }
+}

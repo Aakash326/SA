@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "722a39068eefd4af",
+ "audio": "clips/ext2/LANG-MR-CL-02.wav",
+ "audio_sha256": "4968e42a30def1b24b4566f704373b4ba8c7e781518b34301ed8dce2a512dede",
+ "latency_ms": 5017,
+ "reply": {
+  "differences": [
+   {
+    "reference": "शोधले?",
+    "system": "शोधलय ?",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "हलणारे दगड कोणी शोधले?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 300,
+  "output": 83
+ }
+}

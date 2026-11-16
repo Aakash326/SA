@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "M1X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6333ede01eaea97c",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M1X.wav",
+ "audio_sha256": "610f77e975e753a4e4008bf14bdb75fbb928d4bcf7bb467982aceb849c1a7516",
+ "latency_ms": 4066,
+ "reply": {
+  "heard": "The balance is -1499 rupees",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 210,
+  "output": 28
+ }
+}

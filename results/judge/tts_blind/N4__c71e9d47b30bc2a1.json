@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "N4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c71e9d47b30bc2a1",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N4.wav",
+ "audio_sha256": "0b27b35dd9e175f621a61cea51552b6e8d2bec771b9068b7d674a91a3e807d02",
+ "latency_ms": 7675,
+ "reply": {
+  "heard": "Your order was not cancelled. It will not be delivered before nine fifty P M.",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 243,
+  "output": 35
+ }
+}

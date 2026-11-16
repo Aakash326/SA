@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-negation-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1a5c422323e9bc4e",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-negation-ketaki.wav",
+ "audio_sha256": "33e8f0665137bfbd235396415b845bc8be5eebdc89afa7dbe0656f4982540ba2",
+ "latency_ms": 5726,
+ "reply": {
+  "heard": "कृपया तुमचा O T P कोणालाही सांगू नका",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 209,
+  "output": 30
+ }
+}

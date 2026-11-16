@@ -1,0 +1,40 @@
+{
+ "task": "asr_adjudicate",
+ "id": "NUM-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f016b19f9d50193a",
+ "audio": "clips/ext2/NUM-HI-02.wav",
+ "audio_sha256": "f264585488015df7b2063e37072e4f2669a7183cb4336a44c98d92f816a50b9c",
+ "latency_ms": 7721,
+ "reply": {
+  "differences": [
+   {
+    "reference": "गांव",
+    "system": "गाँव",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "2011",
+    "system": "दो हज़ार ग्यारह",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "जानगण्डा",
+    "system": "जानगंडा",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "थी?",
+    "system": "थी",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "गुंटूर गाँव की जनसंख्या 2011 भारत की जानगंडा के अनुसार कितनी थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 436,
+  "output": 196
+ }
+}

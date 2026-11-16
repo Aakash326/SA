@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1e20cf5a2139578e",
+ "audio": "clips/ext2/EXP-CL-EN-12.wav",
+ "audio_sha256": "df11c57b87cecc395b7a77dd709fa84afca910161bd7107acd80ad8e435e9346",
+ "latency_ms": 3490,
+ "reply": {
+  "transcript": "What is the ethnicity of Bolivia?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 185,
+  "output": 29
+ }
+}

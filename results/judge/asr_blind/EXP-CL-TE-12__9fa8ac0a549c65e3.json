@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9fa8ac0a549c65e3",
+ "audio": "clips/ext2/EXP-CL-TE-12.wav",
+ "audio_sha256": "fe69afec7d015d146a7e79facb5bb03ecf92efdd6f89cf0e608e2453b574471f",
+ "latency_ms": 2125,
+ "reply": {
+  "transcript": "జల్లెడ పూడి గ్రామ విస్తీర్ణం ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 232,
+  "output": 36
+ }
+}

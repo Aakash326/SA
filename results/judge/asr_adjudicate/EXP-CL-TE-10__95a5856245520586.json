@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "95a5856245520586",
+ "audio": "clips/ext2/EXP-CL-TE-10.wav",
+ "audio_sha256": "9220e487921ac68c57fa58ac6c72f825a2efdeed7a5c24b627c10b6e36059d3d",
+ "latency_ms": 4898,
+ "reply": {
+  "differences": [
+   {
+    "reference": "చందర్లపాడు",
+    "system": "చందల్లపాడు",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "మండలంలో",
+    "system": "మండలం",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "ఏది?",
+    "system": "ఏది",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "చందర్లపాడు మండలంలో అతిపెద్ద గ్రామం ఏది?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 418,
+  "output": 169
+ }
+}

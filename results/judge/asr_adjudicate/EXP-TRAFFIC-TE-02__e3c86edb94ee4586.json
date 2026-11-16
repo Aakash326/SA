@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-TE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e3c86edb94ee4586",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-02.wav",
+ "audio_sha256": "10f728287e02d8eb4d302e6292748c954683e9e6b09ef95d56b3b767feac0672",
+ "latency_ms": 5959,
+ "reply": {
+  "differences": [
+   {
+    "reference": "బ్రిటిషోరు",
+    "system": "బ్రిటీష్ వారు",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "శ్రీకాకుళం పేరును",
+    "system": "చికాకుల అంపైర్ ను",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "పిలిచేవారు?",
+    "system": "పరిగేవారు",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "బ్రిటీషర్లు శ్రీకాకుళం పేరును ఏమని పిలిచేవారు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 430,
+  "output": 188
+ }
+}

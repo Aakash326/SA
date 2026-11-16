@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TEL-02-8K",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "463ce70dcc55c3f1",
+ "audio": "clips/ext2/EXP-TEL-02-8K.wav",
+ "audio_sha256": "31c0466dedfc42c6df26289f694afb2b55c354660a97d0b5cf557e679b2eef46",
+ "latency_ms": 3313,
+ "reply": {
+  "transcript": "What is the population of Tokyo?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 179,
+  "output": 30
+ }
+}

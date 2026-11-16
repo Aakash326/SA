@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "C5",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "482dc9d0393aab9d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C5.wav",
+ "audio_sha256": "9577e6ed0ef4cd402c754e13e7dfbd13beffe11a3b1215dcc7839d0307d6fc1e",
+ "latency_ms": 8773,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio matches the prompt clearly with fluent delivery and accurate timing."
+ },
+ "tokens": {
+  "prompt": 424,
+  "output": 127
+ }
+}

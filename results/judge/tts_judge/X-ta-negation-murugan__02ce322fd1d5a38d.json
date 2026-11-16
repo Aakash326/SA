@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-negation-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "02ce322fd1d5a38d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-negation-murugan.wav",
+ "audio_sha256": "c41f793a1e8129ad87a0e738ce619d4ae62c9f2fbc865503875f66270538713f",
+ "latency_ms": 10444,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "வேண்டாம்"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP-ஐ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio correctly renders all words, including the English acronym and final negation, with clear articulation."
+ },
+ "tokens": {
+  "prompt": 500,
+  "output": 166
+ }
+}

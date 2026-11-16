@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-EN-11",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "431fcfa84123d028",
+ "audio": "clips/ext2/EXP-CL-EN-11.wav",
+ "audio_sha256": "4071a83de24ebab5377e48f7cda8ac4096ad81f3e01c54b65917a65100aec0ef",
+ "latency_ms": 4769,
+ "reply": {
+  "differences": [
+   {
+    "reference": "timeslot",
+    "system": "time slot",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "How many channels are part of the prime-time time slot?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 338,
+  "output": 60
+ }
+}

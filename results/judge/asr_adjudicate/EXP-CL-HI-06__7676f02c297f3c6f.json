@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-HI-06",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7676f02c297f3c6f",
+ "audio": "clips/ext2/EXP-CL-HI-06.wav",
+ "audio_sha256": "482e19bc106a22e5189fcde59ab89e86ad71d4d1912b5d7996ed3c6f179204c2",
+ "latency_ms": 5165,
+ "reply": {
+  "differences": [
+   {
+    "reference": "रेद्दर",
+    "system": "रिद्दर",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "?",
+    "system": "",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "रिद्दर युद्ध में कितने सैनिकों ने हिस्सा लिया था?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 346,
+  "output": 79
+ }
+}

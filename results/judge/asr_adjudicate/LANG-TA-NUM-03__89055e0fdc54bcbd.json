@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-NUM-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "89055e0fdc54bcbd",
+ "audio": "clips/ext2/LANG-TA-NUM-03.wav",
+ "audio_sha256": "bf1e1ae5a58216f7d679f28522a1fda0f1b9a40e3309dfd1359b229f50771789",
+ "latency_ms": 5566,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2018 ஆம் ஆண்டு",
+    "system": "ரெண்டாயிரத்தி பதினெட்டாம் ஆண்டு",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "தொழில் நுட்ப",
+    "system": "தொழில்நுட்ப",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "இடத்தை பிடித்துள்ளது ?",
+    "system": "இடத்தைப் பிடித்துள்ளது",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2018 ஆம் ஆண்டு எந்த இந்திய தொழில்நுட்ப நிறுவனம் இந்தியாவில் முதல் இடத்தைப் பிடித்துள்ளது?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 440,
+  "output": 184
+ }
+}

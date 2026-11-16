@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-id-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7ba85bb868a8e5a8",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-id-naveen.wav",
+ "audio_sha256": "f3084b55a71794844003521b523f74726ad67e51c5da5155e518ae50c6ff5a48",
+ "latency_ms": 7360,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "సున్నా సున్నా ఏడు సున్నా"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "All digits read accurately in Telugu with appropriate pacing and clarity."
+ },
+ "tokens": {
+  "prompt": 435,
+  "output": 131
+ }
+}

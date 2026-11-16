@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "M1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3fd9d7b904a2f0eb",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\M1.wav",
+ "audio_sha256": "1f2731544d0f7eeb2df2424fcdd0d1e8e17ece4c1369933edf906aad1c925dd7",
+ "latency_ms": 4877,
+ "reply": {
+  "heard": "The balance is minus one thousand four hundred ninety-nine rupees.",
+  "number_language": "en",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 220,
+  "output": 31
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-datetime-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5e057feaf62e3395",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-datetime-spoorthi.wav",
+ "audio_sha256": "88a846029018777c251ab54969c6f40590cecf243a0a6c709cd827ab3e14513e",
+ "latency_ms": 9960,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "wrong",
+    "heard": "ನವೆಂಬರ್ ಪತ್ತು ಮೂರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ"
+   }
+  ],
+  "content_complete": false,
+  "spoken_language": "Kannada",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 3,
+  "artifacts": [
+   "number mispronunciation"
+  ],
+  "comment": "The date '23' was mispronounced as 'pattu mooru' instead of 'ippattu mooru', while the time and remaining sentence were read intelligibly."
+ },
+ "tokens": {
+  "prompt": 534,
+  "output": 186
+ }
+}

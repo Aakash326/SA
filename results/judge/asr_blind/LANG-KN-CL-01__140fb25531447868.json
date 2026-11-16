@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "140fb25531447868",
+ "audio": "clips/ext2/LANG-KN-CL-01.wav",
+ "audio_sha256": "5fb9576a8a99d864744423c8777422a493195dcaac2a0bf031f2266c92b636d7",
+ "latency_ms": 5829,
+ "reply": {
+  "transcript": "ಜಹಾಂಗೀರ್ ನಗರ್ ವಿಶ್ವವಿದ್ಯಾಲಯವು ಎಂದು ಸ್ಥಾಪನೆಗೊಂಡಿತು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 226,
+  "output": 43
+ }
+}

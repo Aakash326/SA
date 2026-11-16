@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e0cfa65c72afd2dd",
+ "audio": "clips/ext2/EXP-CL-TE-12.wav",
+ "audio_sha256": "fe69afec7d015d146a7e79facb5bb03ecf92efdd6f89cf0e608e2453b574471f",
+ "latency_ms": 6088,
+ "reply": {
+  "differences": [
+   {
+    "reference": "జిల్లెడిపూడి",
+    "system": "జిల్లడి పొడి",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "జిల్లెడిపూడి గ్రామ విస్తీర్ణం ఎంత?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 95
+ }
+}

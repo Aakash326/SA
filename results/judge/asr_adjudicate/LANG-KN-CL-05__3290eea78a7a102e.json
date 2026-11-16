@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-KN-CL-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3290eea78a7a102e",
+ "audio": "clips/ext2/LANG-KN-CL-05.wav",
+ "audio_sha256": "7e563041bf3bc63d298f5c96ab44088094ebb989ded1cb3af969a65d0615ee33",
+ "latency_ms": 5478,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ಶ್ರೀ ಕೃಷ್ಣದೇ",
+    "system": "ಶ್ರೀಕೃಷ್ಣದೇ",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "ಬರೆದಿದ್ದಾರೆ?",
+    "system": "ಬರೆದಿದ್ದಾರೆ",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "ಶ್ರೀ ಕೃಷ್ಣದೇ ಕೃಷ್ಣದೇವರಾಯರು ಅಮುಕ್ತ ಮೌಲ್ಯದ ಪುಸ್ತಕವನ್ನು ಯಾವಾಗ ಬರೆದಿದ್ದಾರೆ?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 455,
+  "output": 139
+ }
+}

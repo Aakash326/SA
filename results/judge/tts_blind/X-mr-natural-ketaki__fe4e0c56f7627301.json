@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-mr-natural-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fe4e0c56f7627301",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-natural-ketaki.wav",
+ "audio_sha256": "f9fdc781fadc081b01e17db6648de2807a097720a7f3836f0bef5a0c94792c71",
+ "latency_ms": 4694,
+ "reply": {
+  "heard": "नमस्कार मी तुम्हाला कशी मदत करू शकते तुमच्या खात्याबद्दल काही माहिती हवी असल्यास नक्की विचारा",
+  "number_language": "",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 322,
+  "output": 36
+ }
+}

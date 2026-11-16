@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "990deb58fb316751",
+ "audio": "clips/ext2/EXP-MEDIA-EN-02.wav",
+ "audio_sha256": "356e493d265c61c13812d6f79cbfe1f448b38f02c384284ef948f25238aeee42",
+ "latency_ms": 7920,
+ "reply": {
+  "transcript": "What is the population of Honolulu",
+  "language": "English",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 253,
+  "output": 40
+ }
+}

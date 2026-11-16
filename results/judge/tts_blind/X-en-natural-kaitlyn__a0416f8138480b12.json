@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-natural-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a0416f8138480b12",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-natural-kaitlyn.wav",
+ "audio_sha256": "b2f38a2dba6394b3f1c1c60b9be626f8e9d557f9ac5ff1cef396796f1761c8c3",
+ "latency_ms": 4126,
+ "reply": {
+  "heard": "Hello, how can I help you today? If you need any information about your account, please feel free to ask.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 305,
+  "output": 42
+ }
+}

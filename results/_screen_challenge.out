@@ -1,0 +1,41 @@
+C1 | The amount is one thousand four hundred ninety nine rupees.
+    pulse      The amount is one thousand four hundred ninety-nine rupees.
+    pulse-pro  The amount is 1,499 rupees.
+    pulse-ws   The amount is one thousand four hundred ninety nine rupees
+     [('amount', 'auto_pass')]
+C2 | The amount is one thousand nine hundred ninety nine rupees.
+    pulse      The amount is one thousand nine hundred ninety-nine rupees.
+    pulse-pro  The amount is 1,999 rupees.
+    pulse-ws   The amount is one thousand nine hundred ninety nine rupees.
+     [('amount', 'auto_pass')]
+C3 | Your reference ID is zero zero seven zero.
+    pulse      Your reference ID is zero zero seven zero.
+    pulse-pro  Your reference ID is 0070.
+    pulse-ws   Your reference ID is zero zero seven zero.
+     [('id', 'auto_pass')]
+C4 | Do not sell the shares.
+    pulse      Do not sell the shares.
+    pulse-pro  Do not sell the shares.
+    pulse-ws   Do not sell the shares,
+     [('negation', 'auto_pass'), ('verb', 'auto_pass')]
+C5 | The appointment is at nine oh five A M.
+    pulse      The appointment is at nine oh five a.m.
+    pulse-pro  The appointment is at 9:05 a.m.
+    pulse-ws   The appointment is at nine o' five a.m.
+     [('time', 'auto_review')]
+C6 | The appointment is at nine fifty A M.
+    pulse      The appointment is at nine fifty a.m.
+    pulse-pro  The appointment is at 9:50 a.m.
+    pulse-ws   The appointment is at nine fifty a.m.
+     [('time', 'auto_pass')]
+C7 | Please complete your K Y C before the I P O. Your U C C is active.
+    pulse      Please complete your KYC before the IPO. Your UCC is active.
+    pulse-pro  Please complete your KYC before the IPO. Your UCC is active.
+    pulse-ws   Please complete your KYC before the IPO. Your UCC is active.
+     [('kyc', 'auto_pass'), ('ipo', 'auto_pass'), ('ucc', 'auto_pass')]
+C8 | Who was the leader of Switzerland in fourteen ninety nine?
+    pulse      Who was the leader of Switzerland in fourteen ninety nine?
+    pulse-pro  Who was the leader of Switzerland in 1499?
+    pulse-ws   Who was the leader of Switzerland in 1499?
+     [('year', 'auto_pass')]
+targets 11 {'auto_pass': 10, 'auto_review': 1}

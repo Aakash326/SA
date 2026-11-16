@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "aad234bef633fe4d",
+ "audio": "clips/ext2/LANG-KN-CL-07.wav",
+ "audio_sha256": "7b582d70b949c400d2c40fc3acceb07f813ea252414d05d3cb3aa3d391400fdc",
+ "latency_ms": 9629,
+ "reply": {
+  "transcript": "ಭೂತಾನದ ದಾಗಾ ಜಿಲ್ಲೆ ಯಾವುದು",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 36
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "1e734ce692902876",
+ "audio": "clips/ext2/EXP-MEDIA-TE-04.wav",
+ "audio_sha256": "e88335b7048d8503d449ea2e3445d981c1c06ecc185d94b32af9eeda9bcf85ed",
+ "latency_ms": 2741,
+ "reply": {
+  "transcript": "బుదిమిలంక గ్రామ విస్తీర్ణం ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 286,
+  "output": 35
+ }
+}

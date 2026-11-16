@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9d5ecbdef6161f59",
+ "audio": "clips/ext2/LANG-MR-CL-07.wav",
+ "audio_sha256": "138bf49199d9656b21845a2768e0bf9adfbbbe37c1234e6a99704b2c51f7f984",
+ "latency_ms": 4941,
+ "reply": {
+  "transcript": "स्वामी निगमानंद परमहंस किती वर्ष जगले",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 228,
+  "output": 36
+ }
+}

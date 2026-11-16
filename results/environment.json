@@ -1,0 +1,16 @@
+{
+ "ts_utc": "2026-11-16T14:58:55.789+00:00",
+ "ts_ist": "2026-11-16 20:28:55.789 IST",
+ "os": "Windows-11-10.0.26200-SP0",
+ "python": "3.14.4",
+ "requests": "2.34.2",
+ "websockets": "17.4",
+ "ffmpeg": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+ "host": "api.smallest.ai",
+ "resolved": [
+  "3.33.245.118",
+  "75.2.112.2"
+ ],
+ "key_present": true,
+ "network_note": "Fill in city / ISP manually; not collected automatically."
+}

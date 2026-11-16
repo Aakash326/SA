@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "D1X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5a1417d1671301d4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D1X.wav",
+ "audio_sha256": "27eb50e7aefa1bbfb50e1cbaa21c718f6de8eddc4b460f261345ef466eb74f80",
+ "latency_ms": 6769,
+ "reply": {
+  "heard": "The appointment is at nine o five A M complete K Y C",
+  "number_language": "English",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 218,
+  "output": 32
+ }
+}

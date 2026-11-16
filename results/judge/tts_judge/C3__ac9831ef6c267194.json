@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "C3",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ac9831ef6c267194",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C3.wav",
+ "audio_sha256": "aaf15bbbadbbbb8ce7b13060557c53470a7d2ea60029b2252d25d2e7f60bcb55",
+ "latency_ms": 10838,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, though somewhat synthetic in tone with slightly mechanical pacing on the digits."
+ },
+ "tokens": {
+  "prompt": 443,
+  "output": 136
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fbbc1751fcb260e0",
+ "audio": "clips/ext2/EXP-CL-EN-10.wav",
+ "audio_sha256": "87012a83dfada292bda8e493df2d30407c1e1c6a2996353e26caa076d67c843f",
+ "latency_ms": 4211,
+ "reply": {
+  "transcript": "When did the Japanese Empire end?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 245,
+  "output": 30
+ }
+}

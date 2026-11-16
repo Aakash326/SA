@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-KN-TRAFFIC-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fe0d9637e2d817fa",
+ "audio": "clips/ext2/LANG-KN-TRAFFIC-01.wav",
+ "audio_sha256": "027971a17150ea3ceb698e3cd67253b3527f60c7c299b47060d6e2f430a3ab73",
+ "latency_ms": 7029,
+ "reply": {
+  "transcript": "ಅಬೂ ಹಮೀದ್ ಮಹಮ್ಮದ್ ಇಬ್ನ್ ಮುಹಮ್ಮದ್ ಅಲ್ ಗಜಾಲಿ ಅವರು ಜನಿಸಿದ ವರ್ಷ ಯಾವುದು?",
+  "language": "kn",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 289,
+  "output": 52
+ }
+}

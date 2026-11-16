@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-BG-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "ccaff1b99e168288",
+ "audio": "clips/ext2/LANG-TA-BG-01.wav",
+ "audio_sha256": "ab80b96f91bc0b65b6ca67c1c47fc93e2fa7dc7814cf7a36b6293e1769f3dc2b",
+ "latency_ms": 28203,
+ "reply": {
+  "transcript": "அஸ்ஸாமில் உள்ள மிகப்பெரிய பாடி எது",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 195,
+  "output": 34
+ }
+}

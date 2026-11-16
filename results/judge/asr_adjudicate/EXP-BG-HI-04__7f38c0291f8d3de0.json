@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-BG-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "7f38c0291f8d3de0",
+ "audio": "clips/ext2/EXP-BG-HI-04.wav",
+ "audio_sha256": "6683ed227f2d0d7953be5b4ca4ac505cf21e4cb9cc27777f0738e562fa9291db",
+ "latency_ms": 7709,
+ "reply": {
+  "differences": [
+   {
+    "reference": "है",
+    "system": "हैं",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "लक्ष्मी फिल्म के निर्मित कौन है?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 342,
+  "output": 79
+ }
+}

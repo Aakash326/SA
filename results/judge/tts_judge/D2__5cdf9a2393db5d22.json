@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "D2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5cdf9a2393db5d22",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D2.wav",
+ "audio_sha256": "19028ac8a1bb8f592afd5f79c133230c9724d79fc7d1c7adb0cb0a8f1491eaf3",
+ "latency_ms": 8208,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "तेईस नवंबर"
+   },
+   {
+    "id": "year",
+    "result": "correct",
+    "heard": "दो हज़ार छब्बीस"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "S I P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is read clearly with Hindi pronunciation for dates and numbers. Prosody is fluent and natural."
+ },
+ "tokens": {
+  "prompt": 538,
+  "output": 173
+ }
+}

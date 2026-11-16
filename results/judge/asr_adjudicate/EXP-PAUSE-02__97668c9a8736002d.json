@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-PAUSE-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "97668c9a8736002d",
+ "audio": "clips/ext2/EXP-PAUSE-02.wav",
+ "audio_sha256": "d34a55a260054b067e018592d8c7e81079a7da2dfd664ff10e643c2b7952b562",
+ "latency_ms": 6701,
+ "reply": {
+  "differences": [
+   {
+    "reference": "population",
+    "system": "pop population",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "What is the population of Tokyo?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 384,
+  "output": 55
+ }
+}

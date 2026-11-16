@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-NS-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "923ff69531073f94",
+ "audio": "clips/ext2/EXP-NS-01.wav",
+ "audio_sha256": "20eaebffe1816e0ffa6f7f854f5ef4ea80d5349faaf0ce1fec1b713e7fde58fa",
+ "latency_ms": 4101,
+ "reply": {
+  "transcript": "రాత్రంతా మంచినీళ్లలో",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 164,
+  "output": 32
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c75cf98bb60dd535",
+ "audio": "clips/ext2/EXP-CL-TE-01.wav",
+ "audio_sha256": "a7f49a35fad662427377a6220d4b38e15c8b31989bbbd60e860eea96ffe06a00",
+ "latency_ms": 3368,
+ "reply": {
+  "transcript": "ప్రపంచంలో అతి పొడవైన రహదారి పొడవు ఎంత?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 249,
+  "output": 37
+ }
+}

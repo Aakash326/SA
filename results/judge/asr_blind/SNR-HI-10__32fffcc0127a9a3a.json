@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-HI-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "32fffcc0127a9a3a",
+ "audio": "clips/ext2/SNR-HI-10.wav",
+ "audio_sha256": "5bf1e006eb8073da3dfbfc03b5bfe8f057cf3feeccd3ddca928cac7c2485438e",
+ "latency_ms": 4760,
+ "reply": {
+  "transcript": "विक्रम फिल्म कब रिलीज़ हुई थी",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 250,
+  "output": 167
+ }
+}

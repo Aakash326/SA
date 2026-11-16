@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-kn-amount-spoorthi",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "065bee0d10ee761d",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-amount-spoorthi.wav",
+ "audio_sha256": "625fc2481651507b397b98b60f72c14cfae9261d02117d078f924f03b1f531f9",
+ "latency_ms": 9162,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "ಎರಡು ಸಾವಿರದ ನಾನೂರೈವತ್ತು ರೂಪಾಯಿ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly in Kannada with appropriate intonation."
+ },
+ "tokens": {
+  "prompt": 481,
+  "output": 138
+ }
+}

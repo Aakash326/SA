@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-te-datetime-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "71d9bda0f40a5831",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-datetime-naveen.wav",
+ "audio_sha256": "44c79fc3141d15eba43f58472cb207c5d80cb1a75da2420089add2e7f4c7ed60",
+ "latency_ms": 5545,
+ "reply": {
+  "heard": "మీ మీటింగ్ నవంబర్ ఇరవై మూడు ఉదయం తొమ్మిది ఐదు గంటలకు ఉంది",
+  "number_language": "te",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 195,
+  "output": 43
+ }
+}

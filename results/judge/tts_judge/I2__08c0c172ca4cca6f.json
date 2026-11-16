@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "I2",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "08c0c172ca4cca6f",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I2.wav",
+ "audio_sha256": "cf5654b964cfcff9bade704da1ed0db533bb5f2c212c12023f48e9be5ef4048c",
+ "latency_ms": 10006,
+ "reply": {
+  "targets": [
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "zero zero four five one two"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "do not"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear and intelligible speech with slight synthetic cadence."
+ },
+ "tokens": {
+  "prompt": 518,
+  "output": 113
+ }
+}

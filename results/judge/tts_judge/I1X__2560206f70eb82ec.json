@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "I1X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2560206f70eb82ec",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I1X.wav",
+ "audio_sha256": "8bdefc728ae472414bd01c35acc7234a35c125de8e70203ac3887979667e82fb",
+ "latency_ms": 8343,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "slight robotic quality"
+  ],
+  "comment": "The prompt was read completely and accurately. The prosody on the digit sequence is slightly mechanical but overall clear."
+ },
+ "tokens": {
+  "prompt": 441,
+  "output": 148
+ }
+}

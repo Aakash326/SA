@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-negation-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a0145c6a4d5dfd33",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-negation-naveen.wav",
+ "audio_sha256": "56fb74283304a28fdd8bfde38b6c6ee4bfa4989385af4e13974c11fb1268ef6e",
+ "latency_ms": 8827,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "పంచుకోవద్దు"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "ఓటీపీ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The audio is clear and fully intelligible, with standard Telugu pronunciation and appropriate pace."
+ },
+ "tokens": {
+  "prompt": 472,
+  "output": 164
+ }
+}

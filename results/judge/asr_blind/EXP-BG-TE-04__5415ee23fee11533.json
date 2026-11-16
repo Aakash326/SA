@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5415ee23fee11533",
+ "audio": "clips/ext2/EXP-BG-TE-04.wav",
+ "audio_sha256": "0e019cbfc22a1693689f1629a74e563a32abe253bd22ec1a9be4978448d77294",
+ "latency_ms": 11841,
+ "reply": {
+  "transcript": "అంతరిక్షంలోకి వెళ్ళిన మొదటి స్త్రీ ఎవరు?",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 304,
+  "output": 38
+ }
+}

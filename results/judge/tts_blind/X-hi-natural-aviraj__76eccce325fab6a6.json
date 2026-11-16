@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-natural-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "76eccce325fab6a6",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-natural-aviraj.wav",
+ "audio_sha256": "c85bc85cfd99f0170dfff48b275641b0ea2c9863ac865fd4e2dfba6bc3c2fb77",
+ "latency_ms": 3166,
+ "reply": {
+  "heard": "नमस्ते, मैं आपकी कैसे मदद कर सकती हूँ? अगर आपको अपने खाते के बारे में कोई जानकारी चाहिए, तो बेझिझक पूछिए.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 318,
+  "output": 48
+ }
+}

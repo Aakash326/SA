@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "30178bd4611f21cd",
+ "audio": "clips/ext2/LANG-TA-CL-04.wav",
+ "audio_sha256": "4ac56fefc594ef1758b048d13f8792813e3512abac25a01466bbd8fafa6a787b",
+ "latency_ms": 6014,
+ "reply": {
+  "transcript": "ஆங்கிலேயர்கள் ஆட்சியில் சராசரியாக எத்தனை இந்தியர்கள் இறந்தனர்?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 39
+ }
+}

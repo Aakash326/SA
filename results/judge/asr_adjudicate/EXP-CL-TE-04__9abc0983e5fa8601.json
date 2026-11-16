@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "9abc0983e5fa8601",
+ "audio": "clips/ext2/EXP-CL-TE-04.wav",
+ "audio_sha256": "9d5047157bd2cd8ad077a104739c4d8e6fbb0e4350104654f1f60166d9917b5a",
+ "latency_ms": 6692,
+ "reply": {
+  "differences": [
+   {
+    "reference": "పృథ్వీరాజ్",
+    "system": "పృథ్విరాజ్",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "పేరేమిటి?",
+    "system": "పేరు ఏమిటి ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "పృథ్వీరాజ్ చౌహాన్ తండ్రి పేరేమిటి?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 354,
+  "output": 141
+ }
+}

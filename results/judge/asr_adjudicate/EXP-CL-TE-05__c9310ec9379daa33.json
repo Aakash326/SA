@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-TE-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c9310ec9379daa33",
+ "audio": "clips/ext2/EXP-CL-TE-05.wav",
+ "audio_sha256": "622592eec08efc3880a73eeb3ac6db5bbd7335e99881835ef0f564c71707cb6a",
+ "latency_ms": 4452,
+ "reply": {
+  "differences": [
+   {
+    "reference": "ఎన్ని సార్లు",
+    "system": "ఎన్నిసార్లు",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "మానవుడు నిమిషానికి ఎన్నిసార్లు శ్వాస తీసుకుంటాడు?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 396,
+  "output": 97
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-MR-CL-08",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "185564cfecd27149",
+ "audio": "clips/ext2/LANG-MR-CL-08.wav",
+ "audio_sha256": "0d4229b927ddb7e32933bc9429763aa6f53292bc229626f0b776cee87f7fddcf",
+ "latency_ms": 5056,
+ "reply": {
+  "transcript": "बहाई धर्माची सुरुवात कोणत्या देशात झाली",
+  "language": "mr",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 33
+ }
+}

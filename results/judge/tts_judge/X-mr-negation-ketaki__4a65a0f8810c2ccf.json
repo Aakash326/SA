@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-mr-negation-ketaki",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4a65a0f8810c2ccf",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-mr-negation-ketaki.wav",
+ "audio_sha256": "33e8f0665137bfbd235396415b845bc8be5eebdc89afa7dbe0656f4982540ba2",
+ "latency_ms": 7614,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "नका"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "O T P"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "mr",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The prompt is clearly rendered with appropriate pronunciation and fluent intonation."
+ },
+ "tokens": {
+  "prompt": 492,
+  "output": 159
+ }
+}

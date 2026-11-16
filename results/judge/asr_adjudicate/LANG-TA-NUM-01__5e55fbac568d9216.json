@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-TA-NUM-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5e55fbac568d9216",
+ "audio": "clips/ext2/LANG-TA-NUM-01.wav",
+ "audio_sha256": "efbbc0a73131060f0e9c9db668cd888fe47744ea923eda64418aefa9c2625e2e",
+ "latency_ms": 7538,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2017 இல்,",
+    "system": "இரண்டாயிரத்தி பதினேழில்",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "வேங்கடகிரி",
+    "system": "வேங்கட கிரி",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "இருந்தன?",
+    "system": "இருந்தன",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2017இல் வேங்கடகிரி மண்டலத்தில் எத்தனை அரசு பள்ளிகள் இருந்தன?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 389,
+  "output": 175
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "102cfd43a34b0147",
+ "audio": "clips/ext2/EXP-MEDIA-EN-03.wav",
+ "audio_sha256": "6055666d0a371bc3dcc07192fd0157aff090aee1f5e73d8ed5326962072936b4",
+ "latency_ms": 3231,
+ "reply": {
+  "transcript": "is the walking dead canceled",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 215,
+  "output": 29
+ }
+}

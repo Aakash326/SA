@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-natural-aviraj",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "021bda3eb3f6f443",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-natural-aviraj.wav",
+ "audio_sha256": "c85bc85cfd99f0170dfff48b275641b0ea2c9863ac865fd4e2dfba6bc3c2fb77",
+ "latency_ms": 10197,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "मैं आपकी कैसे मदद कर सकती हूँ?"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text is fully spoken with appropriate question intonation, though the voice quality has a slightly synthetic tone."
+ },
+ "tokens": {
+  "prompt": 604,
+  "output": 139
+ }
+}

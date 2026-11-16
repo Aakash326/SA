@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-natural-naveen",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4c648149041fac88",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-natural-naveen.wav",
+ "audio_sha256": "6b3cb62db5add14d2846cee7f3bc1e8de76de5d7e9480b3ac72d7882def66251",
+ "latency_ms": 8139,
+ "reply": {
+  "targets": [
+   {
+    "id": "question",
+    "result": "correct",
+    "heard": "నేను మీకు ఎలా సహాయం చేయగలను"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The Telugu speech is clear, accurate, and matches the script with appropriate question intonation."
+ },
+ "tokens": {
+  "prompt": 539,
+  "output": 138
+ }
+}

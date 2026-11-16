@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-09",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c50d138e5babe3c3",
+ "audio": "clips/ext2/EXP-CL-EN-09.wav",
+ "audio_sha256": "91a9bfa1b1f73fc62268783b3ff3e5df95efccf28a0915f66f536c419097b6b0",
+ "latency_ms": 3785,
+ "reply": {
+  "transcript": "When did Facebook acquire WhatsApp?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 190,
+  "output": 35
+ }
+}

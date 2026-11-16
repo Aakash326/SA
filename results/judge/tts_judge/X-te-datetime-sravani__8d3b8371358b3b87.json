@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-datetime-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "8d3b8371358b3b87",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-datetime-sravani.wav",
+ "audio_sha256": "d6d43f445e4666ebd80ba5a61c3bb790a0b7f4f462634615b1b47a0334c74b96",
+ "latency_ms": 9358,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "నవంబర్ ఇరవై మూడున"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ఉదయం తొమ్మిది ఐదు గంటలకు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was spoken fully and accurately with acceptable pacing and standard TTS quality."
+ },
+ "tokens": {
+  "prompt": 538,
+  "output": 156
+ }
+}

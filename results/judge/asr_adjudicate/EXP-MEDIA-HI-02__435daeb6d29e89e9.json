@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-MEDIA-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "435daeb6d29e89e9",
+ "audio": "clips/ext2/EXP-MEDIA-HI-02.wav",
+ "audio_sha256": "43c314f975c3048ce50396146e5b0e75fbf747b01b1667c6ca7b24587ad809c7",
+ "latency_ms": 4916,
+ "reply": {
+  "differences": [
+   {
+    "reference": "अविष्कार",
+    "system": "आविष्कार",
+    "verdict": "reference_error"
+   },
+   {
+    "reference": "?",
+    "system": " ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "थर्मोस्टेट का आविष्कार किसने किया था?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 332,
+  "output": 116
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "LANG-TA-CL-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "6c897e71fb305d22",
+ "audio": "clips/ext2/LANG-TA-CL-02.wav",
+ "audio_sha256": "6404ca66cb5c6db55d466ea1375e75280682b19798f4ebd6ea154cb709a5e4ae",
+ "latency_ms": 4359,
+ "reply": {
+  "transcript": "விசாகப்பட்டினத்தின் வேறு பெயர் என்ன?",
+  "language": "ta",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 178,
+  "output": 32
+ }
+}

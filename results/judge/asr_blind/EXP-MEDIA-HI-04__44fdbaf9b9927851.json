@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-MEDIA-HI-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "44fdbaf9b9927851",
+ "audio": "clips/ext2/EXP-MEDIA-HI-04.wav",
+ "audio_sha256": "571c78fecd7713fe811f968c56ab1a0b2103062012d5df0200fdc14e348a251e",
+ "latency_ms": 4019,
+ "reply": {
+  "transcript": "हिन्दू धर्म के अनुसार नर्क कितने प्रकार के होते हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 231,
+  "output": 37
+ }
+}

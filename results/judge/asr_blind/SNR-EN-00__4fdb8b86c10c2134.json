@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "SNR-EN-00",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4fdb8b86c10c2134",
+ "audio": "clips/ext2/SNR-EN-00.wav",
+ "audio_sha256": "ad29d18acf16966a692cc8866f67fb17efb66c1c783410c9f33c8424e8f803ee",
+ "latency_ms": 3190,
+ "reply": {
+  "transcript": "we first identify the blood type",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 200,
+  "output": 30
+ }
+}

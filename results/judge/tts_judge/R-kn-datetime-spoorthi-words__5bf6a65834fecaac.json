@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "R-kn-datetime-spoorthi-words",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5bf6a65834fecaac",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts_repeat\\kn-datetime-spoorthi-words.wav",
+ "audio_sha256": "8d326cae3a961a16b0dd8f3ea89d5b3fb8d791291dd71eafc630276236d804c0",
+ "latency_ms": 5559,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "ನವೆಂಬರ್ ಇಪ್ಪತ್ತ ಮೂರಂದು"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಐದಕ್ಕೆ"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "kn",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The date and time are clearly and accurately pronounced in Kannada."
+ },
+ "tokens": {
+  "prompt": 545,
+  "output": 172
+ }
+}

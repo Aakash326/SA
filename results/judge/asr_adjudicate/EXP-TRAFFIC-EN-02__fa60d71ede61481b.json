@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-TRAFFIC-EN-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "fa60d71ede61481b",
+ "audio": "clips/ext2/EXP-TRAFFIC-EN-02.wav",
+ "audio_sha256": "36f38c267b398d3cd6b54170cc69f59a903010662160b76669a5f59926b0a970",
+ "latency_ms": 4704,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Gallimimus?",
+    "system": "Galemimus?",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "How large was Gallimimus?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 329,
+  "output": 58
+ }
+}

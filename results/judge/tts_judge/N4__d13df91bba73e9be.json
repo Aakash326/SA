@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "N4",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d13df91bba73e9be",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\N4.wav",
+ "audio_sha256": "0b27b35dd9e175f621a61cea51552b6e8d2bec771b9068b7d674a91a3e807d02",
+ "latency_ms": 10223,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation1",
+    "result": "correct",
+    "heard": "was not cancelled"
+   },
+   {
+    "id": "negation2",
+    "result": "correct",
+    "heard": "will not"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine fifty P M"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Accurate transcription and clear pronunciation, though slightly mechanical in rhythm and prosody."
+ },
+ "tokens": {
+  "prompt": 561,
+  "output": 198
+ }
+}

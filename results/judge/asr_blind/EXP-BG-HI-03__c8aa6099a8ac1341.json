@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c8aa6099a8ac1341",
+ "audio": "clips/ext2/EXP-BG-HI-03.wav",
+ "audio_sha256": "2a61b6cd9c7fe9796860db4106621d1579ed0986d9db21d0c9751049cba6ff1c",
+ "latency_ms": 4725,
+ "reply": {
+  "transcript": "सेना द्वारा संचालित कैडेट कॉलेज की स्थापना किस वर्ष की गई थी?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 301,
+  "output": 37
+ }
+}

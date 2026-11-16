@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-ta-datetime-murugan",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "87f09130aeba46c4",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-ta-datetime-murugan.wav",
+ "audio_sha256": "912f8bd7ce3e474b4922e16e9ccb23cf73f50c34d6116df8c9944f93e6ff82ab",
+ "latency_ms": 5662,
+ "reply": {
+  "targets": [
+   {
+    "id": "date",
+    "result": "correct",
+    "heard": "நவம்பர் இருபத்து மூன்று"
+   },
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "காலை ஒன்பது ஐந்து மணிக்கு"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "ta",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear pronunciation and natural delivery, with only a very slight pause between 'ஒன்பது' and 'ஐந்து'."
+ },
+ "tokens": {
+  "prompt": 548,
+  "output": 175
+ }
+}

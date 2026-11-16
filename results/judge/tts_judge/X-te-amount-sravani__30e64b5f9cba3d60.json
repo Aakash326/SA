@@ -1,0 +1,31 @@
+{
+ "task": "tts_judge",
+ "id": "X-te-amount-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "30e64b5f9cba3d60",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-amount-sravani.wav",
+ "audio_sha256": "16c9f95a040a62ed259fb21e3b99a395209f7ca64373a2236703426fe9ff3025",
+ "latency_ms": 6738,
+ "reply": {
+  "targets": [
+   {
+    "id": "amount",
+    "result": "correct",
+    "heard": "రెండు వేల నాలుగు వందల యాభై రూపాయలు"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "te",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [
+   "minor pause segmentation"
+  ],
+  "comment": "Accurate transcription with understandable pacing, though minor unnatural breaks occur when reading the amount."
+ },
+ "tokens": {
+  "prompt": 505,
+  "output": 135
+ }
+}

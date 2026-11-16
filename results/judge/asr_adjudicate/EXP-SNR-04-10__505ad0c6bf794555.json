@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-SNR-04-10",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "505ad0c6bf794555",
+ "audio": "clips/ext2/EXP-SNR-04-10.wav",
+ "audio_sha256": "259d6a8b45a314f883dfc604f2d85d752fda9a2383ff8c6838215ce119e52f12",
+ "latency_ms": 9736,
+ "reply": {
+  "differences": [
+   {
+    "reference": "George",
+    "system": "गर्ज",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "जॉर्ज वाशिंगटन के समय New York किस देश की राजधानी थी?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 361,
+  "output": 89
+ }
+}

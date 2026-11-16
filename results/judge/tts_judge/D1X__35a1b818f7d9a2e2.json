@@ -1,0 +1,39 @@
+{
+ "task": "tts_judge",
+ "id": "D1X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "35a1b818f7d9a2e2",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\D1X.wav",
+ "audio_sha256": "27eb50e7aefa1bbfb50e1cbaa21c718f6de8eddc4b460f261345ef466eb74f80",
+ "latency_ms": 4885,
+ "reply": {
+  "targets": [
+   {
+    "id": "time",
+    "result": "correct",
+    "heard": "nine oh five"
+   },
+   {
+    "id": "meridiem",
+    "result": "correct",
+    "heard": "A M"
+   },
+   {
+    "id": "acronym",
+    "result": "correct",
+    "heard": "K Y C"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "en",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "The audio is clear and naturally delivered with correct pronunciation of all targets."
+ },
+ "tokens": {
+  "prompt": 522,
+  "output": 164
+ }
+}

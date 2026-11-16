@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-te-id-sravani",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "a3a88f4c8bfd6344",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-te-id-sravani.wav",
+ "audio_sha256": "6e5cfc0394258446aea0665e7d5be4ddbb7f422db8386326af923991d82fe481",
+ "latency_ms": 5502,
+ "reply": {
+  "heard": "మీ రిఫరెన్స్ నెంబర్ సున్నా సున్నా ఏడు సున్నా",
+  "number_language": "te",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 204,
+  "output": 35
+ }
+}

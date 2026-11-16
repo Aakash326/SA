@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "2773ab236e1e0d14",
+ "audio": "clips/ext2/EXP-CL-EN-03.wav",
+ "audio_sha256": "8b70a8634532d89b2999e432189edd8a6b86d493d4301914cc99ec493123f4d3",
+ "latency_ms": 3824,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Last",
+    "system": "Lost",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "When was Last Exile released?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 309,
+  "output": 79
+ }
+}

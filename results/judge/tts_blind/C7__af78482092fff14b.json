@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "C7",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "af78482092fff14b",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\challenge\\C7.wav",
+ "audio_sha256": "f01e7f09a41488e91726fade606ebc3d9f87c57dc227408033604154bbf316be",
+ "latency_ms": 3161,
+ "reply": {
+  "heard": "please complete your K Y C before the I P O your U C C is active",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 255,
+  "output": 36
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-07",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "44bf8e8572941b70",
+ "audio": "clips/ext2/EXP-CL-HI-07.wav",
+ "audio_sha256": "40094e0698975e2c104fd50d750c7e64e7c5982d14e68f252f26198063c0eb82",
+ "latency_ms": 4715,
+ "reply": {
+  "transcript": "एंजेलिना जोली को किस अमेरिकी फिल्म में अभिनय करने के लिए गोल्डन ग्लोब पुरस्कार से सम्मानित किया गया",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 391,
+  "output": 47
+ }
+}

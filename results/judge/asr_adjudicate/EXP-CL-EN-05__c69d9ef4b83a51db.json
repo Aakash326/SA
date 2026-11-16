@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-CL-EN-05",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c69d9ef4b83a51db",
+ "audio": "clips/ext2/EXP-CL-EN-05.wav",
+ "audio_sha256": "42b65a7e98c460e5141cc8503c3f1de86ecc37b682f7e6693b28a11eb584f0ff",
+ "latency_ms": 5451,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Cueto",
+    "system": "Quito",
+    "verdict": "system_error"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "How tall is Johnny Cueto Ortiz?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 319,
+  "output": 57
+ }
+}

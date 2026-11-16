@@ -1,0 +1,29 @@
+{
+ "task": "tts_judge",
+ "id": "I1",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c9ccbc36d555c121",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I1.wav",
+ "audio_sha256": "ca2cd55f3da2804a3de8f9fac3598123ab7a7b7f2d1d0fd189dc590b6214215b",
+ "latency_ms": 10527,
+ "reply": {
+  "targets": [
+   {
+    "id": "id",
+    "result": "correct",
+    "heard": "zero zero seven zero"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 3,
+  "prosody_1to5": 3,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "The text was read accurately and clearly with slightly mechanical pacing."
+ },
+ "tokens": {
+  "prompt": 441,
+  "output": 94
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-EN-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "06c9293a541aeae6",
+ "audio": "clips/ext2/EXP-CL-EN-03.wav",
+ "audio_sha256": "8b70a8634532d89b2999e432189edd8a6b86d493d4301914cc99ec493123f4d3",
+ "latency_ms": 4943,
+ "reply": {
+  "transcript": "When was Last Exile released?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 194,
+  "output": 29
+ }
+}

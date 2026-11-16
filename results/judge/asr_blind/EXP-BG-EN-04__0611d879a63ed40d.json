@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-BG-EN-04",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "0611d879a63ed40d",
+ "audio": "clips/ext2/EXP-BG-EN-04.wav",
+ "audio_sha256": "0920a5daf12e7539c3362daaedb95e63f900e636b093ada5fbb8ba7a4affcb9e",
+ "latency_ms": 4263,
+ "reply": {
+  "transcript": "When was The Keys to the Kingdom series first introduced?",
+  "language": "en",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 256,
+  "output": 34
+ }
+}

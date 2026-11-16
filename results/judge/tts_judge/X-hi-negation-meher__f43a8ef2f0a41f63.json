@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "X-hi-negation-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f43a8ef2f0a41f63",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-negation-meher.wav",
+ "audio_sha256": "8207e8cbb912cc92f74f18cab039a4e03ba30433f0ec101098baa9585357d068",
+ "latency_ms": 9338,
+ "reply": {
+  "targets": [
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "ना"
+   },
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "OTP"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "Hindi",
+  "naturalness_1to5": 4,
+  "prosody_1to5": 4,
+  "pronunciation_1to5": 4,
+  "artifacts": [],
+  "comment": "Clear pronunciation and appropriate pacing with minor synthetic inflection."
+ },
+ "tokens": {
+  "prompt": 477,
+  "output": 133
+ }
+}

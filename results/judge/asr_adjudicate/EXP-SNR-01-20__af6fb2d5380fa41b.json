@@ -1,0 +1,25 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-SNR-01-20",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "af6fb2d5380fa41b",
+ "audio": "clips/ext2/EXP-SNR-01-20.wav",
+ "audio_sha256": "505721fa4a33a20915f8bde0f258d32eb9715fc1e5acb7c7f03ced0fca4a7797",
+ "latency_ms": 5100,
+ "reply": {
+  "differences": [
+   {
+    "reference": "Dodgers",
+    "system": "Dodger",
+    "verdict": "reference_error"
+   }
+  ],
+  "reference_matches_audio": false,
+  "best_transcript": "How many home games does Dodger Stadium see a season?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 366,
+  "output": 60
+ }
+}

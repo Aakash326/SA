@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-negation-kaitlyn",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "630f9259a32e27af",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-negation-kaitlyn.wav",
+ "audio_sha256": "b3e5c850fddea8211cae89a3f4c28b46ce90c6740a1bc0141365789eeaa54669",
+ "latency_ms": 3585,
+ "reply": {
+  "heard": "Please do not share your O T P with anyone",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 197,
+  "output": 29
+ }
+}

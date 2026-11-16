@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "RN-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "227da66c8993772a",
+ "audio": "clips/ext2/RN-HI-01.wav",
+ "audio_sha256": "bb3fad399507dfa0010279b7bfeab25d8f6002f3e8b9bbc4320a39da861ae63b",
+ "latency_ms": 4076,
+ "reply": {
+  "transcript": "पश्चिमी गोदावरी जिले में कुल कितने राजस्व मंडल हैं?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 265,
+  "output": 36
+ }
+}

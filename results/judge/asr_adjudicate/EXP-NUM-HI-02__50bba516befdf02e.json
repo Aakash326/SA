@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "EXP-NUM-HI-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "50bba516befdf02e",
+ "audio": "clips/ext2/EXP-NUM-HI-02.wav",
+ "audio_sha256": "e6a4781a259d421c0edfde1e8c7ff52e0a5bff0efa58b622df46e6d0fe80cb06",
+ "latency_ms": 4091,
+ "reply": {
+  "differences": [
+   {
+    "reference": "1971",
+    "system": "उन्नीस सौ इकहत्तर",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "थे?",
+    "system": "थे ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "1971 में बांग्लादेश के राष्ट्रपति कौन थे?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 412,
+  "output": 84
+ }
+}

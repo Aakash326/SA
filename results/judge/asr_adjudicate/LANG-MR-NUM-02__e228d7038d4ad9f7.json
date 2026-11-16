@@ -1,0 +1,30 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LANG-MR-NUM-02",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "e228d7038d4ad9f7",
+ "audio": "clips/ext2/LANG-MR-NUM-02.wav",
+ "audio_sha256": "07ac006cff51f78ce7ce139e8bc6578e22c5495f13b8c9c7a432a5da06bfd428",
+ "latency_ms": 4334,
+ "reply": {
+  "differences": [
+   {
+    "reference": "2011 च्या",
+    "system": "दोन हजार अकराच्या",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "?",
+    "system": " ?",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "2011 च्या जनगणनेनुसार उत्तराखंड राज्याची लोकसंख्या किती आहे?",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 405,
+  "output": 126
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "task": "tts_judge",
+ "id": "I2X",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "d322f344603aa674",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\tts\\I2X.wav",
+ "audio_sha256": "7b28a20fc8feaade9c809882c8f473312fbd411a1b57d92e423136cb12088255",
+ "latency_ms": 3829,
+ "reply": {
+  "targets": [
+   {
+    "id": "otp",
+    "result": "correct",
+    "heard": "zero zero four five one two"
+   },
+   {
+    "id": "negation",
+    "result": "correct",
+    "heard": "Do not"
+   }
+  ],
+  "content_complete": true,
+  "spoken_language": "English",
+  "naturalness_1to5": 5,
+  "prosody_1to5": 5,
+  "pronunciation_1to5": 5,
+  "artifacts": [],
+  "comment": "Clear and natural delivery with appropriate pauses."
+ },
+ "tokens": {
+  "prompt": 526,
+  "output": 112
+ }
+}

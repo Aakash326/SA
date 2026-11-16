@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-12",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "c42874de9048fa39",
+ "audio": "clips/ext2/EXP-CL-HI-12.wav",
+ "audio_sha256": "ea4700d24d5248db91d7df947091149fee15dca658c95ef6265e14c60f76eeb7",
+ "latency_ms": 3930,
+ "reply": {
+  "transcript": "सत्यजीत रे द्वारा निर्देशित फिल्म नायक कब मुक्त हुई?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 349,
+  "output": 35
+ }
+}

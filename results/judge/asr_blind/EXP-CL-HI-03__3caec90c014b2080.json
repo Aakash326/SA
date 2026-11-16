@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-CL-HI-03",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "3caec90c014b2080",
+ "audio": "clips/ext2/EXP-CL-HI-03.wav",
+ "audio_sha256": "6c206191a742ba1ec09a16691506a664483223fa5cb80c79f0aebe28eb97bcad",
+ "latency_ms": 5658,
+ "reply": {
+  "transcript": "इंग्लैंड किस महाद्वीप में स्थित है?",
+  "language": "hi",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 199,
+  "output": 33
+ }
+}

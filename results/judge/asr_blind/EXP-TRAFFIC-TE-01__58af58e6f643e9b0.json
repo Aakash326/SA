@@ -1,0 +1,19 @@
+{
+ "task": "asr_blind",
+ "id": "EXP-TRAFFIC-TE-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "58af58e6f643e9b0",
+ "audio": "clips/ext2/EXP-TRAFFIC-TE-01.wav",
+ "audio_sha256": "b0b9109cd4c1d2d0a2cd5f2adb247a7ea92a36fdf5f636f1192b72e49f87e5a6",
+ "latency_ms": 5362,
+ "reply": {
+  "transcript": "నవాబ్ పేట్ గ్రామ విస్తీర్ణం ఎంత",
+  "language": "te",
+  "no_speech": false,
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 234,
+  "output": 35
+ }
+}

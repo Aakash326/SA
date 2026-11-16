@@ -1,0 +1,138 @@
+E01  TTS REST no Authorization                                  -> 401 {"message":"Unauthorized: No tokens provided"}
+E01  TTS REST invalid key                                       -> 401 {"error":"unauthorized"}
+E01  TTS REST malformed Authorization (no Bearer)               -> 401 {"error":"No token provided"}
+E01  STT REST no Authorization                                  -> 401 {"message":"Unauthorized: No tokens provided"}
+E01  STT REST invalid key                                       -> 401 {"error":"unauthorized"}
+E01  voices list invalid key                                    -> 200 {"voices":[{"voiceId":"ben","displayName":"Ben","tags":{"accent":"german","language":["english","spanish","french","german","italian","dutch","swedish
+E02  TTS unknown voice_id                                       -> 400 {"error":[{"code":"custom","path":["voice_id"],"message":"Voice 'no_such_voice_qa' is not available on the lightning_v3.1_pro model"}]}
+E02  TTS standard-only voice on Pro model (lakshya)             -> 400 {"error":[{"code":"custom","path":["voice_id"],"message":"Voice 'lakshya' is not available on the lightning_v3.1_pro model"}]}
+E03  TTS text missing                                           -> 400 {"error":[{"code":"invalid_type","expected":"string","received":"undefined","path":["text"],"message":"Text required"}]}
+E03  TTS text empty string                                      -> 400 {"error":[{"code":"too_small","minimum":1,"type":"string","inclusive":true,"exact":false,"message":"Text cannot be empty","path":["text"]}]}
+E03  TTS text whitespace only                                   -> 400 {"error":[{"code":"too_small","minimum":1,"type":"string","inclusive":true,"exact":false,"message":"Text cannot be empty","path":["text"]}]}
+E03  TTS invalid model                                          -> 400 {"error":[{"received":"lightning_v9","code":"invalid_enum_value","options":["lightning_v3.1","lightning_v3.1_pro","lightning_v3.1_pro_07_26","lightnin
+E03  TTS body not JSON                                          -> 400 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Bad Request</pre>
+</body>
+</html>
+
+E04  TTS American voice kaitlyn with language=hi                -> 200 <binary 72284 bytes, head=52494646541a010057415645666d7420>
+E04  TTS Indian voice meher with language=en                    -> 200 <binary 56684 bytes, head=5249464664dd000057415645666d7420>
+E04  TTS language=xx (not in enum)                              -> 400 {"error":[{"code":"custom","path":["language"],"message":"Language 'xx' is not supported on the lightning_v3.1_pro model. Supported languages: de, es,
+E06  TTS sample_rate=12345                                      -> 400 {"error":[{"code":"custom","message":"Invalid sample rate","path":["sample_rate"]}]}
+E06  TTS sample_rate=48000                                      -> 400 {"error":[{"code":"custom","message":"Invalid sample rate","path":["sample_rate"]}]}
+E06  TTS speed=5 (documented range 0.5-2.0)                     -> 400 {"error":[{"code":"too_big","maximum":2,"type":"number","inclusive":true,"exact":false,"message":"Number must be less than or equal to 2","path":["spe
+E06  TTS output_format=flac                                     -> 400 {"error":[{"received":"flac","code":"invalid_enum_value","options":["wav","ulaw","alaw","pcm","mp3"],"path":["output_format"],"message":"Invalid enum 
+E07  STT model missing                                          -> 400 {"status":"error","message":"Invalid model query parameter.","errors":[{"expected":"'pulse' | 'pulse-pro'","received":"undefined","code":"invalid_type
+Traceback (most recent call last):
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connection.py", line 581, in request
+    self.send(chunk)
+    ~~~~~~~~~^^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1077, in send
+    self.sock.sendall(data)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1263, in sendall
+    v = self.send(byte_view[count:])
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1232, in send
+    return self._sslobj.write(data)
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\util\retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connectionpool.py", line 499, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\urllib3\connection.py", line 581, in request
+    self.send(chunk)
+    ~~~~~~~~~^^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\http\client.py", line 1077, in send
+    self.sock.sendall(data)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1263, in sendall
+    v = self.send(byte_view[count:])
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\ssl.py", line 1232, in send
+    return self._sslobj.write(data)
+           ~~~~~~~~~~~~~~~~~~^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\saiaakash\Desktop\api_testing\smallest\scripts\negative.py", line 192, in <module>
+    asyncio.run(main(set(args.only.split(',')) if args.only else None))
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\saiaakash\AppData\Local\Programs\Python\Python314\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "c:\Users\saiaakash\Desktop\api_testing\smallest\scripts\negative.py", line 180, in main
+    http(case, note, expected, method, path, **kwargs)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\saiaakash\Desktop\api_testing\smallest\scripts\negative.py", line 31, in http
+    r = requests.request(method, f'{HTTP}{path}', headers=headers if headers is not None else auth(), timeout=90, **kwargs)
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\saiaakash\Desktop\api_testing\gnani\.venv\Lib\site-packages\requests\adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))

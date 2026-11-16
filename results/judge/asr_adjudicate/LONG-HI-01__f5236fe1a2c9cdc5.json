@@ -1,0 +1,35 @@
+{
+ "task": "asr_adjudicate",
+ "id": "LONG-HI-01",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "f5236fe1a2c9cdc5",
+ "audio": "clips/ext2/LONG-HI-01.wav",
+ "audio_sha256": "1b513234f7acfcf39d45ef298ff7ad73f638767bd40938c10661fba2a17f0ce8",
+ "latency_ms": 6191,
+ "reply": {
+  "differences": [
+   {
+    "reference": "हज़ारों साल पहले,",
+    "system": "हज़ारों साल पहले",
+    "verdict": "equivalent"
+   },
+   {
+    "reference": "एरिस्टार्चस",
+    "system": "एरिस्टर चर्च",
+    "verdict": "system_error"
+   },
+   {
+    "reference": "सौर मंडल",
+    "system": "सौरमंडल",
+    "verdict": "equivalent"
+   }
+  ],
+  "reference_matches_audio": true,
+  "best_transcript": "हज़ारों साल पहले एरिस्टार्चस नामक एक व्यक्ति ने कहा था कि सौरमंडल सूर्य के चारों ओर घूमता है।",
+  "confidence": "high"
+ },
+ "tokens": {
+  "prompt": 646,
+  "output": 180
+ }
+}

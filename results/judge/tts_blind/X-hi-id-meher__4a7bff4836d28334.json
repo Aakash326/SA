@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-hi-id-meher",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "4a7bff4836d28334",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-hi-id-meher.wav",
+ "audio_sha256": "72edbd4e8290bfa1c1bf64f8a545bc1f3e58687ed93705a376316eaa4445052b",
+ "latency_ms": 4472,
+ "reply": {
+  "heard": "आपका रेफ्रेंस नंबर शून्य शून्य सात शून्य है",
+  "number_language": "hi",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 229,
+  "output": 28
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-kn-id-basava",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "32c6ae539dc326b1",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-kn-id-basava.wav",
+ "audio_sha256": "37483fad8081c224fa825e0783a89bc9a42535f0a4333fe87b6a75826546ef40",
+ "latency_ms": 5881,
+ "reply": {
+  "heard": "ನಿಮ್ ರೆಫರೆನ್ಸ್ ಸಂಖ್ಯೆ ಸೊನ್ನೆ ಸೊನ್ನೆ ಏಳು ಸೊನ್ನೆ",
+  "number_language": "Kannada",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 202,
+  "output": 36
+ }
+}

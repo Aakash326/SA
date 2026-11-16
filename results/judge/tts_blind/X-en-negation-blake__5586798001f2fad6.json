@@ -1,0 +1,18 @@
+{
+ "task": "tts_blind",
+ "id": "X-en-negation-blake",
+ "model": "gemini-3.8-flash",
+ "fingerprint": "5586798001f2fad6",
+ "audio": "C:\\Users\\saiaakash\\Desktop\\api_testing\\smallest\\results\\ext_tts\\X-en-negation-blake.wav",
+ "audio_sha256": "2371340b40feb9e09a392c763cbb93909d0a836dd3c7ca4f5eba2f25766ed26b",
+ "latency_ms": 3955,
+ "reply": {
+  "heard": "Please do not share your O T P with anyone.",
+  "number_language": "none",
+  "unclear": []
+ },
+ "tokens": {
+  "prompt": 191,
+  "output": 29
+ }
+}
